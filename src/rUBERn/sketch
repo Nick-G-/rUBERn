@@ -1,0 +1,29 @@
+Client
+    call(coords, coords, passengersQty);
+
+
+Driver
+    getPos()
+    isAvailable()
+    goOnline()
+    goOffline()
+
+    do drivers go online in a scheduled manner or espontaneous? both?
+    schedules saved as ints? (calendar.hourofday)
+
+rUBERn
+    processCall(Job)
+    offerJob(Driver)
+    rankDrivers(list driversOnline)
+
+Car
+
+Job
+    toString
+
+Date
+    Store in unix time and convert to date when logging/displaying?
+
+
+SystemLoop
+

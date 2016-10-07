@@ -5,6 +5,6 @@ package rUBERn;
 public class Logger {
     private java.io.File logFile;
 
-    public void log(Job job) {
+    public void log(Operation operation) {
     }
 }

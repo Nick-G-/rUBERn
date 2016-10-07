@@ -18,7 +18,4 @@ public class Journey {
     public int getPassengers() {
         return passengers;
     }
-    public double getDistance(){
-        return origin.distanceTo(destination);
-    }
 }

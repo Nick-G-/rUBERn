@@ -2,7 +2,7 @@ package rUBERn;
 
 // Created by nico on 9/30/16.
 
-public class rUBERn extends Entity {
+public class rUBERn {
 
     private float fixedCost = 15;
     private float costPerBlock = 1;
@@ -11,7 +11,6 @@ public class rUBERn extends Entity {
     private EconomicsManager ecoMan;
     private ConsoleCommunicator consoleCom;
 
-    @Override
     public int getCreditCardNumber() {
         return 0;
     }

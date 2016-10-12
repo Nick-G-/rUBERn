@@ -1,7 +1,7 @@
 package rUBERn;// Created by nico on 9/30/16.
 
 public class Car {
-    int passengerCapacity;
+    private int passengerCapacity;
     private String category;
 
     public Car(int passengerCapacity, String category) {

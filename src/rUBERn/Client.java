@@ -2,7 +2,7 @@ package rUBERn;// Created by nico on 9/30/16.
 
 import java.util.ArrayList;
 
-public class Client extends Person implements Locatable {
+public class Client implements Locatable {
     private CreditCard creditCard;
     private int id;
     private Location location;
@@ -35,5 +35,10 @@ public class Client extends Person implements Locatable {
 
     public int getId() {
         return id;
+    }
+
+    @Override
+    public rUBERn.Location getLocation() {
+        return null;
     }
 }

@@ -3,10 +3,11 @@ package rUBERn;
 // Created by nico on 10/1/16.
 
 public class Operation {
-    private Person sender;
-    private Person receiver;
+    private int operationId;
+    private String operationType;
     private java.util.Calendar time;
-    private String type;
-    private double amount;
+    private int creditcardNumber;
     private String description;
+    private double amount;
+
 }

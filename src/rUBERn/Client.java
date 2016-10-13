@@ -38,7 +38,7 @@ public class Client implements Locatable {
     }
 
     @Override
-    public rUBERn.Location getLocation() {
+    public Location getLocation() {
         return null;
     }
 }

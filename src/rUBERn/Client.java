@@ -6,7 +6,6 @@ public class Client implements Locatable {
     private CreditCard creditCard;
     private int id;
     private Location location;
-    private ArrayList<Location> customLocations;
     public Client(int id){
         this.id = id;
     }
@@ -39,6 +38,6 @@ public class Client implements Locatable {
 
     @Override
     public Location getLocation() {
-        return null;
+        return location;
     }
 }

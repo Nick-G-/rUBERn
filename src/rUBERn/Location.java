@@ -7,6 +7,11 @@ public class Location {
     private long x;
     private long y;
 
+    public Location(long x, long y){
+        this.x = x;
+        this.y = y;
+    }
+
     public double distanceTo(Location otherLocation) {
         return applyPythagoras(this, otherLocation);
     }

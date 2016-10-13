@@ -4,8 +4,9 @@ public class Driver implements Locatable {
     private Car car;
     private Boolean isOnline;
     private Boolean isAvailable;
-
-    public Driver(Car car){
+    private Location location;
+    private String id;
+    public Driver(String id, Car car){
         this.car = car;
         this.isOnline = false;
         this.isAvailable = false;

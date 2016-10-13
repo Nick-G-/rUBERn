@@ -5,7 +5,13 @@ public class Driver extends Person {
     private Boolean isOnline;
     private Boolean isAvailable;
 
+    public Driver(Car car){
+        this.car = car;
+        this.isOnline = false;
+        this.isAvailable = false;
+    }
     public void goOnline() {
+        isOnline = true;
     }
 
     public Car getCar() {
@@ -13,6 +19,7 @@ public class Driver extends Person {
     }
 
     public void goOffline() {
+        isOnline = false;
     }
 
     public boolean evaluateOffer(Journey journey) {

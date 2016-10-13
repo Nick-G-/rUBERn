@@ -3,8 +3,8 @@ package rUBERn;
 // Created by nico on 10/1/16.
 
 public class Operation {
-    private Entity sender;
-    private Entity receiver;
+    private Person sender;
+    private Person receiver;
     private java.util.Calendar time;
     private String type;
     private double amount;

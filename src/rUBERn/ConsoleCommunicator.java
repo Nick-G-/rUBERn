@@ -19,15 +19,20 @@ public class ConsoleCommunicator {
             System.out.println("3. Alterar estado de los choferes");
             System.out.println("4. Pedir viaje como cliente");
             System.out.println("5. Salir");
-            switch (scanner.nextInt()) {
+            int option = scanner.nextInt();
+            switch (option) {
                 case 1:
                     driverManager.addDriver(createDriver());
+                    break;
                 case 2:
                     clients.add(createClient());
+                    break;
                 case 3:
                     //todo driverManager.showDrivers();
+                    break;
                 case 4:
                     //todo showClients();
+                    break;
                 case 5:
                     on = false;
                     break;

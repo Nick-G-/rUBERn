@@ -1,22 +1,21 @@
 package rUBERn;// Created by nico on 9/30/16.
 
-public class Driver implements Locatable {
+public class Driver extends Person {
     private Car car;
     private Boolean isOnline;
     private Boolean isAvailable;
-    private Location location;
-    private String id;
-    public Driver(String id, Car car){
-        this.car = car;
-        this.isOnline = false;
-        this.isAvailable = false;
+
+    public Driver(String name) {
+        super(name);
+        this.car = new Car();
     }
-    public void goOnline() {
-        isOnline = true;
+    public Driver(CreditCard creditCard, Location startingPoint, String name, Car car) {
+        super(creditCard, startingPoint, name);
+        this.car = car;
     }
 
-    public Car getCar() {
-        return car;
+    public void goOnline() {
+        isOnline = true;
     }
 
     public void goOffline() {
@@ -36,8 +35,7 @@ public class Driver implements Locatable {
     public void driveTo() {
     }
 
-    @Override
-    public Location getLocation() {
-        return null;
+    public Car getCar() {
+        return car;
     }
 }

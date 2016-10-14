@@ -4,6 +4,11 @@ public class Car {
     private int passengerCapacity;
     private String category;
 
+    public Car() {
+        this.passengerCapacity = 3;
+        this. category = "standard";
+    }
+
     public Car(int passengerCapacity, String category) {
         this.passengerCapacity = passengerCapacity;
         this.category = category;

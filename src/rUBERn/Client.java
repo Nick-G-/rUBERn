@@ -2,23 +2,11 @@ package rUBERn;// Created by nico on 9/30/16.
 
 import java.util.ArrayList;
 
-public class Client implements Locatable {
-    private CreditCard creditCard;
-    private int id;
-    private Location location;
-    private ArrayList<Location> customLocations;
-    public Client(int id){
-        this.id = id;
-    }
+public class Client extends Person {
 
-    public void assignCreditCard(CreditCard creditCard){
-        this.creditCard = creditCard;
+    public Client(CreditCard creditCard, Location startingPoint, String name) {
+        super(creditCard, startingPoint, name);
     }
-
-    public CreditCard getCreditCard() {
-        return creditCard;
-    }
-
     public void request(Location destination, int passengers) {
 
     }
@@ -31,14 +19,5 @@ public class Client implements Locatable {
     }
 
     public void leave() {
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    @Override
-    public Location getLocation() {
-        return null;
     }
 }

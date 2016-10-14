@@ -6,9 +6,7 @@ import java.util.ArrayList;
 
 public class DriverManager {
     ArrayList<Driver> driversOnline = new ArrayList<>();
-    private ArrayList<Driver> driversAvailable;
-    private ArrayList<Driver> driversOffline;
-    private ArrayList<Driver> driversBusy;
+    private ArrayList<Driver> drivers;
     private ImageCalculator imageCalculator;
 
     private ArrayList<Driver> rankDrivers(Journey journey) {

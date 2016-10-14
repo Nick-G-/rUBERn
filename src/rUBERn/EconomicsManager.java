@@ -4,5 +4,8 @@ package rUBERn;
 
 public class EconomicsManager {
     private Logger logger;
-    private Charger charger;
+
+    public void doTransaction(Job job) {
+        logger.log(Operation operation);
+    }
 }

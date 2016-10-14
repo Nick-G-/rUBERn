@@ -12,21 +12,14 @@ public class CreditCard {
     private int id;
 
     public CreditCard() {
-        this.id = 32;
+        this.id = new Random().nextInt(999999);
     }
 
-    public void deposit(double amount){
-        if (amount > 0)
-            balance += amount;
-        else System.out.println("Amount entered not valid");
-    }
-    public void extract(double amount){
-        if (amount > 0)
-            balance -= amount;
-        else System.out.println("Amount entered not valid");
-    }
-
-    public int getNumber() {
+    public int getId() {
         return id;
+    }
+
+    public void extract(){ // a mock method to simulate payments
+
     }
 }

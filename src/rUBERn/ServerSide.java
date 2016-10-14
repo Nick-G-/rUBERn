@@ -14,7 +14,7 @@ public class ServerSide {
         while(on){
             System.out.println("Menu: ");
             System.out.println("1. Dar de alta chofer");
-            System.out.println("3. Salir");
+            System.out.println("2. Salir");
             switch (scanner.nextInt()){
                 case 1: createDriver();
                 case 2: on = false;

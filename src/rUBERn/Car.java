@@ -6,7 +6,7 @@ public class Car {
 
     public Car() {
         this.passengerCapacity = 3;
-        this. category = "standard";
+        this. category = "Normal";
     }
 
     public Car(int passengerCapacity, String category) {

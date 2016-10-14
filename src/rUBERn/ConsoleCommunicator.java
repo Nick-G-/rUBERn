@@ -2,30 +2,37 @@ package rUBERn;
 
 // Created by nico on 10/3/16.
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ConsoleCommunicator {
     public static void main(String[] args) {
         System.out.println("rUBERn");
         DriverManager driverManager = new DriverManager();
+        ArrayList<Client> clients = new ArrayList<>();
         boolean on = true;
         Scanner scanner = new Scanner(System.in);
         while (on) {
             System.out.println("Menu: ");
-            System.out.println("1. Dar de alta chofer");
-            System.out.println("2. Dar de alta cliente");
+            System.out.println("1. Agregar chofer");
+            System.out.println("2. Agergar cliente");
             System.out.println("3. Alterar estado de los choferes");
             System.out.println("4. Pedir viaje como cliente");
             System.out.println("5. Salir");
-            switch (scanner.nextInt()) {
+            int option = scanner.nextInt();
+            switch (option) {
                 case 1:
                     driverManager.addDriver(createDriver());
+                    break;
                 case 2:
-                    createClient();
+                    clients.add(createClient());
+                    break;
                 case 3:
-                    showDrivers();
+                    //todo driverManager.showDrivers();
+                    break;
                 case 4:
-                    showClients();
+                    //todo showClients();
+                    break;
                 case 5:
                     on = false;
                     break;
@@ -41,22 +48,47 @@ public class ConsoleCommunicator {
         System.out.println("Ingrese el nombre del chofer: ");
         String name = scanner.nextLine();
         System.out.println("Ingrese los datos del auto del chofer:");
+        boolean hasSelectedCategory = false;
+        String category = "Normal";
+        while (!hasSelectedCategory){
         System.out.println("Categoria: ");
-        String category = scanner.nextLine();
+        System.out.println("1. Deluxe");
+        System.out.println("2. Normal");
+        System.out.println("3. Berreta");
+            switch (scanner.nextInt()) {
+               case 1:
+                    category = "Deluxe";
+                    hasSelectedCategory = true;
+                    break;
+                case 2:
+                 category = "Normal";
+                 hasSelectedCategory = true;
+                 break;
+                case 3:
+                 category = "Berreta";
+                 hasSelectedCategory = true;
+                 break;
+                default:
+                 System.out.println("Opcion invalida");
+            }
+        }
         System.out.println("Ingrese la capacidad del auto: ");
         int capacity = scanner.nextInt();
-        Driver driver = new Driver(new CreditCard(),new Location(),name, new Car(capacity, category));
-        return driver;
+        System.out.println("Ingrese la ubicacion del chofer x:");
+        long x = scanner.nextLong();
+        System.out.println("Ingrese la ubicacion del chofer y:");
+        long y = scanner.nextLong();
+        return new Driver(new CreditCard(),new Location(x,y),name, new Car(capacity, category));
     }
 
-    private static void createClient() {
-
-    }
-
-    private static void showDrivers() {
-
-    }
-    private static void showClients(){
-
+    private static Client createClient() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese el nombre del cliente: ");
+        String name = scanner.nextLine();
+        System.out.println("Ingrese la ubicacion del Cliente x:");
+        long x = scanner.nextLong();
+        System.out.println("Ingrese la ubicacion del Cliente y:");
+        long y = scanner.nextLong();
+        return new Client(new CreditCard(), new Location(x,y),name);
     }
 }

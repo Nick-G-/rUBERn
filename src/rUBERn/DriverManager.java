@@ -5,7 +5,6 @@ package rUBERn;
 import java.util.ArrayList;
 
 public class DriverManager {
-    ArrayList<Driver> driversOnline = new ArrayList<>();
     private ArrayList<Driver> drivers;
     private ImageCalculator imageCalculator;
 
@@ -17,6 +16,7 @@ public class DriverManager {
     public void findDriverForJob(Job job) {
 
     }
+
 
     private void offerJobToDriver(Job job, Driver driver) {
         driver.evaluateOffer(job.getJourney());

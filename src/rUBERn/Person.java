@@ -22,6 +22,6 @@ public abstract class Person implements Locatable {
     }
 
     public int getCreditCardNumber() {
-        return creditCard.getNumber();
+        return creditCard.getId();
     }
 }

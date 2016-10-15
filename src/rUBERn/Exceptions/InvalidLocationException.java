@@ -5,4 +5,5 @@ package rUBERn.Exceptions;
 import rUBERn.rUBERn;
 
 public class InvalidLocationException extends RuntimeException{
+
 }

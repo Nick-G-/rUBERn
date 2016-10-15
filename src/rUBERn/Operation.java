@@ -10,4 +10,12 @@ public class Operation {
     private String description;
     private double amount;
 
+    public Operation(int id, String operationType, int creditcardNumber, String description, double amount){
+        this.operationId = id;
+        this.operationType = operationType;
+        this.creditcardNumber = creditcardNumber;
+        this.description = description;
+        this.amount = amount;
+    }
+
 }

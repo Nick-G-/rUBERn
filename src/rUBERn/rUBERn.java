@@ -15,7 +15,7 @@ public class rUBERn {
         return 0;
     }
 
-    public void processRequest() {
+    public void processRequest(Client client, Location origin, Location destination, int passengers) {
         //check that client does not have a pending journey already
         //tell logiMan to match clientwith driver
     }

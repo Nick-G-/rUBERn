@@ -1,7 +1,6 @@
 package rUBERn;
 
 import java.util.Random;
-import java.util.UUID;
 
 /**
  * Created by facundo on 10/13/16.

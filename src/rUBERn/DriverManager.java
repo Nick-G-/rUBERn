@@ -35,14 +35,20 @@ public class DriverManager {
     }
 
     public void findDriverForJob(Job job) {
-
+        for (Driver driver : rankDrivers(job.getJourney()))
+            if (offerJobToDriver(job, driver)) {
+                job.assignDriver(driver);
+                driver.assignJob(job);
+                return;
+            }
     }
+
     public void addDriver(Driver... drivers){
-        for (int i=0;i<drivers.length ;i++)
-        this.drivers.add(drivers[i]);
+        for (Driver d : drivers)
+            this.drivers.add(d);
     }
 
-    private void offerJobToDriver(Job job, Driver driver) {
-        driver.evaluateOffer(job.getJourney());
+    private boolean offerJobToDriver(Job job, Driver driver) {
+        return driver.evaluateOffer(job.getJourney());
     }
 }

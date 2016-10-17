@@ -25,4 +25,8 @@ public class Job {
     public Journey getJourney() {
         return journey;
     }
+
+    public void assignDriver(Driver driver) {
+        this.driver = driver;
+    }
 }

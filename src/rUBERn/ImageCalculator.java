@@ -8,6 +8,6 @@ public class ImageCalculator {
     private CategoriesCatalogue catalogue;
 
     public double calculateImageCost(Driver driver, Journey journey) {
-        return driver.getLocation().distanceTo(journey.getOrigin()) * imageCostPerMeter * catalogue.evaluateCarImageCost(driver.getCar());
+        return driver.getCurrentLocation().distanceTo(journey.getOrigin()) * imageCostPerMeter * catalogue.evaluateCarImageCost(driver.getCar());
     }
 }

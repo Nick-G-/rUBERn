@@ -7,6 +7,11 @@ public class Journey {
     private Location destination;
     private int passengers;
 
+    public Journey(Person person) {
+        this.origin = person.getCurrentLocation();
+        this.destination = new Location();
+        this.passengers = 1;
+    }
     public Journey(Location origin, Location destination, int passengers){
         this.origin = origin;
         this.destination = destination;

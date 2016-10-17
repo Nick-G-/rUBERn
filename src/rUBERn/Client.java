@@ -3,7 +3,10 @@ package rUBERn;// Created by nico on 9/30/16.
 import java.util.ArrayList;
 
 public class Client extends Person {
-
+    
+    public Client(String name) {
+        super(name);
+    }
     public Client(CreditCard creditCard, Location startingPoint, String name) {
         super(creditCard, startingPoint, name);
     }

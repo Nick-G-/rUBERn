@@ -15,8 +15,9 @@ public class DriverManager {
     }
 
     private ArrayList<Driver> rankDrivers(Journey journey) {
-        ArrayList<Driver> rankedDrivers = null;
-        ArrayList<Driver> possibleDrivers = drivers;
+        ArrayList<Driver> rankedDrivers = new ArrayList<Driver>();
+        ArrayList<Driver> possibleDrivers = new ArrayList<Driver>();
+        possibleDrivers.addAll(drivers);
         for (int i=0; i<drivers.size(); i++){
             Driver bestDriver = bestDriver(journey,possibleDrivers);
             rankedDrivers.add(bestDriver);

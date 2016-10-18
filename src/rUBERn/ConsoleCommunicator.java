@@ -8,32 +8,53 @@ import java.util.Scanner;
 public class ConsoleCommunicator {
     public static void main(String[] args) {
         System.out.println("rUBERn");
-        DriverManager driverManager = new DriverManager();
+        rUBERn ruben = new rUBERn();
         ArrayList<Client> clients = new ArrayList<>();
         boolean on = true;
         Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         while (on) {
             System.out.println("Menu: ");
             System.out.println("1. Agregar chofer");
-            System.out.println("2. Agergar cliente");
-            System.out.println("3. Alterar estado de los choferes");
-            System.out.println("4. Pedir viaje como cliente");
-            System.out.println("5. Salir");
+            System.out.println("2. Acciones de cliente");
+            System.out.println("3. Acciones de chofer");
+            System.out.println("4. Salir");
             int option = scanner.nextInt();
             switch (option) {
                 case 1:
-                    driverManager.addDriver(createDriver());
+                    ruben.addDriver(createDriver());
                     break;
                 case 2:
-                    clients.add(createClient());
+                    Client client = createClient();
+                    System.out.println("pedir viaje? (Si/No)");
+                    if (sc.nextLine().toLowerCase().startsWith("s"))
+                        askForTrip(client, ruben);
                     break;
                 case 3:
-                    //todo driverManager.showDrivers();
+                    System.out.println("Elige un chofer");
+                    ArrayList<Driver> drivers = ruben.getDrivers();
+                    for(int i =0; i<drivers.size(); i++)
+                        System.out.println(i + ". " + drivers.get(i).getName());
+                    int driverNumber = scanner.nextInt();
+                    System.out.println("Menu de chofer: ");
+                    System.out.println("chofer: " + drivers.get(driverNumber).getName());
+                    String estado ="";
+                    if (drivers.get(driverNumber).getOnline()) {
+                        estado += "En linea";
+                        if (drivers.get(driverNumber).getAvailable()){
+                            estado += " Y disponible";
+                        } else estado += " Y ocupado";
+                    }
+                    if (!drivers.get(driverNumber).getOnline()){
+                        System.out.println("Estado: Desconectado");
+                        System.out.println("Conectarse? Si/No");
+                        if (sc.nextLine().toLowerCase().startsWith("s"))
+                        drivers.get(driverNumber).goOnline();
+                    }
+
+                    System.out.println("Estado: " + estado);
                     break;
                 case 4:
-                    //todo showClients();
-                    break;
-                case 5:
                     on = false;
                     break;
                 default:
@@ -90,5 +111,16 @@ public class ConsoleCommunicator {
         System.out.println("Ingrese la ubicacion del Cliente y:");
         long y = scanner.nextLong();
         return new Client(new CreditCard(), new Location(x,y),name);
+    }
+    private static void askForTrip(Client client, rUBERn ruben){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese los pasajeros: ");
+        int passengers = scanner.nextInt();
+        System.out.println("Ingrese el destino: ");
+        System.out.println("X: ");
+        Long destinationX = scanner.nextLong();
+        System.out.println("Y: ");
+        Long destinationY = scanner.nextLong();
+        ruben.processRequest(client, new Location(destinationX,destinationY), passengers);
     }
 }

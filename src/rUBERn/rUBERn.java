@@ -2,6 +2,8 @@ package rUBERn;
 
 // Created by nico on 9/30/16.
 
+import java.util.ArrayList;
+
 public class rUBERn {
 
     private final float fixedCost = 15;
@@ -26,6 +28,11 @@ public class rUBERn {
         if (!client.isWating()){
         Journey journey = new Journey(client.getCurrentLocation(), destination, passengers);
         Job job = new Job(driverManager.findDriverForJourney(journey), client, journey);
+        job.getDriver().goBusy();
+
         }
+    }
+    public ArrayList<Driver> getDrivers(){
+        return driverManager.getDrivers();
     }
 }

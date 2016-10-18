@@ -23,9 +23,14 @@ public class Driver extends Person {
 
     public void goOnline() {
         isOnline = true;
+        isAvailable = true;
     }
     public void goOffline() {
         isOnline = false;
+        isAvailable = false;
+    }
+    public void goBusy(){
+        isAvailable = false;
     }
 
     public boolean evaluateOffer(Journey journey) {
@@ -43,6 +48,7 @@ public class Driver extends Person {
 
     public void assignJob(Job job) {
         this.currentJob = job;
+        driveTo(job.getJourney().getDestination());
     }
 
     public Duration ETATo(Location location) {

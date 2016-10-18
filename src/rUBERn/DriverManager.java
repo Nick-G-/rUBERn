@@ -7,9 +7,8 @@ import rUBERn.Exceptions.DriverNotFoundException;
 import java.util.ArrayList;
 
 public class DriverManager {
-    private ArrayList<Driver> drivers = new ArrayList<>();
+    private ArrayList<Driver> drivers;
     private ImageCalculator imageCalculator;
-
     public DriverManager(){
         this.imageCalculator = new ImageCalculator();
         drivers = new ArrayList<>();
@@ -52,5 +51,8 @@ public class DriverManager {
 
     private boolean offerJourneyToDriver(Journey journey, Driver driver) {
         return driver.evaluateOffer(journey);
+    }
+    public ArrayList<Driver> getDrivers(){
+        return drivers;
     }
 }

@@ -4,20 +4,28 @@ package rUBERn;
 
 public class rUBERn {
 
-    private float fixedCost = 15;
-    private float costPerBlock = 1;
-    private int creditCardNumber;
-    private LogisticManager logiMan;
-    private EconomicsManager ecoMan;
-    private ConsoleCommunicator consoleCom;
-
+    private final float fixedCost = 15;
+    private final float costPerBlock = 1;
+    private final int creditCardNumber = 100000;
+    private DriverManager driverManager;
+    // private LogisticManager logiMan;
+    //private EconomicsManager ecoMan;
+    //private ConsoleCommunicator consoleCom;
+    public rUBERn(){
+    driverManager = new DriverManager();
+    }
     public int getCreditCardNumber() {
-        return 0;
+        return creditCardNumber;
     }
-
-    public void processRequest(Client client, Location origin, Location destination, int passengers) {
-        //check that client does not have a pending journey already
+    public void addDriver(Driver driver){
+        driverManager.addDriver(driver);
+    }
+    public void processRequest(Client client, Location destination, int passengers) {
         //tell logiMan to match clientwith driver
+        // facundo: Start developing logic in this class, then split it into the "Managers" if its too big
+        if (!client.isWating()){
+        Journey journey = new Journey(client.getCurrentLocation(), destination, passengers);
+        Job job = new Job(driverManager.findDriverForJourney(journey), client, journey);
+        }
     }
-
 }

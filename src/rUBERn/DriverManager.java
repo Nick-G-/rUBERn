@@ -2,6 +2,8 @@ package rUBERn;
 
 // Created by nico on 10/2/16.
 
+import rUBERn.Exceptions.DriverNotFoundException;
+
 import java.util.ArrayList;
 
 public class DriverManager {
@@ -34,13 +36,13 @@ public class DriverManager {
         return bestDriver;
     }
 
-    public void findDriverForJob(Job job) {
-        for (Driver driver : rankDrivers(job.getJourney()))
-            if (offerJobToDriver(job, driver)) {
-                job.assignDriver(driver);
-                driver.assignJob(job);
-                return;
+    public Driver findDriverForJourney(Journey journey) {
+        for (Driver driver : rankDrivers(journey)) {
+            if (offerJourneyToDriver(journey, driver)) {
+                return driver;
             }
+        }
+        throw new DriverNotFoundException();
     }
 
     public void addDriver(Driver... drivers){
@@ -48,7 +50,7 @@ public class DriverManager {
             this.drivers.add(d);
     }
 
-    private boolean offerJobToDriver(Job job, Driver driver) {
-        return driver.evaluateOffer(job.getJourney());
+    private boolean offerJourneyToDriver(Journey journey, Driver driver) {
+        return driver.evaluateOffer(journey);
     }
 }

@@ -4,8 +4,8 @@ import java.time.Duration;
 
 public class Driver extends Person {
     private Car car;
-    private Boolean isOnline;
-    private Boolean isAvailable;
+    private Boolean isOnline = false;
+    private Boolean isAvailable = false;
     private Job currentJob;
 
     public Driver(String name) {
@@ -51,5 +51,13 @@ public class Driver extends Person {
 
     public Car getCar() {
         return car;
+    }
+
+    public Boolean getOnline() {
+        return isOnline;
+    }
+
+    public Boolean getAvailable() {
+        return isAvailable;
     }
 }

@@ -119,13 +119,14 @@ public class ConsoleCommunicator {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el nombre del cliente: ");
         String name = scanner.nextLine();
-        System.out.println("Ingrese la ubicacion del Cliente x:");
+
         //implemento try catch vamos a ver si sale
         boolean choosing = true;
         long x = 0;
         long y = 0;
         while (choosing){
             try {
+                System.out.println("Ingrese la ubicacion del Cliente x:");
                 x = scanner.nextLong();
                 System.out.println("Ingrese la ubicacion del Cliente y:");
                 y = scanner.nextLong();
@@ -153,12 +154,24 @@ public class ConsoleCommunicator {
                 scanner.next();
             }
         }
+        long destinationX = 0;
+        long destinationY = 0;
+        boolean choosing2 = true;
+        while (choosing2){
+            try {
+                System.out.println("Ingrese el destino: ");
+                System.out.println("X: ");
+                destinationX = scanner.nextInt();
+                System.out.println("Y: ");
+                destinationY = scanner.nextLong();
+                choosing2 = false;
+            }
+            catch(InputMismatchException exception){
+                System.out.println("Opcion invalida");
+                scanner.next();
+            }
+        }
 
-        System.out.println("Ingrese el destino: ");
-        System.out.println("X: ");
-        Long destinationX = scanner.nextLong();
-        System.out.println("Y: ");
-        Long destinationY = scanner.nextLong();
         ruben.processRequest(client, new Location(destinationX,destinationY), passengers);
     }
 }

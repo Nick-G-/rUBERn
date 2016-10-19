@@ -17,8 +17,11 @@ public class DriverManager {
     private ArrayList<Driver> rankDrivers(Journey journey) {
         ArrayList<Driver> rankedDrivers = new ArrayList<Driver>();
         ArrayList<Driver> possibleDrivers = new ArrayList<Driver>();
-        possibleDrivers.addAll(drivers);
         for (int i=0; i<drivers.size(); i++){
+            if(drivers.get(i).getCar().getPassengerCapacity() >= journey.getPassengers())
+                possibleDrivers.add(drivers.get(i));
+        }
+        for (int i=0; i<possibleDrivers.size(); i++){
             Driver bestDriver = bestDriver(journey,possibleDrivers);
             rankedDrivers.add(bestDriver);
             possibleDrivers.remove(possibleDrivers.indexOf(bestDriver));

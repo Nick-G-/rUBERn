@@ -11,6 +11,7 @@ public class Client extends Person {
     }
     public Client(CreditCard creditCard, Location startingPoint, String name) {
         super(creditCard, startingPoint, name);
+        pendingJourney = false;
     }
     public void request(Location destination, int passengers, rUBERn rubern) {
         rubern.processRequest(Client.this, destination,passengers);

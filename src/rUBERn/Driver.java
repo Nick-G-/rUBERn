@@ -34,6 +34,7 @@ public class Driver extends Person {
     }
 
     public boolean evaluateOffer(Journey journey) {
+        goBusy();
         return true;
     }
 

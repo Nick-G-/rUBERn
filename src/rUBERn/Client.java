@@ -12,12 +12,12 @@ public class Client extends Person {
     public Client(CreditCard creditCard, Location startingPoint, String name) {
         super(creditCard, startingPoint, name);
     }
-    public void request(Location destination, int passengers) {
-
+    public void request(Location destination, int passengers, rUBERn rubern) {
+        rubern.processRequest(Client.this, destination,passengers);
     }
 
-    public void request(Location destination) {
-        request(destination, 1);
+    public void request(Location destination, rUBERn rubern) {
+        request(destination, 1, rubern);
     }
 
     public void waitForDriver() {

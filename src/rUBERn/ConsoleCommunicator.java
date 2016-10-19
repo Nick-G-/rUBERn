@@ -6,13 +6,16 @@ import java.util.ArrayList;
 import Utils.Scanner;
 
 public class ConsoleCommunicator {
-    public static void main(String[] args) {
+    private rUBERn ruben;
+    public ConsoleCommunicator(rUBERn ruben){
+        this.ruben = ruben;
+    }
+
+    public void consoleApp() {
         System.out.println("rUBERn");
-        rUBERn ruben = new rUBERn();
         ArrayList<Client> clients = new ArrayList<>();
         boolean on = true;
         Scanner scanner = new Scanner();
-        Scanner sc = new Scanner();
         while (on) {
             System.out.println("Menu: ");
             System.out.println("1. Agregar chofer");
@@ -71,7 +74,7 @@ public class ConsoleCommunicator {
                         Client client = new Client(new CreditCard(), new Location(xc, yc), namec);
 
                         System.out.println("pedir viaje? (Si/No)");
-                        if (sc.nextLine().toLowerCase().startsWith("s"))
+                        if (scanner.nextLine().toLowerCase().startsWith("s"))
                             System.out.println("Ingrese los pasajeros: ");
                         int passengers = 0;
                         passengers = scanner.nextInt();
@@ -103,7 +106,7 @@ public class ConsoleCommunicator {
                         if (!drivers.get(driverNumber).getOnline()) {
                             System.out.println("Estado: Desconectado");
                             System.out.println("Conectarse? Si/No");
-                            if (sc.nextLine().toLowerCase().startsWith("s"))
+                            if (scanner.nextLine().toLowerCase().startsWith("s"))
                                 drivers.get(driverNumber).goOnline();
                         }
 

@@ -40,8 +40,10 @@ public class Driver extends Person {
     }
     private void doOffer(Journey journey, Client client){
         moveTo(journey.getOrigin());
+        client.getOnCar(Driver.this);
         moveTo(journey.getDestination());
-        client.moveTo(journey.getDestination());
+        client.getOffCar();
+        client.arrived();
     }
 
     public void finalizeJob() {

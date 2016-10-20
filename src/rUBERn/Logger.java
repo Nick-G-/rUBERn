@@ -3,8 +3,10 @@ package rUBERn;
 // Created by nico on 10/1/16.
 
 public class Logger {
-    private java.io.File logFile;
+    public Logger(){
+    }
 
-    public void log(Operation operation) {
+    public void log(Operation operation){
+        System.out.println(operation.getDescription());
     }
 }

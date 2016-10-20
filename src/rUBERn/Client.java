@@ -15,6 +15,7 @@ public class Client extends Person {
     }
     public void request(Location destination, int passengers, rUBERn rubern) {
         rubern.processRequest(Client.this, destination,passengers);
+        waitForDriver();
     }
 
     public void request(Location destination, rUBERn rubern) {
@@ -29,7 +30,5 @@ public class Client extends Person {
     }
     public void arrived(){
         pendingJourney = false;
-    }
-    public void leave() {
     }
 }

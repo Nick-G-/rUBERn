@@ -33,23 +33,21 @@ public class Driver extends Person {
         isAvailable = false;
     }
 
-    public boolean evaluateOffer(Journey journey) {
+    public boolean evaluateOffer(Journey journey, Client client) {
         goBusy();
+        doOffer(journey, client);
         return true;
+    }
+    private void doOffer(Journey journey, Client client){
+        moveTo(journey.getOrigin());
+        moveTo(journey.getDestination());
+        client.moveTo(journey.getDestination());
     }
 
     public void finalizeJob() {
     }
 
     public void idle() {
-    }
-    public void driveTo(Location destination) {
-
-    }
-
-    public void assignJob(Job job) {
-        this.currentJob = job;
-        driveTo(job.getJourney().getDestination());
     }
 
     public Duration ETATo(Location location) {

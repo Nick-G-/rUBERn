@@ -6,10 +6,10 @@ import rUBERn.Exceptions.DriverNotFoundException;
 
 import java.util.ArrayList;
 
-public class DriverManager {
+public class DriverSorter {
     private ArrayList<Driver> drivers;
     private ImageCalculator imageCalculator;
-    public DriverManager(){
+    public DriverSorter(){
         this.imageCalculator = new ImageCalculator();
         drivers = new ArrayList<>();
     }
@@ -39,9 +39,9 @@ public class DriverManager {
         return bestDriver;
     }
 
-    public Driver findDriverForJourney(Journey journey) {
+    public Driver findDriverForJourney(Journey journey, Client client) {
         for (Driver driver : rankDrivers(journey)) {
-            if (offerJourneyToDriver(journey, driver)) {
+            if (offerJourneyToDriver(journey, driver, client)) {
                 return driver;
             }
         }
@@ -53,8 +53,8 @@ public class DriverManager {
             this.drivers.add(d);
     }
 
-    private boolean offerJourneyToDriver(Journey journey, Driver driver) {
-        return driver.evaluateOffer(journey);
+    private boolean offerJourneyToDriver(Journey journey, Driver driver, Client client) {
+        return driver.evaluateOffer(journey, client);
     }
     public ArrayList<Driver> getDrivers(){
         return drivers;

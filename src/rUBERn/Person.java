@@ -27,6 +27,11 @@ public abstract class Person implements Locatable {
         currentLocation.moveX((long) (Math.cos(angle)*distance));
         currentLocation.moveY((long) (Math.sin(angle)*distance));
     }
+    public void moveTo(Location location){
+        double angle = currentLocation.angleTo(location);
+        double distance = currentLocation.distanceTo(location);
+        move(angle,distance);
+    }
 
     public Location getCurrentLocation() {
         return currentLocation;

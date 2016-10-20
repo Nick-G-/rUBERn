@@ -6,6 +6,7 @@ public class ChargeOperation extends Operation{
 
     public ChargeOperation(Job job, double amount) {
         super(job, amount);
+
     }
 
     @Override

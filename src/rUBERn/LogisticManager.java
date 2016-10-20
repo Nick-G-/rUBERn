@@ -5,7 +5,7 @@ package rUBERn;
 import java.util.ArrayList;
 
 public class LogisticManager {
-    private DriverManager driverManager;
+    private DriverSorter driverSorter;
     private ArrayList<Job> activeJobs;
     private ArrayList<Job> pendingJobs;
 }

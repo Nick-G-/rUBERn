@@ -26,7 +26,8 @@ public class rUBERn {
     }
     public void processRequest(Client client, Location destination, int passengers){
         if (!client.isWating()){
-            Journey journey = new Journey(client.getCurrentLocation(),destination,passengers);
+            Location origin = new Location(client.getCurrentLocation());
+            Journey journey = new Journey(origin,destination,passengers);
             Job job = new Job(driverSorter.findDriverForJourney(journey,client),client,journey);
             log.log(new ChargeOperation(job, calculator.calculateCharge(job)));
             log.log(new PayOperation(job, calculator.calculatePay(job)));

@@ -65,29 +65,28 @@ public class ConsoleCommunicator {
                     case 2:
                         System.out.println("Ingrese el nombre del cliente: ");
                         String namec = scanner.nextLine();
-                        long xc = 0;
-                        long yc = 0;
                                 System.out.println("Ingrese la ubicacion del Cliente x:");
-                                xc = scanner.nextLong();
+                                Long clientPositionX = scanner.nextLong();
                                 System.out.println("Ingrese la ubicacion del Cliente y:");
-                                yc = scanner.nextLong();
-                        Client client = new Client(new CreditCard(), new Location(xc, yc), namec);
+                                Long clientPositionY = scanner.nextLong();
+                        Client client = new Client(new CreditCard(), new Location(clientPositionX, clientPositionY), namec);
 
                         System.out.println("pedir viaje? (Si/No)");
-                        if (scanner.nextLine().toLowerCase().startsWith("s"))
+                        if (scanner.nextLine().toLowerCase().startsWith("s")) {
                             System.out.println("Ingrese los pasajeros: ");
-                        int passengers = 0;
-                        passengers = scanner.nextInt();
-                        long destinationX = 0;
-                        long destinationY = 0;
-                                System.out.println("Ingrese el destino: ");
-                                System.out.println("X: ");
-                                destinationX = scanner.nextInt();
-                                System.out.println("Y: ");
-                                destinationY = scanner.nextLong();
-                        client.request(new Location(destinationX, destinationY), passengers, ruben);
-                        break;
-
+                            int passengers = 0;
+                            passengers = scanner.nextInt();
+                            long destinationX = 0;
+                            long destinationY = 0;
+                            System.out.println("Ingrese el destino: ");
+                            System.out.println("X: ");
+                            destinationX = scanner.nextInt();
+                            System.out.println("Y: ");
+                            destinationY = scanner.nextLong();
+                            client.request(new Location(destinationX, destinationY), passengers, ruben);
+                            break;
+                        }else
+                            break;
                     case 3:
                         System.out.println("Elige un chofer");
                         ArrayList<Driver> drivers = ruben.getDrivers();

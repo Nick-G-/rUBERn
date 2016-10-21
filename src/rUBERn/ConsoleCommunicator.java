@@ -8,8 +8,8 @@ import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
 
 public class ConsoleCommunicator {
-    private rUBERn ruben;
-    public ConsoleCommunicator(rUBERn ruben){
+    private Rubern ruben;
+    public ConsoleCommunicator(Rubern ruben){
         this.ruben = ruben;
     }
 

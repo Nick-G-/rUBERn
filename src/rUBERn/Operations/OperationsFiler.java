@@ -1,7 +1,5 @@
 package rUBERn.Operations;
 
-import rUBERn.rUBERn;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;

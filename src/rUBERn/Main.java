@@ -7,7 +7,7 @@ import Utils.Scanner;
  */
 public class Main {
     public static void main(String[] args) {
-        rUBERn rubern = new rUBERn();
+        Rubern rubern = new Rubern();
         Scanner scanner = new Scanner();
         System.out.println("Start GUI/Console");
         System.out.println("1. GUI");

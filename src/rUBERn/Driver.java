@@ -2,6 +2,7 @@ package rUBERn;// Created by nico on 9/30/16.
 
 import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
+import rUBERn.Status.Offline;
 import rUBERn.Status.Status;
 
 import java.time.Duration;
@@ -14,6 +15,7 @@ public class Driver extends Person {
     public Driver(String name) {
         super(name);
         this.car = new Car();
+        status = new Offline(Driver.this);
     }
     public Driver(CreditCard creditCard, Location startingPoint, String name, Car car) {
         super(creditCard, startingPoint, name);

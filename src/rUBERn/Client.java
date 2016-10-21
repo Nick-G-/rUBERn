@@ -1,7 +1,5 @@
 package rUBERn;// Created by nico on 9/30/16.
 
-import java.util.ArrayList;
-
 public class Client extends Person {
     private boolean pendingJourney;
 
@@ -13,12 +11,12 @@ public class Client extends Person {
         super(creditCard, startingPoint, name);
         pendingJourney = false;
     }
-    public void request(Location destination, int passengers, rUBERn rubern) {
+    public void request(Location destination, int passengers, Rubern rubern) {
         rubern.processRequest(Client.this, destination,passengers);
         waitForDriver();
     }
 
-    public void request(Location destination, rUBERn rubern) {
+    public void request(Location destination, Rubern rubern) {
         request(destination, 1, rubern);
     }
 

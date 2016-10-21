@@ -1,6 +1,5 @@
 package rUBERn.Operations;
 import rUBERn.Job;
-import rUBERn.rUBERn.*;
 
 public class PayOperation extends Operation{
     public PayOperation(Job job, double amount) {

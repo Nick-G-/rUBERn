@@ -10,7 +10,7 @@ import static org.junit.Assert.*;
 public class LocationMovingTest {
     @Test
     public void testMoving() {
-        rUBERn rubern = new rUBERn();
+        Rubern rubern = new Rubern();
         Client client = new Client(new CreditCard(), new Location(0, 0), "Cliente");
         assertEquals(0,client.getCurrentLocation().getX());
         assertEquals(0,client.getCurrentLocation().getY());

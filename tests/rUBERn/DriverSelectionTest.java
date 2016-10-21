@@ -2,15 +2,13 @@ package rUBERn;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * Created by facundo on 10/19/16.
  */
 public class DriverSelectionTest {
     @Test
     public void testByDistanceToClient(){
-        rUBERn rubern = new rUBERn();
+        Rubern rubern = new Rubern();
         Client client = new Client(new CreditCard(), new Location(0,0), "Cliente");
         Driver marcos = new Driver(new CreditCard(),new Location(2,8),"marcos", new Car());
         Driver tito = new Driver(new CreditCard(),new Location(0,5),"Tito", new Car());
@@ -26,7 +24,7 @@ public class DriverSelectionTest {
     }
     @Test
     public void testByCarCategory(){
-        rUBERn rubern = new rUBERn();
+        Rubern rubern = new Rubern();
         Client client = new Client(new CreditCard(), new Location(0,0), "Cliente");
         Driver marcos = new Driver(new CreditCard(),new Location(4,4),"marcos", new Car(1,"Berreta"));
         Driver tito = new Driver(new CreditCard(),new Location(4,4),"Tito", new Car(1,"Normal"));
@@ -42,7 +40,7 @@ public class DriverSelectionTest {
     }
     @Test
     public void testByCarCapacity(){
-        rUBERn rubern = new rUBERn();
+        Rubern rubern = new Rubern();
         Client client = new Client(new CreditCard(), new Location(0,0), "Cliente");
         Driver marcos = new Driver(new CreditCard(),new Location(4,4),"marcos", new Car(3,"Normal"));
         Driver tito = new Driver(new CreditCard(),new Location(4,4),"Tito", new Car(4,"Normal"));

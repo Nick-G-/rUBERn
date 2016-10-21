@@ -1,8 +1,8 @@
 package rUBERn;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
+import rUBERn.Operations.ChargeOperation;
+import rUBERn.Operations.PayOperation;
 
 
 // Created by nico on 10/16/16.

@@ -1,11 +1,12 @@
 package rUBERn;// Created by nico on 9/30/16.
 
+import rUBERn.Status.Status;
+
 import java.time.Duration;
 
 public class Driver extends Person {
     private Car car;
-    private Boolean isOnline = false;
-    private Boolean isAvailable = false;
+    private Status status;
     private Job currentJob;
 
     public Driver(String name) {
@@ -22,21 +23,16 @@ public class Driver extends Person {
     }
 
     public void goOnline() {
-        isOnline = true;
-        isAvailable = true;
     }
     public void goOffline() {
-        isOnline = false;
-        isAvailable = false;
     }
     public void goBusy(){
-        isAvailable = false;
     }
 
     public boolean evaluateOffer(Journey journey, Client client) {
-        goBusy();
-        doOffer(journey, client);
-        return true;
+            goBusy();
+            doOffer(journey, client);
+            return true;
     }
     private void doOffer(Journey journey, Client client){
         moveTo(journey.getOrigin());
@@ -61,10 +57,10 @@ public class Driver extends Person {
     }
 
     public Boolean getOnline() {
-        return isOnline;
+
     }
 
     public Boolean getAvailable() {
-        return isAvailable;
+
     }
 }

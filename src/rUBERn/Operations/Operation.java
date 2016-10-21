@@ -1,8 +1,10 @@
-package rUBERn;
+package rUBERn.Operations;
 
 // Created by nico on 10/1/16.
 
 //import java.io.IOException;
+import rUBERn.rUBERn.*;
+
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.UUID;
@@ -10,12 +12,12 @@ import java.util.UUID;
 public abstract class Operation {
     private UUID id;
     private Instant instant;
-    private Job job;
+    private rUBERn.Job job;
     private double amount;
     //private OperationsFiler operationsFiler = new OperationsFiler();
     //private String operationData;
 
-    public Operation(Job job, double amount) {
+    public Operation(rUBERn.Job job, double amount) {
         this.id = UUID.randomUUID();
         this.instant = Instant.now();
         this.job = job;
@@ -46,7 +48,7 @@ public abstract class Operation {
     abstract int getCardNumber();
     abstract String getDescription();
 
-    public Job getJob() {
+    public rUBERn.Job getJob() {
         return job;
     }
 

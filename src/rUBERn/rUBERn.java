@@ -2,7 +2,9 @@ package rUBERn;
 
 // Created by nico on 9/30/16.
 
-import java.io.IOException;
+import rUBERn.Operations.ChargeOperation;
+import rUBERn.Operations.PayOperation;
+
 import java.util.ArrayList;
 
 public class rUBERn {
@@ -12,10 +14,8 @@ public class rUBERn {
     private final int creditCardNumber = 100000;
     private MoneyCalculator calculator;
     private DriverSorter driverSorter;
-    private Logger log;
     public rUBERn(){
         driverSorter = new DriverSorter();
-        log = new Logger();
         calculator = new MoneyCalculator();
     }
     public int getCreditCardNumber() {
@@ -29,8 +29,8 @@ public class rUBERn {
             Location origin = new Location(client.getCurrentLocation());
             Journey journey = new Journey(origin,destination,passengers);
             Job job = new Job(driverSorter.findDriverForJourney(journey,client),client,journey);
-            log.log(new ChargeOperation(job, calculator.calculateCharge(job)));
-            log.log(new PayOperation(job, calculator.calculatePay(job)));
+            //log.log(new ChargeOperation(job, calculator.calculateCharge(job)));
+            //log.log(new PayOperation(job, calculator.calculatePay(job)));
         }
     }
     public ArrayList<Driver> getDrivers(){

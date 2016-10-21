@@ -1,10 +1,8 @@
 package rUBERn;
 
 import org.junit.Test;
-
-import java.io.FileWriter;
-
-import static org.junit.Assert.*;
+import rUBERn.Operations.ChargeOperation;
+import rUBERn.Operations.PayOperation;
 
 /**
  * Created by arimi on 20-Oct-16.

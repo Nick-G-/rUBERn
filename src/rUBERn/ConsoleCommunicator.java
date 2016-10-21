@@ -4,6 +4,8 @@ package rUBERn;
 
 import java.util.ArrayList;
 import Utils.Scanner;
+import rUBERn.Exceptions.AlreadyInStatusException;
+import rUBERn.Exceptions.InvalidStatusChangeException;
 
 public class ConsoleCommunicator {
     private rUBERn ruben;
@@ -11,7 +13,7 @@ public class ConsoleCommunicator {
         this.ruben = ruben;
     }
 
-    public void consoleApp() {
+    public void consoleApp() throws AlreadyInStatusException, InvalidStatusChangeException {
         System.out.println("rUBERn");
         ArrayList<Client> clients = new ArrayList<>();
         boolean on = true;
@@ -96,13 +98,16 @@ public class ConsoleCommunicator {
                         System.out.println("Menu de chofer: ");
                         System.out.println("chofer: " + drivers.get(driverNumber).getName());
                         String estado = "";
-                        if (drivers.get(driverNumber).getOnline()) {
+                        if (drivers.get(driverNumber).getStatus().toString().equals("Online")) {
                             estado += "En linea";
-                            if (drivers.get(driverNumber).getAvailable()) {
+                            if (drivers.get(driverNumber).getStatus().toString().equals("Avaliable")) {
                                 estado += " Y disponible";
+                                System.out.println("Desconectarse? s/n");
+                                if (scanner.nextLine().toLowerCase().startsWith("s"))
+                                    drivers.get(driverNumber).goOffline();
                             } else estado += " Y ocupado";
                         }
-                        if (!drivers.get(driverNumber).getOnline()) {
+                        if (drivers.get(driverNumber).getStatus().toString().equals("Offline")) {
                             System.out.println("Estado: Desconectado");
                             System.out.println("Conectarse? Si/No");
                             if (scanner.nextLine().toLowerCase().startsWith("s"))

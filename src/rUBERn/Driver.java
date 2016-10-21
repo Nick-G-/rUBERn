@@ -1,5 +1,7 @@
 package rUBERn;// Created by nico on 9/30/16.
 
+import rUBERn.Exceptions.AlreadyInStatusException;
+import rUBERn.Exceptions.InvalidStatusChangeException;
 import rUBERn.Status.Status;
 
 import java.time.Duration;
@@ -22,14 +24,17 @@ public class Driver extends Person {
         super(name, startingPoint);
     }
 
-    public void goOnline() {
+    public void goOnline() throws AlreadyInStatusException {
+        status.goOnline();
     }
-    public void goOffline() {
+    public void goOffline() throws AlreadyInStatusException, InvalidStatusChangeException {
+        status.goOffline();
     }
-    public void goBusy(){
+    public void goBusy() throws AlreadyInStatusException, InvalidStatusChangeException {
+        status.goWorking();
     }
 
-    public boolean evaluateOffer(Journey journey, Client client) {
+    public boolean evaluateOffer(Journey journey, Client client) throws AlreadyInStatusException, InvalidStatusChangeException {
             goBusy();
             doOffer(journey, client);
             return true;
@@ -45,9 +50,6 @@ public class Driver extends Person {
     public void finalizeJob() {
     }
 
-    public void idle() {
-    }
-
     public Duration ETATo(Location location) {
         return Duration.ofSeconds((long)(this.getCurrentLocation().distanceTo(location) / car.getSpeed()));
     }
@@ -56,11 +58,11 @@ public class Driver extends Person {
         return car;
     }
 
-    public Boolean getOnline() {
-
+    public Status getStatus() {
+        return status;
     }
 
-    public Boolean getAvailable() {
-
+    public void setStatus(Status s){
+        status = s;
     }
 }

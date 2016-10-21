@@ -2,7 +2,9 @@ package rUBERn;
 
 // Created by nico on 10/2/16.
 
+import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.DriverNotFoundException;
+import rUBERn.Exceptions.InvalidStatusChangeException;
 
 import java.util.ArrayList;
 
@@ -18,7 +20,7 @@ public class DriverSorter {
         ArrayList<Driver> rankedDrivers = new ArrayList<Driver>();
         ArrayList<Driver> possibleDrivers = new ArrayList<Driver>();
             for (int i=0; i<drivers.size(); i++){
-                if(drivers.get(i).getCar().getPassengerCapacity() >= journey.getPassengers() && drivers.get(i).getAvailable())
+                if(drivers.get(i).getCar().getPassengerCapacity() >= journey.getPassengers() && drivers.get(i).getStatus().toString().equals("Avaliable"))
                     possibleDrivers.add(drivers.get(i));
             }
             for (int i=0; i<possibleDrivers.size(); i++){
@@ -39,7 +41,7 @@ public class DriverSorter {
         return bestDriver;
     }
 
-    public Driver findDriverForJourney(Journey journey, Client client) {
+    public Driver findDriverForJourney(Journey journey, Client client) throws AlreadyInStatusException, InvalidStatusChangeException {
         for (Driver driver : rankDrivers(journey)) {
             if (offerJourneyToDriver(journey, driver, client)) {
                 return driver;
@@ -53,7 +55,7 @@ public class DriverSorter {
             this.drivers.add(d);
     }
 
-    private boolean offerJourneyToDriver(Journey journey, Driver driver, Client client) {
+    private boolean offerJourneyToDriver(Journey journey, Driver driver, Client client) throws AlreadyInStatusException, InvalidStatusChangeException {
         return driver.evaluateOffer(journey, client);
     }
     public ArrayList<Driver> getDrivers(){

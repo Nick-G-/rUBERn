@@ -98,15 +98,14 @@ public class ConsoleCommunicator {
                         System.out.println("Menu de chofer: ");
                         System.out.println("chofer: " + drivers.get(driverNumber).getName());
                         String estado = "";
-                        if (drivers.get(driverNumber).getStatus().toString().equals("Online")) {
-                            estado += "En linea";
-                            if (drivers.get(driverNumber).getStatus().toString().equals("Avaliable")) {
-                                estado += " Y disponible";
-                                System.out.println("Desconectarse? s/n");
+                        if (drivers.get(driverNumber).getStatus().toString().equals("Working"))
+                            estado += "Trabajando";
+                        if (drivers.get(driverNumber).getStatus().toString().equals("Online")){
+                            estado += "En linea Y disponible";
+                            System.out.println("Desconectarse? s/n");
                                 if (scanner.nextLine().toLowerCase().startsWith("s"))
                                     drivers.get(driverNumber).goOffline();
-                            } else estado += " Y ocupado";
-                        }
+                            }
                         if (drivers.get(driverNumber).getStatus().toString().equals("Offline")) {
                             System.out.println("Estado: Desconectado");
                             System.out.println("Conectarse? Si/No");

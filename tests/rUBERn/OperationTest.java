@@ -22,6 +22,8 @@ public class OperationTest {
 
         System.out.println(payment.toArchiveFormat());
         System.out.println(charge.toArchiveFormat());
+
+
     }
 
 }

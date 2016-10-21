@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * Created by arimirra on 20-Oct-16.
  */
-public class OperationsFiler {
+public class OperationFiler {
 
     //tipos de archivo necesarios para que no se sobreescriba el archivo
     private File file;
@@ -18,7 +18,7 @@ public class OperationsFiler {
     private PrintWriter printWriter;
 
     //si bien le mando throws IOException estoy seguro que no va a pasar
-    public OperationsFiler() {
+    public OperationFiler() {
         try{
             file = new File("Operations.txt");
             fileWriter = new FileWriter(file, true);

@@ -4,6 +4,7 @@ package rUBERn.Operations;
 
 //import java.io.IOException;
 
+import java.io.File;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.UUID;
@@ -13,7 +14,7 @@ public abstract class Operation {
     private Instant instant;
     private rUBERn.Job job;
     private double amount;
-    private OperationsFiler operationsFiler = new OperationsFiler();
+    private OperationFiler operationFiler = new OperationFiler();
     private String operationData;
 
     public Operation(rUBERn.Job job, double amount) {
@@ -22,7 +23,7 @@ public abstract class Operation {
         this.job = job;
         this.amount = amount;
         this.operationData = toArchiveFormat();
-        this.operationsFiler.FileOperation(operationData);
+        this.operationFiler.FileOperation(operationData);
     }
 
     public String toArchiveFormat() {
@@ -46,6 +47,10 @@ public abstract class Operation {
     abstract String getType();
     abstract int getCardNumber();
     abstract String getDescription();
+
+    public File getFile(){
+        return operationFiler.getFile();
+    }
 
     public rUBERn.Job getJob() {
         return job;

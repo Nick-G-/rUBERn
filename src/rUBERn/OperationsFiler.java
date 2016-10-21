@@ -17,16 +17,22 @@ public class OperationsFiler {
     private BufferedWriter buffer;
     private PrintWriter printWriter;
 
-    //si bien le mando throws IOException estoy casi seguro que no va a pasar
+    //si bien le mando throws IOException estoy seguro que no va a pasar
     public OperationsFiler() throws IOException {
-        file = new File("Operations");
+        file = new File("Operations.txt");
         fileWriter = new FileWriter(file, true);
         buffer = new BufferedWriter(fileWriter);
         printWriter = new PrintWriter(buffer);
     }
 
-    public void writeOperation(Operation operation){
-        printWriter.println(operation.toArchiveFormat());
+    public void FileOperation(String operationData){
+        printWriter.println(operationData);
+        printWriter.println();
+        printWriter.close();
+    }
+
+    public File getFile(){
+        return file;
     }
 
 }

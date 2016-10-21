@@ -2,6 +2,8 @@ package rUBERn;
 
 import org.junit.Test;
 
+import java.io.FileWriter;
+
 import static org.junit.Assert.*;
 
 /**
@@ -18,6 +20,9 @@ public class OperationsFilerTest {
 
         PayOperation payment = new PayOperation(job, 300);
         ChargeOperation charge = new ChargeOperation(job, 300);
+
+
+
 
     }
 

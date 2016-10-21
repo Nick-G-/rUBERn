@@ -18,11 +18,16 @@ public class OperationsFiler {
     private PrintWriter printWriter;
 
     //si bien le mando throws IOException estoy seguro que no va a pasar
-    public OperationsFiler() throws IOException {
-        file = new File("Operations.txt");
-        fileWriter = new FileWriter(file, true);
-        buffer = new BufferedWriter(fileWriter);
-        printWriter = new PrintWriter(buffer);
+    public OperationsFiler() {
+        try{
+            file = new File("Operations.txt");
+            fileWriter = new FileWriter(file, true);
+            buffer = new BufferedWriter(fileWriter);
+            printWriter = new PrintWriter(buffer);
+        }
+        catch (IOException e){
+            throw new RuntimeException("no lee", e);
+        }
     }
 
     public void FileOperation(String operationData){

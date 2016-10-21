@@ -13,16 +13,16 @@ public abstract class Operation {
     private Instant instant;
     private rUBERn.Job job;
     private double amount;
-    //private OperationsFiler operationsFiler = new OperationsFiler();
-    //private String operationData;
+    private OperationsFiler operationsFiler = new OperationsFiler();
+    private String operationData;
 
     public Operation(rUBERn.Job job, double amount) {
         this.id = UUID.randomUUID();
         this.instant = Instant.now();
         this.job = job;
         this.amount = amount;
-        //this.operationData = toArchiveFormat();
-        //this.operationsFiler.FileOperation(operationData);
+        this.operationData = toArchiveFormat();
+        this.operationsFiler.FileOperation(operationData);
     }
 
     public String toArchiveFormat() {

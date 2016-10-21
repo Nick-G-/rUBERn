@@ -10,7 +10,8 @@ import rUBERn.Operations.PayOperation;
 public class OperationTest {
     @Test
     public void toArchiveFormat() {
-        Driver dan = new Driver("Dan");
+        Rubern rubern = new Rubern();
+        Driver dan = new Driver("Dan", rubern);
         Client clinton = new Client("Clinton");
         Journey journey = new Journey(clinton);
 

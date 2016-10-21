@@ -20,7 +20,7 @@ public class DriverSorter {
         ArrayList<Driver> rankedDrivers = new ArrayList<Driver>();
         ArrayList<Driver> possibleDrivers = new ArrayList<Driver>();
             for (int i=0; i<drivers.size(); i++){
-                if(drivers.get(i).getCar().getPassengerCapacity() >= journey.getPassengers() && drivers.get(i).getStatus().toString().equals("Avaliable"))
+                if(drivers.get(i).getCar().getPassengerCapacity() >= journey.getPassengers())
                     possibleDrivers.add(drivers.get(i));
             }
             for (int i=0; i<possibleDrivers.size(); i++){
@@ -53,6 +53,9 @@ public class DriverSorter {
     public void addDriver(Driver... drivers){
         for (Driver d : drivers)
             this.drivers.add(d);
+    }
+    public void removeDriver(Driver driver){
+        this.drivers.remove(driver);
     }
 
     private boolean offerJourneyToDriver(Journey journey, Driver driver, Client client) throws AlreadyInStatusException, InvalidStatusChangeException {

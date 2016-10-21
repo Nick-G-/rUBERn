@@ -61,7 +61,7 @@ public class ConsoleCommunicator {
                         long x = scanner.nextLong();
                         System.out.println("Ingrese la ubicacion del chofer y:");
                         long y = scanner.nextLong();
-                        ruben.addDriver(new Driver(new CreditCard(), new Location(x, y), name, new Car(capacity, category)));
+                        new Driver(new CreditCard(), new Location(x, y), name, new Car(capacity, category),ruben);
                         break;
 
                     case 2:

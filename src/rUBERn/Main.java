@@ -1,12 +1,14 @@
 package rUBERn;
 
 import Utils.Scanner;
+import rUBERn.Exceptions.AlreadyInStatusException;
+import rUBERn.Exceptions.InvalidStatusChangeException;
 
 /**
  * Created by facundo on 10/19/16.
  */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws AlreadyInStatusException, InvalidStatusChangeException {
         Rubern rubern = new Rubern();
         Scanner scanner = new Scanner();
         System.out.println("Start GUI/Console");

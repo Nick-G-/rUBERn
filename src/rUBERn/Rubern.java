@@ -4,8 +4,6 @@ package rUBERn;
 
 import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
-
-import java.io.IOException;
 import java.util.ArrayList;
 
 public class Rubern {
@@ -26,6 +24,9 @@ public class Rubern {
     }
     public void addDriver(Driver... drivers){
         driverSorter.addDriver(drivers);
+    }
+    public void removeDriver(Driver driver){
+        driverSorter.removeDriver(driver);
     }
     public void processRequest(Client client, Location destination, int passengers) throws AlreadyInStatusException, InvalidStatusChangeException {
         if (!client.isWating()){

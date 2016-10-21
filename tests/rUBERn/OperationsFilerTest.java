@@ -10,7 +10,8 @@ import rUBERn.Operations.PayOperation;
 public class OperationsFilerTest {
     @Test
     public void writeOperation() throws Exception {
-        Driver dan = new Driver("Dan");
+        Rubern rubern = new Rubern();
+        Driver dan = new Driver("Dan",rubern);
         Client clinton = new Client("Clinton");
         Journey journey = new Journey(clinton);
 

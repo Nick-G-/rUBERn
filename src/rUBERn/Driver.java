@@ -11,15 +11,19 @@ public class Driver extends Person {
     private Car car;
     private Status status;
     private Job currentJob;
-
-    public Driver(String name) {
+    Rubern rubern;
+    public Driver(String name, Rubern rubern) {
         super(name);
         this.car = new Car();
         status = new Offline(Driver.this);
+        this.rubern = rubern;
+
     }
-    public Driver(CreditCard creditCard, Location startingPoint, String name, Car car) {
+    public Driver(CreditCard creditCard, Location startingPoint, String name, Car car,Rubern rubern) {
         super(creditCard, startingPoint, name);
         this.car = car;
+        status = new Offline(Driver.this);
+        this.rubern = rubern;
     }
 
     public Driver(String name, Location startingPoint) {
@@ -66,5 +70,8 @@ public class Driver extends Person {
 
     public void setStatus(Status s){
         status = s;
+    }
+    public void addToSorter(){
+        rubern.addDriver(Driver.this);
     }
 }

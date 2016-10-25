@@ -5,11 +5,13 @@ package rUBERn.GUI;/**
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import rUBERn.Rubern;
 
 public class GUI extends Application {
     @Override
     public void start(Stage primaryStage) {
-        MainMenu main = new MainMenu(primaryStage);
+        Rubern ruben = new Rubern();
+        MainMenu main = new MainMenu(primaryStage, ruben);
         primaryStage.setTitle("rUBERn");
         primaryStage.setScene(main.getScene());
         primaryStage.show();

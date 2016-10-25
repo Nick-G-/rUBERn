@@ -9,14 +9,17 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import rUBERn.Rubern;
 
 /**
  * Created by facundo on 10/25/16.
  */
 public class MainMenu {
     private Stage primaryStage;
-    public MainMenu(Stage primaryStage){
+    private Rubern ruben;
+    public MainMenu(Stage primaryStage, Rubern ruben){
         this.primaryStage = primaryStage;
+        this.ruben = ruben;
     }
     public Scene getScene() {
         Text title = new Text("rUBERn");
@@ -30,17 +33,14 @@ public class MainMenu {
 
         Button driver = new Button();
         driver.setText("Driver Options");
-        driver.setOnAction(event -> primaryStage.setScene(new DriverMenu(primaryStage).getScene()));
-        driver.setAlignment(Pos.CENTER_LEFT);
+        driver.setOnAction(event -> primaryStage.setScene(new DriverMenu(primaryStage, ruben).getScene()));
         Button client = new Button();
 
         client.setText("Client Options");
-        client.setAlignment(Pos.CENTER);
-        client.setOnAction(event -> primaryStage.setScene(new ClientMenu(primaryStage).getScene()));
+        client.setOnAction(event -> primaryStage.setScene(new ClientMenu(primaryStage, ruben).getScene()));
 
         Button quit = new Button();
         quit.setText("Quit");
-        quit.setAlignment(Pos.CENTER_RIGHT);
         quit.setOnAction(event -> System.exit(0));
 
         mainMenu.add(title, 0, 0);
@@ -49,7 +49,7 @@ public class MainMenu {
         mainMenu.add(quit, 2, 1);
 
 
-        return new Scene(mainMenu, 600, 400);
+        return new Scene(mainMenu, 1200, 600);
 
     }
 }

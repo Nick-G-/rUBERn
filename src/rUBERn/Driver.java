@@ -30,11 +30,21 @@ public class Driver extends Person {
         super(name, startingPoint);
     }
 
-    public void goOnline() throws AlreadyInStatusException {
-        status.goOnline();
+    public void goOnline(){
+        try {
+            status.goOnline();
+        } catch (AlreadyInStatusException e) {
+            e.printStackTrace();
+        }
     }
-    public void goOffline() throws AlreadyInStatusException, InvalidStatusChangeException {
-        status.goOffline();
+    public void goOffline() {
+        try {
+            status.goOffline();
+        } catch (AlreadyInStatusException e) {
+            e.printStackTrace();
+        } catch (InvalidStatusChangeException e) {
+            e.printStackTrace();
+        }
     }
     public void goBusy() throws AlreadyInStatusException, InvalidStatusChangeException {
         status.goWorking();

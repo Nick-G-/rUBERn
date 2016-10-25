@@ -48,4 +48,5 @@ public abstract class Person implements Locatable {
     public void getOffCar(){
         currentLocation = new Location(getCurrentLocation());
     }
+    public String toString(){return name;}
 }

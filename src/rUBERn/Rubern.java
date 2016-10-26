@@ -28,7 +28,7 @@ public class Rubern {
     public void removeDriver(Driver driver){
         driverSorter.removeDriver(driver);
     }
-    public void processRequest(Client client, Location destination, int passengers) throws AlreadyInStatusException, InvalidStatusChangeException {
+    public void processRequest(Client client, Location destination, int passengers){
         if (!client.isWating()){
             Location origin = new Location(client.getCurrentLocation());
             Journey journey = new Journey(origin,destination,passengers);

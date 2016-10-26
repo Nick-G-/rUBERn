@@ -40,17 +40,19 @@ public class Driver extends Person {
     public void goOffline() {
         try {
             status.goOffline();
-        } catch (AlreadyInStatusException e) {
-            e.printStackTrace();
-        } catch (InvalidStatusChangeException e) {
+        } catch (AlreadyInStatusException | InvalidStatusChangeException e) {
             e.printStackTrace();
         }
     }
-    public void goBusy() throws AlreadyInStatusException, InvalidStatusChangeException {
-        status.goWorking();
+    public void goBusy() {
+        try {
+            status.goWorking();
+        } catch (InvalidStatusChangeException | AlreadyInStatusException e) {
+            e.printStackTrace();
+        }
     }
 
-    public boolean evaluateOffer(Journey journey, Client client) throws AlreadyInStatusException, InvalidStatusChangeException {
+    public boolean evaluateOffer(Journey journey, Client client){
             goBusy();
             doOffer(journey, client);
             return true;

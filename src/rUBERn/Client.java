@@ -14,12 +14,12 @@ public class Client extends Person {
         super(creditCard, startingPoint, name);
         pendingJourney = false;
     }
-    public void request(Location destination, int passengers, Rubern rubern) throws AlreadyInStatusException, InvalidStatusChangeException {
+    public void request(Location destination, int passengers, Rubern rubern){
         rubern.processRequest(Client.this, destination,passengers);
         waitForDriver();
     }
 
-    public void request(Location destination, Rubern rubern) throws AlreadyInStatusException, InvalidStatusChangeException {
+    public void request(Location destination, Rubern rubern){
         request(destination, 1, rubern);
     }
 

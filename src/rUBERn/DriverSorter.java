@@ -41,7 +41,7 @@ public class DriverSorter {
         return bestDriver;
     }
 
-    public Driver findDriverForJourney(Journey journey, Client client) throws AlreadyInStatusException, InvalidStatusChangeException {
+    public Driver findDriverForJourney(Journey journey, Client client) {
         for (Driver driver : rankDrivers(journey)) {
             if (offerJourneyToDriver(journey, driver, client)) {
                 return driver;
@@ -58,7 +58,7 @@ public class DriverSorter {
         this.drivers.remove(driver);
     }
 
-    private boolean offerJourneyToDriver(Journey journey, Driver driver, Client client) throws AlreadyInStatusException, InvalidStatusChangeException {
+    private boolean offerJourneyToDriver(Journey journey, Driver driver, Client client) {
         return driver.evaluateOffer(journey, client);
     }
     public ArrayList<Driver> getDrivers(){

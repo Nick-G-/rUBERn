@@ -1,14 +1,20 @@
 package rUBERn.GUI;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import rUBERn.Client;
+import rUBERn.CreditCard;
+import rUBERn.Location;
 import rUBERn.Rubern;
 
 /**
@@ -17,11 +23,18 @@ import rUBERn.Rubern;
 public class ClientMenu {
     private Rubern ruben;
     private Stage primaryStage;
+    private ListView<Client> list;
+    private ObservableList<Client> clients;
     public ClientMenu(Stage primaryStage, Rubern ruben){
         this.primaryStage = primaryStage;
         this.ruben = ruben;
+        list = new ListView<>();
+        clients = FXCollections.observableArrayList();
     }
     public Scene getScene() {
+
+        list.setItems(clients);
+
         Text title = new Text("Client Options");
         title.setFont(Font.font("Arial", FontWeight.NORMAL, 20));
 
@@ -32,20 +45,22 @@ public class ClientMenu {
 
         Button add = new Button();
         add.setText("Add client");
-        add.setOnAction(event -> System.out.println("Metodo que vamos a implementar despeus"));
+        add.setOnAction(event -> primaryStage.setScene(new ClientAddMenu(primaryStage, clients, ruben,ClientMenu.this).getScene()));
 
         Button requestTrip = new Button();
         requestTrip.setText("Request trip");
-        requestTrip.setOnAction(event -> System.out.println("Metodo que arme el request (deberia saltar un popup con fields para llenar con los datos del trip)"));
+        requestTrip.setOnAction(event -> primaryStage.setScene(new ClientRequestMenu(primaryStage, list.getSelectionModel().getSelectedItem(), ruben, ClientMenu.this).getScene()));
 
         Button quit = new Button();
         quit.setText("Back");
         quit.setOnAction(event -> primaryStage.setScene(new MainMenu(primaryStage, ruben).getScene()));
 
+
         clientMenu.add(title, 0, 0);
-        clientMenu.add(add, 0, 1);
-        clientMenu.add(requestTrip, 1, 1);
-        clientMenu.add(quit, 2, 1);
+        clientMenu.add(list ,0 ,1);
+        clientMenu.add(add, 0, 2);
+        clientMenu.add(requestTrip, 1, 2);
+        clientMenu.add(quit, 2, 2);
 
 
         return new Scene(clientMenu, 1200, 600);

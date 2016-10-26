@@ -1,11 +1,9 @@
 package rUBERn.GUI;
 
-import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
 import javafx.scene.layout.GridPane;
@@ -13,7 +11,6 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import javafx.util.converter.FloatStringConverter;
 import javafx.util.converter.IntegerStringConverter;
 import javafx.util.converter.LongStringConverter;
 import rUBERn.*;
@@ -70,7 +67,7 @@ public class ClientAddMenu {
         clientAddMenu.add(title, 0, 0);
         clientAddMenu.add(add, 0, 1);
         clientAddMenu.add(warningText,2,2);
-        clientAddMenu.add(name ,1,0);
+        clientAddMenu.add(name,1,0);
         clientAddMenu.add(x,1,1);
         clientAddMenu.add(locationx,1,2);
         clientAddMenu.add(y,1,3);
@@ -78,12 +75,6 @@ public class ClientAddMenu {
 
         clientAddMenu.add(back, 2, 1);
         return new Scene(clientAddMenu, 1200, 600);
-    }
-    public void addDriver(Integer locationx, Integer locationy, String name, Integer capacity, String category){
-        ruben.addDriver(new Driver
-                (new CreditCard(),
-                 new Location(locationx, locationy), name,
-                 new Car(capacity, category), ruben ));
     }
 }
 

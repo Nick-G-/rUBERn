@@ -1,10 +1,11 @@
 package rUBERn.GUI;
 
-import com.sun.javafx.scene.control.skin.IntegerFieldSkin;
+import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
 import javafx.scene.layout.GridPane;
@@ -13,21 +14,17 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.converter.IntegerStringConverter;
+import javafx.util.converter.LongStringConverter;
 import rUBERn.*;
-
-import javax.swing.*;
-
 /**
  * Created by facundo on 10/25/16.
  */
 public class DriverAddMenu {
-    private ObservableList<Driver> list;
     private Stage primaryStage;
     private Rubern ruben;
 
-    public DriverAddMenu(Stage primaryStage, ObservableList<Driver> list, Rubern ruben){
+    public DriverAddMenu(Stage primaryStage, Rubern ruben){
         this.primaryStage = primaryStage;
-        this.list = list;
         this.ruben = ruben;
     }
     public Scene getScene(){
@@ -45,8 +42,10 @@ public class DriverAddMenu {
         x.setFont(Font.font("Arial", FontWeight.NORMAL, 10));
         Text capacityText = new Text("Car Capacity");
         capacityText.setFont(Font.font("Arial", FontWeight.NORMAL, 10));
+        Text warningText = new Text();
 
         TextField name = new TextField("Driver Name");
+
         TextField locationx = new TextField();
         final TextFormatter<Integer> formatter = new TextFormatter<>(new IntegerStringConverter());
         locationx.setTextFormatter(formatter);
@@ -56,11 +55,24 @@ public class DriverAddMenu {
         TextField capacity = new TextField();
         final TextFormatter<Integer> formatter3 = new TextFormatter<>(new IntegerStringConverter());
         capacity.setTextFormatter(formatter3);
-        TextField category = new TextField("Car category");
+
+        ListView<String> categoriesList = new ListView<>();
+        ObservableList<String> categories = FXCollections.observableArrayList();
+        categories.addAll("Normal", "Deluxe", "Berreta");
+        categoriesList.setItems(categories);
+
+        LongStringConverter converter = new LongStringConverter();
+
         Button add = new Button();
         add.setText("Add");
-        add.setOnAction(event -> ruben.addDriver(new Driver(new CreditCard(), new Location(Integer.parseInt(locationx.getText()), Integer.parseInt(locationy.getText())),name.getText(),
-                new Car(Integer.parseInt(capacity.getText()), category.getText()), ruben )));
+        add.setOnAction(event -> {
+            if (categoriesList.getSelectionModel().getSelectedItem() != null) {
+                if (!locationx.getText().equals("") & !locationy.getText().equals("") & !capacity.getText().equals("")) {
+                    addDriver(converter.fromString(locationx.getText()), converter.fromString(locationy.getText()), name.getText(), Integer.parseInt(capacity.getText()), categoriesList.getSelectionModel().getSelectedItem());
+                    warningText.setText("Driver added successfully");
+                }else warningText.setText("Please fill out all the fields before adding a driver");
+            }else warningText.setText("You must select a car category before adding a driver");
+        });
 
 
         Button back = new Button();
@@ -69,7 +81,7 @@ public class DriverAddMenu {
 
         driverAddMenu.add(title, 0, 0);
         driverAddMenu.add(add, 0, 1);
-
+        driverAddMenu.add(warningText,2,2);
         driverAddMenu.add(name ,1,0);
         driverAddMenu.add(x,1,1);
         driverAddMenu.add(locationx,1,2);
@@ -77,10 +89,16 @@ public class DriverAddMenu {
         driverAddMenu.add(locationy,1,4);
         driverAddMenu.add(capacityText,1,5);
         driverAddMenu.add(capacity ,1,6);
-        driverAddMenu.add(category ,1,7);
+        driverAddMenu.add(categoriesList ,1,7);
 
         driverAddMenu.add(back, 2, 1);
         return new Scene(driverAddMenu, 1200, 600);
+    }
+    public void addDriver(Long locationx, Long locationy, String name, Integer capacity, String category){
+        ruben.addDriver(new Driver
+                (new CreditCard(),
+                 new Location(locationx, locationy), name,
+                 new Car(capacity, category), ruben ));
     }
 }
 

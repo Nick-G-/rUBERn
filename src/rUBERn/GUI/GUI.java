@@ -3,7 +3,6 @@ package rUBERn.GUI;/**
  */
 
 import javafx.application.Application;
-import javafx.scene.Scene;
 import javafx.stage.Stage;
 import rUBERn.Rubern;
 

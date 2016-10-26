@@ -6,9 +6,6 @@ import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
-import javafx.scene.input.DragEvent;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
@@ -17,8 +14,6 @@ import javafx.stage.Stage;
 import rUBERn.Driver;
 import rUBERn.Rubern;
 import javafx.event.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
 
 /**
  * Created by facundo on 10/25/16.
@@ -43,7 +38,7 @@ public class DriverMenu{
         title.setFont(Font.font("Arial", FontWeight.NORMAL, 20));
 
         Text description = new Text("Driver Details");
-        EventHandler ev = list.getOnMouseClicked();
+        EventHandler onListClicked = list.getOnMouseClicked();
         list.setOnMouseClicked(mouseEvent -> description.setText(list.getSelectionModel().getSelectedItem().getName() +
                 "\n" + list.getSelectionModel().getSelectedItem().getStatus() +
                 "\n" + list.getSelectionModel().getSelectedItem().getCreditCardNumber()));
@@ -56,7 +51,7 @@ public class DriverMenu{
 
         Button add = new Button();
         add.setText("add Driver");
-        add.setOnAction(event -> primaryStage.setScene(new DriverAddMenu(primaryStage,drivers, ruben).getScene()));
+        add.setOnAction(event -> primaryStage.setScene(new DriverAddMenu(primaryStage, ruben).getScene()));
 
         Button toggleOnline = new Button();
         toggleOnline.setText("go online");
@@ -74,10 +69,10 @@ public class DriverMenu{
         driverMenu.add(title, 0, 0);
         driverMenu.add(list, 0, 1);
         driverMenu.add(description, 1, 1);
-        driverMenu.add(add, 2, 0);
-        driverMenu.add(toggleOnline, 2, 1);
+        driverMenu.add(add, 0, 2);
+        driverMenu.add(toggleOnline, 1, 2);
         driverMenu.add(toggleOffline, 2, 2);
-        driverMenu.add(quit, 2, 3);
+        driverMenu.add(quit, 3, 2);
         return new Scene(driverMenu, 1200, 600);
     }
 }

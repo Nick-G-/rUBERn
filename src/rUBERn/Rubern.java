@@ -2,6 +2,7 @@ package rUBERn;
 
 // Created by nico on 9/30/16.
 
+import javafx.collections.ObservableList;
 import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
 import java.util.ArrayList;
@@ -13,17 +14,22 @@ public class Rubern {
     private final int creditCardNumber = 100000;
     private MoneyCalculator calculator;
     private DriverSorter driverSorter;
+    private ArrayList<Client> clients;
     //private Logger log;
     public Rubern(){
         driverSorter = new DriverSorter();
       //  log = new Logger();
         calculator = new MoneyCalculator();
+        clients = new ArrayList<>();
     }
     public int getCreditCardNumber() {
         return creditCardNumber;
     }
     public void addDriver(Driver... drivers){
         driverSorter.addDriver(drivers);
+    }
+    public void addClient(Client client){
+        clients.add(client);
     }
     public void removeDriver(Driver driver){
         driverSorter.removeDriver(driver);
@@ -40,4 +46,9 @@ public class Rubern {
     public ArrayList<Driver> getDrivers(){
         return driverSorter.getDrivers();
     }
+
+    public ArrayList<Client> getClients() {
+        return clients;
+    }
+
 }

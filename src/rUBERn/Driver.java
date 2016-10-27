@@ -30,19 +30,11 @@ public class Driver extends Person {
         super(name, startingPoint);
     }
 
-    public void goOnline(){
-        try {
+    public void goOnline() throws AlreadyInStatusException {
             status.goOnline();
-        } catch (AlreadyInStatusException e) {
-            e.printStackTrace();
-        }
     }
-    public void goOffline() {
-        try {
+    public void goOffline() throws AlreadyInStatusException, InvalidStatusChangeException {
             status.goOffline();
-        } catch (AlreadyInStatusException | InvalidStatusChangeException e) {
-            e.printStackTrace();
-        }
     }
     public void goBusy() {
         try {
@@ -63,6 +55,11 @@ public class Driver extends Person {
         moveTo(journey.getDestination());
         client.getOffCar();
         client.arrived();
+        try {
+            status.goOnline();
+        } catch (AlreadyInStatusException e) {
+            e.printStackTrace();
+        }
     }
 
     public void finalizeJob() {

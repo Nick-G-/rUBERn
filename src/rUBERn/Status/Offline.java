@@ -15,7 +15,6 @@ public class Offline implements Status {
     @Override
     public void goOnline() {
         driver.setStatus(new Online(driver));
-        driver.addToSorter();
     }
 
     @Override

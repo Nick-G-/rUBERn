@@ -17,10 +17,10 @@ public class DriverSorter {
     }
 
     private ArrayList<Driver> rankDrivers(Journey journey) {
-        ArrayList<Driver> rankedDrivers = new ArrayList<Driver>();
-        ArrayList<Driver> possibleDrivers = new ArrayList<Driver>();
+        ArrayList<Driver> rankedDrivers = new ArrayList<>();
+        ArrayList<Driver> possibleDrivers = new ArrayList<>();
             for (int i=0; i<drivers.size(); i++){
-                if(drivers.get(i).getCar().getPassengerCapacity() >= journey.getPassengers())
+                if(drivers.get(i).getCar().getPassengerCapacity() >= journey.getPassengers() & drivers.get(i).getStatus().toString().equals("Online"))
                     possibleDrivers.add(drivers.get(i));
             }
             for (int i=0; i<possibleDrivers.size(); i++){

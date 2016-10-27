@@ -20,8 +20,8 @@ public class OperationFilerTest {
 
         Job job = new Job(dan, clinton, journey);
 
-        PayOperation payment = new PayOperation(job, 300);
-        ChargeOperation charge = new ChargeOperation(job, 300);
+        PayOperation payment = new PayOperation(job);
+        ChargeOperation charge = new ChargeOperation(job);
 
         assertEquals(true,payment.getFile().exists());
         assertEquals(true,charge.getFile().exists());

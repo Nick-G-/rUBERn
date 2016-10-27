@@ -17,8 +17,8 @@ public class OperationTest {
 
         Job job = new Job(dan, clinton, journey);
 
-        PayOperation payment = new PayOperation(job, 300);
-        ChargeOperation charge = new ChargeOperation(job, 300);
+        PayOperation payment = new PayOperation(job);
+        ChargeOperation charge = new ChargeOperation(job);
 
         System.out.println(payment.toArchiveFormat());
         System.out.println(charge.toArchiveFormat());

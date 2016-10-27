@@ -19,12 +19,10 @@ import rUBERn.*;
  * Created by facundo on 10/25/16.
  */
 public class ClientAddMenu {
-    private ObservableList<Client> list;
     private Stage primaryStage;
     private Rubern ruben;
     private ClientMenu previousMenu;
-    public ClientAddMenu(Stage primaryStage,ObservableList<Client> list, Rubern ruben, ClientMenu previousMenu){
-        this.list = list;
+    public ClientAddMenu(Stage primaryStage, Rubern ruben, ClientMenu previousMenu){
         this.primaryStage = primaryStage;
         this.ruben = ruben;
         this.previousMenu = previousMenu;
@@ -39,12 +37,13 @@ public class ClientAddMenu {
         clientAddMenu.setPadding(new Insets(25, 25, 25, 25));
 
         Text y = new Text("Location Y");
-        y.setFont(Font.font("Arial", FontWeight.NORMAL, 10));
+        y.setFont(Font.font("Arial", FontWeight.NORMAL, 14));
         Text x = new Text("Location X");
-        x.setFont(Font.font("Arial", FontWeight.NORMAL, 10));
+        x.setFont(Font.font("Arial", FontWeight.NORMAL, 14));
         Text warningText = new Text();
-
-        TextField name = new TextField("Client Name");
+        Text name = new Text("Client name");
+        name.setFont(Font.font("Arial", FontWeight.NORMAL, 14));
+        TextField nameField = new TextField();
 
         TextField locationx = new TextField();
         final TextFormatter<Integer> formatter = new TextFormatter<>(new IntegerStringConverter());
@@ -57,7 +56,12 @@ public class ClientAddMenu {
 
         Button add = new Button();
         add.setText("Add");
-        add.setOnAction(event -> list.add(new Client(new CreditCard(),new Location(converter.fromString(locationx.getText()), converter.fromString(locationy.getText())), name.getText())));
+        add.setOnAction(event -> {
+            if (!locationx.getText().equals("") & !nameField.getText().equals("") & !locationy.getText().equals("")){
+                ruben.addClient(new Client(new CreditCard(), new Location(converter.fromString(locationx.getText()), converter.fromString(locationy.getText())), name.getText()));
+                warningText.setText("Client added successfully");
+            } else warningText.setText("Please fill out all the fields before adding");
+        });
 
 
         Button back = new Button();
@@ -68,10 +72,11 @@ public class ClientAddMenu {
         clientAddMenu.add(add, 0, 1);
         clientAddMenu.add(warningText,2,2);
         clientAddMenu.add(name,1,0);
-        clientAddMenu.add(x,1,1);
-        clientAddMenu.add(locationx,1,2);
-        clientAddMenu.add(y,1,3);
-        clientAddMenu.add(locationy,1,4);
+        clientAddMenu.add(nameField,1,1);
+        clientAddMenu.add(x,1,2);
+        clientAddMenu.add(locationx,1,3);
+        clientAddMenu.add(y,1,4);
+        clientAddMenu.add(locationy,1,5);
 
         clientAddMenu.add(back, 2, 1);
         return new Scene(clientAddMenu, 1200, 600);

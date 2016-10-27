@@ -23,7 +23,7 @@ public class MainMenu {
     }
     public Scene getScene() {
         Text title = new Text("rUBERn");
-        title.setFont(Font.font("Arial", FontWeight.NORMAL, 20));
+        title.setFont(Font.font("System Regular", 20));
 
         GridPane mainMenu = new GridPane();
         mainMenu.setAlignment(Pos.CENTER);

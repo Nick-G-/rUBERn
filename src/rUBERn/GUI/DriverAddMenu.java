@@ -29,7 +29,7 @@ public class DriverAddMenu {
     }
     public Scene getScene(){
         Text title = new Text("Add a driver");
-        title.setFont(Font.font("Arial", FontWeight.NORMAL, 20));
+        title.setFont(Font.font("System Regular", 20));
 
         GridPane driverAddMenu = new GridPane();
         driverAddMenu.setHgap(20);
@@ -37,14 +37,15 @@ public class DriverAddMenu {
         driverAddMenu.setPadding(new Insets(25, 25, 25, 25));
 
         Text y = new Text("Location Y");
-        y.setFont(Font.font("Arial", FontWeight.NORMAL, 10));
+        y.setFont(Font.font("System Regular", 14));
         Text x = new Text("Location X");
-        x.setFont(Font.font("Arial", FontWeight.NORMAL, 10));
+        x.setFont(Font.font("System Regular", 14));
         Text capacityText = new Text("Car Capacity");
-        capacityText.setFont(Font.font("Arial", FontWeight.NORMAL, 10));
+        capacityText.setFont(Font.font("System Regular", 14));
         Text warningText = new Text();
-
-        TextField name = new TextField("Driver Name");
+        Text name = new Text("Driver name");
+        name.setFont(Font.font("System Regular", 14));
+        TextField nameField = new TextField("Driver Name");
 
         TextField locationx = new TextField();
         final TextFormatter<Integer> formatter = new TextFormatter<>(new IntegerStringConverter());
@@ -68,7 +69,7 @@ public class DriverAddMenu {
         add.setOnAction(event -> {
             if (categoriesList.getSelectionModel().getSelectedItem() != null) {
                 if (!locationx.getText().equals("") & !locationy.getText().equals("") & !capacity.getText().equals("")) {
-                    addDriver(converter.fromString(locationx.getText()), converter.fromString(locationy.getText()), name.getText(), Integer.parseInt(capacity.getText()), categoriesList.getSelectionModel().getSelectedItem());
+                    addDriver(converter.fromString(locationx.getText()), converter.fromString(locationy.getText()), nameField.getText(), Integer.parseInt(capacity.getText()), categoriesList.getSelectionModel().getSelectedItem());
                     warningText.setText("Driver added successfully");
                 }else warningText.setText("Please fill out all the fields before adding a driver");
             }else warningText.setText("You must select a car category before adding a driver");
@@ -83,13 +84,14 @@ public class DriverAddMenu {
         driverAddMenu.add(add, 0, 1);
         driverAddMenu.add(warningText,2,2);
         driverAddMenu.add(name ,1,0);
-        driverAddMenu.add(x,1,1);
-        driverAddMenu.add(locationx,1,2);
-        driverAddMenu.add(y,1,3);
-        driverAddMenu.add(locationy,1,4);
-        driverAddMenu.add(capacityText,1,5);
-        driverAddMenu.add(capacity ,1,6);
-        driverAddMenu.add(categoriesList ,1,7);
+        driverAddMenu.add(nameField ,1,1);
+        driverAddMenu.add(x,1,2);
+        driverAddMenu.add(locationx,1,3);
+        driverAddMenu.add(y,1,4);
+        driverAddMenu.add(locationy,1,5);
+        driverAddMenu.add(capacityText,1,6);
+        driverAddMenu.add(capacity ,1,7);
+        driverAddMenu.add(categoriesList ,1,8);
 
         driverAddMenu.add(back, 2, 1);
         return new Scene(driverAddMenu, 1200, 600);

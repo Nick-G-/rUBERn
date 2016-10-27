@@ -21,26 +21,18 @@ public class ClientMenu {
     private Rubern ruben;
     private Stage primaryStage;
     private ListView<Client> list;
-    private ObservableList<Client> clients;
     public ClientMenu(Stage primaryStage, Rubern ruben){
         this.primaryStage = primaryStage;
         this.ruben = ruben;
-        list = new ListView<>();
-        clients = FXCollections.observableArrayList();
-    }
-    public ClientMenu(Stage primaryStage, Rubern ruben, ObservableList<Client> clients){
-        this.primaryStage = primaryStage;
-        this.ruben = ruben;
-        list = new ListView<>();
-        this.clients = clients;
     }
     public Scene getScene() {
-
+        list = new ListView<>();
+        ObservableList<Client> clients = FXCollections.observableArrayList();
+        clients.addAll(ruben.getClients());
         list.setItems(clients);
 
         Text title = new Text("Client Options");
-        title.setFont(Font.font("Arial", FontWeight.NORMAL, 20));
-
+        title.setFont(Font.font("System Regular", 20));
         Text warningText = new Text();
         GridPane clientMenu = new GridPane();
         clientMenu.setHgap(100);
@@ -48,8 +40,9 @@ public class ClientMenu {
         clientMenu.setPadding(new Insets(25, 25, 25, 25));
 
         Button add = new Button();
+
         add.setText("Add client");
-        add.setOnAction(event -> primaryStage.setScene(new ClientAddMenu(primaryStage, clients, ruben,ClientMenu.this).getScene()));
+        add.setOnAction(event -> primaryStage.setScene(new ClientAddMenu(primaryStage, ruben,ClientMenu.this).getScene()));
 
         Button requestTrip = new Button();
         requestTrip.setText("Request trip");

@@ -34,7 +34,7 @@ public class ClientRequestMenu {
     }
     public Scene getScene(){
         Text title = new Text("Request Trip");
-        title.setFont(Font.font("Arial", FontWeight.NORMAL, 20));
+        title.setFont(Font.font("System Regular", 20));
 
         GridPane clientAddMenu = new GridPane();
         clientAddMenu.setHgap(20);
@@ -42,9 +42,9 @@ public class ClientRequestMenu {
         clientAddMenu.setPadding(new Insets(25, 25, 25, 25));
 
         Text y = new Text("Location Y");
-        y.setFont(Font.font("Arial", FontWeight.NORMAL, 10));
+        y.setFont(Font.font("System Regular", 10));
         Text x = new Text("Location X");
-        x.setFont(Font.font("Arial", FontWeight.NORMAL, 10));
+        x.setFont(Font.font("System Regular", 10));
         Text warningText = new Text();
 
         TextField locationx = new TextField();

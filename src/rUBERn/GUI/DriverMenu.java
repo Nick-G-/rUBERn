@@ -12,9 +12,9 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import rUBERn.Driver;
+import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
 import rUBERn.Rubern;
-import javafx.event.*;
 
 /**
  * Created by facundo on 10/25/16.
@@ -23,9 +23,11 @@ public class DriverMenu{
     private Stage primaryStage;
     private Rubern ruben;
     private ListView<Driver> list;
+    private Text description;
     public DriverMenu(Stage primaryStage, Rubern ruben){
         this.primaryStage = primaryStage;
         this.ruben = ruben;
+       this.description = new Text("Driver Details");
 
     }
     public Scene getScene() {
@@ -36,14 +38,9 @@ public class DriverMenu{
             list.setItems(drivers);
         Text warningText = new Text();
         Text title = new Text("Driver Options");
-        title.setFont(Font.font("Arial", FontWeight.NORMAL, 20));
+        title.setFont(Font.font("System Regular", 20));
 
-        Text description = new Text("Driver Details");
-        EventHandler onListClicked = list.getOnMouseClicked();
-        list.setOnMouseClicked(mouseEvent -> description.setText(list.getSelectionModel().getSelectedItem().getName() +
-                "\n" + list.getSelectionModel().getSelectedItem().getStatus() +
-                "\n" + list.getSelectionModel().getSelectedItem().getCreditCardNumber()));
-
+        list.setOnMouseClicked(mouseEvent -> updateDescription());
 
         GridPane driverMenu = new GridPane();
         driverMenu.setHgap(100);
@@ -61,9 +58,10 @@ public class DriverMenu{
                 if (list.getSelectionModel().getSelectedItem() != null) {
                     list.getSelectionModel().getSelectedItem().goOnline();
                 } else warningText.setText("Please select a driver");
-            }catch (InvalidStatusChangeException e) {
-                warningText.setText("Driver Aleready online or offline");
+            }catch (AlreadyInStatusException e) {
+                warningText.setText("Driver already online or offline");
             }
+            updateDescription();
         });
 
         Button toggleOffline = new Button();
@@ -73,9 +71,10 @@ public class DriverMenu{
                 if (list.getSelectionModel().getSelectedItem() != null) {
                     list.getSelectionModel().getSelectedItem().goOffline();
                 } else warningText.setText("Please select a driver");
-            }catch (InvalidStatusChangeException e) {
-                warningText.setText("Driver Already online or offline");
+            }catch (InvalidStatusChangeException | AlreadyInStatusException e) {
+                warningText.setText("Driver already online or offline");
             }
+            updateDescription();
         });
 
         Button quit = new Button();
@@ -92,5 +91,10 @@ public class DriverMenu{
         driverMenu.add(toggleOffline, 2, 2);
         driverMenu.add(quit, 3, 2);
         return new Scene(driverMenu, 1200, 600);
+    }
+    public void updateDescription(){
+        description.setText(list.getSelectionModel().getSelectedItem().getName() +
+                "\n" + list.getSelectionModel().getSelectedItem().getStatus() +
+                "\n" + list.getSelectionModel().getSelectedItem().getCreditCardNumber());
     }
 }

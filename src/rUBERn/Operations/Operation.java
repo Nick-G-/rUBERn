@@ -4,6 +4,8 @@ package rUBERn.Operations;
 
 //import java.io.IOException;
 
+import rUBERn.Job;
+
 import java.io.File;
 import java.time.*;
 import java.time.format.DateTimeFormatter;
@@ -17,7 +19,7 @@ public abstract class Operation {
     private OperationFiler operationFiler = new OperationFiler();
     private String operationData;
 
-    public Operation(rUBERn.Job job, double amount) {
+    public Operation(Job job, double amount) {
         this.id = UUID.randomUUID();
         this.instant = Instant.now();
         this.job = job;

@@ -2,8 +2,8 @@ package rUBERn.Operations;
 import rUBERn.Job;
 
 public class PayOperation extends Operation{
-    public PayOperation(Job job, double amount) {
-        super(job, amount);
+    public PayOperation(Job job) {
+        super(job, 15 + (job.getJourney().getDistance()* 0.1)*0.9);
     }
 
     @Override

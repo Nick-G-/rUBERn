@@ -5,8 +5,8 @@ import rUBERn.Job;
 
 public class ChargeOperation extends Operation{
 
-    public ChargeOperation(Job job, double amount) {
-        super(job, amount);
+    public ChargeOperation(Job job) {
+        super(job, 15 + job.getJourney().getDistance()* 0.1);
 
     }
 

@@ -39,6 +39,9 @@ public class MainMenu {
         client.setText("Client Options");
         client.setOnAction(event -> primaryStage.setScene(new ClientMenu(primaryStage, ruben).getScene()));
 
+        Button logs = new Button();
+        logs.setText("Logs");
+        logs.setOnAction(event -> primaryStage.setScene(new OperationsMenu(primaryStage).getScene()));
         Button quit = new Button();
         quit.setText("Quit");
         quit.setOnAction(event -> System.exit(0));
@@ -46,7 +49,8 @@ public class MainMenu {
         mainMenu.add(title, 0, 0);
         mainMenu.add(driver, 0, 1);
         mainMenu.add(client, 1, 1);
-        mainMenu.add(quit, 2, 1);
+        mainMenu.add(logs,2,1);
+        mainMenu.add(quit, 3, 1);
 
 
         return new Scene(mainMenu, 1200, 600);

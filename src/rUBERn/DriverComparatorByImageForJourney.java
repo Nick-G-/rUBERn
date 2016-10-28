@@ -22,9 +22,9 @@ public class DriverComparatorByImageForJourney implements Comparator<Driver> {
         double anotherDriverImage = anotherDriver.getCurrentLocation().distanceTo(journey.getOrigin()) * imageCostPerMeter * catalogue.evaluateCarImageCost(anotherDriver.getCar());
 
         if (aDriverImage < anotherDriverImage)
-            return 1;
-        if (aDriverImage > anotherDriverImage)
             return -1;
+        if (aDriverImage > anotherDriverImage)
+            return 1;
         return 0;
 
     }

@@ -12,7 +12,7 @@ public class Driver extends Person {
     private Car car;
     private Status status;
     private Job currentJob;
-    Rubern rubern;
+    private Rubern rubern;
     public Driver(String name, Rubern rubern) {
         super(name);
         this.car = new Car();
@@ -74,7 +74,7 @@ public class Driver extends Person {
     }
 
     public boolean canTakeJob(Journey journey) {
-        return (status.isAvailableForJob() && journey.getPassengers() <= car.getPassengerCapacity());
+        return (status.isAvailableForJob() & journey.getPassengers() <= car.getPassengerCapacity());
     }
 
     public Car getCar() {

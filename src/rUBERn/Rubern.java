@@ -2,6 +2,9 @@ package rUBERn;
 
 // Created by nico on 9/30/16.
 
+import rUBERn.Operations.ChargeOperation;
+import rUBERn.Operations.PayOperation;
+
 import java.util.ArrayList;
 
 public class Rubern {
@@ -36,8 +39,8 @@ public class Rubern {
             Location origin = new Location(client.getCurrentLocation());
             Journey journey = new Journey(origin,destination,passengers);
             Job job = new Job(driverAgent.findDriverForJourney(journey,client),client,journey);
-            //log.log(new ChargeOperation(job, calculator.calculateCharge(job)));
-            //log.log(new PayOperation(job, calculator.calculatePay(job)));
+            PayOperation payment = new PayOperation(job);
+            ChargeOperation charge = new ChargeOperation(job);
         }
     }
     public ArrayList<Driver> getDrivers(){
@@ -49,5 +52,6 @@ public class Rubern {
     public ArrayList<Client> getClients() {
         return clients;
     }
+
 
 }

@@ -15,11 +15,10 @@ public class DriverAgent {
     }
 
     private ArrayList<Driver> rankDrivers(Journey journey) {
-        ArrayList<Driver> rankedDrivers = new ArrayList<>();
         ArrayList<Driver> possibleDrivers = new ArrayList<>();
 
             for (Driver driver : drivers){
-                if(driver.canTakeJob(journey));
+                if(driver.canTakeJob(journey))
                     possibleDrivers.add(driver);
             }
 

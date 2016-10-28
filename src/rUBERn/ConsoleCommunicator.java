@@ -91,7 +91,7 @@ public class ConsoleCommunicator {
                             break;
                     case 3:
                         System.out.println("Elige un chofer");
-                        ArrayList<Driver> drivers = ruben.getDrivers();
+                        ArrayList<Driver> drivers = ruben.getDriverAgent().getDrivers();
                         for (int i = 0; i < drivers.size(); i++)
                             System.out.println(i + ". " + drivers.get(i).getName());
                         int driverNumber = scanner.nextInt();

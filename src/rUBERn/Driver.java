@@ -1,5 +1,6 @@
 package rUBERn;// Created by nico on 9/30/16.
 
+import javafx.geometry.Point2D;
 import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
 import rUBERn.Status.Offline;
@@ -45,9 +46,12 @@ public class Driver extends Person {
     }
 
     public boolean evaluateOffer(Journey journey, Client client){
+        if (true) {
             goBusy();
             doOffer(journey, client);
             return true;
+        }
+        return false;
     }
     private void doOffer(Journey journey, Client client){
         moveTo(journey.getOrigin());
@@ -69,10 +73,13 @@ public class Driver extends Person {
         return Duration.ofSeconds((long)(this.getCurrentLocation().distanceTo(location) / car.getSpeed()));
     }
 
+    public boolean canTakeJob(Journey journey) {
+        return (status.isAvailableForJob() && journey.getPassengers() <= car.getPassengerCapacity());
+    }
+
     public Car getCar() {
         return car;
     }
-
     public Status getStatus() {
         return status;
     }

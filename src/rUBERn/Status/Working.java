@@ -26,6 +26,12 @@ public class Working implements Status {
     public void goWorking() throws AlreadyInStatusException {
     throw new AlreadyInStatusException();
     }
+
+    @Override
+    public boolean isAvailableForJob() {
+        return false;
+    }
+
     public String toString(){
         return "Working";
     }

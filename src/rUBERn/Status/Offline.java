@@ -26,6 +26,12 @@ public class Offline implements Status {
     public void goWorking() throws InvalidStatusChangeException {
     throw new InvalidStatusChangeException();
     }
+
+    @Override
+    public boolean isAvailableForJob() {
+        return false;
+    }
+
     public String toString(){
         return "Offline";
     }

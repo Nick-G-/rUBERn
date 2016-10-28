@@ -8,38 +8,24 @@ import rUBERn.Exceptions.InvalidStatusChangeException;
 
 import java.util.ArrayList;
 
-public class DriverSorter {
+public class DriverAgent {
     private ArrayList<Driver> drivers;
-    private ImageCalculator imageCalculator;
-    public DriverSorter(){
-        this.imageCalculator = new ImageCalculator();
+    public DriverAgent(){
         drivers = new ArrayList<>();
     }
 
     private ArrayList<Driver> rankDrivers(Journey journey) {
         ArrayList<Driver> rankedDrivers = new ArrayList<>();
         ArrayList<Driver> possibleDrivers = new ArrayList<>();
-            for (int i=0; i<drivers.size(); i++){
-                if(drivers.get(i).getCar().getPassengerCapacity() >= journey.getPassengers() & drivers.get(i).getStatus().toString().equals("Online"))
-                    possibleDrivers.add(drivers.get(i));
-            }
-            for (int i=0; i<possibleDrivers.size(); i++){
-                Driver bestDriver = bestDriver(journey,possibleDrivers);
-                rankedDrivers.add(bestDriver);
-                possibleDrivers.remove(possibleDrivers.indexOf(bestDriver));
-            }
-            return rankedDrivers;
-        }
 
-    private Driver bestDriver(Journey journey, ArrayList<Driver> driversList){
-        Driver bestDriver = driversList.get(0);
-        for (int i=0; i<driversList.size(); i++){
-            if(imageCalculator.calculateImageCost(bestDriver,journey)>imageCalculator.calculateImageCost(driversList.get(i),journey)){
-                bestDriver = driversList.get(i);
+            for (Driver driver : drivers){
+                if(driver.canTakeJob(journey));
+                    possibleDrivers.add(driver);
             }
+
+            possibleDrivers.sort(new DriverComparatorByImageForJourney(journey));
+            return possibleDrivers;
         }
-        return bestDriver;
-    }
 
     public Driver findDriverForJourney(Journey journey, Client client) {
         for (Driver driver : rankDrivers(journey)) {

@@ -2,9 +2,6 @@ package rUBERn;
 
 // Created by nico on 9/30/16.
 
-import javafx.collections.ObservableList;
-import rUBERn.Exceptions.AlreadyInStatusException;
-import rUBERn.Exceptions.InvalidStatusChangeException;
 import java.util.ArrayList;
 
 public class Rubern {
@@ -13,11 +10,11 @@ public class Rubern {
     private final float costPerBlock = 1;
     private final int creditCardNumber = 100000;
     private MoneyCalculator calculator;
-    private DriverSorter driverSorter;
+    private DriverAgent driverAgent;
     private ArrayList<Client> clients;
     //private Logger log;
     public Rubern(){
-        driverSorter = new DriverSorter();
+        driverAgent = new DriverAgent();
       //  log = new Logger();
         calculator = new MoneyCalculator();
         clients = new ArrayList<>();
@@ -26,27 +23,29 @@ public class Rubern {
         return creditCardNumber;
     }
     public void addDriver(Driver... drivers){
-        driverSorter.addDriver(drivers);
+        driverAgent.addDriver(drivers);
     }
     public void addClient(Client client){
         clients.add(client);
     }
     public void removeDriver(Driver driver){
-        driverSorter.removeDriver(driver);
+        driverAgent.removeDriver(driver);
     }
     public void processRequest(Client client, Location destination, int passengers){
         if (!client.isWating()){
             Location origin = new Location(client.getCurrentLocation());
             Journey journey = new Journey(origin,destination,passengers);
-            Job job = new Job(driverSorter.findDriverForJourney(journey,client),client,journey);
+            Job job = new Job(driverAgent.findDriverForJourney(journey,client),client,journey);
             //log.log(new ChargeOperation(job, calculator.calculateCharge(job)));
             //log.log(new PayOperation(job, calculator.calculatePay(job)));
         }
     }
     public ArrayList<Driver> getDrivers(){
-        return driverSorter.getDrivers();
+        return driverAgent.getDrivers();
     }
-
+    public DriverAgent getDriverAgent() {
+        return driverAgent;
+    }
     public ArrayList<Client> getClients() {
         return clients;
     }

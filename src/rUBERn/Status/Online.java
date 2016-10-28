@@ -25,6 +25,12 @@ public class Online implements Status {
     public void goWorking() {
         driver.setStatus(new Working(driver));
     }
+
+    @Override
+    public boolean isAvailableForJob() {
+        return true;
+    }
+
     public String toString(){
         return "Online";
     }

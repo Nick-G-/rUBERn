@@ -19,8 +19,10 @@ import java.util.ArrayList;
  */
 public class OperationsMenu {
     private Stage primaryStage;
-    public OperationsMenu(Stage primaryStage){
+    private MainMenu mainMenu;
+    public OperationsMenu(Stage primaryStage, MainMenu mainMenu){
         this.primaryStage = primaryStage;
+        this.mainMenu = mainMenu;
     }
     public Scene getScene(){
         GridPane gp = new GridPane();
@@ -31,6 +33,7 @@ public class OperationsMenu {
         gp.add(pane,0,0);
         Button back = new Button();
         back.setText("Back");
+        back.setOnAction(event -> primaryStage.setScene(mainMenu.getScene()));
         gp.add(back, 0,1);
         File file = new File("Operations.txt");
         String fileAsString = null;

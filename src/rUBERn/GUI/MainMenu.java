@@ -41,7 +41,7 @@ public class MainMenu {
 
         Button logs = new Button();
         logs.setText("Logs");
-        logs.setOnAction(event -> primaryStage.setScene(new OperationsMenu(primaryStage).getScene()));
+        logs.setOnAction(event -> primaryStage.setScene(new OperationsMenu(primaryStage,MainMenu.this).getScene()));
         Button quit = new Button();
         quit.setText("Quit");
         quit.setOnAction(event -> System.exit(0));

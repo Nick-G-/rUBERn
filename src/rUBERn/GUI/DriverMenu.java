@@ -24,10 +24,12 @@ public class DriverMenu{
     private Rubern ruben;
     private ListView<Driver> list;
     private Text description;
+    private Text warningText;
     public DriverMenu(Stage primaryStage, Rubern ruben){
         this.primaryStage = primaryStage;
         this.ruben = ruben;
        this.description = new Text("Driver Details");
+        warningText = new Text();
 
     }
     public Scene getScene() {
@@ -36,7 +38,6 @@ public class DriverMenu{
         drivers.addAll(ruben.getDrivers());
         if (list.getItems().isEmpty())
             list.setItems(drivers);
-        Text warningText = new Text();
         Text title = new Text("Driver Options");
         title.setFont(Font.font("System Regular", 20));
 
@@ -59,7 +60,7 @@ public class DriverMenu{
                     list.getSelectionModel().getSelectedItem().goOnline();
                 } else warningText.setText("Please select a driver");
             }catch (AlreadyInStatusException e) {
-                warningText.setText("Driver already online or offline");
+                warningText.setText("Driver already online");
             }
             updateDescription();
         });
@@ -72,7 +73,7 @@ public class DriverMenu{
                     list.getSelectionModel().getSelectedItem().goOffline();
                 } else warningText.setText("Please select a driver");
             }catch (InvalidStatusChangeException | AlreadyInStatusException e) {
-                warningText.setText("Driver already online or offline");
+                warningText.setText("Driver already offline");
             }
             updateDescription();
         });
@@ -93,8 +94,12 @@ public class DriverMenu{
         return new Scene(driverMenu, 1200, 600);
     }
     public void updateDescription(){
-        description.setText(list.getSelectionModel().getSelectedItem().getName() +
-                "\n" + list.getSelectionModel().getSelectedItem().getStatus() +
-                "\n" + list.getSelectionModel().getSelectedItem().getCreditCardNumber());
-    }
+        try {
+            description.setText(list.getSelectionModel().getSelectedItem().getName() +
+                    "\n" + list.getSelectionModel().getSelectedItem().getStatus() +
+                    "\n" + list.getSelectionModel().getSelectedItem().getCreditCardNumber());
+        }catch (NullPointerException e){
+            warningText.setText("Please select a driver");
+        }
+        }
 }

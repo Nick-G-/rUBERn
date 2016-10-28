@@ -58,7 +58,7 @@ public class ClientAddMenu {
         add.setText("Add");
         add.setOnAction(event -> {
             if (!locationx.getText().equals("") & !nameField.getText().equals("") & !locationy.getText().equals("")){
-                ruben.addClient(new Client(new CreditCard(), new Location(converter.fromString(locationx.getText()), converter.fromString(locationy.getText())), name.getText()));
+                ruben.addClient(new Client(new CreditCard(), new Location(converter.fromString(locationx.getText()), converter.fromString(locationy.getText())), nameField.getText()));
                 warningText.setText("Client added successfully");
             } else warningText.setText("Please fill out all the fields before adding");
         });

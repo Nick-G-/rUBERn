@@ -13,6 +13,8 @@ public class Driver extends Person {
     private Status status;
     private Job currentJob;
     private Rubern rubern;
+    private boolean clientIsOnCar;
+    private Location currentDestination;
     public Driver(String name, Rubern rubern) {
         super(name);
         this.car = new Car();
@@ -27,8 +29,9 @@ public class Driver extends Person {
         this.rubern = rubern;
     }
 
-    public Driver(String name, Location startingPoint) {
+    public Driver(String name, Location startingPoint, Rubern rubern) {
         super(name, startingPoint);
+        this.rubern = rubern;
     }
 
     public void goOnline() throws AlreadyInStatusException {
@@ -48,7 +51,6 @@ public class Driver extends Person {
     public boolean evaluateOffer(Journey journey, Client client){
         if (true) {
             goBusy();
-            doOffer(journey, client);
             return true;
         }
         return false;
@@ -64,6 +66,25 @@ public class Driver extends Person {
         } catch (AlreadyInStatusException e) {
             e.printStackTrace();
         }
+    }
+
+    public void work(int delta) {
+        Location pickup = currentJob.getJourney().getOrigin();
+        Location destination = currentJob.getJourney().getDestination();
+        float moveSpeed = (float) car.getSpeed() * delta / 100;
+
+        currentLocation.moveDistanceInAngle(moveSpeed, currentLocation.angleTo(currentDestination));
+
+        if (currentLocation.isInRangeOf(pickup, 2)) {
+            currentJob.getClient().getOnCar(this);
+            currentDestination = destination;
+            clientIsOnCar = true;
+        }
+    }
+
+    public void assignJob(Job job) {
+        this.currentJob = job;
+        this.currentDestination = job.getJourney().getOrigin();
     }
 
     public void finalizeJob() {
@@ -83,11 +104,17 @@ public class Driver extends Person {
     public Status getStatus() {
         return status;
     }
-
+    public Location getCurrentDestination() {
+        return currentDestination;
+    }
     public void setStatus(Status s){
         status = s;
     }
     public void addToSorter(){
         rubern.addDriver(Driver.this);
     }
+    public void turnTo(Location location) {
+
+    }
+
 }

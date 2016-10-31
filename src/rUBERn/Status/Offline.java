@@ -32,6 +32,16 @@ public class Offline implements Status {
         return false;
     }
 
+    @Override
+    public boolean isWorking() {
+        return false;
+    }
+
+    @Override
+    public boolean isOnline() {
+        return false;
+    }
+
     public String toString(){
         return "Offline";
     }

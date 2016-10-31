@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="natives-linux">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="jar://$PROJECT_DIR$/../../../../lib/slick/lib/natives-linux.jar!/" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

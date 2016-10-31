@@ -1,5 +1,6 @@
 package rUBERn;
 
+import org.junit.Assert;
 import org.junit.Test;
 import rUBERn.Operations.ChargeOperation;
 import rUBERn.Operations.PayOperation;
@@ -22,7 +23,6 @@ public class OperationTest {
 
         System.out.println(payment.toArchiveFormat());
         System.out.println(charge.toArchiveFormat());
-
 
     }
 

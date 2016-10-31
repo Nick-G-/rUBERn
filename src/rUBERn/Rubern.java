@@ -15,6 +15,7 @@ public class Rubern {
     private MoneyCalculator calculator;
     private DriverAgent driverAgent;
     private ArrayList<Client> clients;
+
     //private Logger log;
     public Rubern(){
         driverAgent = new DriverAgent();
@@ -22,9 +23,7 @@ public class Rubern {
         calculator = new MoneyCalculator();
         clients = new ArrayList<>();
     }
-    public int getCreditCardNumber() {
-        return creditCardNumber;
-    }
+
     public void addDriver(Driver... drivers){
         driverAgent.addDriver(drivers);
     }
@@ -35,10 +34,14 @@ public class Rubern {
         driverAgent.removeDriver(driver);
     }
     public void processRequest(Client client, Location destination, int passengers){
-        if (!client.isWating()){
+        if (!client.isWaiting()){
             Location origin = new Location(client.getCurrentLocation());
             Journey journey = new Journey(origin,destination,passengers);
-            Job job = new Job(driverAgent.findDriverForJourney(journey,client),client,journey);
+
+            Driver driver = driverAgent.findDriverForJourney(journey,client);
+            Job job = new Job(driver,client,journey);
+            driver.assignJob(job);
+
             PayOperation payment = new PayOperation(job);
             ChargeOperation charge = new ChargeOperation(job);
         }
@@ -51,6 +54,9 @@ public class Rubern {
     }
     public ArrayList<Client> getClients() {
         return clients;
+    }
+    public int getCreditCardNumber() {
+        return creditCardNumber;
     }
 
 

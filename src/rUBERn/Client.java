@@ -10,6 +10,9 @@ public class Client extends Person {
         super(name);
         pendingJourney = false;
     }
+    public Client(String name, Location startingLocation) {
+        super(name, startingLocation);
+    }
     public Client(CreditCard creditCard, Location startingPoint, String name) {
         super(creditCard, startingPoint, name);
         pendingJourney = false;
@@ -24,9 +27,9 @@ public class Client extends Person {
     }
 
     public void waitForDriver() {
-    pendingJourney = true;
+        pendingJourney = true;
     }
-    public boolean isWating(){
+    public boolean isWaiting(){
     return pendingJourney;
     }
     public void arrived(){

@@ -32,6 +32,16 @@ public class Working implements Status {
         return false;
     }
 
+    @Override
+    public boolean isWorking() {
+        return true;
+    }
+
+    @Override
+    public boolean isOnline() {
+        return true;
+    }
+
     public String toString(){
         return "Working";
     }

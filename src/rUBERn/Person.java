@@ -2,9 +2,12 @@ package rUBERn;
 
 // Created by nico on 9/30/16.
 
+import javafx.geometry.Point2D;
+import org.newdawn.slick.geom.Vector2f;
+
 public abstract class Person implements Locatable {
     private CreditCard creditCard;
-    private Location currentLocation;
+    protected Location currentLocation;
     private String name;
 
     public Person(String name) {
@@ -35,6 +38,9 @@ public abstract class Person implements Locatable {
 
     public Location getCurrentLocation() {
         return currentLocation;
+    }
+    public Vector2f getCurrentLocationAsVector2f() {
+        return currentLocation.toVector2f();
     }
     public int getCreditCardNumber() {
         return creditCard.getId();

@@ -11,5 +11,7 @@ public interface Status {
     void goOffline() throws AlreadyInStatusException, InvalidStatusChangeException;
     void goWorking() throws InvalidStatusChangeException, AlreadyInStatusException;
     boolean isAvailableForJob();
+    boolean isWorking();
+    boolean isOnline();
     String toString();
 }

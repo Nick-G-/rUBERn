@@ -1,13 +1,14 @@
 package rUBERn;
 
 // Created by nico on 9/30/16.
-import java.time.*;
-import java.util.Random;
+import javafx.geometry.Point2D;
+import org.newdawn.slick.geom.Vector2f;
+
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Location {
-    private long x;
-    private long y;
+    private float x;
+    private float y;
 
     public Location() {
         this.x = ThreadLocalRandom.current().nextLong(1000);
@@ -25,8 +26,8 @@ public class Location {
         return applyPythagoras(this, otherLocation);
     }
     public double angleTo(Location otherLocation) {
-        long adj = otherLocation.x - this.x;
-        long opp = otherLocation.y - this.y;
+        float adj = otherLocation.x - this.x;
+        float opp = otherLocation.y - this.y;
 
         double hyp = distanceTo(otherLocation);
 
@@ -41,20 +42,31 @@ public class Location {
     public String toString() {
         return "(" + x + ", " + y + ")";
     }
+    public Vector2f toVector2f() {
+        return new Vector2f(x,y);
+    }
 
-    public void moveX(long x) {
+    public void moveX(float x) {
         this.x += x;
     }
 
-    public void moveY(long y) {
+    public boolean isInRangeOf(Location other, double range) {
+        if (this.distanceTo(other) <= range)
+            return true;
+        return false;
+    }
+    public void moveY(float y) {
         this.y += y;
     }
-
-    public long getX() {
-        return x;
+    public void moveDistanceInAngle(float distance, double angle) {
+        moveX(distance*((float)Math.cos(angle)));
+        moveY(distance*((float)Math.sin(angle)));
     }
 
-    public long getY() {
+    public float getX() {
+        return x;
+    }
+    public float getY() {
         return y;
     }
 }

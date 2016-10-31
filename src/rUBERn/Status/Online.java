@@ -31,6 +31,16 @@ public class Online implements Status {
         return true;
     }
 
+    @Override
+    public boolean isWorking() {
+        return false;
+    }
+
+    @Override
+    public boolean isOnline() {
+        return true;
+    }
+
     public String toString(){
         return "Online";
     }

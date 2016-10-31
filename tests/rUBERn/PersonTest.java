@@ -13,7 +13,7 @@ public class PersonTest {
         double tau = Math.PI*2;
 
         Location origin = new Location(0,0);
-        Driver dan = new Driver("Dan", origin);
+        Driver dan = new Driver("Dan", origin, new Rubern());
                                             // starts in origin
         dan.move(0, 5);                     // move 5m right
         assertLocatableIsAt(dan, 5, 0);     // should be at (5,0)
@@ -25,8 +25,8 @@ public class PersonTest {
         assertLocatableIsAt(dan, 0, 0); // should be at (0,0)
     }
     private void assertLocatableIsAt(Locatable locatable, long coordX, long coordY) {
-        long locatableCurrentX = locatable.getCurrentLocation().getX();
-        long locatableCurrentY = locatable.getCurrentLocation().getY();
+        float locatableCurrentX = locatable.getCurrentLocation().getX();
+        float locatableCurrentY = locatable.getCurrentLocation().getY();
 
         assertEquals(coordX, locatableCurrentX, 0.1);
         assertEquals(coordY, locatableCurrentY, 0.1);

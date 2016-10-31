@@ -7,16 +7,23 @@ import rUBERn.Exceptions.DriverNotFoundException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class DriverAgent {
     private ArrayList<Driver> drivers;
+    private ArrayList<Driver> driversWorking;
     public DriverAgent(){
         drivers = new ArrayList<>();
+        driversWorking = new ArrayList<>();
+    }
+
+    interface DriverComparatorByImage {
+        void compare();
+        void dada();
     }
 
     private ArrayList<Driver> rankDrivers(Journey journey) {
         ArrayList<Driver> possibleDrivers = new ArrayList<>();
-
             for (Driver driver : drivers){
                 if(driver.canTakeJob(journey))
                     possibleDrivers.add(driver);
@@ -28,7 +35,7 @@ public class DriverAgent {
 
     public Driver findDriverForJourney(Journey journey, Client client) {
         for (Driver driver : rankDrivers(journey)) {
-            if (offerJourneyToDriver(journey, driver, client)) {
+            if (offerJourneyToDriver(journey, driver,client)) {
                 return driver;
             }
         }
@@ -44,9 +51,16 @@ public class DriverAgent {
     }
 
     private boolean offerJourneyToDriver(Journey journey, Driver driver, Client client) {
-        return driver.evaluateOffer(journey, client);
+        boolean response = driver.evaluateOffer(journey, client);
+        if (response) {
+            driversWorking.add(driver);
+        }
+        return response;
     }
     public ArrayList<Driver> getDrivers(){
         return drivers;
+    }
+    public ArrayList<Driver> getDriversWorking() {
+        return driversWorking;
     }
 }

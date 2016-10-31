@@ -4,6 +4,8 @@ import org.junit.Test;
 import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 
@@ -58,5 +60,21 @@ public class DriverSelectionTest {
         assertEquals(client.getCurrentLocation().toString(), tito.getCurrentLocation().toString());
         assertNotEquals(client.getCurrentLocation().toString(), marcos.getCurrentLocation().toString());
         assertNotEquals(client.getCurrentLocation().toString(), ronaldo.getCurrentLocation().toString());
+    }
+
+    @Test
+    public void testSelectionByDistanceToClient() throws AlreadyInStatusException, InvalidStatusChangeException {
+        Rubern rubern = new Rubern();
+
+        Driver first = new Driver("first", new Location(0,5), rubern);
+        Driver second = new Driver("second", new Location(-5,-5), rubern);
+        Driver third = new Driver("third", new Location(15,0), rubern);
+
+        first.goOnline();
+
+        Client client = new Client("client", new Location(0,0));
+        Journey journey = new Journey(new Location(0,0), new Location(50,50), 0);
+
+        assertEquals(first, rubern.getDriverAgent().findDriverForJourney(journey, client));
     }
 }

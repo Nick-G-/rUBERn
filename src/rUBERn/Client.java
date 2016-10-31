@@ -19,6 +19,7 @@ public class Client extends Person {
     }
     public void request(Location destination, int passengers, Rubern rubern){
         rubern.processRequest(Client.this, destination,passengers);
+        currentDestination = new Location(destination);
         waitForDriver();
     }
 

@@ -8,6 +8,7 @@ import org.newdawn.slick.geom.Vector2f;
 public abstract class Person implements Locatable {
     private CreditCard creditCard;
     protected Location currentLocation;
+    protected Location currentDestination;
     private String name;
 
     public Person(String name) {
@@ -55,4 +56,7 @@ public abstract class Person implements Locatable {
         currentLocation = new Location(getCurrentLocation());
     }
     public String toString(){return name;}
+    public Location getCurrentDestination() {
+        return currentDestination;
+    }
 }

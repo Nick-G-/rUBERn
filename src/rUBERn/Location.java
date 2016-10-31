@@ -18,6 +18,10 @@ public class Location {
         this.x = location.getX();
         this.y = location.getY();
     }
+    public Location(Vector2f vector2f) {
+        this.x = vector2f.getX();
+        this.y = vector2f.getY();
+    }
     public Location(long x, long y){
         this.x = x;
         this.y = y;

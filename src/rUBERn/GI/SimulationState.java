@@ -23,6 +23,13 @@ public class SimulationState extends BasicGameState {
     private Vector2f menuBotPoint;
     private Circle menuBorder;
     private Line menuSplit;
+    boolean downFlagRight = false;
+    boolean downFlagLeft = false;
+    private Vector2f rightButtonReleasedPosition;
+    private boolean driverCreatorSelected = true;
+    private Vector2f leftButtonReleasedPosition;
+    private Vector2f leftButtonPressedPosition;
+    Client newClient;
 
     @Override
     public int getID() {
@@ -32,10 +39,12 @@ public class SimulationState extends BasicGameState {
     @Override
     public void init(GameContainer gc, StateBasedGame s) throws SlickException {
         cameraPos = new Vector2f(0,0);
+        rightButtonReleasedPosition = new Vector2f(0,0);
         rUBERn = new Rubern();
         menuPos = new Vector2f();
-        menuBorder = new Circle(0,0,300,8);
-        menuSplit = new Line(300,300,300,500);
+        menuBorder = new Circle(0,0,100,12);
+        menuSplit = new Line(0,0,0,0);
+
 
         Driver dan = new Driver("dan", rUBERn);
         Driver daniel = new Driver("daniel", rUBERn);
@@ -45,14 +54,16 @@ public class SimulationState extends BasicGameState {
         } catch (AlreadyInStatusException e) {
             e.printStackTrace();
         }
-        dan.moveTo(new Location(0,0));
+        dan.moveTo(new Location(400,400));
         dan.addToSorter();
-        daniel.moveTo(new Location(30,30));
+
+        daniel.moveTo(new Location(500,500));
         daniel.addToSorter();
+
         Client clinton = new Client("clinton", new Location(200,200));
         rUBERn.addClient(clinton);
-        clinton.request(new Location(100, 100), rUBERn);
 
+        clinton.request(new Location(100, 300), rUBERn);
     }
 
     @Override
@@ -62,33 +73,89 @@ public class SimulationState extends BasicGameState {
         g.translate(cameraPos.getX(), cameraPos.getY());
 
         g.drawString("SimulationState here.", 500, 50);
-        g.draw(new Circle(x,y,10,6));
+        //g.draw(new Circle(x, y, 10, 6));
 
-        g.drawString(getMousePosCamera(gc).toString(),100,100);
-        g.drawString(getMousePosWorld(gc).toString(),100,150);
+        g.drawString("Mouse relative to camera: " + getMousePosCamera(gc).toString().substring(9), 100, 100);
+        g.drawString("Mouse relative to world:  " + getMousePosWorld(gc).toString().substring(9), 100, 120);
+        g.drawString(driverCreatorSelected ? "Drivers" : "Clients", 1000, 100);
 
         // <-- Draw Drivers -->
         for (Driver driver : rUBERn.getDriverAgent().getDrivers()) {
-            g.draw(new Circle(driver.getCurrentLocation().getX(),driver.getCurrentLocation().getY(), 10, 4));
-            if (driver.getStatus().isWorking())
-                g.draw(new Line(driver.getCurrentLocation().toVector2f(), driver.getCurrentDestination().toVector2f()));
+            if (driver.getStatus().isOnline()) {
+                g.draw(new Circle(driver.getCurrentLocation().getX(), driver.getCurrentLocation().getY(), 10, 4));
+
+                if (driver.getStatus().isWorking())
+                    g.draw(new Line(driver.getCurrentLocation().toVector2f(), driver.getCurrentDestination().toVector2f()));
+            }
         }
 
         // <-- Draw Clients -->
         for (Client client : rUBERn.getClients()) {
             g.draw(new Circle(client.getCurrentLocation().getX(), client.getCurrentLocation().getY(), 10, 8));
+            if (client.isWaiting()) {
+            }
         }
 
-        if (input.isMousePressed(1)) {
+        // <-- Selection Menu -->
+        if (input.isMousePressed(input.MOUSE_RIGHT_BUTTON)) {
             menuPos.set(getMousePosCamera(gc));
-            menuBorder.setCenterX(getMousePosCamera(gc).getX());
-            menuBorder.setCenterY(getMousePosCamera(gc).getY());
-            menuSplit.set(menuBorder.getCenterX(), menuBorder.getMaxY(), menuBorder.getCenterX(), menuBorder.getMaxY());
+            menuBorder.setCenterX(getMousePosWorld(gc).getX());
+            menuBorder.setCenterY(getMousePosWorld(gc).getY());
+            menuSplit.set(menuBorder.getCenterX(), menuBorder.getMaxY(), menuBorder.getCenterX(), menuBorder.getMinY());
         }
-        if (input.isMouseButtonDown(1)) {
+        if (input.isMouseButtonDown(input.MOUSE_RIGHT_BUTTON)) {
             g.draw(menuBorder);
             g.draw(menuSplit);
+            downFlagRight = true;
         }
+
+        if (!input.isMouseButtonDown(input.MOUSE_RIGHT_BUTTON) && downFlagRight) {
+            downFlagRight = false;
+            rightButtonReleasedPosition = getMousePosWorld(gc);
+            if (rightButtonReleasedPosition.getX() < menuBorder.getCenterX()) {
+                driverCreatorSelected = true;
+            } else {
+                driverCreatorSelected = false;
+            }
+        }
+
+        // <-- Creator -->
+
+        if (driverCreatorSelected) {
+            if (input.isMousePressed(input.MOUSE_LEFT_BUTTON)) {
+                Driver newDriver = new Driver("created", new Location(getMousePosWorld(gc)), rUBERn);
+                rUBERn.addDriver(newDriver);
+                try {
+                    newDriver.goOnline();
+                } catch (AlreadyInStatusException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
+
+        if (!driverCreatorSelected) {
+
+            if (input.isMousePressed(input.MOUSE_LEFT_BUTTON)) {
+                leftButtonPressedPosition = getMousePosWorld(gc);
+                newClient = new Client("created", new Location(getMousePosWorld(gc)));
+                rUBERn.addClient(newClient);
+
+            }
+
+            if (!(input.isMouseButtonDown(input.MOUSE_LEFT_BUTTON)) && downFlagLeft) {
+                leftButtonReleasedPosition = getMousePosWorld(gc);
+                newClient.request(new Location(leftButtonReleasedPosition), rUBERn);
+            }
+
+            if (input.isMouseButtonDown(input.MOUSE_LEFT_BUTTON)) {
+                downFlagLeft = true;
+                g.draw(new Line(leftButtonPressedPosition, getMousePosWorld(gc)));
+            }
+
+
+        }
+
     }
 
     @Override
@@ -128,9 +195,5 @@ public class SimulationState extends BasicGameState {
     }
     private Vector2f getMousePosWorld(GameContainer gc){
         return new Vector2f(Mouse.getX()-cameraPos.getX(), gc.getHeight()-1-Mouse.getY()-cameraPos.getY());
-    }
-
-    private void checkForCameraMovement() {
-
     }
 }

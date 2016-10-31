@@ -14,11 +14,10 @@ public class Driver extends Person {
     private Job currentJob;
     private Rubern rubern;
     private boolean clientIsOnCar;
-    private Location currentDestination;
     public Driver(String name, Rubern rubern) {
         super(name);
         this.car = new Car();
-        status = new Offline(Driver.this);
+        status = new Offline(this);
         this.rubern = rubern;
 
     }
@@ -31,6 +30,8 @@ public class Driver extends Person {
 
     public Driver(String name, Location startingPoint, Rubern rubern) {
         super(name, startingPoint);
+        this.car = new Car();
+        status = new Offline(this);
         this.rubern = rubern;
     }
 
@@ -111,7 +112,7 @@ public class Driver extends Person {
         status = s;
     }
     public void addToSorter(){
-        rubern.addDriver(Driver.this);
+        rubern.addDriver(this);
     }
     public void turnTo(Location location) {
 

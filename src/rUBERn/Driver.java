@@ -3,6 +3,7 @@ package rUBERn;// Created by nico on 9/30/16.
 import javafx.geometry.Point2D;
 import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
+import rUBERn.GUI.RequestPopup;
 import rUBERn.Status.Offline;
 import rUBERn.Status.Status;
 
@@ -50,7 +51,7 @@ public class Driver extends Person {
     }
 
     public boolean evaluateOffer(Journey journey, Client client){
-        if (true) {
+        if (new RequestPopup(journey, client).getAnswer()) {
             goBusy();
             return true;
         }

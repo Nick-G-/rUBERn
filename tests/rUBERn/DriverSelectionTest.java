@@ -27,7 +27,7 @@ public class DriverSelectionTest {
         client.request(new Location(30,30),1,rubern);
         assertEquals(client.getCurrentLocation().toString(), closestDriver.getCurrentLocation().toString());
         assertNotEquals(client.getCurrentLocation().toString(), furthestDriver.getCurrentLocation().toString());
-        assertEquals(client.getCurrentLocation().toString(), ronaldo.getCurrentLocation().toString());
+        assertNotEquals(client.getCurrentLocation().toString(), ronaldo.getCurrentLocation().toString());
     }
     @Test
     public void testByCarCategory() throws AlreadyInStatusException, InvalidStatusChangeException {

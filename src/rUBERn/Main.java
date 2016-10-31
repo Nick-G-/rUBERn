@@ -1,7 +1,6 @@
 package rUBERn;
 
 import Utils.Scanner;
-import javafx.stage.Stage;
 import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
 import rUBERn.GUI.GUI;
@@ -18,8 +17,8 @@ public class Main {
         System.out.println("2. Console");
         int option = scanner.nextInt();
         if (option == 1){
-            //Something along the lines of GUICommunicator gui = new GUICommunicator()
             GUI.main(null);
+
         }else if (option == 2){
             ConsoleCommunicator console = new ConsoleCommunicator(rubern);
             console.consoleApp();

@@ -2,12 +2,9 @@ package rUBERn;
 
 // Created by nico on 10/2/16.
 
-import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.DriverNotFoundException;
-import rUBERn.Exceptions.InvalidStatusChangeException;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 
 public class DriverAgent {
     private ArrayList<Driver> drivers;
@@ -16,12 +13,6 @@ public class DriverAgent {
         drivers = new ArrayList<>();
         driversWorking = new ArrayList<>();
     }
-
-    interface DriverComparatorByImage {
-        void compare();
-        void dada();
-    }
-
     private ArrayList<Driver> rankDrivers(Journey journey) {
         ArrayList<Driver> possibleDrivers = new ArrayList<>();
             for (Driver driver : drivers){

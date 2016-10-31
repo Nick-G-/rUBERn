@@ -1,5 +1,6 @@
 package rUBERn.GUI;
 
+import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -8,7 +9,13 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+import lwjglfx.JavaFXGears;
+import org.lwjgl.system.Platform;
+import org.newdawn.slick.SlickException;
+import rUBERn.GI.Engine;
 import rUBERn.Rubern;
+
+import java.awt.image.BufferedImage;
 
 /**
  * Created by facundo on 10/25/16.
@@ -41,6 +48,22 @@ public class MainMenu {
         Button logs = new Button();
         logs.setText("Logs");
         logs.setOnAction(event -> primaryStage.setScene(new OperationsMenu(primaryStage,MainMenu.this).getScene()));
+
+
+        Button simulation = new Button();
+        simulation.setText("Simulation");
+
+
+        simulation.setOnAction(event -> {
+            ExitManager sm = new ExitManager( System.getSecurityManager() );
+            System.setSecurityManager(sm);
+            try {
+                Engine.main(null);
+            }catch (SecurityException e){
+                System.setSecurityManager(sm.getOriginalSecurityManager());
+            }
+       });
+
         Button quit = new Button();
         quit.setText("Quit");
         quit.setOnAction(event -> System.exit(0));
@@ -48,8 +71,9 @@ public class MainMenu {
         mainMenu.add(title, 0, 0);
         mainMenu.add(driver, 0, 1);
         mainMenu.add(client, 1, 1);
-        mainMenu.add(logs,2,1);
-        mainMenu.add(quit, 3, 1);
+        mainMenu.add(simulation,2,1);
+        mainMenu.add(logs,3,1);
+        mainMenu.add(quit, 4, 1);
 
 
         return new Scene(mainMenu, 1200, 600);

@@ -35,12 +35,15 @@ public class SimulationState extends BasicGameState {
     public int getID() {
         return States.GAME;
     }
+    public SimulationState(Rubern ruben){
+        this.rUBERn = ruben;
+    }
 
     @Override
     public void init(GameContainer gc, StateBasedGame s) throws SlickException {
         cameraPos = new Vector2f(0,0);
         rightButtonReleasedPosition = new Vector2f(0,0);
-        rUBERn = new Rubern();
+      //  rUBERn = new Rubern();
         menuPos = new Vector2f();
         menuBorder = new Circle(0,0,100,12);
         menuSplit = new Line(0,0,0,0);
@@ -68,95 +71,99 @@ public class SimulationState extends BasicGameState {
 
     @Override
     public void render(GameContainer gc, StateBasedGame s, Graphics g) throws SlickException {
+
+
+
         Input input = gc.getInput();
 
         g.translate(cameraPos.getX(), cameraPos.getY());
 
-        g.drawString("SimulationState here.", 500, 50);
-        //g.draw(new Circle(x, y, 10, 6));
 
-        g.drawString("Mouse relative to camera: " + getMousePosCamera(gc).toString().substring(9), 100, 100);
-        g.drawString("Mouse relative to world:  " + getMousePosWorld(gc).toString().substring(9), 100, 120);
-        g.drawString(driverCreatorSelected ? "Drivers" : "Clients", 1000, 100);
+            g.drawString("SimulationState here.", 500, 50);
+            //g.draw(new Circle(x, y, 10, 6));
 
-        // <-- Draw Drivers -->
-        for (Driver driver : rUBERn.getDriverAgent().getDrivers()) {
-            if (driver.getStatus().isOnline()) {
-                g.draw(new Circle(driver.getCurrentLocation().getX(), driver.getCurrentLocation().getY(), 10, 4));
+            g.drawString("Mouse relative to camera: " + getMousePosCamera(gc).toString().substring(9), 100, 100);
+            g.drawString("Mouse relative to world:  " + getMousePosWorld(gc).toString().substring(9), 100, 120);
+            g.drawString(driverCreatorSelected ? "Drivers" : "Clients", 1000, 100);
 
-                if (driver.getStatus().isWorking())
-                    g.draw(new Line(driver.getCurrentLocation().toVector2f(), driver.getCurrentDestination().toVector2f()));
-            }
-        }
+            // <-- Draw Drivers -->
+            for (Driver driver : rUBERn.getDriverAgent().getDrivers()) {
+                if (driver.getStatus().isOnline()) {
+                    g.draw(new Circle(driver.getCurrentLocation().getX(), driver.getCurrentLocation().getY(), 10, 4));
 
-        // <-- Draw Clients -->
-        for (Client client : rUBERn.getClients()) {
-            g.draw(new Circle(client.getCurrentLocation().getX(), client.getCurrentLocation().getY(), 10, 8));
-            if (client.isWaiting()) {
-            }
-        }
-
-        // <-- Selection Menu -->
-        if (input.isMousePressed(input.MOUSE_RIGHT_BUTTON)) {
-            menuPos.set(getMousePosCamera(gc));
-            menuBorder.setCenterX(getMousePosWorld(gc).getX());
-            menuBorder.setCenterY(getMousePosWorld(gc).getY());
-            menuSplit.set(menuBorder.getCenterX(), menuBorder.getMaxY(), menuBorder.getCenterX(), menuBorder.getMinY());
-        }
-        if (input.isMouseButtonDown(input.MOUSE_RIGHT_BUTTON)) {
-            g.draw(menuBorder);
-            g.draw(menuSplit);
-            downFlagRight = true;
-        }
-
-        if (!input.isMouseButtonDown(input.MOUSE_RIGHT_BUTTON) && downFlagRight) {
-            downFlagRight = false;
-            rightButtonReleasedPosition = getMousePosWorld(gc);
-            if (rightButtonReleasedPosition.getX() < menuBorder.getCenterX()) {
-                driverCreatorSelected = true;
-            } else {
-                driverCreatorSelected = false;
-            }
-        }
-
-        // <-- Creator -->
-
-        if (driverCreatorSelected) {
-            if (input.isMousePressed(input.MOUSE_LEFT_BUTTON)) {
-                Driver newDriver = new Driver("created", new Location(getMousePosWorld(gc)), rUBERn);
-                rUBERn.addDriver(newDriver);
-                try {
-                    newDriver.goOnline();
-                } catch (AlreadyInStatusException e) {
-                    e.printStackTrace();
+                    if (driver.getStatus().isWorking())
+                        g.draw(new Line(driver.getCurrentLocation().toVector2f(), driver.getCurrentDestination().toVector2f()));
                 }
             }
+
+            // <-- Draw Clients -->
+            for (Client client : rUBERn.getClients()) {
+                g.draw(new Circle(client.getCurrentLocation().getX(), client.getCurrentLocation().getY(), 10, 8));
+                if (client.isWaiting()) {
+                }
+            }
+
+            // <-- Selection Menu -->
+            if (input.isMousePressed(input.MOUSE_RIGHT_BUTTON)) {
+                menuPos.set(getMousePosCamera(gc));
+                menuBorder.setCenterX(getMousePosWorld(gc).getX());
+                menuBorder.setCenterY(getMousePosWorld(gc).getY());
+                menuSplit.set(menuBorder.getCenterX(), menuBorder.getMaxY(), menuBorder.getCenterX(), menuBorder.getMinY());
+            }
+            if (input.isMouseButtonDown(input.MOUSE_RIGHT_BUTTON)) {
+                g.draw(menuBorder);
+                g.draw(menuSplit);
+                downFlagRight = true;
+            }
+
+            if (!input.isMouseButtonDown(input.MOUSE_RIGHT_BUTTON) && downFlagRight) {
+                downFlagRight = false;
+                rightButtonReleasedPosition = getMousePosWorld(gc);
+                if (rightButtonReleasedPosition.getX() < menuBorder.getCenterX()) {
+                    driverCreatorSelected = true;
+                } else {
+                    driverCreatorSelected = false;
+                }
+            }
+
+            // <-- Creator -->
+
+            if (driverCreatorSelected) {
+                if (input.isMousePressed(input.MOUSE_LEFT_BUTTON)) {
+                    Driver newDriver = new Driver("created", new Location(getMousePosWorld(gc)), rUBERn);
+                    rUBERn.addDriver(newDriver);
+                    try {
+                        newDriver.goOnline();
+                    } catch (AlreadyInStatusException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+
+
+            if (!driverCreatorSelected) {
+
+                if (input.isMousePressed(input.MOUSE_LEFT_BUTTON)) {
+                    leftButtonPressedPosition = getMousePosWorld(gc);
+                    newClient = new Client("created", new Location(getMousePosWorld(gc)));
+                    rUBERn.addClient(newClient);
+
+                }
+
+                if (!(input.isMouseButtonDown(input.MOUSE_LEFT_BUTTON)) && downFlagLeft) {
+                    leftButtonReleasedPosition = getMousePosWorld(gc);
+                    newClient.request(new Location(leftButtonReleasedPosition), rUBERn);
+                }
+
+                if (input.isMouseButtonDown(input.MOUSE_LEFT_BUTTON)) {
+                    downFlagLeft = true;
+                    g.draw(new Line(leftButtonPressedPosition, getMousePosWorld(gc)));
+                }
+
+
+            }
+
         }
-
-
-        if (!driverCreatorSelected) {
-
-            if (input.isMousePressed(input.MOUSE_LEFT_BUTTON)) {
-                leftButtonPressedPosition = getMousePosWorld(gc);
-                newClient = new Client("created", new Location(getMousePosWorld(gc)));
-                rUBERn.addClient(newClient);
-
-            }
-
-            if (!(input.isMouseButtonDown(input.MOUSE_LEFT_BUTTON)) && downFlagLeft) {
-                leftButtonReleasedPosition = getMousePosWorld(gc);
-                newClient.request(new Location(leftButtonReleasedPosition), rUBERn);
-            }
-
-            if (input.isMouseButtonDown(input.MOUSE_LEFT_BUTTON)) {
-                downFlagLeft = true;
-                g.draw(new Line(leftButtonPressedPosition, getMousePosWorld(gc)));
-            }
-
-
-        }
-
-    }
 
     @Override
     public void update(GameContainer gc, StateBasedGame s, int delta) throws SlickException {
@@ -187,6 +194,9 @@ public class SimulationState extends BasicGameState {
         }
         x++;
         y++;
+        if (input.isKeyDown(input.KEY_ESCAPE)){
+            throw new SlickException("Close");
+        }
 
     }
 

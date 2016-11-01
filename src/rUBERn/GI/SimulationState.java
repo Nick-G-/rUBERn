@@ -3,6 +3,7 @@ package rUBERn.GI;
 // Created by nico on 10/29/16.
 
 import org.lwjgl.input.Mouse;
+import org.lwjgl.opengl.GLContext;
 import org.newdawn.slick.*;
 import org.newdawn.slick.geom.Circle;
 import org.newdawn.slick.geom.Line;
@@ -45,16 +46,10 @@ public class SimulationState extends BasicGameState {
         menuPos = new Vector2f();
         menuBorder = new Circle(0,0,100,12);
         menuSplit = new Line(0,0,0,0);
-
-
-
     }
 
     @Override
     public void render(GameContainer gc, StateBasedGame s, Graphics g) throws SlickException {
-
-
-
         Input input = gc.getInput();
 
         g.translate(cameraPos.getX(), cameraPos.getY());
@@ -69,11 +64,11 @@ public class SimulationState extends BasicGameState {
 
             // <-- Draw Drivers -->
             for (Driver driver : rUBERn.getDriverAgent().getDrivers()) {
-                if (driver.getStatus().isOnline()) {
+                if (driver.getStatus().isOnline() | driver.getStatus().isWorking()) {
                     g.draw(new Circle(driver.getCurrentLocation().getX(), driver.getCurrentLocation().getY(), 10, 4));
 
-                    if (driver.getStatus().isWorking())
-                        g.draw(new Line(driver.getCurrentLocation().toVector2f(), driver.getCurrentDestination().toVector2f()));
+                } if (driver.getStatus().isWorking()){
+                    g.draw(new Line(driver.getCurrentLocation().toVector2f(), driver.getCurrentDestination().toVector2f()));
                 }
             }
 
@@ -174,7 +169,7 @@ public class SimulationState extends BasicGameState {
         x++;
         y++;
         if (input.isKeyDown(input.KEY_ESCAPE)){
-            throw new SlickException("Close");
+            System.exit(0);
         }
 
     }

@@ -8,13 +8,15 @@ import rUBERn.Status.Offline;
 import rUBERn.Status.Status;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 public class Driver extends Person {
     private Car car;
     private Status status;
     private Job currentJob;
     private Rubern rubern;
-    private boolean clientIsOnCar;
+
     public Driver(String name, Rubern rubern) {
         super(name);
         this.car = new Car();
@@ -57,39 +59,41 @@ public class Driver extends Person {
         }
         return false;
     }
-    private void doOffer(Journey journey, Client client){
-        moveTo(journey.getOrigin());
-        client.getOnCar(Driver.this);
-        moveTo(journey.getDestination());
-        client.getOffCar();
-        client.arrived();
-        try {
-            status.goOnline();
-        } catch (AlreadyInStatusException e) {
-            e.printStackTrace();
+
+
+    public void work(int delta) {
+
+        if (!currentJob.isFinished()) {
+            Location pickup = currentJob.getJourney().getOrigin();
+            Location destination = currentJob.getJourney().getDestination();
+            float moveSpeed = (float) car.getSpeed() * delta / 100;
+            currentLocation.moveDistanceInAngle(moveSpeed, currentLocation.angleTo(currentDestination));
+
+            if (currentLocation.isInRangeOf(pickup, 2)) {
+                currentJob.getClient().getOnCar(this);
+                currentDestination = destination;
+            }
+            if (currentLocation.isInRangeOf(destination,1) ){
+                finalizeJob();
+            }
         }
     }
 
-    public void work(int delta) {
-        Location pickup = currentJob.getJourney().getOrigin();
-        Location destination = currentJob.getJourney().getDestination();
-        float moveSpeed = (float) car.getSpeed() * delta / 100;
 
-        currentLocation.moveDistanceInAngle(moveSpeed, currentLocation.angleTo(currentDestination));
-
-        if (currentLocation.isInRangeOf(pickup, 2)) {
-            currentJob.getClient().getOnCar(this);
-            currentDestination = destination;
-            clientIsOnCar = true;
+    private void finalizeJob() {
+        currentJob.finish();
+        try {
+            status.goOnline();
+        } catch (AlreadyInStatusException e) {
+            System.out.println("Already online");
         }
+        currentJob.getClient().arrived();
+        rubern.getDriverAgent().getDriversWorking().remove(Driver.this);
     }
 
     public void assignJob(Job job) {
         this.currentJob = job;
         this.currentDestination = job.getJourney().getOrigin();
-    }
-
-    public void finalizeJob() {
     }
 
     public Duration ETATo(Location location) {

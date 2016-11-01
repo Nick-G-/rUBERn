@@ -7,11 +7,13 @@ public class Job {
     private Driver driver;
     private Client client;
     private Journey journey;
+    private boolean finished;
 
     public Job (Driver driver, Client client, Journey journey){
         this.client = client;
         this.driver = driver;
         this.journey = journey;
+        finished = false;
     }
 
     public Driver getDriver() {
@@ -28,5 +30,11 @@ public class Job {
 
     public void assignDriver(Driver driver) {
         this.driver = driver;
+    }
+    public boolean isFinished(){
+        return finished;
+    }
+    public void finish(){
+        finished = true;
     }
 }

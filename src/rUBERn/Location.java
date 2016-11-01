@@ -66,6 +66,9 @@ public class Location {
         moveX(distance*((float)Math.cos(angle)));
         moveY(distance*((float)Math.sin(angle)));
     }
+    public boolean equals(Location location){
+        return location.getX() == this.x & location.getY() == this.y;
+    }
 
     public float getX() {
         return x;

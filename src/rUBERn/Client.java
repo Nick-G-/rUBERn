@@ -1,7 +1,5 @@
 package rUBERn;// Created by nico on 9/30/16.
 
-import rUBERn.Exceptions.AlreadyInStatusException;
-import rUBERn.Exceptions.InvalidStatusChangeException;
 
 public class Client extends Person {
     private boolean pendingJourney;
@@ -35,5 +33,6 @@ public class Client extends Person {
     }
     public void arrived(){
         pendingJourney = false;
+        currentLocation = new Location(currentLocation);
     }
 }

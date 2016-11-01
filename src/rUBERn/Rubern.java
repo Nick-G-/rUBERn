@@ -6,6 +6,8 @@ import rUBERn.Operations.ChargeOperation;
 import rUBERn.Operations.PayOperation;
 
 import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class Rubern {
 
@@ -15,13 +17,30 @@ public class Rubern {
     private MoneyCalculator calculator;
     private DriverAgent driverAgent;
     private ArrayList<Client> clients;
+    private Timer timer;
+    private int deltaTime;
 
     //private Logger log;
     public Rubern(){
+        deltaTime = 16; // 62.5 FPS (1000/62.5 = 16)
         driverAgent = new DriverAgent();
-      //  log = new Logger();
         calculator = new MoneyCalculator();
         clients = new ArrayList<>();
+        timer = new Timer();
+        timer.scheduleAtFixedRate(new TimerTask() {
+            @Override
+            public void run() {
+            update();
+            }
+        },0,deltaTime);
+    }
+
+    private void update() {
+        //WARNING using a for each loop here causes java Time library to cause an exception when we remove a driver from the list
+        //http://stackoverflow.com/questions/18448671/how-to-avoid-concurrentmodificationexception-while-removing-elements-from-arr
+        // see answer by Dima Naychuk
+        for (int i =0; i<driverAgent.getDriversWorking().size(); i++)
+            driverAgent.getDriversWorking().get(i).work(deltaTime);
     }
 
     public void addDriver(Driver... drivers){

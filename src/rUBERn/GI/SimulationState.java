@@ -15,7 +15,6 @@ import rUBERn.Exceptions.AlreadyInStatusException;
 public class SimulationState extends BasicGameState {
 
     private Rubern rUBERn;
-    private DriverAgent driverAgent;
     private float x=100,y=100;
     private Vector2f cameraPos;
     private Vector2f menuPos;
@@ -43,30 +42,12 @@ public class SimulationState extends BasicGameState {
     public void init(GameContainer gc, StateBasedGame s) throws SlickException {
         cameraPos = new Vector2f(0,0);
         rightButtonReleasedPosition = new Vector2f(0,0);
-      //  rUBERn = new Rubern();
         menuPos = new Vector2f();
         menuBorder = new Circle(0,0,100,12);
         menuSplit = new Line(0,0,0,0);
 
 
-        Driver dan = new Driver("dan", rUBERn);
-        Driver daniel = new Driver("daniel", rUBERn);
-        try {
-            dan.goOnline();
-            daniel.goOnline();
-        } catch (AlreadyInStatusException e) {
-            e.printStackTrace();
-        }
-        dan.moveTo(new Location(400,400));
-        dan.addToSorter();
 
-        daniel.moveTo(new Location(500,500));
-        daniel.addToSorter();
-
-        Client clinton = new Client("clinton", new Location(200,200));
-        rUBERn.addClient(clinton);
-
-        clinton.request(new Location(100, 300), rUBERn);
     }
 
     @Override
@@ -153,6 +134,7 @@ public class SimulationState extends BasicGameState {
                 if (!(input.isMouseButtonDown(input.MOUSE_LEFT_BUTTON)) && downFlagLeft) {
                     leftButtonReleasedPosition = getMousePosWorld(gc);
                     newClient.request(new Location(leftButtonReleasedPosition), rUBERn);
+                    downFlagLeft = false;
                 }
 
                 if (input.isMouseButtonDown(input.MOUSE_LEFT_BUTTON)) {
@@ -168,9 +150,6 @@ public class SimulationState extends BasicGameState {
     @Override
     public void update(GameContainer gc, StateBasedGame s, int delta) throws SlickException {
 
-        for (Driver driver : rUBERn.getDriverAgent().getDriversWorking()) {
-            driver.work(delta);
-        }
         Input input = gc.getInput();
         if (input.isKeyPressed(Input.KEY_ENTER)) {
             s.enterState(States.MENU);

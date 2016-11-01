@@ -1,20 +1,18 @@
 package rUBERn;// Created by nico on 9/30/16.
 
-import javafx.geometry.Point2D;
 import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
 import rUBERn.GUI.RequestPopup;
 import rUBERn.Status.Offline;
 import rUBERn.Status.Status;
-
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Iterator;
+import java.util.Stack;
 
 public class Driver extends Person {
     private Car car;
     private Status status;
     private Job currentJob;
+    private Job nextJob;
     private Rubern rubern;
 
     public Driver(String name, Rubern rubern) {
@@ -29,6 +27,7 @@ public class Driver extends Person {
         this.car = car;
         status = new Offline(Driver.this);
         this.rubern = rubern;
+
     }
 
     public Driver(String name, Location startingPoint, Rubern rubern) {
@@ -36,6 +35,7 @@ public class Driver extends Person {
         this.car = new Car();
         status = new Offline(this);
         this.rubern = rubern;
+
     }
 
     public void goOnline() throws AlreadyInStatusException {
@@ -54,7 +54,6 @@ public class Driver extends Person {
 
     public boolean evaluateOffer(Journey journey, Client client){
         if (new RequestPopup(journey, client).getAnswer()) {
-            goBusy();
             return true;
         }
         return false;
@@ -63,7 +62,6 @@ public class Driver extends Person {
 
     public void work(int delta) {
 
-        if (!currentJob.isFinished()) {
             Location pickup = currentJob.getJourney().getOrigin();
             Location destination = currentJob.getJourney().getDestination();
             float moveSpeed = (float) car.getSpeed() * delta / 100;
@@ -77,7 +75,7 @@ public class Driver extends Person {
                 finalizeJob();
             }
         }
-    }
+
 
 
     private void finalizeJob() {
@@ -89,11 +87,23 @@ public class Driver extends Person {
         }
         currentJob.getClient().arrived();
         rubern.getDriverAgent().getDriversWorking().remove(Driver.this);
+        if (!(nextJob == null)) {
+            rubern.getDriverAgent().getDriversWorking().add(Driver.this);
+            currentJob = nextJob;
+            currentDestination = nextJob.getJourney().getOrigin();
+            goBusy();
+            nextJob = null;
+        }
     }
 
     public void assignJob(Job job) {
-        this.currentJob = job;
-        this.currentDestination = job.getJourney().getOrigin();
+        if (status.isOnline()) {
+            this.currentJob = job;
+            this.currentDestination = job.getJourney().getOrigin();
+            goBusy();
+        }else if (status.isWorking()){
+            nextJob = job;
+        }
     }
 
     public Duration ETATo(Location location) {
@@ -101,8 +111,9 @@ public class Driver extends Person {
     }
 
     public boolean canTakeJob(Journey journey) {
-        return (status.isAvailableForJob() & journey.getPassengers() <= car.getPassengerCapacity());
+        return (currentLocation.distanceTo(journey.getOrigin()) < 500 & journey.getPassengers() <= car.getPassengerCapacity());
     }
+
 
     public Car getCar() {
         return car;

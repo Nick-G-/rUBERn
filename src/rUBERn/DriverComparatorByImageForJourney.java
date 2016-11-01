@@ -18,8 +18,8 @@ public class DriverComparatorByImageForJourney implements Comparator<Driver> {
 
     @Override
     public int compare(Driver aDriver, Driver anotherDriver) {
-        double aDriverImage = aDriver.getCurrentLocation().distanceTo(journey.getOrigin()) * imageCostPerMeter * catalogue.evaluateCarImageCost(aDriver.getCar());
-        double anotherDriverImage = anotherDriver.getCurrentLocation().distanceTo(journey.getOrigin()) * imageCostPerMeter * catalogue.evaluateCarImageCost(anotherDriver.getCar());
+        double aDriverImage = imageToClient(aDriver)* catalogue.evaluateCarImageCost(aDriver.getCar());
+        double anotherDriverImage = imageToClient(anotherDriver) * catalogue.evaluateCarImageCost(anotherDriver.getCar());
 
         if (aDriverImage < anotherDriverImage)
             return -1;
@@ -28,4 +28,14 @@ public class DriverComparatorByImageForJourney implements Comparator<Driver> {
         return 0;
 
     }
+    public double imageToClient(Driver driver){
+        double imageCost = 0;
+        Location locationToCalculateFrom = driver.getCurrentLocation();
+        if (driver.getStatus().isWorking()) {
+            imageCost += driver.currentLocation.distanceTo(driver.getCurrentDestination()) * imageCostPerMeter;
+        }
+        imageCost += locationToCalculateFrom.distanceTo(journey.getOrigin()) * imageCostPerMeter;
+        return imageCost;
+    }
+
 }

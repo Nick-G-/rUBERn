@@ -43,7 +43,7 @@ public class DriverAgent {
 
     private boolean offerJourneyToDriver(Journey journey, Driver driver, Client client) {
         boolean response = driver.evaluateOffer(journey, client);
-        if (response) {
+        if (response & !driversWorking.contains(driver)) {
             driversWorking.add(driver);
         }
         return response;

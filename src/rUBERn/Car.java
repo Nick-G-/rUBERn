@@ -17,9 +17,7 @@ public class Car implements Locatable {
     }
 
     public Car(int passengerCapacity, String category) {
-    this.passengerCapacity = passengerCapacity;
-        this.category = category;
-        speed = 5.5;
+        this(passengerCapacity, category, 5.5, 0);
     }
 
     public Car(int passengerCapacity, String category, double speed, double facingAngle) {
@@ -35,7 +33,6 @@ public class Car implements Locatable {
     public void moveForwards(float distance) {
         currentLocation.moveDistanceInAngle(distance, facingAngle);
     }
-
     public String getCategory() {
         return category;
     }

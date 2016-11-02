@@ -3,7 +3,6 @@ package rUBERn.GI;
 // Created by nico on 10/29/16.
 
 import org.lwjgl.input.Mouse;
-import org.lwjgl.opengl.GLContext;
 import org.newdawn.slick.*;
 import org.newdawn.slick.geom.Circle;
 import org.newdawn.slick.geom.Line;
@@ -17,168 +16,126 @@ public class SimulationState extends BasicGameState {
 
     private Rubern rUBERn;
     private float x=100,y=100;
-    private Vector2f cameraPos;
-    private Vector2f menuPos;
-    private Vector2f menuTopPoint;
-    private Vector2f menuBotPoint;
-    private Circle menuBorder;
-    private Line menuSplit;
-    boolean downFlagRight = false;
-    boolean downFlagLeft = false;
-    private Vector2f rightButtonReleasedPosition;
-    private boolean driverCreatorSelected = true;
-    private Vector2f leftButtonReleasedPosition;
-    private Vector2f leftButtonPressedPosition;
-    Client newClient;
+
+    private GameContainer gc;
+    private Camera camera;
+    private SelectorMenu selectorMenu;
+
+    private DriverCreator driverCreator;
+    private ClientCreator clientCreator;
+    private PersonCreator currentCreator;
 
     @Override
     public int getID() {
-        return States.GAME;
-    }
-    public SimulationState(Rubern ruben){
-        this.rUBERn = ruben;
+        return States.SIMULATION;
     }
 
     @Override
     public void init(GameContainer gc, StateBasedGame s) throws SlickException {
-        cameraPos = new Vector2f(0,0);
-        rightButtonReleasedPosition = new Vector2f(0,0);
-        menuPos = new Vector2f();
-        menuBorder = new Circle(0,0,100,12);
-        menuSplit = new Line(0,0,0,0);
+        rUBERn = new Rubern();
+
+        this.gc = gc;
+        this.selectorMenu = new SelectorMenu(this, gc.getInput(), gc.getGraphics());
+        this.driverCreator = new DriverCreator(this, gc.getInput(), gc.getGraphics(), rUBERn);
+        this.clientCreator = new ClientCreator(this, gc.getInput(), gc.getGraphics(), rUBERn);
+        this.currentCreator = driverCreator;
+
+
+        Driver dan = new Driver("dan", rUBERn);
+        Driver daniel = new Driver("daniel", rUBERn);
+        try {
+            dan.goOnline();
+            daniel.goOnline();
+        } catch (AlreadyInStatusException e) {
+            e.printStackTrace();
+        }
+        dan.moveTo(new Location(400,400));
+        dan.addToSorter();
+
+        daniel.moveTo(new Location(500,500));
+        daniel.addToSorter();
+
+        Client clinton = new Client("clinton", new Location(200,200));
+        rUBERn.addClient(clinton);
+
+        clinton.request(new Location(100, 300), rUBERn);
+
+        camera = new Camera(gc.getInput());
     }
 
     @Override
     public void render(GameContainer gc, StateBasedGame s, Graphics g) throws SlickException {
         Input input = gc.getInput();
+        g.translate(camera.getCameraPos().getX(), camera.getCameraPos().getY());
 
-        g.translate(cameraPos.getX(), cameraPos.getY());
+        selectorMenu.render();
+        currentCreator.render();
 
-
-            g.drawString("SimulationState here.", 500, 50);
-
-            g.drawString("Mouse relative to camera: " + getMousePosCamera(gc).toString().substring(9), 100, 100);
-
-
-        g.drawString("Mouse relative to world:  " + getMousePosWorld(gc).toString().substring(9), 100, 120);
-            g.drawString(driverCreatorSelected ? "Drivers" : "Clients", 1000, 100);
-
-            // <-- Draw Drivers -->
-            for (Driver driver : rUBERn.getDriverAgent().getDrivers()) {
-                if (driver.getStatus().isOnline() | driver.getStatus().isWorking()) {
-                    g.draw(new Circle(driver.getCurrentLocation().getX(), driver.getCurrentLocation().getY(), 10, 4));
-
-                } if (driver.getStatus().isWorking()){
-                    g.draw(new Line(driver.getCurrentLocation().toVector2f(), driver.getCurrentDestination().toVector2f()));
-                }
-            }
-
-            // <-- Draw Clients -->
-            for (Client client : rUBERn.getClients()) {
-                g.draw(new Circle(client.getCurrentLocation().getX(), client.getCurrentLocation().getY(), 10, 8));
-                if (client.isWaiting()) {
-                }
-            }
-
-            // <-- Selection Menu -->
-            if (input.isMousePressed(input.MOUSE_RIGHT_BUTTON)) {
-                menuPos.set(getMousePosCamera(gc));
-                menuBorder.setCenterX(getMousePosWorld(gc).getX());
-                menuBorder.setCenterY(getMousePosWorld(gc).getY());
-                menuSplit.set(menuBorder.getCenterX(), menuBorder.getMaxY(), menuBorder.getCenterX(), menuBorder.getMinY());
-            }
-            if (input.isMouseButtonDown(input.MOUSE_RIGHT_BUTTON)) {
-                g.draw(menuBorder);
-                g.draw(menuSplit);
-                downFlagRight = true;
-            }
-
-            if (!input.isMouseButtonDown(input.MOUSE_RIGHT_BUTTON) && downFlagRight) {
-                downFlagRight = false;
-                rightButtonReleasedPosition = getMousePosWorld(gc);
-                if (rightButtonReleasedPosition.getX() < menuBorder.getCenterX()) {
-                    driverCreatorSelected = true;
-                } else {
-                    driverCreatorSelected = false;
-                }
-            }
-
-            // <-- Creator -->
-
-            if (driverCreatorSelected) {
-                if (input.isMousePressed(input.MOUSE_LEFT_BUTTON)) {
-                    Driver newDriver = new Driver("created", new Location(getMousePosWorld(gc)), rUBERn);
-                    rUBERn.addDriver(newDriver);
-                    try {
-                        newDriver.goOnline();
-                    } catch (AlreadyInStatusException e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
-
-
-            if (!driverCreatorSelected) {
-
-                if (input.isMousePressed(input.MOUSE_LEFT_BUTTON)) {
-                    leftButtonPressedPosition = getMousePosWorld(gc);
-                    newClient = new Client("created", new Location(getMousePosWorld(gc)));
-                    rUBERn.addClient(newClient);
-
-                }
-
-                if (!(input.isMouseButtonDown(input.MOUSE_LEFT_BUTTON)) && downFlagLeft) {
-                    leftButtonReleasedPosition = getMousePosWorld(gc);
-                    newClient.request(new Location(leftButtonReleasedPosition), rUBERn);
-                    downFlagLeft = false;
-                }
-
-                if (input.isMouseButtonDown(input.MOUSE_LEFT_BUTTON)) {
-                    downFlagLeft = true;
-                    g.draw(new Line(leftButtonPressedPosition, getMousePosWorld(gc)));
-                }
-
-
-            }
-
-        }
+        drawInfo(g);
+        drawClients(g);
+        drawDrivers(g);
+    }
 
     @Override
     public void update(GameContainer gc, StateBasedGame s, int delta) throws SlickException {
 
+        for (Driver driver : rUBERn.getDriverAgent().getDriversWorking()) {
+            driver.work(delta);
+        }
         Input input = gc.getInput();
         if (input.isKeyPressed(Input.KEY_ENTER)) {
             s.enterState(States.MENU);
         }
 
+        camera.handleInput(delta);
+        selectorMenu.handleInput();
+        currentCreator.handleInput();
 
-
-        // <-- Camera Movement -->
-
-        if (input.isKeyDown(input.KEY_RIGHT)) {
-            cameraPos.x -= delta*Settings.CAMERA_SPEED;
-        }
-        if (input.isKeyDown(input.KEY_LEFT)) {
-            cameraPos.x += delta*Settings.CAMERA_SPEED;
-        }
-        if (input.isKeyDown(input.KEY_UP)) {
-            cameraPos.y += delta*Settings.CAMERA_SPEED;
-        }
-        if (input.isKeyDown(input.KEY_DOWN)) {
-            cameraPos.y -= delta*Settings.CAMERA_SPEED;
-        }
-        x++;
-        y++;
-        if (input.isKeyDown(input.KEY_ESCAPE)){
-             System.exit(0);
-        }
 
     }
 
-    private Vector2f getMousePosCamera(GameContainer gc) {
+    public Vector2f getMousePosCamera() {
         return new Vector2f(Mouse.getX(), gc.getHeight()-1-Mouse.getY());
     }
-    private Vector2f getMousePosWorld(GameContainer gc){
-        return new Vector2f(Mouse.getX()-cameraPos.getX(), gc.getHeight()-1-Mouse.getY()-cameraPos.getY());
+    public Vector2f getMousePosWorld(){
+        return new Vector2f(Mouse.getX()-camera.getCameraPos().getX(), gc.getHeight()-1-Mouse.getY()-camera.getCameraPos().getY());
+    }
+
+    public DriverCreator getDriverCreator() {
+        return driverCreator;
+    }
+    public ClientCreator getClientCreator() {
+        return clientCreator;
+    }
+    public void changeCurrentCreatorTo(PersonCreator creator) {
+        this.currentCreator = creator;
+    }
+
+    public void drawInfo(Graphics g) {
+        g.drawString("SimulationState here.", 500, 50);
+        //g.draw(new Circle(x, y, 10, 6));
+        g.drawString("Mouse relative to camera: " + getMousePosCamera().toString().substring(9), 100, 100);
+        g.drawString("Mouse relative to world:  " + getMousePosWorld().toString().substring(9), 100, 120);
+        g.drawString(currentCreator.getName(), 700, 100);
+    }
+    public void drawDrivers(Graphics g) {
+        for (Driver driver : rUBERn.getDriverAgent().getDrivers()) {
+            if (driver.getStatus().isOnline()) {
+                g.draw(new Circle(driver.getCurrentLocation().getX(), driver.getCurrentLocation().getY(), 10, 4));
+
+                if (driver.getStatus().isWorking())
+                    g.draw(new Line(driver.getCurrentLocation().toVector2f(), driver.getCurrentDestination().toVector2f()));
+            }
+        }
+    }
+    public void drawClients(Graphics g) {
+        for (Client client : rUBERn.getClients()) {
+            g.draw(new Circle(client.getCurrentLocation().getX(), client.getCurrentLocation().getY(), 10, 8));
+            if (client.isWaiting()) {
+                g.draw(new Line(client.getCurrentLocation().toVector2f(), client.getCurrentDestination().toVector2f()));
+            }
+        }
     }
 }
+
+

@@ -19,12 +19,12 @@ public class Offline implements Status {
 
     @Override
     public void goOffline() throws AlreadyInStatusException {
-    throw new AlreadyInStatusException();
+        throw new AlreadyInStatusException();
     }
 
     @Override
     public void goWorking() throws InvalidStatusChangeException {
-    throw new InvalidStatusChangeException();
+        throw new InvalidStatusChangeException();
     }
 
     @Override

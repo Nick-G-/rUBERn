@@ -1,0 +1,4256 @@
+bf4e71c7-390e-4d0a-a5fd-89745eebea36
+Payment
+2016/10/28
+02:42
+285533
+-79.30
+Driver Dan was compensated $79.30 for taking ClientClinton from (819, 375) to (144, 141).
+
+ee6798e3-6f50-42cc-8b30-cd111493f768
+Charge
+2016/10/28
+02:42
+153693
+86.44
+Client Clinton was charged $86.44 for being taken from (819, 375) to (144, 141) by Driver Dan.
+
+5fcd1e1f-22dc-4ed1-84f2-cab9a8b8beb9
+Payment
+2016/10/28
+02:42
+350719
+-32.69
+Driver Dan was compensated $32.69 for taking ClientClinton from (522, 37) to (443, 217).
+
+9141fdb9-e337-4ffd-8c09-24937baeb3c0
+Charge
+2016/10/28
+02:42
+308957
+34.66
+Client Clinton was charged $34.66 for being taken from (522, 37) to (443, 217) by Driver Dan.
+
+3df9fdc2-5c0f-4e31-851f-757b95678657
+Payment
+2016/10/31
+07:04
+241324
+-21.36
+Driver daniel was compensated $21.36 for taking Clientclinton from (50.0, 50.0) to (100.0, 100.0).
+
+60d7f2e9-71b8-42cb-a179-3b0368498db4
+Charge
+2016/10/31
+07:04
+62763
+22.07
+Client clinton was charged $22.07 for being taken from (50.0, 50.0) to (100.0, 100.0) by Driver daniel.
+
+a94d0d17-d22e-49c1-900c-70409034a46e
+Payment
+2016/10/31
+07:05
+202867
+-21.36
+Driver daniel was compensated $21.36 for taking Clientclinton from (50.0, 50.0) to (100.0, 100.0).
+
+0b262f0e-a6a7-402f-83a9-66bdf41c0546
+Charge
+2016/10/31
+07:05
+991882
+22.07
+Client clinton was charged $22.07 for being taken from (50.0, 50.0) to (100.0, 100.0) by Driver daniel.
+
+736b3c38-dad0-4a4f-9a8e-271d371399fa
+Payment
+2016/10/31
+07:07
+10276
+-21.36
+Driver daniel was compensated $21.36 for taking Clientclinton from (50.0, 50.0) to (100.0, 100.0).
+
+2ee2239f-eb7c-444a-bd8c-9c01c4d8f0b5
+Charge
+2016/10/31
+07:07
+156811
+22.07
+Client clinton was charged $22.07 for being taken from (50.0, 50.0) to (100.0, 100.0) by Driver daniel.
+
+c1ea5a1b-387f-483c-972f-42b3b5ab8ee7
+Payment
+2016/10/31
+07:17
+893934
+-21.36
+Driver daniel was compensated $21.36 for taking Clientclinton from (50.0, 50.0) to (100.0, 100.0).
+
+df90850a-7e95-4687-b8ac-6414748329d7
+Charge
+2016/10/31
+07:17
+850297
+22.07
+Client clinton was charged $22.07 for being taken from (50.0, 50.0) to (100.0, 100.0) by Driver daniel.
+
+e70ddaa6-193f-475b-acf9-01319505c777
+Payment
+2016/10/31
+07:19
+620338
+-21.36
+Driver daniel was compensated $21.36 for taking Clientclinton from (50.0, 50.0) to (100.0, 100.0).
+
+9ac11100-86d8-4744-9061-aab2e3a7ceea
+Charge
+2016/10/31
+07:19
+986231
+22.07
+Client clinton was charged $22.07 for being taken from (50.0, 50.0) to (100.0, 100.0) by Driver daniel.
+
+7020d7b1-8fb7-4a3f-bbca-2b8fe35e48f1
+Payment
+2016/10/31
+07:20
+850944
+-15.00
+Driver daniel was compensated $15.00 for taking Clientclinton from (100.0, 100.0) to (100.0, 100.0).
+
+e772143c-7c7b-4caf-aaa1-2f79a84b26c6
+Charge
+2016/10/31
+07:20
+794056
+15.00
+Client clinton was charged $15.00 for being taken from (100.0, 100.0) to (100.0, 100.0) by Driver daniel.
+
+8745b9a4-518b-4fb1-aeeb-f2924c451f4a
+Payment
+2016/10/31
+07:20
+845426
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+91ae473e-c35f-490d-90c2-c364c443f61f
+Charge
+2016/10/31
+07:20
+521201
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+fbc090e9-75eb-4ee4-abd0-c9c5445daf3f
+Payment
+2016/10/31
+07:22
+46745
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+cfe56a3a-5a7a-44af-ab55-3a74127471c0
+Charge
+2016/10/31
+07:22
+200716
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+9185da2c-3718-4f5a-9ea5-1f1e4371c86e
+Payment
+2016/10/31
+07:23
+461447
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+5126a503-369c-4505-8789-cc0ed93715f1
+Charge
+2016/10/31
+07:23
+826789
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+05e53259-fa6a-49ad-9dc3-2873160c30c6
+Payment
+2016/10/31
+07:25
+921031
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+f7593b42-b57d-4c5c-8613-fc0ecf216d6b
+Charge
+2016/10/31
+07:25
+434655
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+981f729e-a970-469e-8eee-21b436117040
+Payment
+2016/10/31
+07:25
+811697
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+f76702db-05ff-428b-9f4e-8cca12f41ac4
+Charge
+2016/10/31
+07:25
+215997
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+efebcbaa-b08e-46f6-9854-70156b69b86e
+Payment
+2016/10/31
+07:26
+591387
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+dc603e9d-d5f0-4e00-b1ba-f351fa8ba9a9
+Charge
+2016/10/31
+07:26
+516763
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+86673d8b-4761-40f6-b550-4bdca8f648ff
+Payment
+2016/10/31
+07:28
+516737
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+febf761c-718f-47f9-ab92-58a5ba8aa7ca
+Charge
+2016/10/31
+07:28
+5162
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+d8747498-b8b4-44c4-acb9-6240a66dceb3
+Payment
+2016/10/31
+07:30
+674241
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+ba4a4e11-941e-471a-8043-a5d479b146d5
+Charge
+2016/10/31
+07:30
+989955
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+d8e913bd-3c4e-4bce-b192-e76ab10ee799
+Payment
+2016/10/31
+07:31
+809323
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+4c24ae86-5636-436f-8400-4bd34971c1c9
+Charge
+2016/10/31
+07:31
+137713
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+f71fd88e-357b-4d0e-88e6-574efbff8a9e
+Payment
+2016/10/31
+07:31
+696892
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+6cbf033f-eae5-404e-a491-460608c7940d
+Charge
+2016/10/31
+07:31
+995960
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+2eb99d7a-5a2f-4af6-a74f-6101280e895e
+Payment
+2016/10/31
+07:31
+892634
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+b4fc3144-9290-4750-ad07-aad44a572a54
+Charge
+2016/10/31
+07:31
+321307
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+2dd0b7f8-0c54-4ee1-b374-5a91cdda3d35
+Payment
+2016/10/31
+07:32
+150031
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+f6bd06ae-098d-40b4-80a2-f392e9c86ba5
+Charge
+2016/10/31
+07:32
+898472
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+bfcad211-0854-4cf6-8c44-dd342759a1cd
+Payment
+2016/10/31
+07:33
+93746
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+cc2e1861-2153-4de2-86a5-006ed48d7150
+Charge
+2016/10/31
+07:33
+679574
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+a34d48e1-0fac-4136-9394-3bf3be87ff71
+Payment
+2016/10/31
+07:35
+203195
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+a820102f-85ff-4699-9bd8-ed78b960b9ae
+Charge
+2016/10/31
+07:35
+643832
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+a2ec1bc9-6e34-4cfb-a81b-d9fc96a4d318
+Payment
+2016/10/31
+07:35
+523224
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+71110565-cae3-4ebd-a59e-b9dfc86d7483
+Charge
+2016/10/31
+07:35
+375682
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+c0776a01-09f9-4429-bde4-3d2d3b030ed1
+Payment
+2016/10/31
+07:46
+42652
+-129.55
+Driver daniel was compensated $129.55 for taking Clientclinton from (1000.0, 1000.0) to (100.0, 100.0).
+
+7ebc3df3-171c-4b17-b83b-76f1418ffc03
+Charge
+2016/10/31
+07:46
+878138
+142.28
+Client clinton was charged $142.28 for being taken from (1000.0, 1000.0) to (100.0, 100.0) by Driver daniel.
+
+c8596676-0bc2-4cc0-90ef-ec1a9cfd8ab2
+Payment
+2016/10/31
+07:47
+909364
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+4f6880fa-73fc-48b4-8f69-0eef240d009b
+Charge
+2016/10/31
+07:47
+444986
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+fb5ce9a2-ba6f-4956-8504-1d6888e76d49
+Payment
+2016/10/31
+07:47
+178428
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+6e6f6b51-9d7f-41c3-b756-808b225da0df
+Charge
+2016/10/31
+07:47
+288355
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+601b3c9c-141e-4157-8931-e2e80375b1f3
+Payment
+2016/10/31
+07:51
+314274
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+a0908510-2837-495b-bbcc-474f5d2092d2
+Charge
+2016/10/31
+07:51
+259298
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+b033692d-d7b9-4f71-be72-3dabfdd99f2d
+Payment
+2016/10/31
+07:53
+191826
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+38c7a85c-7dfa-4f3b-9bf0-4842142c05b5
+Charge
+2016/10/31
+07:53
+280345
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+2d45e29d-5bdb-4da4-b1de-dd571549415a
+Payment
+2016/10/31
+07:54
+238053
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+ae4b9746-7edc-4787-955e-111b3de72300
+Charge
+2016/10/31
+07:54
+908436
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+9ca1b902-6bcc-48f7-acbf-c0d09e630bc4
+Payment
+2016/10/31
+08:01
+863041
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+08d8422e-9be6-41fb-856d-cc3f237bd767
+Charge
+2016/10/31
+08:01
+166924
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+4ddf47db-1644-4411-8d57-b0a7e0398e31
+Payment
+2016/10/31
+08:01
+938365
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+beabf518-4710-44a3-b272-d90afcc7fe08
+Charge
+2016/10/31
+08:01
+93698
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+71f2ac30-4f1a-4786-a5b2-17f54549f98f
+Payment
+2016/10/31
+08:01
+539087
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+24dcafc3-6ed8-4424-a226-f0e0dc722587
+Charge
+2016/10/31
+08:01
+776578
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+639b7669-ebad-4901-bd61-94ab4f28c51a
+Payment
+2016/10/31
+08:02
+466476
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+86218853-0b35-45da-bd81-6bd564026088
+Charge
+2016/10/31
+08:02
+893649
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+10a81eb3-0b43-4e7e-87da-66e53928ff5c
+Payment
+2016/10/31
+08:06
+119961
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+b75a97f0-fcbe-4ad2-92d3-7c54291d8971
+Charge
+2016/10/31
+08:06
+410846
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+539aba7b-0f22-43bc-a6fd-5ad5cb652a3e
+Payment
+2016/10/31
+08:07
+613171
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+1366dccd-d1a3-47d5-844a-deb4774ba7a5
+Charge
+2016/10/31
+08:07
+813030
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+ef4dc5cd-9cdc-4321-8a4f-cc7ecae65438
+Payment
+2016/10/31
+08:08
+252924
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+77b77d09-85f6-4c6d-96c8-ae14ff82b928
+Charge
+2016/10/31
+08:08
+74236
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+cc796f2c-6836-4c35-9fa1-a70d468e49f6
+Payment
+2016/10/31
+08:09
+238824
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+60d698ca-3442-42d9-97d5-b97cf59df89a
+Charge
+2016/10/31
+08:09
+325112
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+a23edb30-e8dd-4817-89bf-260fdb0cc57f
+Payment
+2016/10/31
+08:10
+838390
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+fcdacc13-cf5f-40c7-9899-b616f39f7e48
+Charge
+2016/10/31
+08:10
+707171
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+67837bbd-7ef0-45d4-8d60-0f4185e60ee3
+Payment
+2016/10/31
+08:15
+399539
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+b46ba6af-96b8-4dee-9fd6-b7c09becd1c3
+Charge
+2016/10/31
+08:15
+268686
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+249a3dff-09b4-463e-96f7-ec5d95596900
+Payment
+2016/10/31
+08:16
+937770
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+f69525e6-69fe-4224-89d5-01f3dd0ecd2f
+Charge
+2016/10/31
+08:16
+275423
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+0cd3022a-432e-4690-9166-2326aaadef4c
+Payment
+2016/10/31
+08:17
+53856
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+95ef74aa-5af6-4750-93fc-e414ffcff9a8
+Charge
+2016/10/31
+08:17
+137713
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+372d4bdc-bb91-498d-b866-3af1fa99b90c
+Payment
+2016/10/31
+08:19
+573542
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+7fbc34f2-362b-4b43-b291-730ce5c7c1ac
+Charge
+2016/10/31
+08:19
+427443
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+b1b0a830-443f-42d8-9919-7f53e99de65f
+Payment
+2016/10/31
+08:19
+111691
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+5d4155eb-a4c7-42a3-9de0-836b585bcc5f
+Charge
+2016/10/31
+08:19
+315204
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+f0c3cc4d-42e5-4d37-ac62-1c487d3012d2
+Payment
+2016/10/31
+08:27
+830029
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+104e7f85-fd14-4593-a181-8779d4220585
+Charge
+2016/10/31
+08:27
+514585
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+8be77090-0dcc-4ffc-89e9-399d9acb196b
+Payment
+2016/10/31
+08:28
+176616
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+fb1ca0c6-e313-4af1-9fb2-6e517c9575d5
+Charge
+2016/10/31
+08:28
+442170
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+3086cd36-b147-45ab-8ab3-c5344d9a9ef2
+Payment
+2016/10/31
+08:29
+642612
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+17a314f5-8970-4b61-8265-63dd254d9ddc
+Charge
+2016/10/31
+08:29
+28017
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+7c0a40ec-7a7c-4730-a904-9dc67959bd7c
+Payment
+2016/10/31
+08:36
+577784
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+d47273c2-79e2-42c3-941d-eb5f331b87b3
+Charge
+2016/10/31
+08:36
+304755
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+43a38703-5872-4ad6-b45c-485c60388f36
+Payment
+2016/10/31
+08:37
+996503
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+4cbe9f1f-f1a5-4c01-aeb3-3e7d1758fb22
+Charge
+2016/10/31
+08:37
+835100
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+ae3dc71f-cadd-4e6d-b2a6-8ae3b30055de
+Payment
+2016/10/31
+08:38
+515673
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+a4db8abf-d052-4695-be9e-623abe013369
+Charge
+2016/10/31
+08:38
+103966
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+f0ca4bc0-546e-45cf-9520-1665f74d0a85
+Payment
+2016/10/31
+08:38
+402541
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+09f971f0-a31d-47cb-935a-98473ab31738
+Charge
+2016/10/31
+08:38
+378589
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+6ccd6163-6104-444c-9283-896edecd3d5d
+Payment
+2016/10/31
+08:39
+148327
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+0ca794f0-b4ab-4add-8cad-509eb81b1e4a
+Charge
+2016/10/31
+08:39
+477015
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+0b62ae76-b7a8-4aa2-80c5-fe0c7663e5d0
+Payment
+2016/10/31
+08:47
+219968
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+71230d54-b010-47af-a805-8b3b2251737b
+Charge
+2016/10/31
+08:47
+705485
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+747ad238-4d14-4cc0-b0fc-d45217cf9247
+Payment
+2016/10/31
+08:49
+462723
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+7e4f4939-b65e-4c3c-8267-38b546b4d7e1
+Charge
+2016/10/31
+08:49
+742378
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+ce31cf6c-c0e9-469a-8660-b53604b5ed57
+Payment
+2016/10/31
+08:49
+388606
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+a6d7c19b-03cf-4634-8244-32f7744b0270
+Charge
+2016/10/31
+08:49
+850049
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+a132b000-2004-4dda-91e7-f1ae67b58ab8
+Payment
+2016/10/31
+08:49
+737178
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+944b2196-766b-4a31-894d-279d59c941f9
+Charge
+2016/10/31
+08:49
+23248
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+84ceaf0e-a0d1-46b4-92e4-86de29f3c453
+Payment
+2016/10/31
+08:50
+219231
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+0554f86c-cb54-49cb-a4fa-ff379642d510
+Charge
+2016/10/31
+08:50
+691882
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+fd2f3f90-5ad5-47e8-bb1c-82db446b62d9
+Payment
+2016/10/31
+08:50
+378487
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+3ed916e5-d6f8-444b-b433-1c42b49542a7
+Charge
+2016/10/31
+08:50
+530373
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+efafab0d-28cf-4f3a-9235-e2ebaf905d8e
+Payment
+2016/10/31
+08:51
+512351
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+350496f2-3730-44d0-ad2e-a05d95557905
+Charge
+2016/10/31
+08:51
+976049
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+240177a8-66c5-453a-8eab-76a5904912d0
+Payment
+2016/10/31
+08:51
+394883
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 100.0).
+
+1effc8ac-629c-43ab-b16a-30c409e9800b
+Charge
+2016/10/31
+08:51
+112586
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 100.0) by Driver daniel.
+
+85a090a1-4d17-4b00-bf54-04a9ad90fd4b
+Payment
+2016/10/31
+08:53
+813711
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+4731bab5-1e8c-48b4-a599-5f8dd04a4889
+Charge
+2016/10/31
+08:53
+672231
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver daniel.
+
+9656666c-4423-4e18-a6de-a8098ab44d17
+Payment
+2016/10/31
+08:53
+348275
+-27.73
+Driver daniel was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+b4c0640d-7b5e-4537-b321-af915f9ec1ef
+Charge
+2016/10/31
+08:53
+37215
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver daniel.
+
+0c92967e-4ef3-4cb4-8db5-7611da6286f4
+Payment
+2016/10/31
+08:53
+913996
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+2c5b5880-36a5-4ff3-a142-674454702dcb
+Charge
+2016/10/31
+08:53
+274875
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+de51ed74-b878-4b54-a55f-a811e2765f2a
+Payment
+2016/10/31
+08:54
+437955
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+e203494d-d3fc-49d6-b1ff-5f62ebb07601
+Charge
+2016/10/31
+08:54
+605955
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+6a7c7688-33dd-48b4-b5f5-40092643f54d
+Payment
+2016/10/31
+08:54
+987809
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+8d8dec87-1994-4331-ba35-6a2b9fce7cc6
+Charge
+2016/10/31
+08:54
+367247
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+8cef9437-458a-4917-b955-226fff160f15
+Payment
+2016/10/31
+08:56
+532796
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+1a13ffce-7ece-436a-97a3-8e51f5e4e107
+Charge
+2016/10/31
+08:56
+968136
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+78191b2b-8736-40e4-9df9-7975f57cd2e1
+Payment
+2016/10/31
+08:57
+683331
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+caf003ee-3d68-4996-9c41-d2041f74cb1d
+Charge
+2016/10/31
+08:57
+812950
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+1faba55d-e6ca-42c0-9da2-f26301f00ad7
+Payment
+2016/10/31
+08:58
+619525
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+e578cf3c-43b1-4916-b6a7-0732746ac02d
+Charge
+2016/10/31
+08:58
+534076
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+090f9510-2d89-4b47-a416-47d8c177738f
+Payment
+2016/10/31
+08:58
+273075
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+29f63e8e-30f8-4bc3-b848-8e14653c7bd6
+Charge
+2016/10/31
+08:58
+5849
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+a10aa9a7-5c40-4d55-93ed-510e1554eebd
+Payment
+2016/10/31
+08:59
+106260
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+ade43bc5-ef65-487c-8c90-204e16b5e99f
+Charge
+2016/10/31
+08:59
+540775
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+7975223f-11d4-402d-88f1-1b203b17a49e
+Payment
+2016/10/31
+09:00
+863173
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+15276430-1b96-46e4-8508-9322a3d911bb
+Charge
+2016/10/31
+09:00
+540534
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+3043557d-d393-466d-9b88-778032c8f587
+Payment
+2016/10/31
+09:01
+44882
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+1e9dcc6b-a00a-4e2b-b8cb-abe295da09c4
+Charge
+2016/10/31
+09:01
+618110
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+65645e25-0a18-4ab3-8204-8c1b09606ba0
+Payment
+2016/10/31
+09:01
+190110
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+5931b532-8880-48f8-82e9-668ba2da6329
+Charge
+2016/10/31
+09:01
+671540
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+c76f13fb-1b14-496f-8014-ba5c6996179f
+Payment
+2016/10/31
+09:02
+346538
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+6b3ea14d-1d98-49c7-b44b-01d6d4d85f34
+Charge
+2016/10/31
+09:02
+331017
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+4f7597fb-30b5-4b4b-978b-3d9a6b30acab
+Payment
+2016/10/31
+09:02
+7827
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+3aa276ac-88f4-41c6-bb53-393b5d7d2d35
+Charge
+2016/10/31
+09:02
+570497
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+a0d49852-ea1c-4012-ae32-6da6774b14c6
+Payment
+2016/10/31
+09:13
+428647
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+8203a5c5-e2b8-47dd-a125-ab5d1727c652
+Charge
+2016/10/31
+09:13
+679813
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+8a02bc17-1521-453d-b052-b8b23a7318d3
+Payment
+2016/10/31
+09:14
+913552
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+c6de7f8a-9c57-43d6-92b5-a2dc6a6e22c4
+Charge
+2016/10/31
+09:14
+179276
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+5eec8934-56fd-453d-acf7-ce275e73c5f7
+Payment
+2016/10/31
+09:15
+314092
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+11445aaa-fcf5-49fd-a603-64c3734db4ce
+Charge
+2016/10/31
+09:15
+480724
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+84619651-f92e-4225-aff2-1e4338ab0ccb
+Payment
+2016/10/31
+09:23
+157415
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+9149fb27-0cb0-4596-be59-ad126c6386e9
+Charge
+2016/10/31
+09:23
+456810
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+d92f78f4-da99-4bb7-b6b0-3181146dfd38
+Payment
+2016/10/31
+09:25
+723906
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+016249bf-0c91-4493-a23d-75108eee7690
+Charge
+2016/10/31
+09:25
+347490
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+4db1dd3d-1fb0-4cab-a419-36b9ba5abd36
+Payment
+2016/10/31
+09:33
+405202
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+87badae7-ad6b-46e7-a5bb-442f4017fa88
+Charge
+2016/10/31
+09:33
+244747
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+918c139f-41b6-4c9f-9e70-3bd76005df2d
+Payment
+2016/10/31
+09:33
+918053
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (538.0, 479.0) to (538.0, 479.0).
+
+2e54bfd9-d6f3-40ab-8786-00335b5768e2
+Charge
+2016/10/31
+09:33
+842003
+15.00
+Client created was charged $15.00 for being taken from (538.0, 479.0) to (538.0, 479.0) by Driver daniel.
+
+314ee482-79f8-45f8-b162-5d25e1b849c2
+Payment
+2016/10/31
+09:33
+826205
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+dc81f949-c165-4ba0-8d35-899dacc48551
+Charge
+2016/10/31
+09:33
+917850
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+fc63fd95-9a1c-4168-a96b-66df05293823
+Payment
+2016/10/31
+09:33
+261238
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (1122.0, 298.0) to (1122.0, 298.0).
+
+91e73df4-eb1e-49ae-b978-9738e39c6042
+Charge
+2016/10/31
+09:33
+752000
+15.00
+Client created was charged $15.00 for being taken from (1122.0, 298.0) to (1122.0, 298.0) by Driver created.
+
+4341b16b-0761-4cb8-a69f-d91c5279091a
+Payment
+2016/10/31
+09:34
+464498
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+691cbc87-0f48-45eb-b870-19bbdf09238c
+Charge
+2016/10/31
+09:34
+577489
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+3217b097-b525-4b67-a699-bea6a662fd07
+Payment
+2016/10/31
+09:34
+597537
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (629.0, 269.0) to (629.0, 269.0).
+
+06f30200-a559-4812-bd8d-6eb1a52ab8e5
+Charge
+2016/10/31
+09:34
+292541
+15.00
+Client created was charged $15.00 for being taken from (629.0, 269.0) to (629.0, 269.0) by Driver daniel.
+
+443557ab-fc57-4712-a0bd-b3af7620a073
+Payment
+2016/10/31
+09:35
+900123
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+e24aac34-b0be-4506-8c51-8453aed7a871
+Charge
+2016/10/31
+09:35
+809811
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+5e0f8aa2-a2e9-4b2c-a802-63b31a3b09b5
+Payment
+2016/10/31
+09:35
+507321
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (459.0, 303.0) to (459.0, 303.0).
+
+1cf503e4-cc32-4789-adc4-2631036fcc85
+Charge
+2016/10/31
+09:35
+134824
+15.00
+Client created was charged $15.00 for being taken from (459.0, 303.0) to (459.0, 303.0) by Driver daniel.
+
+43797e7d-4ab4-4160-93c0-6c41c22bf6b7
+Payment
+2016/10/31
+09:35
+126778
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (816.0, 425.0) to (816.0, 425.0).
+
+dbc310fe-2a90-48ab-8aff-5817add1fa2a
+Charge
+2016/10/31
+09:35
+87867
+15.00
+Client created was charged $15.00 for being taken from (816.0, 425.0) to (816.0, 425.0) by Driver created.
+
+015ac319-d475-4fa2-a3c7-113d978ee363
+Payment
+2016/10/31
+09:36
+342546
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (630.0, 425.0) to (630.0, 425.0).
+
+cb95cba8-9ca6-4a2d-a615-33b2045f56ee
+Charge
+2016/10/31
+09:36
+357587
+15.00
+Client created was charged $15.00 for being taken from (630.0, 425.0) to (630.0, 425.0) by Driver created.
+
+008986a4-92ac-496d-a039-dbbe4362d8c3
+Payment
+2016/10/31
+09:36
+693794
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+0b9d527d-5d87-42ef-96b0-c511efe42880
+Charge
+2016/10/31
+09:36
+998754
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+fdba61f2-b765-4f7e-8a8a-a42774bd5d6a
+Payment
+2016/10/31
+09:36
+554625
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (661.0, 168.0) to (661.0, 168.0).
+
+47d2ff15-c365-40cc-9a8c-e332d3d747d5
+Charge
+2016/10/31
+09:36
+447539
+15.00
+Client created was charged $15.00 for being taken from (661.0, 168.0) to (661.0, 168.0) by Driver created.
+
+72aadd42-c89d-4346-ad4b-faf161c5f93d
+Payment
+2016/10/31
+09:36
+107168
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (737.0, 326.0) to (737.0, 326.0).
+
+59e510a4-aa3c-4d6b-bfc3-10a108bc4b51
+Charge
+2016/10/31
+09:36
+118927
+15.00
+Client created was charged $15.00 for being taken from (737.0, 326.0) to (737.0, 326.0) by Driver daniel.
+
+bcf05257-397c-42b6-8e44-51914434a26b
+Payment
+2016/10/31
+09:36
+268095
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (946.0, 220.0) to (946.0, 220.0).
+
+bc63fd37-9672-4780-94c2-c75d8d09a452
+Charge
+2016/10/31
+09:36
+406367
+15.00
+Client created was charged $15.00 for being taken from (946.0, 220.0) to (946.0, 220.0) by Driver created.
+
+45f24906-2445-49e0-99c7-bbdc32870d3c
+Payment
+2016/10/31
+09:36
+558211
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+074bfc64-d96d-4b76-91d3-fd0863a55658
+Charge
+2016/10/31
+09:36
+456025
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+78faddad-be74-4a0b-9d05-1154359e4989
+Payment
+2016/10/31
+09:36
+408662
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (775.0, 484.0) to (775.0, 484.0).
+
+6f43e541-f7ac-4f49-82b4-575856c11a45
+Charge
+2016/10/31
+09:36
+338895
+15.00
+Client created was charged $15.00 for being taken from (775.0, 484.0) to (775.0, 484.0) by Driver daniel.
+
+795de05f-b098-4c1f-bb11-2932181b8c3e
+Payment
+2016/10/31
+09:36
+793809
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (649.0, 201.0) to (649.0, 201.0).
+
+2f6fcafe-3a37-4ca8-aa8b-21a0ced72587
+Charge
+2016/10/31
+09:36
+636210
+15.00
+Client created was charged $15.00 for being taken from (649.0, 201.0) to (649.0, 201.0) by Driver created.
+
+2d0922d5-5f75-4007-bb40-fe7dc54cff42
+Payment
+2016/10/31
+09:36
+945899
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (923.0, 349.0) to (923.0, 349.0).
+
+9d262cf2-064b-4cb8-a2f1-24421290e09d
+Charge
+2016/10/31
+09:36
+438403
+15.00
+Client created was charged $15.00 for being taken from (923.0, 349.0) to (923.0, 349.0) by Driver created.
+
+f37fd8b7-bf3a-40fa-837d-1ccc0f0b843a
+Payment
+2016/10/31
+09:37
+599132
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+76c5a485-108f-4afe-b75a-2231dd010e6a
+Charge
+2016/10/31
+09:37
+28006
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+32c3ba4d-5d68-44df-835a-84887a208176
+Payment
+2016/10/31
+09:37
+619119
+-32.71
+Driver created was compensated $32.71 for taking Clientcreated from (967.0, 450.0) to (793.0, 358.0).
+
+2e7abb14-6b35-4fd5-ae99-ed90840d36c5
+Charge
+2016/10/31
+09:37
+490525
+34.68
+Client created was charged $34.68 for being taken from (967.0, 450.0) to (793.0, 358.0) by Driver created.
+
+11e6f1ea-ca84-4a7b-a9fd-ab97ec5a4d90
+Payment
+2016/10/31
+09:37
+44883
+-31.52
+Driver daniel was compensated $31.52 for taking Clientcreated from (793.0, 358.0) to (678.0, 501.0).
+
+170ffbd3-55b4-40b8-83df-e3445dd4243f
+Charge
+2016/10/31
+09:37
+487868
+33.35
+Client created was charged $33.35 for being taken from (793.0, 358.0) to (678.0, 501.0) by Driver daniel.
+
+ade54e7b-2a88-4511-b15f-f7592b3038b8
+Payment
+2016/10/31
+09:51
+177566
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+a4f6c7b9-53bf-454c-8ac2-7df30431028f
+Charge
+2016/10/31
+09:51
+559243
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+705f315d-5640-4c4f-b6ed-11c6e6833807
+Payment
+2016/10/31
+09:51
+813080
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+fb570c9a-90c4-4081-a65c-80fbb5de947c
+Charge
+2016/10/31
+09:51
+783833
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+c9a9b1e8-1924-4a7c-bd1b-7be588a6fb69
+Payment
+2016/10/31
+09:52
+32296
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+6de3ca43-4623-468b-9533-8b84973ffa98
+Charge
+2016/10/31
+09:52
+751298
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+f11c136a-bca3-42a3-b205-6b7bf1051293
+Payment
+2016/10/31
+10:04
+756090
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+23cab787-dc0b-4a87-8665-25d7d13fd8da
+Charge
+2016/10/31
+10:04
+468840
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+48eaab69-3f2a-4103-97f9-5dbc92ea3350
+Payment
+2016/10/31
+10:06
+284444
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+25c03ab5-6d73-4f13-b1c5-3428430b56dd
+Charge
+2016/10/31
+10:06
+808238
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+320f9868-2524-45cf-8176-669e2ca6834e
+Payment
+2016/10/31
+10:07
+371195
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+8f8b01be-027d-409d-9b40-fe8a3840d431
+Charge
+2016/10/31
+10:07
+633226
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+0a078201-3e86-43ac-a075-3eefdd44a313
+Payment
+2016/10/31
+10:08
+973706
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+d4d04ad0-d9d7-4320-9bdd-7d154c8200b8
+Charge
+2016/10/31
+10:08
+760010
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+e80ab056-65f5-4f85-9001-aedbeea89c2a
+Payment
+2016/10/31
+10:08
+302656
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+d1cd8607-0807-4bf3-98b6-b85559b80b90
+Charge
+2016/10/31
+10:08
+850943
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+e156a4de-6e26-43ca-8714-17cd4364793a
+Payment
+2016/10/31
+10:10
+514978
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+47c3ec8e-a467-48dd-ba41-12cd282f67f7
+Charge
+2016/10/31
+10:10
+270097
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+af39bdf4-14ba-4945-a5b7-7ddeacc97eea
+Payment
+2016/10/31
+10:11
+599179
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+15b374ff-e424-4b84-a83d-b01154692437
+Charge
+2016/10/31
+10:11
+218402
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+b4c3adff-05e3-4b58-b8ec-7be0b015510f
+Payment
+2016/10/31
+10:11
+26426
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+4e7cae68-1571-4203-bef7-7116a009f2c5
+Charge
+2016/10/31
+10:11
+467587
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+7f74cae0-3bb9-4507-bcf9-2b00b4aebe1f
+Payment
+2016/10/31
+10:12
+545214
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+c419334a-6cb4-43f9-9410-346df9490c69
+Charge
+2016/10/31
+10:12
+26895
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+155e3d21-9c03-40a2-a0c8-0a886d76d50b
+Payment
+2016/10/31
+10:12
+418705
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+0e499382-d165-43c8-a43a-5daae6def25c
+Charge
+2016/10/31
+10:12
+367631
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+5e42a568-4bc2-40e3-8c39-7fadfadd4bb5
+Payment
+2016/10/31
+10:14
+794269
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+ae2663ce-c5ce-48ff-a7e3-63847c091dc6
+Charge
+2016/10/31
+10:14
+816618
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+11761062-1a2e-42f0-947e-be8674de2c4d
+Payment
+2016/10/31
+10:14
+767203
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+156c6c7f-2179-43a9-b928-17a9b530e049
+Charge
+2016/10/31
+10:14
+997658
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+41fcf9c4-2958-4782-a869-8cbec3dc6e64
+Payment
+2016/10/31
+10:14
+56119
+-38.49
+Driver daniel was compensated $38.49 for taking Clientcreated from (539.0, 278.0) to (799.0, 301.0).
+
+e795a0d2-2144-469f-b70a-9f2d41bb1a6a
+Charge
+2016/10/31
+10:14
+676596
+41.10
+Client created was charged $41.10 for being taken from (539.0, 278.0) to (799.0, 301.0) by Driver daniel.
+
+2ce78f7f-7c29-4db2-a7f0-ce707cfe8051
+Payment
+2016/10/31
+10:15
+204625
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+33576d95-d765-46b8-ae2e-123c52b63527
+Charge
+2016/10/31
+10:15
+795353
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+e36bb96a-3b7c-4dab-a5bf-8d16347cd72d
+Payment
+2016/10/31
+10:15
+714982
+-37.17
+Driver daniel was compensated $37.17 for taking Clientcreated from (641.0, 304.0) to (830.0, 462.0).
+
+dde3ddc8-d24f-4b84-b3a8-4b5ccb659a90
+Charge
+2016/10/31
+10:15
+189980
+39.63
+Client created was charged $39.63 for being taken from (641.0, 304.0) to (830.0, 462.0) by Driver daniel.
+
+d3ac0bc1-64fc-44cb-aa6a-166131b8d0bb
+Payment
+2016/10/31
+10:18
+413652
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+75062bf6-0818-42e7-b4f3-f038152d3b96
+Charge
+2016/10/31
+10:18
+158641
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+ecc009e8-db3d-4f59-98cf-ed80653a4eb1
+Payment
+2016/10/31
+10:18
+257987
+-30.22
+Driver created was compensated $30.22 for taking Clientcreated from (767.0, 378.0) to (890.0, 262.0).
+
+619a3014-60df-4992-bf4b-49976faeb79e
+Charge
+2016/10/31
+10:18
+538554
+31.91
+Client created was charged $31.91 for being taken from (767.0, 378.0) to (890.0, 262.0) by Driver created.
+
+21c77fdf-33fa-4be2-b73b-5a21f367384f
+Payment
+2016/10/31
+10:18
+854941
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (1002.0, 308.0) to (1002.0, 308.0).
+
+6bc3f727-1b5e-4aa6-88b3-e039432e1cdb
+Charge
+2016/10/31
+10:18
+902495
+15.00
+Client created was charged $15.00 for being taken from (1002.0, 308.0) to (1002.0, 308.0) by Driver created.
+
+7bbb2522-38db-480c-82fd-edbc230a8b7f
+Payment
+2016/10/31
+10:18
+114213
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (630.0, 300.0) to (630.0, 300.0).
+
+fb64e477-3762-4497-a2e7-7c693dc1fa68
+Charge
+2016/10/31
+10:18
+970711
+15.00
+Client created was charged $15.00 for being taken from (630.0, 300.0) to (630.0, 300.0) by Driver daniel.
+
+47018341-5beb-4ba2-a54f-fb4d62f83317
+Payment
+2016/10/31
+10:19
+743630
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+5fea8891-71b8-4225-b309-1d3190f444af
+Charge
+2016/10/31
+10:19
+669762
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+e44b334d-8c6f-47e0-bee2-731e8acb8078
+Payment
+2016/10/31
+10:19
+199654
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (590.0, 180.0) to (590.0, 180.0).
+
+cd61fc16-072b-49de-9821-0d373e560878
+Charge
+2016/10/31
+10:19
+21324
+15.00
+Client created was charged $15.00 for being taken from (590.0, 180.0) to (590.0, 180.0) by Driver daniel.
+
+63377b20-0874-4814-8690-4057e0f511e5
+Payment
+2016/10/31
+10:19
+673304
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+ae954995-6ace-48b5-9ebe-83bc520f9f30
+Charge
+2016/10/31
+10:19
+757518
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+3aa0cf3f-6c64-4bc9-9755-3fa464a43660
+Payment
+2016/10/31
+10:19
+644319
+-33.16
+Driver created was compensated $33.16 for taking Clientcreated from (687.0, 309.0) to (837.0, 444.0).
+
+0595b662-7169-4223-9faa-493da99ceb9a
+Charge
+2016/10/31
+10:19
+137836
+35.18
+Client created was charged $35.18 for being taken from (687.0, 309.0) to (837.0, 444.0) by Driver created.
+
+b62998ae-9c38-416a-88ec-12edc57575be
+Payment
+2016/10/31
+10:19
+557884
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+8c78b2a7-a32c-4569-81d6-fc1a2690c8c9
+Charge
+2016/10/31
+10:19
+293197
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+5a4c0299-1311-4c61-9ad1-35b1b9961af2
+Payment
+2016/10/31
+10:19
+214500
+-32.21
+Driver daniel was compensated $32.21 for taking Clientcreated from (756.0, 251.0) to (945.0, 280.0).
+
+cb4717ee-811b-4b4d-aaf5-80d13101fd9f
+Charge
+2016/10/31
+10:19
+466600
+34.12
+Client created was charged $34.12 for being taken from (756.0, 251.0) to (945.0, 280.0) by Driver daniel.
+
+41fd6b18-79d7-45b2-a208-7e4f89aadd06
+Payment
+2016/10/31
+10:20
+17022
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+a4ae2e44-2fd5-47e3-bb3c-cd02dc384c94
+Charge
+2016/10/31
+10:20
+884786
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+120c0203-3d6f-4e65-86ec-3a1f40d7bf34
+Payment
+2016/10/31
+10:20
+435018
+-35.96
+Driver daniel was compensated $35.96 for taking Clientcreated from (676.0, 236.0) to (903.0, 184.0).
+
+4d33b1ba-ae18-4597-8940-524b927bcdb6
+Charge
+2016/10/31
+10:20
+879726
+38.29
+Client created was charged $38.29 for being taken from (676.0, 236.0) to (903.0, 184.0) by Driver daniel.
+
+36c3d80c-705a-445e-97a4-e8f298a67508
+Payment
+2016/10/31
+10:20
+562222
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+798be571-1d9b-4c0d-911f-43664d1d5b14
+Charge
+2016/10/31
+10:20
+257540
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+19bf4675-7641-41be-83ff-3c581d18d123
+Payment
+2016/10/31
+10:20
+193711
+-36.51
+Driver created was compensated $36.51 for taking Clientcreated from (938.0, 284.0) to (942.0, 523.0).
+
+3c8f94fc-1822-47c3-8af7-f58a4341cea4
+Charge
+2016/10/31
+10:20
+720129
+38.90
+Client created was charged $38.90 for being taken from (938.0, 284.0) to (942.0, 523.0) by Driver created.
+
+132b7e71-6382-4029-aa09-678adf9c762b
+Payment
+2016/10/31
+10:23
+949218
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+ff5b29eb-28e6-4987-8850-e7d419c2fe72
+Charge
+2016/10/31
+10:23
+881327
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+0699d3e1-9c45-42db-a9c6-9eae08338140
+Payment
+2016/10/31
+10:23
+785297
+-30.48
+Driver created was compensated $30.48 for taking Clientcreated from (666.0, 274.0) to (692.0, 444.0).
+
+d3fcd1cb-412c-4dec-814a-0aec08727bbf
+Charge
+2016/10/31
+10:23
+467821
+32.20
+Client created was charged $32.20 for being taken from (666.0, 274.0) to (692.0, 444.0) by Driver created.
+
+bb1cca64-9942-4bae-9b53-9ff9e86d0cbf
+Payment
+2016/10/31
+10:24
+302239
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (510.0, 337.0) to (510.0, 337.0).
+
+99749807-fc22-4f4c-ad3a-f20d54c8fce6
+Charge
+2016/10/31
+10:24
+934342
+15.00
+Client created was charged $15.00 for being taken from (510.0, 337.0) to (510.0, 337.0) by Driver daniel.
+
+1d4dc5a2-dc3a-4bdf-af53-0b911677b293
+Payment
+2016/10/31
+10:25
+208937
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+031ee601-8580-46be-b78a-6d8c9b48f84b
+Charge
+2016/10/31
+10:25
+408387
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+8f3ef3e1-1f65-468b-b224-861a604aa7d3
+Payment
+2016/10/31
+10:25
+450604
+-29.93
+Driver daniel was compensated $29.93 for taking Clientcreated from (874.0, 358.0) to (914.0, 197.0).
+
+78de4558-f2f8-4d3a-beb2-41c980e2bc56
+Charge
+2016/10/31
+10:25
+759756
+31.59
+Client created was charged $31.59 for being taken from (874.0, 358.0) to (914.0, 197.0) by Driver daniel.
+
+3ecad5c4-f822-4f00-907b-8c9ce84e9269
+Payment
+2016/10/31
+10:39
+822059
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+6854d92c-c95a-41b1-b6c1-ec037232be1b
+Charge
+2016/10/31
+10:39
+841413
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+7a6e28b8-8980-44f9-aa70-ff881a1d9750
+Payment
+2016/10/31
+10:39
+575103
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+91d8a60d-c3cf-4d02-988b-7de01d65507d
+Charge
+2016/10/31
+10:39
+813664
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+a21550cb-f6d3-419a-9fca-d1b7bf2e756b
+Payment
+2016/10/31
+10:39
+150997
+-41.25
+Driver daniel was compensated $41.25 for taking Clientcreated from (754.0, 230.0) to (1045.0, 249.0).
+
+139af828-1a69-4d9e-8a3c-2fb7b8e32e16
+Charge
+2016/10/31
+10:39
+610910
+44.16
+Client created was charged $44.16 for being taken from (754.0, 230.0) to (1045.0, 249.0) by Driver daniel.
+
+61efd494-7816-4930-99ec-449f6dc8cbfd
+Payment
+2016/10/31
+10:40
+314885
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+1a853980-b337-4af6-bc6e-a2cde96a255c
+Charge
+2016/10/31
+10:40
+158137
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+19516ec2-9bd9-4704-933a-ced47010a74e
+Payment
+2016/10/31
+10:41
+824235
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+5bfe79d5-0e6b-4dc9-897b-dc7a9ac84b19
+Charge
+2016/10/31
+10:41
+987670
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+c4a1fcb3-ac1d-4ad5-969f-8e3e84d8f651
+Payment
+2016/10/31
+10:41
+316027
+-25.98
+Driver created was compensated $25.98 for taking Clientcreated from (996.0, 252.0) to (1098.0, 319.0).
+
+356c6124-0f9e-4ab9-993b-8c154c44957c
+Charge
+2016/10/31
+10:41
+490884
+27.20
+Client created was charged $27.20 for being taken from (996.0, 252.0) to (1098.0, 319.0) by Driver created.
+
+ad9489f6-b494-4a07-ae9f-b7ab0680183d
+Payment
+2016/10/31
+10:41
+432935
+-18.70
+Driver created was compensated $18.70 for taking Clientcreated from (1009.0, 427.0) to (1012.0, 386.0).
+
+ade3ec05-c25e-43bb-9ac7-91d7ac5048a0
+Charge
+2016/10/31
+10:41
+723152
+19.11
+Client created was charged $19.11 for being taken from (1009.0, 427.0) to (1012.0, 386.0) by Driver created.
+
+552b3cbf-2b0a-4dcc-b2fd-8884b059da0f
+Payment
+2016/10/31
+10:41
+902864
+-27.65
+Driver daniel was compensated $27.65 for taking Clientcreated from (1124.0, 372.0) to (1085.0, 237.0).
+
+3181a20e-d656-44bf-a502-8a1d4c025a9e
+Charge
+2016/10/31
+10:41
+108863
+29.05
+Client created was charged $29.05 for being taken from (1124.0, 372.0) to (1085.0, 237.0) by Driver daniel.
+
+7868b128-e97b-40ac-8d77-0e6e1e442a6e
+Payment
+2016/10/31
+10:41
+440375
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+98d7e081-98c5-4fcb-be8c-b089cc3d42ea
+Charge
+2016/10/31
+10:41
+194939
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+8277d606-b5ac-4f82-8371-9b52219071f6
+Payment
+2016/10/31
+10:41
+174871
+-25.85
+Driver created was compensated $25.85 for taking Clientcreated from (1069.0, 97.0) to (990.0, 188.0).
+
+76db8c21-e71d-4e25-a48f-f67dc2102e6b
+Charge
+2016/10/31
+10:41
+285741
+27.05
+Client created was charged $27.05 for being taken from (1069.0, 97.0) to (990.0, 188.0) by Driver created.
+
+60c74344-0ceb-4147-9140-5fb515e644c8
+Payment
+2016/10/31
+10:41
+647878
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (1061.0, 358.0) to (1061.0, 358.0).
+
+72f40c1d-ab0b-451c-bb06-95fe09f40cb4
+Charge
+2016/10/31
+10:41
+176800
+15.00
+Client created was charged $15.00 for being taken from (1061.0, 358.0) to (1061.0, 358.0) by Driver created.
+
+c1a5e23b-4441-48d1-b102-891ee75630d2
+Payment
+2016/10/31
+10:41
+534656
+-27.12
+Driver daniel was compensated $27.12 for taking Clientcreated from (724.0, 241.0) to (641.0, 347.0).
+
+c2880672-5fc6-4ebe-ac84-c0c4cf93ae8a
+Charge
+2016/10/31
+10:41
+658619
+28.46
+Client created was charged $28.46 for being taken from (724.0, 241.0) to (641.0, 347.0) by Driver daniel.
+
+7e57e117-eee1-4c14-954b-4a701ccc24a5
+Payment
+2016/10/31
+10:42
+87313
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+545cc156-553e-465d-b44e-332b70dde63d
+Charge
+2016/10/31
+10:42
+605675
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+71ea5090-2d92-4c4d-9a37-155239ff92f7
+Payment
+2016/10/31
+10:42
+57488
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+34e86d0a-4d56-4249-8753-6a6078b34eb4
+Charge
+2016/10/31
+10:42
+453294
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+094a222c-a6e9-4c45-a264-af241db4495d
+Payment
+2016/10/31
+10:42
+770488
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+d3b368e1-642c-42b2-8f3d-8f2089bfc7df
+Charge
+2016/10/31
+10:42
+245308
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+f9c11736-87df-4c98-af93-1a8a404125d9
+Payment
+2016/10/31
+10:42
+694129
+-27.46
+Driver daniel was compensated $27.46 for taking Clientcreated from (848.0, 277.0) to (771.0, 392.0).
+
+30d82c93-76f4-4a00-b93d-8e66e2f1c8db
+Charge
+2016/10/31
+10:42
+17352
+28.84
+Client created was charged $28.84 for being taken from (848.0, 277.0) to (771.0, 392.0) by Driver daniel.
+
+7d505515-ec97-4add-96f8-0d0fe631243d
+Payment
+2016/10/31
+10:43
+98570
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+6d50bf3c-92df-4e8c-862a-fe4b131ea56b
+Charge
+2016/10/31
+10:43
+635151
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+86cbde00-5800-4d7a-a139-fd8b87d9b136
+Payment
+2016/10/31
+10:43
+779779
+-32.40
+Driver daniel was compensated $32.40 for taking Clientcreated from (611.0, 203.0) to (703.0, 373.0).
+
+0c68224e-1ded-4268-8b9a-a618147312e9
+Charge
+2016/10/31
+10:43
+693558
+34.33
+Client created was charged $34.33 for being taken from (611.0, 203.0) to (703.0, 373.0) by Driver daniel.
+
+62efb625-8f94-4f45-96ec-4e4549696237
+Payment
+2016/10/31
+10:46
+103969
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+eab9dd78-80e8-4386-aa59-dada6a83a179
+Charge
+2016/10/31
+10:46
+132373
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+aeca5acc-ce60-4cf5-b211-79b05c4d6084
+Payment
+2016/10/31
+10:46
+475529
+-42.31
+Driver daniel was compensated $42.31 for taking Clientcreated from (702.0, 320.0) to (1000.0, 263.0).
+
+774ff0b5-8120-448b-8886-629ad777db68
+Charge
+2016/10/31
+10:46
+626413
+45.34
+Client created was charged $45.34 for being taken from (702.0, 320.0) to (1000.0, 263.0) by Driver daniel.
+
+09fc1596-e8da-482b-8df7-f723ccb51224
+Payment
+2016/10/31
+10:46
+285984
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+52f58ddd-98f8-4e4b-9a38-56fa50d8abf7
+Charge
+2016/10/31
+10:46
+423228
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+5793af33-9cf1-43cb-bf79-6eb10df34072
+Payment
+2016/10/31
+10:48
+543802
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+2196601c-e3ed-467e-a462-e85a1d766813
+Charge
+2016/10/31
+10:48
+998198
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+99b9d2a9-a0b1-4cb5-9775-1fe12a3dcdcd
+Payment
+2016/10/31
+10:48
+490056
+-29.03
+Driver daniel was compensated $29.03 for taking Clientcreated from (590.0, 300.0) to (718.0, 211.0).
+
+e39b61ee-bf4c-49f3-9f7d-843e95941bbc
+Charge
+2016/10/31
+10:48
+748751
+30.59
+Client created was charged $30.59 for being taken from (590.0, 300.0) to (718.0, 211.0) by Driver daniel.
+
+6e39c0f8-9ffe-4b1b-9496-53d881d1f5f5
+Payment
+2016/10/31
+10:49
+895321
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+97cf6ada-01d3-452c-9b8d-59cd58394db8
+Charge
+2016/10/31
+10:49
+858194
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+1d4c71ee-b5d6-4437-9669-81cdc78370af
+Payment
+2016/10/31
+10:49
+231890
+-36.39
+Driver daniel was compensated $36.39 for taking Clientcreated from (662.0, 383.0) to (465.0, 250.0).
+
+191cfd01-79dd-4dc8-aeca-5bdfc3850487
+Charge
+2016/10/31
+10:49
+36753
+38.77
+Client created was charged $38.77 for being taken from (662.0, 383.0) to (465.0, 250.0) by Driver daniel.
+
+f40030f4-08fa-4116-a4e9-83357024a928
+Payment
+2016/10/31
+10:49
+568038
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+dfcd0046-3699-4933-b714-d0383fc7ac21
+Charge
+2016/10/31
+10:49
+424699
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+34faca8f-5387-4a56-8026-a1b114068aa2
+Payment
+2016/10/31
+10:49
+469566
+-28.18
+Driver created was compensated $28.18 for taking Clientcreated from (947.0, 203.0) to (841.0, 102.0).
+
+afcacf11-8188-443b-870b-308ed5b058a6
+Charge
+2016/10/31
+10:49
+496962
+29.64
+Client created was charged $29.64 for being taken from (947.0, 203.0) to (841.0, 102.0) by Driver created.
+
+1e33fb50-3da0-4b80-8814-79ea4504d937
+Payment
+2016/10/31
+10:49
+779971
+-34.02
+Driver daniel was compensated $34.02 for taking Clientcreated from (986.0, 472.0) to (775.0, 483.0).
+
+e33b4046-ec2d-4ad9-9f13-57221dc4ab9a
+Charge
+2016/10/31
+10:49
+291042
+36.13
+Client created was charged $36.13 for being taken from (986.0, 472.0) to (775.0, 483.0) by Driver daniel.
+
+24f1c8b1-0c05-4c17-86e0-1e62f2ba735a
+Payment
+2016/10/31
+10:49
+760006
+-36.56
+Driver created was compensated $36.56 for taking Clientcreated from (752.0, 349.0) to (933.0, 192.0).
+
+79264404-d426-4522-860e-cea33b630528
+Charge
+2016/10/31
+10:49
+408117
+38.96
+Client created was charged $38.96 for being taken from (752.0, 349.0) to (933.0, 192.0) by Driver created.
+
+e0dac451-73a7-42b0-98f1-5b4cd058f1f9
+Payment
+2016/10/31
+10:51
+990314
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+68b761f7-1525-4362-a98a-cb8426501893
+Charge
+2016/10/31
+10:51
+663911
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+4e3a13fc-a595-4c91-b916-5fad9f19ffbb
+Payment
+2016/10/31
+10:51
+712432
+-29.25
+Driver created was compensated $29.25 for taking Clientcreated from (978.0, 188.0) to (967.0, 346.0).
+
+4b214876-3f37-4e51-942f-6dae78f1a949
+Charge
+2016/10/31
+10:51
+895594
+30.84
+Client created was charged $30.84 for being taken from (978.0, 188.0) to (967.0, 346.0) by Driver created.
+
+345b2de1-cc43-4418-834e-eb34f3f9b7ce
+Payment
+2016/10/31
+10:51
+158186
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (1018.0, 170.0) to (1018.0, 170.0).
+
+106ebf12-d248-4934-afec-47209e488474
+Charge
+2016/10/31
+10:51
+952774
+15.00
+Client created was charged $15.00 for being taken from (1018.0, 170.0) to (1018.0, 170.0) by Driver created.
+
+68c5b9b5-838f-4424-ac2a-9297654a4849
+Payment
+2016/10/31
+10:52
+402107
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+9a2e997a-11bd-4f23-9584-25ee836e0cf4
+Charge
+2016/10/31
+10:52
+906079
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+c27df129-57f3-4045-a7b3-d4e69ce8f4dd
+Payment
+2016/10/31
+10:52
+435380
+-27.38
+Driver daniel was compensated $27.38 for taking Clientcreated from (666.0, 215.0) to (550.0, 289.0).
+
+2ec588fd-8a71-41d6-9797-d5d7a4084b1d
+Charge
+2016/10/31
+10:52
+653224
+28.76
+Client created was charged $28.76 for being taken from (666.0, 215.0) to (550.0, 289.0) by Driver daniel.
+
+f8f71f35-3a98-47f7-b6a7-b5d39b461710
+Payment
+2016/10/31
+10:54
+204628
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+a1f8125a-bbc3-4a7d-8586-824fc42f74c0
+Charge
+2016/10/31
+10:54
+391709
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+810aa25d-abbe-42d7-8843-4d8ddc7d64ed
+Payment
+2016/10/31
+10:54
+657063
+-30.96
+Driver daniel was compensated $30.96 for taking Clientcreated from (639.0, 237.0) to (464.0, 266.0).
+
+a0fef9d4-f3b6-4ecc-8164-ec7bb5569f29
+Charge
+2016/10/31
+10:54
+51664
+32.74
+Client created was charged $32.74 for being taken from (639.0, 237.0) to (464.0, 266.0) by Driver daniel.
+
+7aba6147-304d-4fec-90b6-61a6a5969df1
+Payment
+2016/10/31
+10:54
+798935
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+dc49b3b1-212c-4f24-86df-08832dd552f4
+Charge
+2016/10/31
+10:54
+405622
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+51d75e54-7c4a-47c3-9c88-6310942ce64f
+Payment
+2016/10/31
+10:54
+589766
+-30.69
+Driver created was compensated $30.69 for taking Clientcreated from (958.0, 170.0) to (915.0, 339.0).
+
+1dc011a5-eedf-4f8f-a254-989ca69898b2
+Charge
+2016/10/31
+10:54
+938857
+32.44
+Client created was charged $32.44 for being taken from (958.0, 170.0) to (915.0, 339.0) by Driver created.
+
+fd3d7c67-5c20-45bd-8779-eae009218e11
+Payment
+2016/10/31
+10:55
+35144
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+2f54ee79-d494-4d9e-8b7e-677aad67071a
+Charge
+2016/10/31
+10:55
+886080
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+b2781bfc-37a6-4bec-aed0-c7f62d2d5cfa
+Payment
+2016/10/31
+10:55
+957646
+-42.87
+Driver created was compensated $42.87 for taking Clientcreated from (364.0, 284.0) to (68.0, 193.0).
+
+55d27f90-fbc0-4fca-a7a1-488b2225c632
+Charge
+2016/10/31
+10:55
+880325
+45.97
+Client created was charged $45.97 for being taken from (364.0, 284.0) to (68.0, 193.0) by Driver created.
+
+2ae282aa-008e-444a-bab7-ded808d5c452
+Payment
+2016/10/31
+10:55
+239239
+-46.65
+Driver created was compensated $46.65 for taking Clientcreated from (478.0, 199.0) to (820.0, 117.0).
+
+d3ae2b75-8979-45e5-a5b7-04d4325d2c62
+Charge
+2016/10/31
+10:55
+526160
+50.17
+Client created was charged $50.17 for being taken from (478.0, 199.0) to (820.0, 117.0) by Driver created.
+
+0688cf6f-65f0-4a8a-aa16-366cda162d59
+Payment
+2016/10/31
+10:55
+830045
+-28.41
+Driver created was compensated $28.41 for taking Clientcreated from (646.0, 324.0) to (646.0, 473.0).
+
+d77695a8-9253-4e41-8df6-a37be394d051
+Charge
+2016/10/31
+10:55
+33032
+29.90
+Client created was charged $29.90 for being taken from (646.0, 324.0) to (646.0, 473.0) by Driver created.
+
+2581363d-b099-43e0-a8ac-6347bafccb92
+Payment
+2016/10/31
+10:55
+511621
+-23.09
+Driver created was compensated $23.09 for taking Clientcreated from (940.0, 323.0) to (1024.0, 291.0).
+
+020108ca-7619-4e32-88ce-d97a65562a6f
+Charge
+2016/10/31
+10:55
+976309
+23.99
+Client created was charged $23.99 for being taken from (940.0, 323.0) to (1024.0, 291.0) by Driver created.
+
+bb445e69-0516-457b-bc4a-cda5271adc11
+Payment
+2016/10/31
+10:55
+989146
+-37.90
+Driver daniel was compensated $37.90 for taking Clientcreated from (658.0, 475.0) to (429.0, 364.0).
+
+e9424bc8-e835-4ec1-a941-f7dd4a73a7d9
+Charge
+2016/10/31
+10:55
+47052
+40.45
+Client created was charged $40.45 for being taken from (658.0, 475.0) to (429.0, 364.0) by Driver daniel.
+
+cb508505-c748-4350-b585-0ae212644eba
+Payment
+2016/10/31
+10:55
+458710
+-18.87
+Driver created was compensated $18.87 for taking Clientcreated from (550.0, 230.0) to (572.0, 193.0).
+
+00b0d64b-81b3-43cf-8ff4-045909e98d1b
+Charge
+2016/10/31
+10:55
+700546
+19.30
+Client created was charged $19.30 for being taken from (550.0, 230.0) to (572.0, 193.0) by Driver created.
+
+35760dc3-aad8-4281-8d7b-5b19e6709bd6
+Payment
+2016/10/31
+10:55
+403265
+-21.69
+Driver created was compensated $21.69 for taking Clientcreated from (370.0, 387.0) to (363.0, 461.0).
+
+561f48d3-30f6-44b5-b160-abfd99dbc3c3
+Charge
+2016/10/31
+10:55
+453065
+22.43
+Client created was charged $22.43 for being taken from (370.0, 387.0) to (363.0, 461.0) by Driver created.
+
+6dc301e4-4ab8-4203-b2b1-0253218f4da3
+Payment
+2016/10/31
+10:56
+407174
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+72734cb3-94c4-485a-80d2-b348aeb58fbd
+Charge
+2016/10/31
+10:56
+427749
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+64b1f86d-00c2-4d93-9c6b-c89b81ecc1b3
+Payment
+2016/10/31
+10:56
+665736
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (647.0, 235.0) to (647.0, 235.0).
+
+5c87db72-7335-4dca-b547-04c61c878d4c
+Charge
+2016/10/31
+10:56
+295437
+15.00
+Client created was charged $15.00 for being taken from (647.0, 235.0) to (647.0, 235.0) by Driver created.
+
+85a9f65b-5d19-4279-8b54-3bdd860de25f
+Payment
+2016/10/31
+10:56
+284440
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (808.0, 214.0) to (808.0, 214.0).
+
+98d0799a-17fb-4823-bae1-bf346db4bacf
+Charge
+2016/10/31
+10:56
+224503
+15.00
+Client created was charged $15.00 for being taken from (808.0, 214.0) to (808.0, 214.0) by Driver created.
+
+e53ac5dd-d48f-455b-b20f-cdf3f0eb1331
+Payment
+2016/10/31
+10:56
+182039
+-15.00
+Driver created was compensated $15.00 for taking Clientcreated from (808.0, 347.0) to (808.0, 347.0).
+
+daa91b68-22c4-4fd0-81f0-486c509e4516
+Charge
+2016/10/31
+10:56
+361784
+15.00
+Client created was charged $15.00 for being taken from (808.0, 347.0) to (808.0, 347.0) by Driver created.
+
+7971b7fa-e311-4e46-8e3a-f9855772701d
+Payment
+2016/10/31
+10:56
+924186
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (773.0, 452.0) to (773.0, 452.0).
+
+de3d214d-6a52-470a-a2fb-484f4166cfc6
+Charge
+2016/10/31
+10:56
+106668
+15.00
+Client created was charged $15.00 for being taken from (773.0, 452.0) to (773.0, 452.0) by Driver daniel.
+
+a99b2ce1-2514-4285-8563-ee43c348535f
+Payment
+2016/10/31
+10:57
+147598
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+20a6762b-a9ca-4265-bd3f-2f1601af5623
+Charge
+2016/10/31
+10:57
+160267
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+2521f82c-1472-4743-8229-db4cca4495be
+Payment
+2016/10/31
+10:58
+612700
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+b71d1840-0913-4b6c-a59a-69a6fd6cbfea
+Charge
+2016/10/31
+10:58
+862989
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+36eda5be-e660-4ade-a864-9c81485d016d
+Payment
+2016/10/31
+11:02
+254785
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+bfc2ba2a-1ff9-4263-8b27-67ad4e6a7c06
+Charge
+2016/10/31
+11:02
+313714
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+f9b7f534-3b88-4eb1-af30-c0932ad92c93
+Payment
+2016/10/31
+11:05
+916239
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+188ce559-5aee-468b-8a32-8c8b4b99e888
+Charge
+2016/10/31
+11:05
+826097
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+75135680-4e19-45a3-8b99-78760eb0b6ea
+Payment
+2016/10/31
+11:06
+294915
+-41.66
+Driver created was compensated $41.66 for taking Clientcreated from (716.0, 474.0) to (964.0, 312.0).
+
+16b8e136-6f7c-473e-8d0a-b8e8b58af77b
+Charge
+2016/10/31
+11:06
+943674
+44.62
+Client created was charged $44.62 for being taken from (716.0, 474.0) to (964.0, 312.0) by Driver created.
+
+87f65932-994c-4b64-9123-c2adbd6d485d
+Payment
+2016/10/31
+11:06
+220701
+-38.79
+Driver created was compensated $38.79 for taking Clientcreated from (754.0, 299.0) to (977.0, 157.0).
+
+6571526c-5b9e-4208-bceb-dedbabaa343b
+Charge
+2016/10/31
+11:06
+113743
+41.44
+Client created was charged $41.44 for being taken from (754.0, 299.0) to (977.0, 157.0) by Driver created.
+
+4975e159-91d5-4dce-9f98-8def75716161
+Payment
+2016/10/31
+11:06
+44489
+-57.84
+Driver daniel was compensated $57.84 for taking Clientcreated from (845.0, 371.0) to (369.0, 378.0).
+
+61724c43-a19d-49dc-8249-96185ecf3fc1
+Charge
+2016/10/31
+11:06
+775477
+62.61
+Client created was charged $62.61 for being taken from (845.0, 371.0) to (369.0, 378.0) by Driver daniel.
+
+1ec61569-9c3a-44ae-8057-f121baa55137
+Payment
+2016/10/31
+11:06
+422718
+-26.09
+Driver created was compensated $26.09 for taking Clientcreated from (306.0, 353.0) to (278.0, 233.0).
+
+c6c5f543-6771-4939-81d1-056ac688b0d6
+Charge
+2016/10/31
+11:06
+374762
+27.32
+Client created was charged $27.32 for being taken from (306.0, 353.0) to (278.0, 233.0) by Driver created.
+
+8eb933a4-f46c-447f-89ed-e295436707a1
+Payment
+2016/10/31
+11:08
+688645
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+c70c8145-368d-4eb1-bb3f-45da3a8cfb66
+Charge
+2016/10/31
+11:08
+738025
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+72435eea-6e8a-4d9e-98ec-13b42d18a1be
+Payment
+2016/10/31
+11:14
+800907
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+36205660-f006-44c2-8371-91d32a6612c6
+Charge
+2016/10/31
+11:14
+882939
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+830080e9-547d-4ad3-9dfa-5f7a65974a27
+Payment
+2016/10/31
+11:14
+91053
+-41.12
+Driver created was compensated $41.12 for taking Clientcreated from (290.0, 401.0) to (577.0, 358.0).
+
+ab5ec926-162e-4fce-b847-d8a1498c08b3
+Charge
+2016/10/31
+11:14
+690525
+44.02
+Client created was charged $44.02 for being taken from (290.0, 401.0) to (577.0, 358.0) by Driver created.
+
+01982b92-3f7f-4e2c-9361-c0d3bc47a10f
+Payment
+2016/10/31
+11:14
+937785
+-21.86
+Driver daniel was compensated $21.86 for taking Clientcreated from (784.0, 340.0) to (857.0, 318.0).
+
+cb7e5275-3bbf-49a1-9834-0f2fb3b19601
+Charge
+2016/10/31
+11:14
+526491
+22.62
+Client created was charged $22.62 for being taken from (784.0, 340.0) to (857.0, 318.0) by Driver daniel.
+
+8f9d4fef-3532-4699-ae55-94e16c67d0f3
+Payment
+2016/10/31
+11:14
+736854
+-20.68
+Driver created was compensated $20.68 for taking Clientcreated from (651.0, 238.0) to (709.0, 213.0).
+
+faaf79e7-ac27-43c8-b0f2-a3b2c3d0fa02
+Charge
+2016/10/31
+11:14
+179106
+21.32
+Client created was charged $21.32 for being taken from (651.0, 238.0) to (709.0, 213.0) by Driver created.
+
+67a9ed1b-5077-4f3c-aba8-99b04c875434
+Payment
+2016/10/31
+11:15
+416002
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+7ea111c3-e1b6-4ca9-ab93-606233b4ecef
+Charge
+2016/10/31
+11:15
+836414
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+81dd994a-e21d-403e-9c83-9070de40de82
+Payment
+2016/10/31
+11:18
+794894
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+13cef911-b121-4cea-ad44-d88db62893b5
+Charge
+2016/10/31
+11:18
+31544
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+6ab1176b-69e3-42a8-8b48-8d693de2f709
+Payment
+2016/10/31
+11:19
+190310
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+08ffa0f7-0d77-4bf5-bd73-9edd7b692b1a
+Charge
+2016/10/31
+11:19
+539491
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+98dc6843-b154-4443-945f-cbd36b68740e
+Payment
+2016/10/31
+11:19
+539670
+-21.58
+Driver created was compensated $21.58 for taking Clientcreated from (992.0, 284.0) to (1039.0, 228.0).
+
+027ef7ea-82d5-4c79-a0d7-29013276c167
+Charge
+2016/10/31
+11:19
+576752
+22.31
+Client created was charged $22.31 for being taken from (992.0, 284.0) to (1039.0, 228.0) by Driver created.
+
+7ea93dc9-7d48-4044-9298-5d7290d85c77
+Payment
+2016/10/31
+11:19
+806122
+-29.61
+Driver created was compensated $29.61 for taking Clientcreated from (779.0, 218.0) to (686.0, 85.0).
+
+18441418-c0e4-4d1c-88d9-6df10d03319e
+Charge
+2016/10/31
+11:19
+68554
+31.23
+Client created was charged $31.23 for being taken from (779.0, 218.0) to (686.0, 85.0) by Driver created.
+
+26e5dda8-3ee5-46db-a572-e3577b877c45
+Payment
+2016/10/31
+11:19
+520940
+-31.12
+Driver daniel was compensated $31.12 for taking Clientcreated from (712.0, 358.0) to (719.0, 537.0).
+
+f16a86f1-a5c0-443f-94ba-fc16ac8bf097
+Charge
+2016/10/31
+11:19
+96104
+32.91
+Client created was charged $32.91 for being taken from (712.0, 358.0) to (719.0, 537.0) by Driver daniel.
+
+0b3d87f9-5761-439f-b1d6-531876a797a8
+Payment
+2016/10/31
+11:19
+222013
+-35.17
+Driver created was compensated $35.17 for taking Clientcreated from (526.0, 363.0) to (338.0, 241.0).
+
+eeb52514-1664-4790-a6f4-f0cea987f5e0
+Charge
+2016/10/31
+11:19
+667913
+37.41
+Client created was charged $37.41 for being taken from (526.0, 363.0) to (338.0, 241.0) by Driver created.
+
+24c99a83-5fd1-4ce7-bbf4-e7fe378a3462
+Payment
+2016/10/31
+11:20
+574450
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+c4e4266e-5abd-4485-8211-b94a4ca2b8c3
+Charge
+2016/10/31
+11:20
+479713
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+732eaafe-ad9a-460d-898b-9f1b43062a16
+Payment
+2016/10/31
+11:21
+515534
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+19f8d6f5-3aa1-4eb8-ae6b-164f5c9e8500
+Charge
+2016/10/31
+11:21
+603162
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+d93c2fd0-9fdb-4d70-b29e-93b388c9ed23
+Payment
+2016/10/31
+11:22
+937147
+-38.94
+Driver created was compensated $38.94 for taking Clientcreated from (559.0, 361.0) to (691.0, 130.0).
+
+2fe90e53-6e89-488f-977a-91a34fe3609e
+Charge
+2016/10/31
+11:22
+146016
+41.61
+Client created was charged $41.61 for being taken from (559.0, 361.0) to (691.0, 130.0) by Driver created.
+
+bc93c025-b2c3-49e6-bf9d-878a1e84b236
+Payment
+2016/10/31
+11:22
+350688
+-46.56
+Driver created was compensated $46.56 for taking Clientcreated from (884.0, 393.0) to (1087.0, 107.0).
+
+dfb5ef43-ecb2-4908-b247-20c9c6247b01
+Charge
+2016/10/31
+11:22
+221147
+50.07
+Client created was charged $50.07 for being taken from (884.0, 393.0) to (1087.0, 107.0) by Driver created.
+
+7570e849-140d-44ca-b5d8-fa3230c6d052
+Payment
+2016/10/31
+11:22
+470012
+-58.15
+Driver created was compensated $58.15 for taking Clientcreated from (907.0, 209.0) to (428.0, 230.0).
+
+3fd471c6-fba8-4cdd-9d93-9318dea9d3f9
+Charge
+2016/10/31
+11:22
+810899
+62.95
+Client created was charged $62.95 for being taken from (907.0, 209.0) to (428.0, 230.0) by Driver created.
+
+ec1593fb-4ac6-40a0-ad5c-fe4753d6286a
+Payment
+2016/10/31
+11:22
+494336
+-41.44
+Driver daniel was compensated $41.44 for taking Clientcreated from (615.0, 470.0) to (374.0, 302.0).
+
+ec7cd24b-8a30-48a3-a333-49c3badb4700
+Charge
+2016/10/31
+11:22
+478006
+44.38
+Client created was charged $44.38 for being taken from (615.0, 470.0) to (374.0, 302.0) by Driver daniel.
+
+86c6282b-a7e3-4967-a841-9c1818fe437f
+Payment
+2016/10/31
+11:39
+697410
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+bd8db7ca-5a4b-4593-8b73-11deb0952c39
+Charge
+2016/10/31
+11:39
+360924
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+4283d1ac-84b5-4109-a8dd-77da25bd0b7e
+Payment
+2016/10/31
+12:02
+502622
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+0c22efed-4f29-49f2-afa7-f98287cc4c49
+Charge
+2016/10/31
+12:02
+831081
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+1a029746-c9a2-4a6e-ab0e-e3189e35d962
+Payment
+2016/10/31
+12:03
+44388
+-37.16
+Driver daniel was compensated $37.16 for taking Clientcreated from (556.0, 387.0) to (767.0, 260.0).
+
+5ae459de-e4dd-46a5-bc80-65b0f2a4029e
+Charge
+2016/10/31
+12:03
+925714
+39.63
+Client created was charged $39.63 for being taken from (556.0, 387.0) to (767.0, 260.0) by Driver daniel.
+
+6ed053a1-6ed3-4558-a584-762f09d4feb8
+Payment
+2016/10/31
+12:03
+694867
+-50.63
+Driver created was compensated $50.63 for taking Clientcreated from (469.0, 350.0) to (819.0, 165.0).
+
+e9edde19-db6f-4562-8ec4-88bbba5065b3
+Charge
+2016/10/31
+12:03
+827593
+54.59
+Client created was charged $54.59 for being taken from (469.0, 350.0) to (819.0, 165.0) by Driver created.
+
+cf23343d-1887-4dbb-9bdb-4d9904a68743
+Payment
+2016/10/31
+13:42
+231764
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+f299da89-703c-46dd-9090-0adc87bfa22e
+Charge
+2016/10/31
+13:42
+506338
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+5c0f5e16-b940-4081-bad5-438a0fc67fa1
+Payment
+2016/10/31
+14:03
+431386
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+895a4655-f668-462b-a621-b125cc405ade
+Charge
+2016/10/31
+14:03
+362847
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+cbfbc54b-190d-4f6c-8df0-4dd3f8e2af6f
+Payment
+2016/10/31
+14:04
+907873
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+51f31f64-0eea-470d-93b1-e3c1b97da901
+Charge
+2016/10/31
+14:04
+816030
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+7e5a416a-3eab-458e-a7b4-fa88a7e2cfde
+Payment
+2016/10/31
+14:05
+842928
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+cd1e236f-6ffa-4c41-ae04-84b79cd0f801
+Charge
+2016/10/31
+14:05
+810621
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+48fe10b4-e664-44cd-a237-f342d9ce374b
+Payment
+2016/10/31
+14:05
+849803
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+f8597aba-8295-4be4-8f89-cd6955071dc8
+Charge
+2016/10/31
+14:05
+29086
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+5abc4312-cb23-4746-9f68-6eb33750e773
+Payment
+2016/11/02
+07:07
+591553
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+2ed86c72-206f-40df-bc80-c324af15a8bd
+Charge
+2016/11/02
+07:07
+264163
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+af2f80b2-fae7-461c-bf7b-684a9eb08579
+Payment
+2016/11/02
+07:23
+624760
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+534377da-82a4-451b-89f9-959ec8b844b7
+Charge
+2016/11/02
+07:23
+740821
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+19dcc5ea-3aa9-467b-bc50-033f730a2ae0
+Payment
+2016/11/02
+07:24
+866371
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+d296f197-31db-4dc0-87c2-82e681e2ab0a
+Charge
+2016/11/02
+07:24
+109406
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+ed9f1657-edb4-4ce7-942b-bb7714eb17e0
+Payment
+2016/11/02
+07:24
+668434
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+e4a4aa1d-21a4-46ff-9c57-c5dcbadc5a66
+Charge
+2016/11/02
+07:24
+891907
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+9dc27665-6b63-463d-a6b3-4e1335e92f60
+Payment
+2016/11/02
+07:25
+905834
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+7584a4af-87e2-440b-aa32-ee54ec851817
+Charge
+2016/11/02
+07:25
+971249
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+7db2e879-ca97-4434-95bf-eb64e6fe036c
+Payment
+2016/11/02
+07:26
+169067
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+e7669b95-2f4d-477a-8d7d-36263a8dfc9d
+Charge
+2016/11/02
+07:26
+689897
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+5d6c5343-ea7d-4ea8-8ca5-1bde6f42a897
+Payment
+2016/11/02
+07:26
+103430
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+fcea1024-18a5-4a6a-9e4b-651544710d6f
+Charge
+2016/11/02
+07:26
+517134
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+666090aa-6de5-4e11-85fe-9f447ee0299f
+Payment
+2016/11/02
+07:27
+700070
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+a12a862d-5111-4bfa-9f41-1f84e3bb24df
+Charge
+2016/11/02
+07:27
+161252
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+9c3ce13f-d86f-4786-a9ac-dfdc1f1051c1
+Payment
+2016/11/02
+07:28
+147277
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+8efd3576-0fd5-4d78-9606-8c94cbc22850
+Charge
+2016/11/02
+07:28
+780641
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+ae61dc7f-6fb4-4c14-a8fb-865391a64076
+Payment
+2016/11/02
+07:29
+914137
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+62c21c9b-5ff5-490f-8616-0873c4062f3e
+Charge
+2016/11/02
+07:29
+429088
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+24b93564-c6d6-42ba-aff5-96996eab129d
+Payment
+2016/11/02
+07:29
+821661
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (707.0, 367.0) to (707.0, 367.0).
+
+66f8e59f-755e-4dfd-9915-57a0dd6ce1ad
+Charge
+2016/11/02
+07:29
+90991
+15.00
+Client created was charged $15.00 for being taken from (707.0, 367.0) to (707.0, 367.0) by Driver daniel.
+
+cab99842-bb96-4b01-b512-fe7867abc229
+Payment
+2016/11/02
+07:29
+611576
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+7986e8c6-b140-4799-bf41-914d52e09971
+Charge
+2016/11/02
+07:29
+854057
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+fe14c525-82a8-4c35-aef8-9647f8f75434
+Payment
+2016/11/02
+07:29
+436481
+-54.67
+Driver created was compensated $54.67 for taking Clientcreated from (835.0, 306.0) to (399.0, 241.0).
+
+aae567a9-e335-437e-b1be-d58afb444cee
+Charge
+2016/11/02
+07:29
+148268
+59.08
+Client created was charged $59.08 for being taken from (835.0, 306.0) to (399.0, 241.0) by Driver created.
+
+ce8b45ff-c4cf-4b91-a6f3-6a3621a7f154
+Payment
+2016/11/02
+07:31
+770300
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+a510d316-6427-4f4f-b5c9-9717ce8aa5ba
+Charge
+2016/11/02
+07:31
+47467
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+b2b4ff51-6725-48a0-a7c3-7fc86fc077d0
+Payment
+2016/11/02
+07:31
+580724
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+df5a7bd7-f7c5-45db-bbe3-c78de39569b7
+Charge
+2016/11/02
+07:31
+214932
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+a46a4807-e6a6-4b37-b934-7831434d81c0
+Payment
+2016/11/02
+07:32
+178430
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+90e92c4a-53f8-4185-9d82-8fd8a2c4ff33
+Charge
+2016/11/02
+07:32
+71814
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+d97b8be6-6192-476c-9a46-5a251b826db1
+Payment
+2016/11/02
+07:32
+999600
+-23.46
+Driver daniel was compensated $23.46 for taking Clientcreated from (647.0, 267.0) to (553.0, 268.0).
+
+1b7a7c9e-7575-475a-adb1-5490f0194997
+Charge
+2016/11/02
+07:32
+459191
+24.40
+Client created was charged $24.40 for being taken from (647.0, 267.0) to (553.0, 268.0) by Driver daniel.
+
+32fbfc46-d2bb-4972-83d3-1df21acb7121
+Payment
+2016/11/02
+07:33
+70840
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+4449e535-be54-409c-98c2-703bf8062b9b
+Charge
+2016/11/02
+07:33
+806620
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+820d04ee-31f2-4547-bba9-2b715ae310a2
+Payment
+2016/11/02
+07:33
+908471
+-42.94
+Driver created was compensated $42.94 for taking Clientcreated from (1003.0, 353.0) to (722.0, 221.0).
+
+d179142f-39f0-4f3d-adce-73c457cae2cb
+Charge
+2016/11/02
+07:33
+369411
+46.05
+Client created was charged $46.05 for being taken from (1003.0, 353.0) to (722.0, 221.0) by Driver created.
+
+978b4e08-f96f-4c95-817a-fadbb5349f40
+Payment
+2016/11/02
+07:33
+75487
+-38.68
+Driver created was compensated $38.68 for taking Clientcreated from (610.0, 371.0) to (360.0, 289.0).
+
+905130dc-0297-4972-95ac-e1f915324875
+Charge
+2016/11/02
+07:33
+52022
+41.31
+Client created was charged $41.31 for being taken from (610.0, 371.0) to (360.0, 289.0) by Driver created.
+
+8a9076bb-ff11-48d6-a7ab-bab1aad3a8e6
+Payment
+2016/11/02
+07:33
+96563
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (885.0, 302.0) to (885.0, 302.0).
+
+314e7ca1-ba17-4618-a17e-d94ffe3245d0
+Charge
+2016/11/02
+07:33
+397083
+15.00
+Client created was charged $15.00 for being taken from (885.0, 302.0) to (885.0, 302.0) by Driver daniel.
+
+8c6ed86e-afaa-42cd-90b5-ef4a011f964e
+Payment
+2016/11/02
+07:33
+632681
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+b1bd2ce8-bffd-4d7b-8346-64da7b8ffd89
+Charge
+2016/11/02
+07:33
+90065
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+b1dd4078-d9e6-4509-be19-4f4bb84e3203
+Payment
+2016/11/02
+07:33
+922288
+-40.63
+Driver created was compensated $40.63 for taking Clientcreated from (1022.0, 398.0) to (761.0, 284.0).
+
+32f7b92f-983d-4540-b2a4-c244fc2ad7ba
+Charge
+2016/11/02
+07:33
+273782
+43.48
+Client created was charged $43.48 for being taken from (1022.0, 398.0) to (761.0, 284.0) by Driver created.
+
+35ffbc89-9643-4e48-8772-1f846e29546f
+Payment
+2016/11/02
+07:33
+598164
+-38.53
+Driver created was compensated $38.53 for taking Clientcreated from (764.0, 408.0) to (504.0, 435.0).
+
+43e65924-b0cd-408f-a30a-6958993336aa
+Charge
+2016/11/02
+07:33
+660948
+41.14
+Client created was charged $41.14 for being taken from (764.0, 408.0) to (504.0, 435.0) by Driver created.
+
+b07bb2a3-b61e-4606-8cec-cdd8fc723311
+Payment
+2016/11/02
+07:33
+216498
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+7766b797-3b31-47f0-82d7-d71c668eaf06
+Charge
+2016/11/02
+07:33
+370790
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+15644965-11eb-4112-b172-a841904e08d2
+Payment
+2016/11/02
+07:33
+16783
+-34.82
+Driver daniel was compensated $34.82 for taking Clientcreated from (805.0, 317.0) to (599.0, 239.0).
+
+270c0e63-4481-43c2-b31c-909ad64af0a0
+Charge
+2016/11/02
+07:33
+802069
+37.03
+Client created was charged $37.03 for being taken from (805.0, 317.0) to (599.0, 239.0) by Driver daniel.
+
+82e124ed-0105-47a5-b939-f44dcbdc8c81
+Payment
+2016/11/02
+07:35
+183736
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+f45a1cc9-4b34-47f8-b861-4778a5f44b23
+Charge
+2016/11/02
+07:35
+995349
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+6c6ff445-002c-4891-a85d-3f3db36d8f4c
+Payment
+2016/11/02
+07:35
+402627
+-35.27
+Driver daniel was compensated $35.27 for taking Clientcreated from (836.0, 316.0) to (621.0, 249.0).
+
+88a0fd2e-05e5-4c6b-b741-4f5df035a7fe
+Charge
+2016/11/02
+07:35
+542001
+37.52
+Client created was charged $37.52 for being taken from (836.0, 316.0) to (621.0, 249.0) by Driver daniel.
+
+3f19b521-49e0-4b18-a37b-22162772eb4a
+Payment
+2016/11/02
+07:36
+346265
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+e00e3fb0-0b5a-4e34-8c17-528901e42572
+Charge
+2016/11/02
+07:36
+789356
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+e0db8a46-abf0-45e1-bb1c-cce1cba18263
+Payment
+2016/11/02
+07:36
+123491
+-37.24
+Driver created was compensated $37.24 for taking Clientcreated from (932.0, 439.0) to (991.0, 199.0).
+
+ef4a1bfa-db03-495c-b303-7ddfda8695c7
+Charge
+2016/11/02
+07:36
+172184
+39.71
+Client created was charged $39.71 for being taken from (932.0, 439.0) to (991.0, 199.0) by Driver created.
+
+3ff36e76-dffd-4a1d-ac84-407a5092c470
+Payment
+2016/11/02
+07:36
+563564
+-43.20
+Driver daniel was compensated $43.20 for taking Clientcreated from (741.0, 483.0) to (577.0, 216.0).
+
+a4e18c3c-5280-4063-967c-7bec07c6aa65
+Charge
+2016/11/02
+07:36
+32005
+46.33
+Client created was charged $46.33 for being taken from (741.0, 483.0) to (577.0, 216.0) by Driver daniel.
+
+67020c3b-6181-41a1-8056-daa02f7a649e
+Payment
+2016/11/02
+07:36
+484668
+-34.63
+Driver created was compensated $34.63 for taking Clientcreated from (580.0, 371.0) to (363.0, 349.0).
+
+d7467bb5-4d95-497f-9443-80c502400588
+Charge
+2016/11/02
+07:36
+231407
+36.81
+Client created was charged $36.81 for being taken from (580.0, 371.0) to (363.0, 349.0) by Driver created.
+
+77203620-496f-4cce-8768-797584e6763d
+Payment
+2016/11/02
+07:46
+338868
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+c23a2dd2-ab5e-45c3-87ae-c2a5f3e6db81
+Charge
+2016/11/02
+07:46
+893903
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+3b42f198-88d5-401d-8721-eff27cbe9984
+Payment
+2016/11/02
+07:47
+843276
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+9a2fb7ba-ac11-4170-ac74-373fc484551c
+Charge
+2016/11/02
+07:47
+306204
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+7efc1ad1-7fdf-4227-be46-da6799818e47
+Payment
+2016/11/02
+07:47
+463978
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+87d213d4-aec2-4748-8cb6-3f468687816f
+Charge
+2016/11/02
+07:47
+241598
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+abaa7f77-c6f7-40c5-b0fc-bad801268b67
+Payment
+2016/11/02
+07:47
+757795
+-29.54
+Driver daniel was compensated $29.54 for taking Clientcreated from (527.0, 348.0) to (674.0, 281.0).
+
+cf93774b-1432-4a1e-829e-c6f839bd4bad
+Charge
+2016/11/02
+07:47
+636792
+31.15
+Client created was charged $31.15 for being taken from (527.0, 348.0) to (674.0, 281.0) by Driver daniel.
+
+c1230511-9516-424e-bb9d-722c5dd41e90
+Payment
+2016/11/02
+08:24
+789357
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+f9218b1d-2b53-46f3-98c0-963d9556150b
+Charge
+2016/11/02
+08:24
+513239
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+f96d6f0a-5711-45ec-a9e4-ce490d08d95d
+Payment
+2016/11/02
+08:24
+260270
+-30.90
+Driver daniel was compensated $30.90 for taking Clientcreated from (677.0, 341.0) to (517.0, 266.0).
+
+7c536567-0db3-4631-b826-a42710c8a387
+Charge
+2016/11/02
+08:24
+770275
+32.67
+Client created was charged $32.67 for being taken from (677.0, 341.0) to (517.0, 266.0) by Driver daniel.
+
+d2678193-f4d5-4a41-913f-1ac8c09cef2e
+Payment
+2016/11/02
+08:25
+906147
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+d1ce17b4-b510-46cc-9e98-86e7a2044e31
+Charge
+2016/11/02
+08:25
+785098
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+24af1a03-46ad-4e6e-933b-fac085f9a40b
+Payment
+2016/11/02
+08:27
+181901
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+b186af3e-22d2-4a64-b5d3-d0e6406c1e97
+Charge
+2016/11/02
+08:27
+836108
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+ade8e21c-d867-49b1-aaf8-da3f8b0f319c
+Payment
+2016/11/02
+08:28
+574111
+-27.73
+Driver dan was compensated $27.73 for taking Clientclinton from (200.0, 200.0) to (100.0, 300.0).
+
+32d2adb6-97d9-42b4-9453-75a094da1afd
+Charge
+2016/11/02
+08:28
+637063
+29.14
+Client clinton was charged $29.14 for being taken from (200.0, 200.0) to (100.0, 300.0) by Driver dan.
+
+4a49373a-1f09-4776-a9ad-f8ef7a09297f
+Payment
+2016/11/02
+08:28
+383457
+-15.00
+Driver daniel was compensated $15.00 for taking Clientcreated from (685.0, 331.0) to (685.0, 331.0).
+
+7f7dd5b0-bd9b-485b-a1ae-144f67970cb4
+Charge
+2016/11/02
+08:28
+590074
+15.00
+Client created was charged $15.00 for being taken from (685.0, 331.0) to (685.0, 331.0) by Driver daniel.
+
+c5ae2cfe-5ec2-4169-a533-90ce1c07488b
+Payment
+2016/11/02
+08:28
+237219
+-50.09
+Driver created was compensated $50.09 for taking Clientcreated from (601.0, 293.0) to (918.0, 520.0).
+
+ef5da5e6-23f9-4fd1-9a8d-6ff87274a9c3
+Charge
+2016/11/02
+08:28
+906563
+53.99
+Client created was charged $53.99 for being taken from (601.0, 293.0) to (918.0, 520.0) by Driver created.
+

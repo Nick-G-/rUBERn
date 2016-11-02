@@ -12,8 +12,13 @@ public class Online implements Status {
         driver = d;
     }
     @Override
-    public void goOnline() throws AlreadyInStatusException {
-        throw new AlreadyInStatusException();
+    public void goOnline() {
+        try {
+            throw new AlreadyInStatusException();
+        } catch (AlreadyInStatusException e) {
+            System.out.println("Driver " + driver.getName() + " just attempted to go Online when he already was.");
+        }
+
     }
 
     @Override

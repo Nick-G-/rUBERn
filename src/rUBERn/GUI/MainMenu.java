@@ -1,6 +1,6 @@
 package rUBERn.GUI;
 
-import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -9,13 +9,8 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import lwjglfx.JavaFXGears;
-import org.lwjgl.system.Platform;
-import org.newdawn.slick.SlickException;
-import rUBERn.GI.Engine;
+import rUBERn.GI.SimulationThread;
 import rUBERn.Rubern;
-
-import java.awt.image.BufferedImage;
 
 /**
  * Created by facundo on 10/25/16.
@@ -23,6 +18,7 @@ import java.awt.image.BufferedImage;
 public class MainMenu {
     private Stage primaryStage;
     private Rubern ruben;
+    private Thread simulationThread;
     public MainMenu(Stage primaryStage, Rubern ruben){
         this.primaryStage = primaryStage;
         this.ruben = ruben;
@@ -55,13 +51,7 @@ public class MainMenu {
 
 
         simulation.setOnAction(event -> {
-            ExitManager sm = new ExitManager( System.getSecurityManager() );
-            System.setSecurityManager(sm);
-            try {
-                Engine.main(null);
-            }catch (SecurityException e){
-                System.setSecurityManager(sm.getOriginalSecurityManager());
-            }
+            Platform.runLater(new SimulationThread());
        });
 
         Button quit = new Button();

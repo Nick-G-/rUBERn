@@ -10,7 +10,7 @@ import java.security.Permission;
 
         SecurityManager original;
 
-        ExitManager(SecurityManager original) {
+        public ExitManager(SecurityManager original) {
             this.original = original;
         }
 

@@ -3,8 +3,10 @@ package rUBERn.GUI;/**
  */
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.stage.Stage;
 import rUBERn.GI.Engine;
+import rUBERn.GI.SimulationThread;
 import rUBERn.Rubern;
 
 public class GUI extends Application {
@@ -16,6 +18,7 @@ public class GUI extends Application {
         primaryStage.setTitle("rUBERn");
         primaryStage.setScene(main.getScene());
         primaryStage.show();
+
     }
     public static void main(String[] args) {
         launch(args);

@@ -9,10 +9,8 @@ import rUBERn.Rubern;
 
 public class Engine extends StateBasedGame{
    public static Rubern rubern;
-
+    public static AppGameContainer game;
     public static void main(String[] args){
-
-        AppGameContainer game = null;
         try {
             game = new AppGameContainer(new Engine());
             game.setDisplayMode(1200, 600, false);

@@ -56,10 +56,11 @@ public class SimulationState extends BasicGameState {
 
 
             g.drawString("SimulationState here.", 500, 50);
-            //g.draw(new Circle(x, y, 10, 6));
 
             g.drawString("Mouse relative to camera: " + getMousePosCamera(gc).toString().substring(9), 100, 100);
-            g.drawString("Mouse relative to world:  " + getMousePosWorld(gc).toString().substring(9), 100, 120);
+
+
+        g.drawString("Mouse relative to world:  " + getMousePosWorld(gc).toString().substring(9), 100, 120);
             g.drawString(driverCreatorSelected ? "Drivers" : "Clients", 1000, 100);
 
             // <-- Draw Drivers -->
@@ -169,7 +170,7 @@ public class SimulationState extends BasicGameState {
         x++;
         y++;
         if (input.isKeyDown(input.KEY_ESCAPE)){
-            System.exit(0);
+             System.exit(0);
         }
 
     }

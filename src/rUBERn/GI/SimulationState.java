@@ -9,8 +9,11 @@ import org.newdawn.slick.geom.Line;
 import org.newdawn.slick.geom.Vector2f;
 import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
-import rUBERn.*;
+import rUBERn.Client;
+import rUBERn.Driver;
 import rUBERn.Exceptions.AlreadyInStatusException;
+import rUBERn.Location;
+import rUBERn.Rubern;
 
 public class SimulationState extends BasicGameState {
 
@@ -119,7 +122,9 @@ public class SimulationState extends BasicGameState {
         g.drawString(currentCreator.getName(), 700, 100);
     }
     public void drawDrivers(Graphics g) {
+        g.setColor(Color.cyan);
         for (Driver driver : rUBERn.getDriverAgent().getDrivers()) {
+
             if (driver.getStatus().isOnline()) {
                 g.draw(new Circle(driver.getCurrentLocation().getX(), driver.getCurrentLocation().getY(), 10, 4));
 
@@ -127,14 +132,17 @@ public class SimulationState extends BasicGameState {
                     g.draw(new Line(driver.getCurrentLocation().toVector2f(), driver.getCurrentDestination().toVector2f()));
             }
         }
+        g.setColor(Color.white);
     }
     public void drawClients(Graphics g) {
+        g.setColor(Color.green);
         for (Client client : rUBERn.getClients()) {
             g.draw(new Circle(client.getCurrentLocation().getX(), client.getCurrentLocation().getY(), 10, 8));
             if (client.isWaiting()) {
                 g.draw(new Line(client.getCurrentLocation().toVector2f(), client.getCurrentDestination().toVector2f()));
             }
         }
+        g.setColor(Color.white);
     }
 }
 

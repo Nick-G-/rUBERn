@@ -20,8 +20,8 @@ public class Main {
             GUI.main(null);
 
         }else if (option == 2){
-            ConsoleCommunicator console = new ConsoleCommunicator(rubern);
-            console.consoleApp();
+            //ConsoleCommunicator console = new ConsoleCommunicator(rubern);
+            //console.consoleApp();
         }else{ System.out.println("Opcion Invalida");
         main(null);
         }

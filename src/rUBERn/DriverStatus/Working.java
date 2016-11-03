@@ -1,8 +1,9 @@
-package rUBERn.Status;
+package rUBERn.DriverStatus;
 
 import rUBERn.Driver;
 import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
+import rUBERn.Job;
 
 /**
  * Created by facundo on 10/21/16.
@@ -19,12 +20,25 @@ public class Working implements Status {
 
     @Override
     public void goOffline() throws InvalidStatusChangeException {
-    throw new InvalidStatusChangeException();
+        try {
+            throw new InvalidStatusChangeException();
+        } catch (InvalidStatusChangeException e) {
+            System.out.println("Driver " + driver.getName() + " just attempted to go Offline when he was working.");
+        }
     }
 
     @Override
-    public void goWorking() throws AlreadyInStatusException {
-    throw new AlreadyInStatusException();
+    public void goWorking() {
+        try {
+            throw new AlreadyInStatusException();
+        } catch (AlreadyInStatusException e) {
+            System.out.println("Driver " + driver.getName() + " just attempted to go Working when he already was.");
+        }
+    }
+
+    @Override
+    public void receiveJob(Job job) {
+        driver.getJobQueue().add(job);
     }
 
     @Override

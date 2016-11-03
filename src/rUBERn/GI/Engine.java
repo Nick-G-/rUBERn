@@ -2,22 +2,21 @@ package rUBERn.GI;
 
 // Created by nico on 10/29/16.
 
+import de.lessvoid.nifty.slick2d.NiftyStateBasedGame;
 import org.newdawn.slick.*;
 import org.newdawn.slick.state.*;
-import rUBERn.Rubern;
 
 
-public class Engine extends StateBasedGame{
-   public static Rubern rubern;
-    public static AppGameContainer game;
-    public static void main(String[] args){
+public class Engine extends NiftyStateBasedGame{
+    public static void main(String[] args) {
         try {
-            game = new AppGameContainer(new Engine());
+            AppGameContainer game = new AppGameContainer(new Engine());
             game.setDisplayMode(1200, 600, false);
             game.start();
         } catch (SlickException e) {
             e.printStackTrace();
         }
+
     }
 
     public Engine() {
@@ -26,12 +25,11 @@ public class Engine extends StateBasedGame{
 
     @Override
     public void initStatesList(GameContainer gc) throws SlickException {
-        gc.getGraphics().resetFont();
         gc.setMaximumLogicUpdateInterval(Settings.UPS);
         gc.setVSync(true);
         gc.setTargetFrameRate(Settings.UPS);
 
-        this.addState(new SimulationState(rubern));
+        this.addState(new SimulationState());
         this.addState(new MenuState());
     }
 }

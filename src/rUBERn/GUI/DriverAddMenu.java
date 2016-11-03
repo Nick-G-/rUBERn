@@ -10,12 +10,16 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
 import javafx.scene.layout.GridPane;
 import javafx.scene.text.Font;
-import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.util.converter.IntegerStringConverter;
 import javafx.util.converter.LongStringConverter;
 import rUBERn.*;
+import rUBERn.Categories.Berreta;
+import rUBERn.Categories.CarCategory;
+import rUBERn.Categories.Deluxe;
+import rUBERn.Categories.Standard;
+
 /**
  * Created by facundo on 10/25/16.
  */
@@ -57,9 +61,9 @@ public class DriverAddMenu {
         final TextFormatter<Integer> formatter3 = new TextFormatter<>(new IntegerStringConverter());
         capacity.setTextFormatter(formatter3);
 
-        ListView<String> categoriesList = new ListView<>();
-        ObservableList<String> categories = FXCollections.observableArrayList();
-        categories.addAll("Normal", "Deluxe", "Berreta");
+        ListView<CarCategory> categoriesList = new ListView<>();
+        ObservableList<CarCategory> categories = FXCollections.observableArrayList();
+        categories.addAll(new Standard(), new Deluxe(), new Berreta());
         categoriesList.setItems(categories);
 
         LongStringConverter converter = new LongStringConverter();
@@ -96,7 +100,7 @@ public class DriverAddMenu {
         driverAddMenu.add(back, 2, 1);
         return new Scene(driverAddMenu, 1200, 600);
     }
-    public void addDriver(Long locationx, Long locationy, String name, Integer capacity, String category){
+    public void addDriver(Long locationx, Long locationy, String name, Integer capacity, CarCategory category){
         ruben.addDriver(new Driver
                 (new CreditCard(),
                  new Location(locationx, locationy), name,

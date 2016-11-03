@@ -1,7 +1,8 @@
-package rUBERn.Status;
+package rUBERn.DriverStatus;
 
 import rUBERn.Driver;
 import rUBERn.Exceptions.AlreadyInStatusException;
+import rUBERn.Job;
 
 /**
  * Created by facundo on 10/21/16.
@@ -29,6 +30,12 @@ public class Online implements Status {
     @Override
     public void goWorking() {
         driver.setStatus(new Working(driver));
+    }
+
+    @Override
+    public void receiveJob(Job job) {
+        this.goWorking();
+        driver.setCurrentJob(job);
     }
 
     @Override

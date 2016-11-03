@@ -40,8 +40,6 @@ public class SimulationState extends BasicGameState {
 
     @Override
     public void init(GameContainer gc, StateBasedGame s) throws SlickException {
-        rUBERn = new Rubern();
-
         this.gc = gc;
         this.selectorMenu = new SelectorMenu(this, gc.getInput(), gc.getGraphics());
         this.driverCreator = new DriverCreator(this, gc.getInput(), gc.getGraphics(), rUBERn);

@@ -1,6 +1,7 @@
 package rUBERn.GI;
 
 import rUBERn.GUI.ExitManager;
+import rUBERn.Rubern;
 
 /**
  * Created by facundo on 11/2/16.

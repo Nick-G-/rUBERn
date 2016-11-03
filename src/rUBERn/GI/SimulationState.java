@@ -61,7 +61,6 @@ public class SimulationState extends BasicGameState {
         drawClients(g);
         drawDrivers(g);
     }
-
     @Override
     public void update(GameContainer gc, StateBasedGame s, int delta) throws SlickException {
 
@@ -102,7 +101,8 @@ public class SimulationState extends BasicGameState {
         //g.draw(new Circle(x, y, 10, 6));
         g.drawString("Mouse relative to camera: " + getMousePosCamera().toString().substring(9), 100, 100);
         g.drawString("Mouse relative to world:  " + getMousePosWorld().toString().substring(9), 100, 120);
-        g.drawString(currentCreator.getName(), 700, 100);
+        g.drawString("Earnings this run: $" + String.format("%.2f", rUBERn.getRealEarnings()), 700, 100);
+        g.drawString(currentCreator.getName(), 700, 120);
     }
     public void drawDrivers(Graphics g) {
         g.setColor(Color.cyan);

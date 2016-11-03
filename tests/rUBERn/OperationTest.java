@@ -1,6 +1,5 @@
 package rUBERn;
 
-import org.junit.Assert;
 import org.junit.Test;
 import rUBERn.Operations.ChargeOperation;
 import rUBERn.Operations.PayOperation;
@@ -18,8 +17,8 @@ public class OperationTest {
 
         Job job = new Job(dan, clinton, journey);
 
-        PayOperation payment = new PayOperation(job);
-        ChargeOperation charge = new ChargeOperation(job);
+        PayOperation payment = new PayOperation(job, rubern);
+        ChargeOperation charge = new ChargeOperation(job, rubern);
 
         System.out.println(payment.toArchiveFormat());
         System.out.println(charge.toArchiveFormat());

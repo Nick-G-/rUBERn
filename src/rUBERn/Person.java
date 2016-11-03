@@ -51,8 +51,14 @@ public abstract class Person implements Locatable {
     public void getOnCar(Driver driver){
         currentLocation = driver.getCurrentLocation();
     }
+
+    public CreditCard getCreditCard() {
+        return creditCard;
+    }
+
     public void getOffCar(){
         currentLocation = new Location(currentLocation);
+
     }
 
     public String toString(){return name;}

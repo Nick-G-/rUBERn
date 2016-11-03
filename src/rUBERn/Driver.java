@@ -14,6 +14,7 @@ public class Driver extends Person {
     private LinkedBlockingQueue<Job> jobQueue = new LinkedBlockingQueue<>();
     private Job currentJob;
     private Rubern rubern;
+    private boolean arrived = false;
 
     public Queue<Job> getJobQueue() {
         return jobQueue;
@@ -74,19 +75,21 @@ public class Driver extends Person {
     }
 
     public void work(int delta) {
-        Location pickup = currentJob.getJourney().getOrigin();
-        Location destination = currentJob.getJourney().getDestination();
-        float moveSpeed = (float) car.getSpeed() * delta / 100;
+        if (!currentJob.isFinished()) {
+            Location pickup = currentJob.getJourney().getOrigin();
+            Location destination = currentJob.getJourney().getDestination();
+            float moveSpeed = (float) car.getSpeed() * delta / 100;
 
-        currentLocation.moveDistanceInAngle(moveSpeed, currentLocation.angleTo(currentDestination));
+            currentLocation.moveDistanceInAngle(moveSpeed, currentLocation.angleTo(currentDestination));
 
-        if (currentLocation.isInRangeOf(pickup, 1)) {
-            currentJob.getClient().getOnCar(this);
-            currentDestination = destination;
-        }
+            if (currentLocation.isInRangeOf(pickup, 1)) {
+                currentJob.getClient().getOnCar(this);
+                currentDestination = destination;
+            }
 
-        if (currentLocation.isInRangeOf(destination, 1)) {
-            finalizeJob();
+            if (currentLocation.isInRangeOf(destination, 1)) {
+                finalizeJob();
+            }
         }
     }
 
@@ -101,6 +104,7 @@ public class Driver extends Person {
 
     public void finalizeJob() {
         currentJob.getClient().getOffCar();
+        currentJob.finish();
         rubern.processJobFinalized(currentJob);
         if (jobQueue.isEmpty()) {
             goOnline();

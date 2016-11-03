@@ -30,9 +30,10 @@ public class FakeNames {
         names.add("Tammara");
         names.add("Suanne");
         names.add("Maryrose");
-
+        names.add("Ash Ketchup");
+        names.add("Belgrano");
     }
     public String getRandom(){
-        return names.get(new Random().nextInt(20));
+        return names.get(new Random().nextInt(names.size()));
     }
 }

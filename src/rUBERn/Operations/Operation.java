@@ -5,6 +5,7 @@ package rUBERn.Operations;
 //import java.io.IOException;
 
 import rUBERn.Job;
+import rUBERn.Rubern;
 
 import java.io.File;
 import java.time.*;
@@ -15,17 +16,19 @@ public abstract class Operation {
     private UUID id;
     private Instant instant;
     private rUBERn.Job job;
-    private double amount;
+    protected double amount;
     private OperationFiler operationFiler = new OperationFiler();
     private String operationData;
+    private Rubern rUBERn;
 
-    public Operation(Job job, double amount) {
+    public Operation(Job job, double amount, Rubern rUBERn) {
         this.id = UUID.randomUUID();
         this.instant = Instant.now();
         this.job = job;
         this.amount = amount;
         this.operationData = toArchiveFormat();
         this.operationFiler.FileOperation(operationData);
+        this.rUBERn = rUBERn;
     }
 
     public String toArchiveFormat() {

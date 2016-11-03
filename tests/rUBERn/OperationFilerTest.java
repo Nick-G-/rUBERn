@@ -2,9 +2,8 @@ package rUBERn;
 
 import org.junit.Test;
 import rUBERn.Operations.ChargeOperation;
-import rUBERn.Operations.Operation;
 import rUBERn.Operations.PayOperation;
-import static org.junit.Assert.*;
+
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -20,8 +19,8 @@ public class OperationFilerTest {
 
         Job job = new Job(dan, clinton, journey);
 
-        PayOperation payment = new PayOperation(job);
-        ChargeOperation charge = new ChargeOperation(job);
+        PayOperation payment = new PayOperation(job, rubern);
+        ChargeOperation charge = new ChargeOperation(job, rubern);
 
         assertEquals(true,payment.getFile().exists());
         assertEquals(true,charge.getFile().exists());

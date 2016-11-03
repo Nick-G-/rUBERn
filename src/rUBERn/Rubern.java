@@ -11,16 +11,18 @@ import java.util.TimerTask;
 
 public class Rubern {
 
-    private final float fixedCost = 15;
-    private final float costPerBlock = 1;
-    private final int creditCardNumber = 100000;
+    public CreditCard getCreditCard() {
+        return creditCard;
+    }
+
+    private CreditCard creditCard = new CreditCard(100000);
+    private double realEarnings = 0;
     private MoneyCalculator calculator;
     private DriverAgent driverAgent;
     private ArrayList<Client> clients;
     private Timer timer;
     private int deltaTime;
 
-    //private Logger log;
     public Rubern(){
         deltaTime = 16; // 62.5 FPS (1000/62.5 = 16)
         driverAgent = new DriverAgent();
@@ -62,11 +64,18 @@ public class Rubern {
             driver.assignJob(job);
 
 
-            ChargeOperation charge = new ChargeOperation(job);
+            ChargeOperation charge = new ChargeOperation(job, this);
         }
     }
+
+    public Double getRealEarnings() {
+        return realEarnings;
+    }
+
     public void processJobFinalized(Job job) {
-        PayOperation payment = new PayOperation(job);
+        PayOperation payment = new PayOperation(job, this);
+        realEarnings = creditCard.getBalance();
+
     }
     public ArrayList<Driver> getDrivers(){
         return driverAgent.getDrivers();
@@ -76,9 +85,6 @@ public class Rubern {
     }
     public ArrayList<Client> getClients() {
         return clients;
-    }
-    public int getCreditCardNumber() {
-        return creditCardNumber;
     }
 
 

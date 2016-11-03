@@ -1,9 +1,11 @@
 package rUBERn.Operations;
 import rUBERn.Job;
+import rUBERn.Rubern;
 
 public class PayOperation extends Operation{
-    public PayOperation(Job job) {
-        super(job, 15 + (job.getJourney().getDistance()* 0.1)*0.9);
+    public PayOperation(Job job, Rubern rUBERn) {
+        super(job, 15 + (job.getJourney().getDistance()* 0.1)*0.9, rUBERn);
+        rUBERn.getCreditCard().doTransactionToCreditCard(amount, job.getDriver().getCreditCard());
         System.out.println(getDescription());
     }
 
@@ -25,7 +27,7 @@ public class PayOperation extends Operation{
         String journeyDestination = this.getJob().getJourney().getDestination().toString();
         String amountPayed = super.getAmountAsString();
 
-        return "Driver " + driverName + " was compensated $" + amountPayed + " for taking Client" + clientName + " from " + journeyOrigin + " to " + journeyDestination + ".";
+        return "Driver " + driverName + " was compensated $" + amountPayed + " for taking Client " + clientName + " from " + journeyOrigin + " to " + journeyDestination + ".";
     }
 
     @Override

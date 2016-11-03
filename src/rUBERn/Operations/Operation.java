@@ -37,12 +37,12 @@ public abstract class Operation {
         String amountAsString   = this.getAmountAsString();
         String description      = getDescription();
 
-        return  id          + "\n" +
-                type        + "\n" +
-                date        + "\n" +
-                time        + "\n" +
-                cardNumber  + "\n" +
-                amountAsString + "\n" +
+        return  id              + "\n" +
+                type            + "\n" +
+                date            + "\n" +
+                time            + "\n" +
+                cardNumber      + "\n" +
+                amountAsString  + "\n" +
                 description;
     }
 

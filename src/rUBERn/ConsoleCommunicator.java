@@ -2,12 +2,10 @@ package rUBERn;
 
 // Created by nico on 10/3/16.
 
-import java.util.ArrayList;
-import Utils.Scanner;
-import rUBERn.Exceptions.AlreadyInStatusException;
-import rUBERn.Exceptions.InvalidStatusChangeException;
-
+/*
 public class ConsoleCommunicator {
+
+    /*
     private Rubern ruben;
     public ConsoleCommunicator(Rubern ruben){
         this.ruben = ruben;
@@ -125,3 +123,5 @@ public class ConsoleCommunicator {
         }
     }
 }
+    */
+

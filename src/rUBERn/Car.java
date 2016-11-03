@@ -1,28 +1,27 @@
 package rUBERn;// Created by nico on 9/30/16.
 
-import javafx.geometry.Point2D;
 import org.newdawn.slick.geom.Vector2f;
+import rUBERn.Categories.CarCategory;
+import rUBERn.Categories.Standard;
 
 public class Car implements Locatable {
     private int passengerCapacity;
-    private String category;
+    CarCategory category;
     private double speed;                   // meters per second, by default 5.5 (20 km/h).
     private double facingAngle;
     private Location currentLocation;
 
     public Car() {
         this.passengerCapacity = 3;
-        this.category = "Normal";
+        this.category = new Standard();
         this.speed = 5.5;
     }
 
-    public Car(int passengerCapacity, String category) {
-    this.passengerCapacity = passengerCapacity;
-        this.category = category;
-        speed = 5.5;
+    public Car(int passengerCapacity, CarCategory category) {
+        this(passengerCapacity, category, 5.5, 0);
     }
 
-    public Car(int passengerCapacity, String category, double speed, double facingAngle) {
+    public Car(int passengerCapacity, CarCategory category, double speed, double facingAngle) {
         this.passengerCapacity = passengerCapacity;
         this.category = category;
         this.speed = speed;
@@ -35,8 +34,7 @@ public class Car implements Locatable {
     public void moveForwards(float distance) {
         currentLocation.moveDistanceInAngle(distance, facingAngle);
     }
-
-    public String getCategory() {
+    public CarCategory getCategory() {
         return category;
     }
     public double getSpeed(){

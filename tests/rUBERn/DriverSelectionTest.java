@@ -1,10 +1,11 @@
 package rUBERn;
 
 import org.junit.Test;
+import rUBERn.Categories.Berreta;
+import rUBERn.Categories.Deluxe;
+import rUBERn.Categories.Standard;
 import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.Exceptions.InvalidStatusChangeException;
-
-import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
@@ -33,9 +34,9 @@ public class DriverSelectionTest {
     public void testByCarCategory() throws AlreadyInStatusException, InvalidStatusChangeException {
         Rubern rubern = new Rubern();
         Client client = new Client(new CreditCard(), new Location(0,0), "Cliente");
-        Driver marcos = new Driver(new CreditCard(),new Location(4,4),"marcos", new Car(1,"Berreta"),rubern);
-        Driver tito = new Driver(new CreditCard(),new Location(4,4),"Tito", new Car(1,"Normal"),rubern);
-        Driver ronaldo = new Driver(new CreditCard(), new Location(4,4), "Ronaldo", new Car(1,"Deluxe"),rubern);
+        Driver marcos = new Driver(new CreditCard(),new Location(4,4),"marcos", new Car(1, new Berreta()),rubern);
+        Driver tito = new Driver(new CreditCard(),new Location(4,4),"Tito", new Car(1, new Standard()),rubern);
+        Driver ronaldo = new Driver(new CreditCard(), new Location(4,4), "Ronaldo", new Car(1, new Deluxe()),rubern);
         marcos.goOnline();
         tito.goOnline();
         ronaldo.goOnline();
@@ -49,9 +50,9 @@ public class DriverSelectionTest {
     public void testByCarCapacity() throws AlreadyInStatusException, InvalidStatusChangeException {
         Rubern rubern = new Rubern();
         Client client = new Client(new CreditCard(), new Location(0,0), "Cliente");
-        Driver marcos = new Driver(new CreditCard(),new Location(4,4),"marcos", new Car(3,"Normal"),rubern);
-        Driver tito = new Driver(new CreditCard(),new Location(4,4),"Tito", new Car(4,"Normal"),rubern);
-        Driver ronaldo = new Driver(new CreditCard(), new Location(4,4), "Ronaldo", new Car(2,"Normal"),rubern);
+        Driver marcos = new Driver(new CreditCard(),new Location(4,4),"marcos", new Car(3,new Standard()),rubern);
+        Driver tito = new Driver(new CreditCard(),new Location(4,4),"Tito", new Car(4, new Standard()),rubern);
+        Driver ronaldo = new Driver(new CreditCard(), new Location(4,4), "Ronaldo", new Car(2,new Standard()),rubern);
         marcos.goOnline();
         tito.goOnline();
         ronaldo.goOnline();

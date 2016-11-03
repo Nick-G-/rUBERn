@@ -1,19 +1,23 @@
 package rUBERn;// Created by nico on 9/30/16.
 
 import rUBERn.Exceptions.AlreadyInStatusException;
-import rUBERn.Exceptions.InvalidStatusChangeException;
-import rUBERn.GUI.RequestPopup;
-import rUBERn.Status.Offline;
-import rUBERn.Status.Status;
+import rUBERn.DriverStatus.Offline;
+import rUBERn.DriverStatus.Status;
+
 import java.time.Duration;
-import java.util.Stack;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class Driver extends Person {
     private Car car;
     private Status status;
+    private PriorityQueue<Job> jobQueue = new PriorityQueue<>();
     private Job currentJob;
-    private Job nextJob;
     private Rubern rubern;
+
+    public Queue<Job> getJobQueue() {
+        return jobQueue;
+    }
 
     public Driver(String name, Rubern rubern) {
         super(name);
@@ -22,12 +26,12 @@ public class Driver extends Person {
         this.rubern = rubern;
 
     }
-    public Driver(CreditCard creditCard, Location startingPoint, String name, Car car,Rubern rubern) {
+
+    public Driver(CreditCard creditCard, Location startingPoint, String name, Car car, Rubern rubern) {
         super(creditCard, startingPoint, name);
         this.car = car;
         status = new Offline(Driver.this);
         this.rubern = rubern;
-
     }
 
     public Driver(String name, Location startingPoint, Rubern rubern) {
@@ -35,103 +39,106 @@ public class Driver extends Person {
         this.car = new Car();
         status = new Offline(this);
         this.rubern = rubern;
-
     }
 
-    public void goOnline() throws AlreadyInStatusException {
-            status.goOnline();
+    public void goOnline() {
+        status.goOnline();
     }
-    public void goOffline() throws AlreadyInStatusException, InvalidStatusChangeException {
-            status.goOffline();
+
+    public void goOffline() {
+        status.goOffline();
     }
+
     public void goBusy() {
-        try {
-            status.goWorking();
-        } catch (InvalidStatusChangeException | AlreadyInStatusException e) {
-            e.printStackTrace();
-        }
+        status.goWorking();
     }
 
-    public boolean evaluateOffer(Journey journey, Client client){
-        if (new RequestPopup(journey, client).getAnswer()) {
+    public boolean evaluateOffer(Journey journey, Client client) {
+        if (true) {
             return true;
         }
         return false;
     }
 
-
-    public void work(int delta) {
-
-            Location pickup = currentJob.getJourney().getOrigin();
-            Location destination = currentJob.getJourney().getDestination();
-            float moveSpeed = (float) car.getSpeed() * delta / 100;
-            currentLocation.moveDistanceInAngle(moveSpeed, currentLocation.angleTo(currentDestination));
-
-            if (currentLocation.isInRangeOf(pickup, 2)) {
-                currentJob.getClient().getOnCar(this);
-                currentDestination = destination;
-            }
-            if (currentLocation.isInRangeOf(destination,1) ){
-                finalizeJob();
-            }
-        }
-
-
-
-    private void finalizeJob() {
-        currentJob.finish();
+    private void doOffer(Journey journey, Client client) {
+        moveTo(journey.getOrigin());
+        client.getOnCar(Driver.this);
+        moveTo(journey.getDestination());
+        client.getOffCar();
+        client.arrived();
         try {
             status.goOnline();
         } catch (AlreadyInStatusException e) {
-            System.out.println("Already online");
+            e.printStackTrace();
         }
-        currentJob.getClient().arrived();
-        rubern.getDriverAgent().getDriversWorking().remove(Driver.this);
-        if (!(nextJob == null)) {
-            rubern.getDriverAgent().getDriversWorking().add(Driver.this);
-            currentJob = nextJob;
-            currentDestination = nextJob.getJourney().getOrigin();
-            goBusy();
-            nextJob = null;
+    }
+
+    public void work(int delta) {
+        Location pickup = currentJob.getJourney().getOrigin();
+        Location destination = currentJob.getJourney().getDestination();
+        float moveSpeed = (float) car.getSpeed() * delta / 100;
+
+        currentLocation.moveDistanceInAngle(moveSpeed, currentLocation.angleTo(currentDestination));
+
+        if (currentLocation.isInRangeOf(pickup, 1)) {
+            currentJob.getClient().getOnCar(this);
+            currentDestination = destination;
+        }
+
+        if (currentLocation.isInRangeOf(destination, 1)) {
+            currentDestination = new Location();
+            finalizeJob();
         }
     }
 
     public void assignJob(Job job) {
-        if (status.isOnline()) {
-            this.currentJob = job;
-            this.currentDestination = job.getJourney().getOrigin();
-            goBusy();
-        }else if (status.isWorking()){
-            nextJob = job;
+        status.receiveJob(job);
+    }
+
+    public void setCurrentJob(Job job) {
+        this.currentJob = job;
+        this.currentDestination = job.getJourney().getOrigin();
+    }
+
+    public void finalizeJob() {
+        currentJob.getClient().getOffCar();
+
+        if (jobQueue.isEmpty()) {
+            goOnline();
+            return;
         }
+        setCurrentJob(jobQueue.remove());
     }
 
     public Duration ETATo(Location location) {
-        return Duration.ofSeconds((long)(this.getCurrentLocation().distanceTo(location) / car.getSpeed()));
+        return Duration.ofSeconds((long) (this.getCurrentLocation().distanceTo(location) / car.getSpeed()));
     }
 
     public boolean canTakeJob(Journey journey) {
-        return (currentLocation.distanceTo(journey.getOrigin()) < 500 & journey.getPassengers() <= car.getPassengerCapacity());
+        return (status.isAvailableForJob() & journey.getPassengers() <= car.getPassengerCapacity());
     }
 
+    private void idle() {
+        currentDestination = new Location();
+    }
 
     public Car getCar() {
         return car;
     }
+
     public Status getStatus() {
         return status;
     }
+
     public Location getCurrentDestination() {
         return currentDestination;
     }
-    public void setStatus(Status s){
+
+    public void setStatus(Status s) {
         status = s;
     }
-    public void addToSorter(){
+
+    public void addToSorter() {
         rubern.addDriver(this);
     }
-    public void turnTo(Location location) {
-
-    }
-
 }

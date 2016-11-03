@@ -37,5 +37,4 @@ public class DriverComparatorByImageForJourney implements Comparator<Driver> {
         imageCost += locationToCalculateFrom.distanceTo(journey.getOrigin()) * imageCostPerMeter;
         return imageCost;
     }
-
 }

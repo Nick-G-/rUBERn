@@ -14,6 +14,7 @@ public class ClientCreator extends PersonCreator{
     Vector2f leftButtonPressedPosition;
     Vector2f leftButtonReleasedPosition;
     private boolean leftButtonDownFlag = false;
+    private FakeNames fakeNames = new FakeNames();
 
     Client newClient;
 
@@ -25,7 +26,7 @@ public class ClientCreator extends PersonCreator{
     void handleInput() {
         if (input.isMousePressed(input.MOUSE_LEFT_BUTTON)) {
             leftButtonPressedPosition = sim.getMousePosWorld();
-            newClient = new Client("created", new Location(leftButtonPressedPosition));
+            newClient = new Client(fakeNames.getRandom(), new Location(leftButtonPressedPosition));
             rUBERn.addClient(newClient);
 
         }

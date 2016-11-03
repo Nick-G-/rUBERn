@@ -10,6 +10,7 @@ import rUBERn.Location;
 import rUBERn.Rubern;
 
 public class DriverCreator extends PersonCreator {
+    private FakeNames fakeNames = new FakeNames();
 
     public DriverCreator (SimulationState sim, Input input, Graphics g, Rubern rUBERn) {
         super(sim, input, g, rUBERn);
@@ -18,7 +19,7 @@ public class DriverCreator extends PersonCreator {
     @Override
     public void handleInput() {
         if (input.isMousePressed(input.MOUSE_LEFT_BUTTON)) {
-            Driver newDriver = new Driver("created", new Location(sim.getMousePosWorld()), rUBERn);
+            Driver newDriver = new Driver(fakeNames.getRandom(), new Location(sim.getMousePosWorld()), rUBERn);
             rUBERn.addDriver(newDriver);
 
             newDriver.goOnline();

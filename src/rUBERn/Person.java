@@ -2,7 +2,6 @@ package rUBERn;
 
 // Created by nico on 9/30/16.
 
-import javafx.geometry.Point2D;
 import org.newdawn.slick.geom.Vector2f;
 
 public abstract class Person implements Locatable {
@@ -51,6 +50,9 @@ public abstract class Person implements Locatable {
     }
     public void getOnCar(Driver driver){
         currentLocation = driver.getCurrentLocation();
+    }
+    public void getOffCar(){
+        currentLocation = new Location(currentLocation);
     }
 
     public String toString(){return name;}

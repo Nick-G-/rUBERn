@@ -53,7 +53,7 @@ public class Working implements Status {
 
     @Override
     public boolean isOnline() {
-        return false;
+        return true;
     }
 
     public String toString(){

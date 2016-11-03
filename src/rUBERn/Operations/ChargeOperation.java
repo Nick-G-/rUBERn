@@ -7,7 +7,7 @@ public class ChargeOperation extends Operation{
 
     public ChargeOperation(Job job) {
         super(job, 15 + job.getJourney().getDistance()* 0.1);
-
+        System.out.println(getDescription());
     }
 
     @Override
@@ -28,6 +28,6 @@ public class ChargeOperation extends Operation{
         String journeyDestination = this.getJob().getJourney().getDestination().toString();
         String amountCharged = getAmountAsString();
 
-        return "Client " + clientName + " was charged $" + amountCharged + " for being taken from " + journeyOrigin + " to " + journeyDestination + " by Driver " + driverName + ".";
+        return "Client " + clientName + " was charged $" + amountCharged + " for journey from " + journeyOrigin + " to " + journeyDestination + " by Driver " + driverName + ".";
     }
 }

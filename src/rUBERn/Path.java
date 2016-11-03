@@ -15,7 +15,6 @@ public class Path {
             this.points.add(location);
     }
 
-
     public double getPathLength() {
         double length = 0;
         ListIterator<Location> i = points.listIterator();

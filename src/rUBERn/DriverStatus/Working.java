@@ -43,7 +43,7 @@ public class Working implements Status {
 
     @Override
     public boolean isAvailableForJob() {
-        return false;
+        return true;
     }
 
     @Override

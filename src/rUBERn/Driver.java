@@ -1,17 +1,17 @@
 package rUBERn;// Created by nico on 9/30/16.
 
-import rUBERn.Exceptions.AlreadyInStatusException;
 import rUBERn.DriverStatus.Offline;
 import rUBERn.DriverStatus.Status;
+import rUBERn.Exceptions.AlreadyInStatusException;
 
 import java.time.Duration;
-import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.concurrent.LinkedBlockingQueue;
 
 public class Driver extends Person {
     private Car car;
     private Status status;
-    private PriorityQueue<Job> jobQueue = new PriorityQueue<>();
+    private LinkedBlockingQueue<Job> jobQueue = new LinkedBlockingQueue<>();
     private Job currentJob;
     private Rubern rubern;
 
@@ -86,7 +86,6 @@ public class Driver extends Person {
         }
 
         if (currentLocation.isInRangeOf(destination, 1)) {
-            currentDestination = new Location();
             finalizeJob();
         }
     }
@@ -118,9 +117,6 @@ public class Driver extends Person {
         return (status.isAvailableForJob() & journey.getPassengers() <= car.getPassengerCapacity());
     }
 
-    private void idle() {
-        currentDestination = new Location();
-    }
 
     public Car getCar() {
         return car;

@@ -7246,3 +7246,867 @@ Charge
 30.30
 Client created was charged $30.30 for being taken from (507.0, 376.0) to (630.0, 285.0) by Driver created.
 
+df9018ea-effe-4f1f-9bb5-41c8f8aec8eb
+Payment
+2016/11/03
+11:08
+999792
+-26.96
+Driver created was compensated $26.96 for taking Clientcreated from (532.0, 287.0) to (407.0, 242.0).
+
+973a6999-3e3c-45c8-b147-050ae14e698f
+Charge
+2016/11/03
+11:08
+571464
+28.29
+Client created was charged $28.29 for being taken from (532.0, 287.0) to (407.0, 242.0) by Driver created.
+
+f43a0867-e794-49b4-aa53-d025d7f2b065
+Payment
+2016/11/03
+11:33
+406693
+-42.55
+Driver created was compensated $42.55 for taking Clientcreated from (681.0, 390.0) to (417.0, 235.0).
+
+59d6acae-beb0-4ea1-b29d-e5ee4a8b7c8b
+Charge
+2016/11/03
+11:33
+421358
+45.61
+Client created was charged $45.61 for being taken from (681.0, 390.0) to (417.0, 235.0) by Driver created.
+
+29fa403a-a1a5-4a17-9681-5acc903d52a1
+Payment
+2016/11/03
+11:33
+708780
+-36.56
+Driver created was compensated $36.56 for taking Clientcreated from (466.0, 392.0) to (450.0, 153.0).
+
+f00c2e4c-ce39-44e5-9b04-b1af0dee6760
+Charge
+2016/11/03
+11:33
+827594
+38.95
+Client created was charged $38.95 for being taken from (466.0, 392.0) to (450.0, 153.0) by Driver created.
+
+d146991f-8548-4d02-ab11-8253a633956a
+Payment
+2016/11/03
+11:33
+797646
+-32.29
+Driver created was compensated $32.29 for taking Clientcreated from (329.0, 435.0) to (337.0, 243.0).
+
+f33b1352-9ce0-4b8d-84c1-779521506a83
+Charge
+2016/11/03
+11:33
+614849
+34.22
+Client created was charged $34.22 for being taken from (329.0, 435.0) to (337.0, 243.0) by Driver created.
+
+57e4e820-85ac-43d6-bfaa-d1b98cf14aef
+Payment
+2016/11/03
+11:34
+30476
+-32.35
+Driver created was compensated $32.35 for taking Clientcreated from (421.0, 379.0) to (395.0, 188.0).
+
+307a43ea-f06b-4870-8804-567ed08f4955
+Charge
+2016/11/03
+11:34
+875459
+34.28
+Client created was charged $34.28 for being taken from (421.0, 379.0) to (395.0, 188.0) by Driver created.
+
+d04bd8d7-9ea7-48b0-906e-850d87b2e33f
+Payment
+2016/11/03
+11:34
+170632
+-31.73
+Driver created was compensated $31.73 for taking Clientcreated from (587.0, 400.0) to (569.0, 215.0).
+
+6a9aae02-9258-4b16-97e8-9610dc4dd52b
+Charge
+2016/11/03
+11:34
+865613
+33.59
+Client created was charged $33.59 for being taken from (587.0, 400.0) to (569.0, 215.0) by Driver created.
+
+ebd2e5fe-3b28-48fd-b659-840cd4480a14
+Payment
+2016/11/03
+11:34
+182240
+-28.34
+Driver created was compensated $28.34 for taking Clientcreated from (545.0, 402.0) to (537.0, 254.0).
+
+e10c94bc-38bb-405e-8829-544d28edd353
+Charge
+2016/11/03
+11:34
+962987
+29.82
+Client created was charged $29.82 for being taken from (545.0, 402.0) to (537.0, 254.0) by Driver created.
+
+efc31e1f-3fc9-41a2-a04f-d2687e6295d9
+Payment
+2016/11/03
+11:34
+215585
+-25.94
+Driver created was compensated $25.94 for taking Clientcreated from (683.0, 457.0) to (746.0, 353.0).
+
+480ddff9-700d-419f-8ad9-26642ee863a1
+Charge
+2016/11/03
+11:34
+384590
+27.16
+Client created was charged $27.16 for being taken from (683.0, 457.0) to (746.0, 353.0) by Driver created.
+
+ba7162b3-db99-412b-bf53-7ebc95a9cd95
+Payment
+2016/11/03
+11:34
+215585
+-20.05
+Driver created was compensated $20.05 for taking Clientcreated from (851.0, 387.0) to (894.0, 351.0).
+
+a5cb4f66-f10b-4086-86f9-997d2b3ce260
+Charge
+2016/11/03
+11:34
+123329
+20.61
+Client created was charged $20.61 for being taken from (851.0, 387.0) to (894.0, 351.0) by Driver created.
+
+65ff4577-cc9b-4b1d-a511-46d93d13a0d0
+Payment
+2016/11/03
+11:34
+215585
+-24.41
+Driver created was compensated $24.41 for taking Clientcreated from (753.0, 424.0) to (656.0, 385.0).
+
+789bca6f-e00e-4f3c-bea2-c5f1d58b8929
+Charge
+2016/11/03
+11:34
+288593
+25.45
+Client created was charged $25.45 for being taken from (753.0, 424.0) to (656.0, 385.0) by Driver created.
+
+5beec842-4e70-484a-b116-ba4025057d22
+Payment
+2016/11/03
+11:34
+215585
+-24.59
+Driver created was compensated $24.59 for taking Clientcreated from (855.0, 421.0) to (943.0, 361.0).
+
+b36b5611-5e6d-463e-b0ef-2088c30507c6
+Charge
+2016/11/03
+11:34
+102679
+25.65
+Client created was charged $25.65 for being taken from (855.0, 421.0) to (943.0, 361.0) by Driver created.
+
+e97530bb-fd0d-4035-a8d8-dd944661e7cb
+Payment
+2016/11/03
+11:34
+215585
+-27.10
+Driver created was compensated $27.10 for taking Clientcreated from (728.0, 488.0) to (600.0, 447.0).
+
+2a5a9b9c-f3a8-48a9-8742-6b0d0eed4cc8
+Charge
+2016/11/03
+11:34
+281965
+28.44
+Client created was charged $28.44 for being taken from (728.0, 488.0) to (600.0, 447.0) by Driver created.
+
+96b9f52a-958d-4871-82c8-6222eb97bf3b
+Payment
+2016/11/03
+11:35
+743698
+-39.09
+Driver created was compensated $39.09 for taking Clientcreated from (693.0, 415.0) to (468.0, 270.0).
+
+0051a8a8-9689-4316-899a-01d75f867163
+Charge
+2016/11/03
+11:35
+463700
+41.77
+Client created was charged $41.77 for being taken from (693.0, 415.0) to (468.0, 270.0) by Driver created.
+
+c708f511-20bf-49c3-95b3-cbaa97af4731
+Payment
+2016/11/03
+11:35
+23969
+-28.14
+Driver created was compensated $28.14 for taking Clientcreated from (588.0, 428.0) to (626.0, 287.0).
+
+19e9365a-09c5-47c4-a171-8781b534688a
+Charge
+2016/11/03
+11:35
+357033
+29.60
+Client created was charged $29.60 for being taken from (588.0, 428.0) to (626.0, 287.0) by Driver created.
+
+01f364fd-7740-4910-8e44-3a8483b7eeec
+Payment
+2016/11/03
+11:35
+743698
+-24.86
+Driver created was compensated $24.86 for taking Clientcreated from (659.0, 442.0) to (699.0, 340.0).
+
+f59c8d87-448f-4e32-9ebd-3a7d26e760a1
+Charge
+2016/11/03
+11:35
+399650
+25.96
+Client created was charged $25.96 for being taken from (659.0, 442.0) to (699.0, 340.0) by Driver created.
+
+96b7b352-9000-4d72-8525-276b1fba81a2
+Payment
+2016/11/03
+11:36
+893437
+-18.96
+Driver created was compensated $18.96 for taking Clientcreated from (551.0, 351.0) to (567.0, 310.0).
+
+1cf4ae9d-1e2b-4d9c-82b6-2a4f90d8c9a9
+Charge
+2016/11/03
+11:36
+645377
+19.40
+Client created was charged $19.40 for being taken from (551.0, 351.0) to (567.0, 310.0) by Driver created.
+
+6fb84945-0ce3-4b64-bebc-7d5d9889265b
+Payment
+2016/11/03
+11:36
+893437
+-21.47
+Driver created was compensated $21.47 for taking Clientcreated from (702.0, 304.0) to (758.0, 259.0).
+
+8d6d9d70-1a11-466e-b21f-80f196143c6d
+Charge
+2016/11/03
+11:36
+342934
+22.18
+Client created was charged $22.18 for being taken from (702.0, 304.0) to (758.0, 259.0) by Driver created.
+
+427d6940-20c8-4c7b-b39c-125e1c117b70
+Payment
+2016/11/03
+11:36
+893437
+-24.83
+Driver created was compensated $24.83 for taking Clientcreated from (821.0, 294.0) to (865.0, 194.0).
+
+57d4be6c-57e9-4c76-896e-83aed710e5fb
+Charge
+2016/11/03
+11:36
+224260
+25.93
+Client created was charged $25.93 for being taken from (821.0, 294.0) to (865.0, 194.0) by Driver created.
+
+719c4e2c-079d-47c2-9de4-fa0867f52bfd
+Payment
+2016/11/03
+11:36
+893437
+-22.77
+Driver created was compensated $22.77 for taking Clientcreated from (846.0, 371.0) to (769.0, 332.0).
+
+9b7fab7e-467d-4252-acaf-6ac8514d1566
+Charge
+2016/11/03
+11:36
+328668
+23.63
+Client created was charged $23.63 for being taken from (846.0, 371.0) to (769.0, 332.0) by Driver created.
+
+a6b21ade-7031-4741-a20f-7d0e0db0da97
+Payment
+2016/11/03
+11:36
+893437
+-21.88
+Driver created was compensated $21.88 for taking Clientcreated from (748.0, 403.0) to (680.0, 368.0).
+
+f702c7e0-9f24-4634-a7c8-287537fe19c4
+Charge
+2016/11/03
+11:36
+990739
+22.65
+Client created was charged $22.65 for being taken from (748.0, 403.0) to (680.0, 368.0) by Driver created.
+
+f011f94f-e169-4806-9df4-22bb2f6732fd
+Payment
+2016/11/03
+11:36
+614570
+-26.47
+Driver created was compensated $26.47 for taking Clientcreated from (638.0, 262.0) to (732.0, 176.0).
+
+438bfeeb-71e9-42d4-9f2e-b5382da83868
+Charge
+2016/11/03
+11:36
+78181
+27.74
+Client created was charged $27.74 for being taken from (638.0, 262.0) to (732.0, 176.0) by Driver created.
+
+11535bfe-7851-469c-9eec-75757eb23b28
+Payment
+2016/11/03
+11:36
+851589
+-31.57
+Driver created was compensated $31.57 for taking Clientcreated from (747.0, 355.0) to (863.0, 212.0).
+
+acc114da-6d39-4df9-82e2-ff3bddec01a5
+Charge
+2016/11/03
+11:36
+975289
+33.41
+Client created was charged $33.41 for being taken from (747.0, 355.0) to (863.0, 212.0) by Driver created.
+
+3d94f4c7-5524-4175-b153-017512117354
+Payment
+2016/11/03
+11:36
+614570
+-31.01
+Driver created was compensated $31.01 for taking Clientcreated from (874.0, 319.0) to (985.0, 180.0).
+
+f80a963c-c04b-49a5-ad56-1cea714c3846
+Charge
+2016/11/03
+11:36
+890129
+32.79
+Client created was charged $32.79 for being taken from (874.0, 319.0) to (985.0, 180.0) by Driver created.
+
+a41356b2-f9ca-47be-b652-89284c6cef6d
+Payment
+2016/11/03
+11:37
+274450
+-22.64
+Driver created was compensated $22.64 for taking Clientcreated from (452.0, 290.0) to (534.0, 268.0).
+
+3a8c5900-b802-4768-85f7-98c334b6267e
+Charge
+2016/11/03
+11:37
+596185
+23.49
+Client created was charged $23.49 for being taken from (452.0, 290.0) to (534.0, 268.0) by Driver created.
+
+d066bed1-f14a-489e-b71a-002470918a92
+Payment
+2016/11/03
+11:37
+274450
+-18.51
+Driver created was compensated $18.51 for taking Clientcreated from (507.0, 326.0) to (546.0, 326.0).
+
+9f3eab13-60ec-4f2d-b0f1-d374b9fc440b
+Charge
+2016/11/03
+11:37
+880788
+18.90
+Client created was charged $18.90 for being taken from (507.0, 326.0) to (546.0, 326.0) by Driver created.
+
+0084fd62-ba52-4cd2-a6fd-c9851a24fdbe
+Payment
+2016/11/03
+11:37
+274450
+-23.02
+Driver created was compensated $23.02 for taking Clientcreated from (500.0, 372.0) to (589.0, 367.0).
+
+6caabebe-7600-4dc3-b29a-6fc0f5f42554
+Charge
+2016/11/03
+11:37
+869407
+23.91
+Client created was charged $23.91 for being taken from (500.0, 372.0) to (589.0, 367.0) by Driver created.
+
+0c19d020-3e60-45d4-ad39-cd8d864a9b73
+Payment
+2016/11/03
+11:37
+274450
+-27.57
+Driver created was compensated $27.57 for taking Clientcreated from (563.0, 422.0) to (669.0, 331.0).
+
+ddd810e0-20d1-4041-ad67-d8a3cf82fe97
+Charge
+2016/11/03
+11:37
+607445
+28.97
+Client created was charged $28.97 for being taken from (563.0, 422.0) to (669.0, 331.0) by Driver created.
+
+be23799a-589e-4e33-a9c8-5200330bb916
+Payment
+2016/11/03
+11:37
+274450
+-32.37
+Driver created was compensated $32.37 for taking Clientcreated from (665.0, 442.0) to (665.0, 249.0).
+
+f5180c3a-cdd0-4f18-975d-968b89a9cf8f
+Charge
+2016/11/03
+11:37
+498502
+34.30
+Client created was charged $34.30 for being taken from (665.0, 442.0) to (665.0, 249.0) by Driver created.
+
+931d939a-0bf8-4f88-8719-a4d2d24ad077
+Payment
+2016/11/03
+11:38
+994605
+-32.58
+Driver created was compensated $32.58 for taking Clientcreated from (526.0, 357.0) to (658.0, 213.0).
+
+45264688-42d3-48f5-829a-3fc69e5916e2
+Charge
+2016/11/03
+11:38
+171715
+34.53
+Client created was charged $34.53 for being taken from (526.0, 357.0) to (658.0, 213.0) by Driver created.
+
+ee1e9518-1e93-42ca-87a2-e77f814af20e
+Payment
+2016/11/03
+11:38
+994605
+-19.61
+Driver created was compensated $19.61 for taking Clientcreated from (678.0, 342.0) to (710.0, 302.0).
+
+30bdcbeb-460c-4637-b96f-71b1a377cd3a
+Charge
+2016/11/03
+11:38
+964764
+20.12
+Client created was charged $20.12 for being taken from (678.0, 342.0) to (710.0, 302.0) by Driver created.
+
+fea799fb-9879-4e78-a614-c39c4d83b08f
+Payment
+2016/11/03
+11:39
+593972
+-26.10
+Driver created was compensated $26.10 for taking Clientcreated from (671.0, 319.0) to (707.0, 201.0).
+
+3ac05209-4bce-48a9-8637-e7ce6a623643
+Charge
+2016/11/03
+11:39
+966939
+27.34
+Client created was charged $27.34 for being taken from (671.0, 319.0) to (707.0, 201.0) by Driver created.
+
+588f3856-2f1d-4c07-b1c0-55aaec748e11
+Payment
+2016/11/03
+11:39
+593972
+-18.43
+Driver created was compensated $18.43 for taking Clientcreated from (707.0, 294.0) to (716.0, 257.0).
+
+3d3b7c1f-e05f-4d67-b8c6-a54adfc021b2
+Charge
+2016/11/03
+11:39
+246758
+18.81
+Client created was charged $18.81 for being taken from (707.0, 294.0) to (716.0, 257.0) by Driver created.
+
+60f73de0-ca36-453f-ade8-9bff3fc89935
+Payment
+2016/11/03
+11:39
+593972
+-17.46
+Driver created was compensated $17.46 for taking Clientcreated from (743.0, 299.0) to (756.0, 275.0).
+
+f00aed5e-a725-4f6d-bb8b-202472810dff
+Charge
+2016/11/03
+11:39
+58903
+17.73
+Client created was charged $17.73 for being taken from (743.0, 299.0) to (756.0, 275.0) by Driver created.
+
+de08aa51-2ecf-4d83-a17f-e2fc19b8cfef
+Payment
+2016/11/03
+11:39
+593972
+-18.15
+Driver created was compensated $18.15 for taking Clientcreated from (772.0, 309.0) to (793.0, 281.0).
+
+f0ca4da8-e4c9-43d1-b330-fc5371fd9585
+Charge
+2016/11/03
+11:39
+209115
+18.50
+Client created was charged $18.50 for being taken from (772.0, 309.0) to (793.0, 281.0) by Driver created.
+
+ce1e9c59-38da-431b-89e1-cf8972a0dd5e
+Payment
+2016/11/03
+11:39
+593972
+-17.42
+Driver created was compensated $17.42 for taking Clientcreated from (805.0, 322.0) to (824.0, 303.0).
+
+0c2fba09-8c70-4dbf-88ce-69b2bfedae2f
+Charge
+2016/11/03
+11:39
+100176
+17.69
+Client created was charged $17.69 for being taken from (805.0, 322.0) to (824.0, 303.0) by Driver created.
+
+7f925dec-11d2-4103-bf1a-f8dd1b668b05
+Payment
+2016/11/03
+11:39
+593972
+-22.89
+Driver created was compensated $22.89 for taking Clientcreated from (835.0, 358.0) to (919.0, 333.0).
+
+a76cc4d3-0654-433a-9a09-5827eea59292
+Charge
+2016/11/03
+11:39
+619741
+23.76
+Client created was charged $23.76 for being taken from (835.0, 358.0) to (919.0, 333.0) by Driver created.
+
+61a369f2-243e-4b19-86f7-d7e7164e58ed
+Payment
+2016/11/03
+11:39
+593972
+-26.87
+Driver created was compensated $26.87 for taking Clientcreated from (781.0, 418.0) to (907.0, 457.0).
+
+0b36ee2c-46da-4e48-8184-20fee6bdfec8
+Charge
+2016/11/03
+11:39
+800466
+28.19
+Client created was charged $28.19 for being taken from (781.0, 418.0) to (907.0, 457.0) by Driver created.
+
+d348e04d-9881-47dc-bf4d-910552592177
+Payment
+2016/11/03
+11:39
+593972
+-20.38
+Driver created was compensated $20.38 for taking Clientcreated from (721.0, 446.0) to (739.0, 503.0).
+
+03222ff2-d830-49a7-9e44-0d49f1914c01
+Charge
+2016/11/03
+11:39
+25105
+20.98
+Client created was charged $20.98 for being taken from (721.0, 446.0) to (739.0, 503.0) by Driver created.
+
+51bed0d1-d0b0-43b3-9bd7-75ff13bed307
+Payment
+2016/11/03
+11:39
+593972
+-30.85
+Driver created was compensated $30.85 for taking Clientcreated from (674.0, 462.0) to (796.0, 335.0).
+
+c13e6aa9-953c-4154-a227-4f7fd7e70563
+Charge
+2016/11/03
+11:39
+965083
+32.61
+Client created was charged $32.61 for being taken from (674.0, 462.0) to (796.0, 335.0) by Driver created.
+
+9d2246ff-fc47-42c9-893b-c71ebad1cf7e
+Payment
+2016/11/03
+11:39
+168829
+-28.43
+Driver created was compensated $28.43 for taking Clientcreated from (652.0, 382.0) to (755.0, 274.0).
+
+4b797783-c62e-4bc8-9804-acf47287b66a
+Charge
+2016/11/03
+11:39
+734851
+29.92
+Client created was charged $29.92 for being taken from (652.0, 382.0) to (755.0, 274.0) by Driver created.
+
+7493ec9f-ea1f-4ce1-b6b0-d4c5e0aac6a4
+Payment
+2016/11/03
+11:39
+707811
+-23.13
+Driver created was compensated $23.13 for taking Clientcreated from (564.0, 311.0) to (602.0, 229.0).
+
+1291af44-3d48-4cea-bcde-ea467d925aab
+Charge
+2016/11/03
+11:39
+862815
+24.04
+Client created was charged $24.04 for being taken from (564.0, 311.0) to (602.0, 229.0) by Driver created.
+
+1f64efda-818d-44ec-a018-f1bfb36e5f25
+Payment
+2016/11/03
+11:39
+707811
+-27.07
+Driver created was compensated $27.07 for taking Clientcreated from (604.0, 335.0) to (650.0, 209.0).
+
+ac9de621-ce4b-4d63-86e6-a6c19e0d14f5
+Charge
+2016/11/03
+11:39
+824228
+28.41
+Client created was charged $28.41 for being taken from (604.0, 335.0) to (650.0, 209.0) by Driver created.
+
+1f9463a6-2f58-4e6e-b0d9-49c262fe24a7
+Payment
+2016/11/03
+11:39
+593972
+-28.67
+Driver created was compensated $28.67 for taking Clientcreated from (636.0, 424.0) to (734.0, 308.0).
+
+cea936d7-f8cc-4737-9cb6-7f09637d6ff1
+Charge
+2016/11/03
+11:39
+427421
+30.19
+Client created was charged $30.19 for being taken from (636.0, 424.0) to (734.0, 308.0) by Driver created.
+
+fd3012c0-4aba-459d-ae8c-84d61a786503
+Payment
+2016/11/03
+11:39
+168829
+-28.98
+Driver created was compensated $28.98 for taking Clientcreated from (722.0, 452.0) to (810.0, 324.0).
+
+12c81d4f-5bf4-4455-9dbe-886a84a08de5
+Charge
+2016/11/03
+11:39
+928134
+30.53
+Client created was charged $30.53 for being taken from (722.0, 452.0) to (810.0, 324.0) by Driver created.
+
+f47bd57c-6976-4724-bbdf-d8d464a9116e
+Payment
+2016/11/03
+11:39
+104249
+-31.10
+Driver created was compensated $31.10 for taking Clientcreated from (419.0, 370.0) to (544.0, 242.0).
+
+e43c998a-0ddf-40f3-bc0e-7e8491a3f71c
+Charge
+2016/11/03
+11:39
+594716
+32.89
+Client created was charged $32.89 for being taken from (419.0, 370.0) to (544.0, 242.0) by Driver created.
+
+7190c7d7-370c-4b27-a565-5761ab62d191
+Payment
+2016/11/03
+11:39
+707811
+-29.59
+Driver created was compensated $29.59 for taking Clientcreated from (509.0, 403.0) to (618.0, 283.0).
+
+15dba638-512d-4bf0-8884-8e0cac2f875a
+Charge
+2016/11/03
+11:39
+952351
+31.21
+Client created was charged $31.21 for being taken from (509.0, 403.0) to (618.0, 283.0) by Driver created.
+
+99612a9f-f59c-4bb1-8489-50ab61170011
+Payment
+2016/11/03
+11:39
+593972
+-20.79
+Driver created was compensated $20.79 for taking Clientcreated from (621.0, 422.0) to (665.0, 375.0).
+
+6beb3f9a-b5b6-48e7-8230-eddb72ad42e8
+Charge
+2016/11/03
+11:39
+412968
+21.44
+Client created was charged $21.44 for being taken from (621.0, 422.0) to (665.0, 375.0) by Driver created.
+
+b58b7da8-6f7c-4fda-b8e3-e3611d4a3527
+Payment
+2016/11/03
+11:39
+168829
+-32.54
+Driver created was compensated $32.54 for taking Clientcreated from (624.0, 494.0) to (752.0, 347.0).
+
+f443afad-3a10-46c1-a403-b198d30f5a68
+Charge
+2016/11/03
+11:39
+69370
+34.49
+Client created was charged $34.49 for being taken from (624.0, 494.0) to (752.0, 347.0) by Driver created.
+
+0c270407-2b03-4a39-ad06-59e4473cfc6f
+Payment
+2016/11/03
+11:39
+593972
+-22.13
+Driver created was compensated $22.13 for taking Clientcreated from (812.0, 421.0) to (868.0, 365.0).
+
+bcc4cf0d-5b4f-48d9-8207-c29fe09384cf
+Charge
+2016/11/03
+11:39
+261827
+22.92
+Client created was charged $22.92 for being taken from (812.0, 421.0) to (868.0, 365.0) by Driver created.
+
+139f7406-8a1b-4c37-92f3-265500465e66
+Payment
+2016/11/03
+11:39
+593972
+-38.11
+Driver created was compensated $38.11 for taking Clientcreated from (867.0, 427.0) to (987.0, 200.0).
+
+da19569a-c0cd-45ed-a910-c139567f147c
+Charge
+2016/11/03
+11:39
+512790
+40.68
+Client created was charged $40.68 for being taken from (867.0, 427.0) to (987.0, 200.0) by Driver created.
+
+6640cae6-0b12-4639-bbf0-a0b1f6a1b29e
+Payment
+2016/11/03
+11:39
+593972
+-36.25
+Driver created was compensated $36.25 for taking Clientcreated from (905.0, 385.0) to (692.0, 283.0).
+
+c4ebf98c-d4f8-4128-b9d0-9687f972d17f
+Charge
+2016/11/03
+11:39
+613706
+38.62
+Client created was charged $38.62 for being taken from (905.0, 385.0) to (692.0, 283.0) by Driver created.
+
+e1d2e93c-5c78-4557-8449-5056fe3f83ac
+Payment
+2016/11/03
+11:39
+168829
+-36.26
+Driver created was compensated $36.26 for taking Clientcreated from (780.0, 433.0) to (579.0, 309.0).
+
+780b13cb-3603-400c-a200-3fc714925657
+Charge
+2016/11/03
+11:39
+413793
+38.62
+Client created was charged $38.62 for being taken from (780.0, 433.0) to (579.0, 309.0) by Driver created.
+
+ff29ef0f-2028-4673-97be-a25bf503804f
+Payment
+2016/11/03
+11:39
+168829
+-50.51
+Driver created was compensated $50.51 for taking Clientcreated from (710.0, 472.0) to (367.0, 277.0).
+
+c9e0de62-c25b-4ee0-bf73-53ae3dd233a6
+Charge
+2016/11/03
+11:39
+595
+54.46
+Client created was charged $54.46 for being taken from (710.0, 472.0) to (367.0, 277.0) by Driver created.
+
+0f808db0-9447-4f5f-abfb-6743ac4eaae2
+Payment
+2016/11/03
+11:39
+707811
+-35.79
+Driver created was compensated $35.79 for taking Clientcreated from (553.0, 430.0) to (355.0, 311.0).
+
+60b00824-92a3-4c38-99d3-e799fab97a88
+Charge
+2016/11/03
+11:39
+176716
+38.10
+Client created was charged $38.10 for being taken from (553.0, 430.0) to (355.0, 311.0) by Driver created.
+

@@ -15,7 +15,6 @@ public class GUI extends Application {
         primaryStage.setTitle("rUBERn");
         primaryStage.setScene(main.getScene());
         primaryStage.show();
-
     }
     public static void main(String[] args) {
         launch(args);

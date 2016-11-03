@@ -61,9 +61,12 @@ public class Rubern {
             Job job = new Job(driver,client,journey);
             driver.assignJob(job);
 
-            PayOperation payment = new PayOperation(job);
+
             ChargeOperation charge = new ChargeOperation(job);
         }
+    }
+    public void processJobFinalized(Job job) {
+        PayOperation payment = new PayOperation(job);
     }
     public ArrayList<Driver> getDrivers(){
         return driverAgent.getDrivers();

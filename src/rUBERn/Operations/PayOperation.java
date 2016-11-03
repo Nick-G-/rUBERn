@@ -4,6 +4,7 @@ import rUBERn.Job;
 public class PayOperation extends Operation{
     public PayOperation(Job job) {
         super(job, 15 + (job.getJourney().getDistance()* 0.1)*0.9);
+        System.out.println(getDescription());
     }
 
     @Override

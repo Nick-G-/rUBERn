@@ -101,7 +101,7 @@ public class Driver extends Person {
 
     public void finalizeJob() {
         currentJob.getClient().getOffCar();
-
+        rubern.processJobFinalized(currentJob);
         if (jobQueue.isEmpty()) {
             goOnline();
             return;

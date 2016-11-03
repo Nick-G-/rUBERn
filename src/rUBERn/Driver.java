@@ -3,7 +3,6 @@ package rUBERn;// Created by nico on 9/30/16.
 import rUBERn.DriverStatus.Offline;
 import rUBERn.DriverStatus.Status;
 import rUBERn.Exceptions.AlreadyInStatusException;
-import rUBERn.GUI.RequestPopup;
 
 import java.time.Duration;
 import java.util.Queue;

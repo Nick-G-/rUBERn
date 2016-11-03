@@ -31,6 +31,7 @@ public class Engine extends StateBasedGame{
         gc.setMaximumLogicUpdateInterval(Settings.UPS);
         gc.setVSync(true);
         gc.setTargetFrameRate(Settings.UPS);
+        gc.setAlwaysRender(true);
 
         if (rubern == null) {
             this.addState(new SimulationState());

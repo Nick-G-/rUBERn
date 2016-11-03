@@ -18006,3 +18006,491 @@ Payment
 -35.37
 Driver Katrina was compensated $35.37 for taking Client Suanne from (713.0, 387.0) to (877.0, 231.0).
 
+3bc601b6-a6bf-4c90-8091-565eb0cbbb97
+Charge
+2016/11/03
+16:03
+830824
+50.38
+Client Maryrose was charged $50.38 for journey from (250.0, 357.0) to (597.0, 288.0) by Driver Peter.
+
+fa0d62b4-c347-49e3-9127-e40987907167
+Charge
+2016/11/03
+16:03
+687819
+54.94
+Client Rick Astley was charged $54.94 for journey from (697.0, 469.0) to (916.0, 135.0) by Driver Ruben.
+
+e97950f0-ed9d-443d-b8b7-3c2079b94bc5
+Payment
+2016/11/03
+16:03
+629680
+-46.84
+Driver Peter was compensated $46.84 for taking Client Maryrose from (250.0, 357.0) to (597.0, 288.0).
+
+c1dd74cb-53b8-4530-8664-a97ff80661e3
+Charge
+2016/11/03
+16:03
+651323
+70.41
+Client Rick Astley was charged $70.41 for journey from (712.0, 399.0) to (178.0, 251.0) by Driver Peter.
+
+914c93b3-e2ed-4141-818a-b823624f245c
+Payment
+2016/11/03
+16:03
+340764
+-50.95
+Driver Ruben was compensated $50.95 for taking Client Rick Astley from (697.0, 469.0) to (916.0, 135.0).
+
+dd78ffa0-925b-423a-9e1b-ebe1e9084149
+Payment
+2016/11/03
+16:03
+629680
+-64.87
+Driver Peter was compensated $64.87 for taking Client Rick Astley from (712.0, 399.0) to (178.0, 251.0).
+
+7261fa12-0796-450e-8df0-1ef1b4aa6a49
+Charge
+2016/11/03
+16:03
+913667
+15.00
+Client Kena was charged $15.00 for journey from (742.0, 311.0) to (742.0, 311.0) by Driver Peter.
+
+2329bb4e-f592-48aa-86fc-8c900366f09f
+Charge
+2016/11/03
+16:04
+766062
+40.53
+Client Jaimee was charged $40.53 for journey from (347.0, 370.0) to (584.0, 275.0) by Driver Robert.
+
+61b58cdf-aec5-48db-8cd3-27ea0ceee613
+Payment
+2016/11/03
+16:04
+933206
+-37.98
+Driver Robert was compensated $37.98 for taking Client Jaimee from (347.0, 370.0) to (584.0, 275.0).
+
+7249411c-d2bb-48fd-b5c2-f50853ab3922
+Charge
+2016/11/03
+16:04
+319945
+68.49
+Client Clinton was charged $68.49 for journey from (325.0, 419.0) to (807.0, 187.0) by Driver Alexander.
+
+1dd236da-583f-4a31-a7cb-da33fadf029e
+Charge
+2016/11/03
+16:04
+517825
+62.59
+Client Clinton was charged $62.59 for journey from (776.0, 375.0) to (1069.0, 0.0) by Driver Robert.
+
+57080335-34ce-4e23-b1c4-61cd3a2d4a72
+Payment
+2016/11/03
+16:04
+29242
+-63.14
+Driver Alexander was compensated $63.14 for taking Client Clinton from (325.0, 419.0) to (807.0, 187.0).
+
+f02de133-0844-4f45-a5f8-37f5db22e843
+Payment
+2016/11/03
+16:04
+933206
+-57.83
+Driver Robert was compensated $57.83 for taking Client Clinton from (776.0, 375.0) to (1069.0, 0.0).
+
+36fe8199-9843-4d01-a8b3-a91f950a77fd
+Charge
+2016/11/03
+16:06
+752801
+37.69
+Client Deangelo was charged $37.69 for journey from (411.0, 384.0) to (559.0, 212.0) by Driver Katrina.
+
+a8434f1d-0e18-499a-9518-1aec17a3c71b
+Charge
+2016/11/03
+16:06
+799865
+36.80
+Client Deangelo was charged $36.80 for journey from (548.0, 439.0) to (687.0, 271.0) by Driver Tammara.
+
+f5dbcec0-f6e8-49c8-9dd0-7e7da333af10
+Payment
+2016/11/03
+16:06
+762549
+-35.42
+Driver Katrina was compensated $35.42 for taking Client Deangelo from (411.0, 384.0) to (559.0, 212.0).
+
+bf139b1c-778a-451d-ab9e-2fc386e65146
+Payment
+2016/11/03
+16:06
+310282
+-34.62
+Driver Tammara was compensated $34.62 for taking Client Deangelo from (548.0, 439.0) to (687.0, 271.0).
+
+1007c070-4a02-4acb-88d9-c81af26f5b2b
+Charge
+2016/11/03
+16:06
+105761
+35.32
+Client Jaimee was charged $35.32 for journey from (387.0, 423.0) to (199.0, 346.0) by Driver Herminia.
+
+be6a6d44-4791-4640-9ab9-d7950ebbf78a
+Charge
+2016/11/03
+16:06
+142536
+38.99
+Client Bill was charged $38.99 for journey from (204.0, 469.0) to (183.0, 230.0) by Driver Edgar.
+
+3a5b0442-f058-4e13-8d9f-80f640366bef
+Payment
+2016/11/03
+16:06
+845167
+-33.28
+Driver Herminia was compensated $33.28 for taking Client Jaimee from (387.0, 423.0) to (199.0, 346.0).
+
+9d47e8d8-e6b6-4053-b65f-8713341047b2
+Charge
+2016/11/03
+16:06
+933754
+37.29
+Client Belgrano was charged $37.29 for journey from (120.0, 340.0) to (315.0, 232.0) by Driver Herminia.
+
+93681413-363e-4ba6-8e2f-fa97bc3ed343
+Charge
+2016/11/03
+16:06
+249879
+29.01
+Client Jaimee was charged $29.01 for journey from (552.0, 307.0) to (654.0, 211.0) by Driver Katrina.
+
+5e0176d3-0e3c-493e-81b2-5ebf443261bc
+Payment
+2016/11/03
+16:06
+640461
+-36.59
+Driver Edgar was compensated $36.59 for taking Client Bill from (204.0, 469.0) to (183.0, 230.0).
+
+975b70b3-82cc-4759-9241-8e8082ddefee
+Payment
+2016/11/03
+16:06
+845167
+-35.06
+Driver Herminia was compensated $35.06 for taking Client Belgrano from (120.0, 340.0) to (315.0, 232.0).
+
+53b9434d-89c6-4e2a-abde-7619dae0d24a
+Payment
+2016/11/03
+16:06
+762549
+-27.61
+Driver Katrina was compensated $27.61 for taking Client Jaimee from (552.0, 307.0) to (654.0, 211.0).
+
+7a8159fc-92ac-4987-8000-cc907ff94a14
+Charge
+2016/11/03
+16:06
+231640
+64.50
+Client Katrina was charged $64.50 for journey from (265.0, 434.0) to (694.0, 187.0) by Driver Peter.
+
+17a0ad7a-a08c-4072-aa0e-57321c143680
+Charge
+2016/11/03
+16:06
+703460
+53.34
+Client Deangelo was charged $53.34 for journey from (395.0, 527.0) to (704.0, 300.0) by Driver Peter.
+
+b51efe27-3893-4b51-99a7-f4dfff3c4794
+Charge
+2016/11/03
+16:06
+373348
+15.00
+Client Edgar was charged $15.00 for journey from (950.0, 339.0) to (950.0, 339.0) by Driver Tammara.
+
+b6e09e64-d459-4c69-83bc-60fb67b2d8ee
+Charge
+2016/11/03
+16:06
+148585
+42.07
+Client Katrina was charged $42.07 for journey from (764.0, 418.0) to (494.0, 438.0) by Driver Katrina.
+
+110d7314-5f9d-4a8c-922b-efad57486af2
+Payment
+2016/11/03
+16:06
+786865
+-59.55
+Driver Peter was compensated $59.55 for taking Client Katrina from (265.0, 434.0) to (694.0, 187.0).
+
+89dcc82c-6017-4cbc-8c4d-3f9e8845ff28
+Charge
+2016/11/03
+16:06
+382479
+30.83
+Client Ruben was charged $30.83 for journey from (850.0, 376.0) to (693.0, 356.0) by Driver Tammara.
+
+ac07b4a7-72e0-478d-8539-9d1cc5ae0db4
+Payment
+2016/11/03
+16:06
+310282
+-15.00
+Driver Tammara was compensated $15.00 for taking Client Edgar from (950.0, 339.0) to (950.0, 339.0).
+
+f3064018-94c9-4ead-98d8-7d6cce340884
+Charge
+2016/11/03
+16:06
+565051
+21.60
+Client Robert was charged $21.60 for journey from (905.0, 457.0) to (839.0, 457.0) by Driver Tammara.
+
+e772a5ef-338d-44a9-b29b-9d3ce977ef0f
+Charge
+2016/11/03
+16:06
+626981
+27.78
+Client Herbert was charged $27.78 for journey from (482.0, 350.0) to (358.0, 319.0) by Driver Suanne.
+
+1de73fef-ca31-44fd-b3ce-9db9fcbb66c8
+Charge
+2016/11/03
+16:06
+605136
+18.62
+Client Peter was charged $18.62 for journey from (690.0, 431.0) to (673.0, 399.0) by Driver Katrina.
+
+2b3dbc46-4511-4f08-bd0e-f0a7165966b2
+Payment
+2016/11/03
+16:06
+310282
+-20.94
+Driver Tammara was compensated $20.94 for taking Client Robert from (905.0, 457.0) to (839.0, 457.0).
+
+56ada60e-2a38-4f72-b682-7af4b45537df
+Payment
+2016/11/03
+16:06
+973330
+-26.50
+Driver Suanne was compensated $26.50 for taking Client Herbert from (482.0, 350.0) to (358.0, 319.0).
+
+02bdd7d2-f23c-49e7-b080-28f65534fe6b
+Charge
+2016/11/03
+16:06
+514410
+41.63
+Client Peter was charged $41.63 for journey from (748.0, 319.0) to (892.0, 95.0) by Driver Tammara.
+
+87782d3c-3383-4db1-bf1d-148047301f6c
+Charge
+2016/11/03
+16:06
+674852
+35.46
+Client Herminia was charged $35.46 for journey from (874.0, 212.0) to (768.0, 387.0) by Driver Tammara.
+
+25257099-1887-49a4-a1c3-4dca1c1778ce
+Payment
+2016/11/03
+16:06
+762549
+-39.37
+Driver Katrina was compensated $39.37 for taking Client Katrina from (764.0, 418.0) to (494.0, 438.0).
+
+0fc5fc9b-89e5-4d4c-a2a6-6b27666ca88c
+Charge
+2016/11/03
+16:06
+48359
+32.31
+Client Belgrano was charged $32.31 for journey from (948.0, 173.0) to (867.0, 326.0) by Driver Tammara.
+
+97c450c9-10f4-4c90-9575-9f7a51a556d9
+Charge
+2016/11/03
+16:06
+79040
+23.51
+Client Ruben was charged $23.51 for journey from (985.0, 174.0) to (956.0, 254.0) by Driver Tammara.
+
+de260a69-9cbe-457a-9e00-b6e994cddbf9
+Charge
+2016/11/03
+16:06
+588275
+21.68
+Client Rick Astley was charged $21.68 for journey from (964.0, 309.0) to (1006.0, 257.0) by Driver Katrina.
+
+93e3a1ff-ba7c-4172-9d4d-4be3b7e1c495
+Payment
+2016/11/03
+16:06
+310282
+-38.97
+Driver Tammara was compensated $38.97 for taking Client Peter from (748.0, 319.0) to (892.0, 95.0).
+
+527e7310-d6de-4d66-9579-3ca18b395a28
+Payment
+2016/11/03
+16:06
+786865
+-49.51
+Driver Peter was compensated $49.51 for taking Client Deangelo from (395.0, 527.0) to (704.0, 300.0).
+
+e9eec42e-0be1-43b7-9f1b-b76a646a2818
+Payment
+2016/11/03
+16:06
+762549
+-21.02
+Driver Katrina was compensated $21.02 for taking Client Rick Astley from (964.0, 309.0) to (1006.0, 257.0).
+
+1befa9ef-fe31-4771-a69c-e04e604212fd
+Payment
+2016/11/03
+16:06
+310282
+-33.41
+Driver Tammara was compensated $33.41 for taking Client Herminia from (874.0, 212.0) to (768.0, 387.0).
+
+417c2e63-c21d-4d14-b777-385668aa6235
+Payment
+2016/11/03
+16:06
+310282
+-30.58
+Driver Tammara was compensated $30.58 for taking Client Belgrano from (948.0, 173.0) to (867.0, 326.0).
+
+4646c30c-0f3c-459b-97e7-9bda537efc20
+Payment
+2016/11/03
+16:06
+310282
+-22.66
+Driver Tammara was compensated $22.66 for taking Client Ruben from (985.0, 174.0) to (956.0, 254.0).
+
+c338a757-ed55-4bf3-a8d4-4365b669fafb
+Charge
+2016/11/03
+16:06
+699007
+33.12
+Client Jaimee was charged $33.12 for journey from (639.0, 339.0) to (459.0, 318.0) by Driver Peter.
+
+22cd537e-2a21-43c7-b2dc-89073827b795
+Charge
+2016/11/03
+16:06
+362309
+32.30
+Client Edgar was charged $32.30 for journey from (732.0, 416.0) to (568.0, 361.0) by Driver Peter.
+
+394064a2-f9cf-4814-85ad-092473e1c93c
+Charge
+2016/11/03
+16:06
+801861
+62.88
+Client Alexander was charged $62.88 for journey from (730.0, 437.0) to (343.0, 155.0) by Driver Tammara.
+
+25d73d63-1973-4121-967f-5914a0340cf6
+Charge
+2016/11/03
+16:06
+711664
+45.90
+Client Katrina was charged $45.90 for journey from (490.0, 404.0) to (252.0, 207.0) by Driver Peter.
+
+14bfac74-fd0f-4397-9118-336432d4320b
+Payment
+2016/11/03
+16:06
+786865
+-31.31
+Driver Peter was compensated $31.31 for taking Client Jaimee from (639.0, 339.0) to (459.0, 318.0).
+
+9a4cda6a-7844-4e91-97cd-28ae6fac9f1b
+Charge
+2016/11/03
+16:06
+850028
+49.47
+Client Eliseo was charged $49.47 for journey from (634.0, 420.0) to (307.0, 311.0) by Driver Peter.
+
+655124c2-ba5a-448c-8262-f7163e3cfae6
+Charge
+2016/11/03
+16:06
+896335
+44.03
+Client Peter was charged $44.03 for journey from (739.0, 433.0) to (463.0, 343.0) by Driver Tammara.
+
+d1513d46-6dd7-493c-bae0-8df94384a9a7
+Charge
+2016/11/03
+16:07
+190093
+59.75
+Client Edgar was charged $59.75 for journey from (808.0, 469.0) to (384.0, 326.0) by Driver Tammara.
+
+da3f8efa-89db-485e-8b4d-1f74a6adeb58
+Payment
+2016/11/03
+16:07
+786865
+-46.02
+Driver Peter was compensated $46.02 for taking Client Eliseo from (634.0, 420.0) to (307.0, 311.0).
+
+df4a4353-71de-47a2-b23d-9c4a7aec2a72
+Payment
+2016/11/03
+16:07
+310282
+-58.10
+Driver Tammara was compensated $58.10 for taking Client Alexander from (730.0, 437.0) to (343.0, 155.0).
+
+192bd8ff-be32-4335-b734-f2c400391bce
+Payment
+2016/11/03
+16:07
+786865
+-42.81
+Driver Peter was compensated $42.81 for taking Client Katrina from (490.0, 404.0) to (252.0, 207.0).
+
+d929e519-61a5-4603-9252-c150fb6571e6
+Payment
+2016/11/03
+16:07
+310282
+-41.13
+Driver Tammara was compensated $41.13 for taking Client Peter from (739.0, 433.0) to (463.0, 343.0).
+

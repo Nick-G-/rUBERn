@@ -17,7 +17,6 @@ public class Engine extends StateBasedGame{
         } catch (SlickException e) {
             e.printStackTrace();
         }
-
     }
 
     public Engine() {

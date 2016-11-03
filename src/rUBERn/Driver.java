@@ -3,6 +3,7 @@ package rUBERn;// Created by nico on 9/30/16.
 import rUBERn.DriverStatus.Offline;
 import rUBERn.DriverStatus.Status;
 import rUBERn.Exceptions.AlreadyInStatusException;
+import rUBERn.GUI.RequestPopup;
 
 import java.time.Duration;
 import java.util.Queue;
@@ -14,7 +15,6 @@ public class Driver extends Person {
     private LinkedBlockingQueue<Job> jobQueue = new LinkedBlockingQueue<>();
     private Job currentJob;
     private Rubern rubern;
-    private boolean arrived = false;
 
     public Queue<Job> getJobQueue() {
         return jobQueue;
@@ -55,10 +55,7 @@ public class Driver extends Person {
     }
 
     public boolean evaluateOffer(Journey journey, Client client) {
-        if (true) {
-            return true;
-        }
-        return false;
+        return new RequestPopup(journey,client).getAnswer();
     }
 
     private void doOffer(Journey journey, Client client) {
@@ -75,7 +72,7 @@ public class Driver extends Person {
     }
 
     public void work(int delta) {
-        if (!currentJob.isFinished()) {
+        if(!currentJob.isFinished()) {
             Location pickup = currentJob.getJourney().getOrigin();
             Location destination = currentJob.getJourney().getDestination();
             float moveSpeed = (float) car.getSpeed() * delta / 100;
@@ -103,9 +100,11 @@ public class Driver extends Person {
     }
 
     public void finalizeJob() {
-        currentJob.getClient().getOffCar();
+        goOnline();
         currentJob.finish();
+        currentJob.getClient().getOffCar();
         rubern.processJobFinalized(currentJob);
+
         if (jobQueue.isEmpty()) {
             goOnline();
             return;
@@ -118,7 +117,7 @@ public class Driver extends Person {
     }
 
     public boolean canTakeJob(Journey journey) {
-        return (status.isAvailableForJob() & journey.getPassengers() <= car.getPassengerCapacity());
+        return (journey.getPassengers() <= car.getPassengerCapacity());
     }
 
 

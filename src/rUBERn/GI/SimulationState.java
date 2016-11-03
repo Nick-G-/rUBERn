@@ -11,8 +11,6 @@ import org.newdawn.slick.state.BasicGameState;
 import org.newdawn.slick.state.StateBasedGame;
 import rUBERn.Client;
 import rUBERn.Driver;
-import rUBERn.Exceptions.AlreadyInStatusException;
-import rUBERn.Location;
 import rUBERn.Rubern;
 
 public class SimulationState extends BasicGameState {
@@ -28,6 +26,13 @@ public class SimulationState extends BasicGameState {
     private ClientCreator clientCreator;
     private PersonCreator currentCreator;
 
+    public SimulationState() {
+        this.rUBERn = new Rubern();
+    }
+
+    public SimulationState(Rubern rUBERn) {
+        this.rUBERn = rUBERn;
+    }
     @Override
     public int getID() {
         return States.SIMULATION;
@@ -42,26 +47,6 @@ public class SimulationState extends BasicGameState {
         this.driverCreator = new DriverCreator(this, gc.getInput(), gc.getGraphics(), rUBERn);
         this.clientCreator = new ClientCreator(this, gc.getInput(), gc.getGraphics(), rUBERn);
         this.currentCreator = driverCreator;
-
-
-        Driver dan = new Driver("dan", rUBERn);
-        Driver daniel = new Driver("daniel", rUBERn);
-        try {
-            dan.goOnline();
-            daniel.goOnline();
-        } catch (AlreadyInStatusException e) {
-            e.printStackTrace();
-        }
-        dan.moveTo(new Location(400,400));
-        dan.addToSorter();
-
-        daniel.moveTo(new Location(500,500));
-        daniel.addToSorter();
-
-        Client clinton = new Client("clinton", new Location(200,200));
-        rUBERn.addClient(clinton);
-
-        clinton.request(new Location(100, 300), rUBERn);
 
         camera = new Camera(gc.getInput());
     }
@@ -136,8 +121,10 @@ public class SimulationState extends BasicGameState {
     }
     public void drawClients(Graphics g) {
         g.setColor(Color.green);
+
         for (Client client : rUBERn.getClients()) {
             g.draw(new Circle(client.getCurrentLocation().getX(), client.getCurrentLocation().getY(), 10, 8));
+
             if (client.isWaiting()) {
                 g.draw(new Line(client.getCurrentLocation().toVector2f(), client.getCurrentDestination().toVector2f()));
             }

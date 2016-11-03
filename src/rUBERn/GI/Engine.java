@@ -2,12 +2,13 @@ package rUBERn.GI;
 
 // Created by nico on 10/29/16.
 
-import de.lessvoid.nifty.slick2d.NiftyStateBasedGame;
-import org.newdawn.slick.*;
-import org.newdawn.slick.state.*;
+import org.newdawn.slick.AppGameContainer;
+import org.newdawn.slick.GameContainer;
+import org.newdawn.slick.SlickException;
+import org.newdawn.slick.state.StateBasedGame;
 
 
-public class Engine extends NiftyStateBasedGame{
+public class Engine extends StateBasedGame{
     public static void main(String[] args) {
         try {
             AppGameContainer game = new AppGameContainer(new Engine());

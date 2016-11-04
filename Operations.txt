@@ -1,0 +1,24 @@
+07def472-8b32-4e16-a07f-3fa9ee728de2
+Charge
+2016/11/04
+12:31
+451811
+53.04
+Client Tammara was charged $53.04 for journey of 380.41m from (277.0, 236.0) to (503.0, 542.0), accepted by Driver Tera.
+
+439588e5-39ae-44d9-a7df-6ccea56fd80d
+Payment
+2016/11/04
+12:31
+703921
+-49.24
+Driver Tera was compensated $49.24 for taking Client Tammara in journey of 380.41m from (277.0, 236.0) to (503.0, 542.0).
+
+a3511f1f-de3b-4b0c-83fa-fa998d2b0675
+Charge
+2016/11/04
+12:32
+983458
+66.27
+Client Herminia was charged $66.27 for journey of 512.72m from (643.0, 277.0) to (244.0, 599.0), accepted by Driver Jaimee.
+

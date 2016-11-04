@@ -18494,3 +18494,3147 @@ Payment
 -41.13
 Driver Tammara was compensated $41.13 for taking Client Peter from (739.0, 433.0) to (463.0, 343.0).
 
+5462b1e9-de01-47da-8437-d5e699e3309e
+Charge
+2016/11/03
+16:08
+755555
+41.36
+Client Robert was charged $41.36 for journey from (311.0, 341.0) to (570.0, 292.0) by Driver Rick Astley.
+
+9d112d09-fef2-4231-87f4-8219cda69fdf
+Charge
+2016/11/03
+16:08
+932942
+52.41
+Client Glady was charged $52.41 for journey from (347.0, 453.0) to (687.0, 297.0) by Driver Rick Astley.
+
+35258073-bdff-4cb2-993f-577c45307851
+Charge
+2016/11/03
+16:08
+467573
+45.76
+Client Rick Astley was charged $45.76 for journey from (555.0, 471.0) to (724.0, 214.0) by Driver Edgar.
+
+654b0cb0-4059-4241-92ac-56ac4df0d52d
+Payment
+2016/11/03
+16:09
+117994
+-38.72
+Driver Rick Astley was compensated $38.72 for taking Client Robert from (311.0, 341.0) to (570.0, 292.0).
+
+d5a27ef0-dad5-4cec-a3f2-0eb0e8432235
+Payment
+2016/11/03
+16:09
+821008
+-48.67
+Driver Rick Astley was compensated $48.67 for taking Client Glady from (347.0, 453.0) to (687.0, 297.0).
+
+43c18bf3-fe01-4fd4-9419-7f50fde58fa7
+Charge
+2016/11/03
+16:09
+283837
+35.32
+Client Deangelo was charged $35.32 for journey from (720.0, 402.0) to (517.0, 412.0) by Driver Rick Astley.
+
+c84cb93c-57b9-47ea-8509-1cf78d11371f
+Payment
+2016/11/03
+16:09
+164203
+-42.68
+Driver Edgar was compensated $42.68 for taking Client Rick Astley from (555.0, 471.0) to (724.0, 214.0).
+
+24b8d37e-50a0-4e93-abbd-fccf416fbf75
+Charge
+2016/11/03
+16:09
+789954
+52.06
+Client Robert was charged $52.06 for journey from (574.0, 479.0) to (236.0, 327.0) by Driver Rick Astley.
+
+45441042-881a-434b-8df3-d7fd922eabc8
+Charge
+2016/11/03
+16:09
+725537
+37.28
+Client Tammara was charged $37.28 for journey from (229.0, 496.0) to (116.0, 304.0) by Driver Rick Astley.
+
+1e01aae0-546a-4872-9c64-4865d2b9c7ea
+Payment
+2016/11/03
+16:09
+821008
+-33.29
+Driver Rick Astley was compensated $33.29 for taking Client Deangelo from (720.0, 402.0) to (517.0, 412.0).
+
+91a21e94-f78b-4162-8323-cd78514efb35
+Payment
+2016/11/03
+16:09
+117994
+-48.35
+Driver Rick Astley was compensated $48.35 for taking Client Robert from (574.0, 479.0) to (236.0, 327.0).
+
+e586f57e-f596-4fd2-8d05-1f3b7f336eaf
+Payment
+2016/11/03
+16:09
+117994
+-35.05
+Driver Rick Astley was compensated $35.05 for taking Client Tammara from (229.0, 496.0) to (116.0, 304.0).
+
+3217e490-a24b-4e32-b85a-b446ebd21dd2
+Charge
+2016/11/04
+00:22
+751801
+50.13
+Client Clinton was charged $50.13 for journey from (849.0, 26.0) to (673.0, 330.0) by Driver Robert.
+
+12fe0c0f-6fc6-4855-b13c-98d38e248970
+Charge
+2016/11/04
+00:22
+339264
+52.30
+Client Ash Ketchup was charged $52.30 for journey from (636.0, 430.0) to (340.0, 203.0) by Driver Robert.
+
+330a6ac0-62a5-4145-b240-6bd33ba4179b
+Charge
+2016/11/04
+00:22
+438093
+62.83
+Client Katrina was charged $62.83 for journey from (356.0, 171.0) to (816.0, 302.0) by Driver Robert.
+
+78c29d82-6662-4d62-bd12-acd609cfbb13
+Charge
+2016/11/04
+00:22
+812352
+50.26
+Client Ruben was charged $50.26 for journey from (818.0, 304.0) to (596.0, 578.0) by Driver Robert.
+
+f516a646-446c-40fc-b589-10d3702a4569
+Charge
+2016/11/04
+00:22
+585892
+62.12
+Client Suanne was charged $62.12 for journey from (560.0, 595.0) to (297.0, 204.0) by Driver Robert.
+
+de2c01c5-c39a-4056-8f78-62d9f5ffc834
+Payment
+2016/11/04
+00:22
+441273
+-46.61
+Driver Robert was compensated $46.61 for taking Client Clinton from (849.0, 26.0) to (673.0, 330.0).
+
+95bcb51f-8959-4e84-935e-328d8780c8c2
+Payment
+2016/11/04
+00:22
+441273
+-48.57
+Driver Robert was compensated $48.57 for taking Client Ash Ketchup from (636.0, 430.0) to (340.0, 203.0).
+
+f95a92c6-b094-4a75-a046-3c103b04f76b
+Payment
+2016/11/04
+00:22
+441273
+-58.05
+Driver Robert was compensated $58.05 for taking Client Katrina from (356.0, 171.0) to (816.0, 302.0).
+
+9abfc4e1-7e9a-4719-b2fa-d27377cca3c7
+Payment
+2016/11/04
+00:23
+441273
+-46.74
+Driver Robert was compensated $46.74 for taking Client Ruben from (818.0, 304.0) to (596.0, 578.0).
+
+da907579-f9ab-40ee-9f46-876270a109db
+Payment
+2016/11/04
+00:23
+441273
+-57.41
+Driver Robert was compensated $57.41 for taking Client Suanne from (560.0, 595.0) to (297.0, 204.0).
+
+596ada39-f1e3-436e-995f-f10d33b51b47
+Charge
+2016/11/04
+00:25
+238574
+31.69
+Client Belgrano was charged $31.69 for journey from (269.0, 412.0) to (412.0, 326.0) by Driver Eliseo.
+
+eacf3909-e882-4406-b412-aaadeca8345d
+Charge
+2016/11/04
+00:27
+737719
+15.00
+Client Suanne was charged $15.00 for journey from (456.0, 325.0) to (456.0, 325.0) by Driver Ash Ketchup.
+
+8c3f905a-9f4a-4078-81cd-34c8c24a55fe
+Payment
+2016/11/04
+00:27
+126916
+-15.00
+Driver Ash Ketchup was compensated $15.00 for taking Client Suanne from (456.0, 325.0) to (456.0, 325.0).
+
+17272074-702a-40ee-b4be-0d006804f89f
+Charge
+2016/11/04
+00:27
+933103
+33.37
+Client Robert was charged $33.37 for journey from (403.0, 327.0) to (559.0, 230.0) by Driver Katrina.
+
+3d47aa5a-5793-4ece-8ef1-1591b5e44299
+Charge
+2016/11/04
+00:27
+185716
+29.64
+Client Clinton was charged $29.64 for journey from (572.0, 232.0) to (491.0, 354.0) by Driver Katrina.
+
+ec69fb42-9b2c-4ca1-a292-16a574df7322
+Payment
+2016/11/04
+00:27
+523696
+-31.53
+Driver Katrina was compensated $31.53 for taking Client Robert from (403.0, 327.0) to (559.0, 230.0).
+
+8f8d00bb-0ead-4d06-a3e0-1465fb58d7a7
+Payment
+2016/11/04
+00:27
+523696
+-28.18
+Driver Katrina was compensated $28.18 for taking Client Clinton from (572.0, 232.0) to (491.0, 354.0).
+
+8407c908-3c82-4635-9171-c2523f87a737
+Charge
+2016/11/04
+00:27
+914675
+59.44
+Client Peter was charged $59.44 for journey from (509.0, 377.0) to (936.0, 254.0) by Driver Katrina.
+
+81cc391d-ea16-4979-b02f-a80b1ce3ee4d
+Charge
+2016/11/04
+00:27
+917894
+61.40
+Client Belgrano was charged $61.40 for journey from (542.0, 398.0) to (1006.0, 397.0) by Driver Katrina.
+
+3eedb14a-9c95-4230-97f1-00279b4461ec
+Payment
+2016/11/04
+00:27
+523696
+-54.99
+Driver Katrina was compensated $54.99 for taking Client Peter from (509.0, 377.0) to (936.0, 254.0).
+
+f3ec4572-c963-4990-a830-ce9c5808a3d7
+Charge
+2016/11/04
+00:41
+840354
+69.25
+Client Peter was charged $69.25 for journey of 542.4850228347323m from (358.0, 250.0) to (891.0, 351.0) by Driver Kena.
+
+a1f0baac-e3a7-492e-abad-a88a1aa17ae6
+Payment
+2016/11/04
+00:42
+573796
+-63.82
+Driver Kena was compensated $63.82 for journey of 542.4850228347323m from (358.0, 250.0) to (891.0, 351.0), taking Client Peter.
+
+f8969281-0244-4a3d-855d-9879d3c3b8ba
+Charge
+2016/11/04
+00:47
+986238
+52.50
+Client Eliseo was charged $52.50 for journey of 375.0333318519835m from (511.0, 236.0) to (880.0, 303.0) by Driver Peter.
+
+8f49b8d6-ed74-41ab-9e78-a816530c4d2d
+Payment
+2016/11/04
+00:47
+301105
+-48.75
+Driver Peter was compensated $48.75 for taking Client Eliseo in journey of 375.0333318519835m from (511.0, 236.0) to (880.0, 303.0).
+
+3f54ea87-4579-4da8-9cea-462ee6284be8
+Charge
+2016/11/04
+00:47
+177048
+56.28
+Client Eliseo was charged $56.28 for journey of 412.84379612633154m from (505.0, 320.0) to (907.0, 414.0) by Driver Alexander.
+
+01187116-f80c-4d62-9d8a-9e1e24551daa
+Charge
+2016/11/04
+00:47
+912543
+67.05
+Client Herminia was charged $67.05 for journey of 520.4632551871457m from (647.0, 265.0) to (1166.0, 226.0) by Driver Suanne.
+
+96e8a30c-0e36-43dc-8af2-2a633d5de5d4
+Payment
+2016/11/04
+00:47
+437117
+-52.16
+Driver Alexander was compensated $52.16 for taking Client Eliseo in journey of 412.84379612633154m from (505.0, 320.0) to (907.0, 414.0).
+
+d10eeb66-078c-4a6c-a698-dda5592c6fb8
+Payment
+2016/11/04
+00:47
+53893
+-61.84
+Driver Suanne was compensated $61.84 for taking Client Herminia in journey of 520.4632551871457m from (647.0, 265.0) to (1166.0, 226.0).
+
+ecf16c45-75f9-4213-a8e0-42ed7d167226
+Charge
+2016/11/04
+00:49
+265276
+33.40
+Client Ash Ketchup was charged $33.40 for journey of 184.05m from (528.0, 369.0) to (703.0, 312.0) by Driver Herminia.
+
+9373b1f3-79ca-4829-aa26-c6cd54d69dfc
+Payment
+2016/11/04
+00:49
+655215
+-31.56
+Driver Herminia was compensated $31.56 for taking Client Ash Ketchup in journey of 184.05m from (528.0, 369.0) to (703.0, 312.0).
+
+310267c2-6cec-4e36-ba59-aa1a3721de83
+Charge
+2016/11/04
+00:51
+60850
+15.00
+Client Maryrose was charged $15.00 for being taken by DriverHerminia in journey of 0.00m from (528.0, 227.0) to (528.0, 227.0).
+
+d7deabc1-bcf0-4975-86f7-15ab1cb0fec2
+Charge
+2016/11/04
+00:51
+949239
+38.14
+Client Bill was charged $38.14 for being taken by DriverTammara in journey of 231.42m from (530.0, 338.0) to (761.0, 324.0).
+
+05e751d0-6472-4937-8d90-c549a22f21de
+Payment
+2016/11/04
+00:51
+759605
+-15.00
+Driver Herminia was compensated $15.00 for taking Client Maryrose in journey of 0.00m from (528.0, 227.0) to (528.0, 227.0).
+
+a6c5cd30-e19a-46b6-9caf-ab9ccb184ff2
+Payment
+2016/11/04
+00:51
+236807
+-35.83
+Driver Tammara was compensated $35.83 for taking Client Bill in journey of 231.42m from (530.0, 338.0) to (761.0, 324.0).
+
+20fc1d10-d2eb-4151-9f77-bd1118a10c1a
+Charge
+2016/11/04
+00:52
+730987
+71.16
+Client Alexander was charged $71.16 for journey of 561.60m from (145.0, 383.0) to (706.0, 409.0), accepted by Driver Kena.
+
+3975f8ff-3062-43a2-a63a-f3a50a3cc37c
+Payment
+2016/11/04
+00:52
+695336
+-65.54
+Driver Kena was compensated $65.54 for taking Client Alexander in journey of 561.60m from (145.0, 383.0) to (706.0, 409.0).
+
+4b6cbfe2-e94b-4c67-a2d6-38d0a837997d
+Charge
+2016/11/04
+00:52
+42830
+34.24
+Client Deangelo was charged $34.24 for journey of 192.42m from (619.0, 427.0) to (718.0, 262.0), accepted by Driver Kena.
+
+6e009eda-78eb-4612-95c7-a40365e4cd41
+Payment
+2016/11/04
+00:53
+695336
+-32.32
+Driver Kena was compensated $32.32 for taking Client Deangelo in journey of 192.42m from (619.0, 427.0) to (718.0, 262.0).
+
+37525afb-44ac-40ff-ba51-655c088fe1c3
+Charge
+2016/11/04
+00:53
+807867
+42.04
+Client Maryrose was charged $42.04 for journey of 270.43m from (647.0, 344.0) to (385.0, 277.0), accepted by Driver Kena.
+
+5ad6628b-ca81-478f-9a6e-b74cf3a6acb2
+Charge
+2016/11/04
+00:53
+565062
+50.03
+Client Peter was charged $50.03 for journey of 350.33m from (386.0, 420.0) to (644.0, 183.0), accepted by Driver Kena.
+
+91705330-0021-423f-bd91-3465926abfbb
+Payment
+2016/11/04
+00:53
+695336
+-39.34
+Driver Kena was compensated $39.34 for taking Client Maryrose in journey of 270.43m from (647.0, 344.0) to (385.0, 277.0).
+
+f792f8a3-0cd6-416b-a81d-f6b4a7938efc
+Charge
+2016/11/04
+00:53
+291674
+67.16
+Client Tammara was charged $67.16 for journey of 521.61m from (499.0, 368.0) to (1008.0, 254.0), accepted by Driver Kena.
+
+a3bda0c5-db59-4b47-a23f-46e0cdd256a0
+Charge
+2016/11/04
+00:53
+416970
+48.71
+Client Ash Ketchup was charged $48.71 for journey of 337.08m from (734.0, 355.0) to (423.0, 225.0), accepted by Driver Kena.
+
+968e20dc-e225-485a-a8db-7b8c6a812e2f
+Charge
+2016/11/04
+00:53
+19974
+37.80
+Client Suanne was charged $37.80 for journey of 228.00m from (498.0, 360.0) to (270.0, 360.0), accepted by Driver Kena.
+
+38a7970e-fa6e-4e86-88fd-52c809eb51b4
+Charge
+2016/11/04
+00:53
+86086
+30.89
+Client Kena was charged $30.89 for journey of 158.90m from (502.0, 424.0) to (357.0, 489.0), accepted by Driver Kena.
+
+882035df-7434-4b59-8f7d-a03aa7a17990
+Charge
+2016/11/04
+00:53
+549958
+26.95
+Client Eliseo was charged $26.95 for journey of 119.55m from (529.0, 375.0) to (565.0, 489.0), accepted by Driver Kena.
+
+b58b974f-6ded-4772-9a3a-24d9cb3dae95
+Payment
+2016/11/04
+00:53
+695336
+-61.94
+Driver Kena was compensated $61.94 for taking Client Tammara in journey of 521.61m from (499.0, 368.0) to (1008.0, 254.0).
+
+8336cbf5-ffd1-4741-bbb6-e65d5d092b90
+Charge
+2016/11/04
+00:53
+267643
+70.99
+Client Tera was charged $70.99 for journey of 559.93m from (347.0, 293.0) to (846.0, 39.0), accepted by Driver Maryrose.
+
+bf2a7f0e-a66e-4bc4-8e90-cd17b12b31f2
+Charge
+2016/11/04
+00:53
+700253
+36.44
+Client Kena was charged $36.44 for journey of 214.40m from (431.0, 285.0) to (643.0, 317.0), accepted by Driver Tera.
+
+f38bfc6c-d910-4b52-8d99-7696f9aecb77
+Charge
+2016/11/04
+00:53
+42169
+35.93
+Client Alexander was charged $35.93 for journey of 209.31m from (693.0, 89.0) to (842.0, 236.0), accepted by Driver Tera.
+
+53e71a4a-e5d0-4863-95e3-8f21c0187a77
+Charge
+2016/11/04
+00:53
+161990
+45.42
+Client Herbert was charged $45.42 for journey of 304.20m from (842.0, 125.0) to (786.0, 424.0), accepted by Driver Maryrose.
+
+dbaa16dc-ea05-4fd6-ab9d-1d19e6e9bdc6
+Payment
+2016/11/04
+00:53
+509057
+-34.30
+Driver Tera was compensated $34.30 for taking Client Kena in journey of 214.40m from (431.0, 285.0) to (643.0, 317.0).
+
+c6919e28-a40f-4310-8e60-d1b0af7d98a4
+Charge
+2016/11/04
+00:53
+809263
+65.08
+Client Tera was charged $65.08 for journey of 500.80m from (867.0, 345.0) to (372.0, 421.0), accepted by Driver Tera.
+
+3488892f-0be1-4578-832b-21bd3499e183
+Payment
+2016/11/04
+00:53
+322874
+-65.39
+Driver Maryrose was compensated $65.39 for taking Client Tera in journey of 559.93m from (347.0, 293.0) to (846.0, 39.0).
+
+ab1a4d47-b8db-4c26-9e3e-9ce1625824ab
+Charge
+2016/11/04
+00:53
+789580
+46.24
+Client Tera was charged $46.24 for journey of 312.39m from (575.0, 478.0) to (311.0, 311.0), accepted by Driver Tera.
+
+4312efd7-08f1-4e17-ac35-c28c47a38e19
+Charge
+2016/11/04
+00:53
+514267
+49.04
+Client Herminia was charged $49.04 for journey of 340.41m from (378.0, 492.0) to (476.0, 166.0), accepted by Driver Maryrose.
+
+dd6614bb-4f64-4e23-b43c-c99bc5dc83b0
+Charge
+2016/11/04
+00:53
+25683
+65.11
+Client Herminia was charged $65.11 for journey of 501.06m from (270.0, 392.0) to (666.0, 85.0), accepted by Driver Maryrose.
+
+f2e9ed80-9dd9-4ac9-b7c0-980d02947847
+Charge
+2016/11/04
+00:53
+605049
+55.91
+Client Eliseo was charged $55.91 for journey of 409.10m from (446.0, 221.0) to (854.0, 191.0), accepted by Driver Maryrose.
+
+07dc6ef8-60cf-428d-8b91-7a30ba3b178f
+Charge
+2016/11/04
+00:53
+554377
+46.42
+Client Suanne was charged $46.42 for journey of 314.25m from (551.0, 212.0) to (679.0, 499.0), accepted by Driver Tera.
+
+cf8d7df4-96e8-48a7-b587-45883ada69eb
+Charge
+2016/11/04
+00:53
+506742
+42.15
+Client Belgrano was charged $42.15 for journey of 271.49m from (692.0, 349.0) to (514.0, 554.0), accepted by Driver Tera.
+
+b94b7630-4593-4b9e-89b1-1f3d43542196
+Payment
+2016/11/04
+00:53
+509057
+-60.07
+Driver Tera was compensated $60.07 for taking Client Tera in journey of 500.80m from (867.0, 345.0) to (372.0, 421.0).
+
+6dcaf45a-c3f6-488b-bfe6-ee004d035b2f
+Payment
+2016/11/04
+00:53
+322874
+-45.64
+Driver Maryrose was compensated $45.64 for taking Client Herminia in journey of 340.41m from (378.0, 492.0) to (476.0, 166.0).
+
+49b08093-c325-47ab-ab05-58f0d998235f
+Payment
+2016/11/04
+00:53
+509057
+-43.11
+Driver Tera was compensated $43.11 for taking Client Tera in journey of 312.39m from (575.0, 478.0) to (311.0, 311.0).
+
+e33e89a5-37ac-41d0-842b-b44bd41f8b2b
+Payment
+2016/11/04
+00:53
+509057
+-43.28
+Driver Tera was compensated $43.28 for taking Client Suanne in journey of 314.25m from (551.0, 212.0) to (679.0, 499.0).
+
+dfdfa0ad-955a-416d-bc06-ff1d2bddbf57
+Payment
+2016/11/04
+00:53
+322874
+-60.10
+Driver Maryrose was compensated $60.10 for taking Client Herminia in journey of 501.06m from (270.0, 392.0) to (666.0, 85.0).
+
+c0582fce-e6ee-4c40-9b04-69461128de27
+Payment
+2016/11/04
+00:53
+509057
+-39.43
+Driver Tera was compensated $39.43 for taking Client Belgrano in journey of 271.49m from (692.0, 349.0) to (514.0, 554.0).
+
+14b6e3c0-a048-4b7c-91d3-bfdbdc9e4571
+Payment
+2016/11/04
+00:53
+322874
+-51.82
+Driver Maryrose was compensated $51.82 for taking Client Eliseo in journey of 409.10m from (446.0, 221.0) to (854.0, 191.0).
+
+0eea790b-9af9-4250-916f-b23b4c1716d7
+Charge
+2016/11/04
+00:55
+167478
+72.02
+Client Ruben was charged $72.02 for journey of 570.16m from (189.0, 342.0) to (730.0, 162.0), accepted by Driver Herminia.
+
+1fe0c64d-aeb2-4250-b61c-537805631b56
+Charge
+2016/11/04
+00:55
+600144
+47.26
+Client Robert was charged $47.26 for journey of 322.62m from (822.0, 185.0) to (757.0, 501.0), accepted by Driver Herminia.
+
+774d0122-d7c1-4c63-92db-618289c3a3a5
+Charge
+2016/11/04
+00:55
+17360
+51.88
+Client Belgrano was charged $51.88 for journey of 368.78m from (642.0, 490.0) to (362.0, 250.0), accepted by Driver Herminia.
+
+79589dd2-1b18-4b67-a71c-ecac0b687c28
+Payment
+2016/11/04
+00:55
+633276
+-66.31
+Driver Herminia was compensated $66.31 for taking Client Ruben in journey of 570.16m from (189.0, 342.0) to (730.0, 162.0).
+
+d1ec7cd4-7dfa-4d57-939b-1f9f1f147139
+Payment
+2016/11/04
+00:55
+633276
+-44.04
+Driver Herminia was compensated $44.04 for taking Client Robert in journey of 322.62m from (822.0, 185.0) to (757.0, 501.0).
+
+a6cff706-50bd-48ee-8db1-b295aa126246
+Payment
+2016/11/04
+00:55
+633276
+-48.19
+Driver Herminia was compensated $48.19 for taking Client Belgrano in journey of 368.78m from (642.0, 490.0) to (362.0, 250.0).
+
+0618d95a-98ef-4617-96f6-d73f9c752771
+Charge
+2016/11/04
+01:02
+524913
+87.63
+Client Peter was charged $87.63 for journey of 726.30m from (342.0, 146.0) to (1068.0, 125.0), accepted by Driver Edgar.
+
+35f4b9c6-b683-41c5-a3d2-3a60e5578a81
+Charge
+2016/11/04
+01:02
+175929
+48.71
+Client Edgar was charged $48.71 for journey of 337.05m from (1053.0, 167.0) to (1047.0, 504.0), accepted by Driver Herbert.
+
+e2d839f6-bd1e-4859-9b0a-f8cca2cb1d10
+Charge
+2016/11/04
+01:02
+300618
+76.12
+Client Eliseo was charged $76.12 for journey of 611.20m from (865.0, 481.0) to (348.0, 155.0), accepted by Driver Herbert.
+
+7e7c92d0-75ac-43e1-8e3a-d55d1bbb1977
+Payment
+2016/11/04
+01:02
+91388
+-80.37
+Driver Edgar was compensated $80.37 for taking Client Peter in journey of 726.30m from (342.0, 146.0) to (1068.0, 125.0).
+
+9dce7bbd-436c-411e-abeb-1ec42c833ae2
+Charge
+2016/11/04
+01:02
+104935
+62.31
+Client Herminia was charged $62.31 for journey of 473.05m from (602.0, 541.0) to (267.0, 207.0), accepted by Driver Herbert.
+
+c14a684f-4407-423a-a7a8-4f1bcdd24efe
+Charge
+2016/11/04
+01:02
+529447
+48.78
+Client Suanne was charged $48.78 for journey of 337.78m from (196.0, 337.0) to (219.0, 0.0), accepted by Driver Ruben.
+
+910e201f-f591-4561-8659-8be7106fcdfb
+Payment
+2016/11/04
+01:02
+256753
+-45.33
+Driver Herbert was compensated $45.33 for taking Client Edgar in journey of 337.05m from (1053.0, 167.0) to (1047.0, 504.0).
+
+07a146da-2c39-4830-bc01-81367f19b903
+Charge
+2016/11/04
+01:03
+563377
+63.90
+Client Suanne was charged $63.90 for journey of 489.00m from (88.0, 492.0) to (536.0, 296.0), accepted by Driver Tera.
+
+7063b512-4b02-4d34-ac0d-e5d3d814eee0
+Payment
+2016/11/04
+01:03
+920814
+-45.40
+Driver Ruben was compensated $45.40 for taking Client Suanne in journey of 337.78m from (196.0, 337.0) to (219.0, 0.0).
+
+f9ac3775-9474-4ee4-9cb7-bfd001aadcd6
+Payment
+2016/11/04
+01:03
+8470
+-70.01
+Driver Herbert was compensated $70.01 for taking Client Eliseo in journey of 611.20m from (865.0, 481.0) to (348.0, 155.0).
+
+0cf009a6-aa9c-4ecb-a315-5ba95c6cba9a
+Charge
+2016/11/04
+01:03
+247061
+54.23
+Client Maryrose was charged $54.23 for journey of 392.32m from (333.0, 479.0) to (688.0, 312.0), accepted by Driver Herbert.
+
+43e69286-6d06-45e4-9df5-87c99f8a71e9
+Charge
+2016/11/04
+01:03
+705978
+41.74
+Client Suanne was charged $41.74 for journey of 267.44m from (616.0, 451.0) to (856.0, 333.0), accepted by Driver Herbert.
+
+e4b38c92-3df7-4b39-8798-55e03182dc0b
+Payment
+2016/11/04
+01:03
+689961
+-59.01
+Driver Tera was compensated $59.01 for taking Client Suanne in journey of 489.00m from (88.0, 492.0) to (536.0, 296.0).
+
+f119a2f5-af10-4ee7-bc0c-389b807ce936
+Payment
+2016/11/04
+01:03
+8470
+-50.31
+Driver Herbert was compensated $50.31 for taking Client Maryrose in journey of 392.32m from (333.0, 479.0) to (688.0, 312.0).
+
+13820f88-958d-4ee9-a434-866c993c703b
+Payment
+2016/11/04
+01:03
+256753
+-39.07
+Driver Herbert was compensated $39.07 for taking Client Suanne in journey of 267.44m from (616.0, 451.0) to (856.0, 333.0).
+
+e55207db-9391-4978-bbe7-c9623c02d343
+Charge
+2016/11/04
+01:03
+708410
+70.91
+Client Alexander was charged $70.91 for journey of 559.05m from (979.0, 465.0) to (469.0, 236.0), accepted by Driver Eliseo.
+
+987e0888-8d04-47b7-a667-5a5707fca32a
+Charge
+2016/11/04
+01:03
+599790
+67.53
+Client Bill was charged $67.53 for journey of 525.30m from (756.0, 491.0) to (306.0, 220.0), accepted by Driver Herminia.
+
+05ca02ab-7342-4a37-97e1-1e210d71b07d
+Charge
+2016/11/04
+01:03
+960934
+52.24
+Client Kena was charged $52.24 for journey of 372.36m from (290.0, 391.0) to (573.0, 149.0), accepted by Driver Belgrano.
+
+4ecc978a-2ca6-4570-8dd6-f700d5dd4b95
+Charge
+2016/11/04
+01:03
+976642
+29.75
+Client Eliseo was charged $29.75 for journey of 147.50m from (397.0, 453.0) to (418.0, 599.0), accepted by Driver Tammara.
+
+133f6e3a-2b6d-42d0-b350-8fb61fcbc94c
+Charge
+2016/11/04
+01:03
+637443
+28.59
+Client Herbert was charged $28.59 for journey of 135.94m from (499.0, 226.0) to (483.0, 361.0), accepted by Driver Belgrano.
+
+0b073233-b460-4630-b6e6-77594b6d94a9
+Payment
+2016/11/04
+01:03
+603026
+-48.51
+Driver Belgrano was compensated $48.51 for taking Client Kena in journey of 372.36m from (290.0, 391.0) to (573.0, 149.0).
+
+a716b70b-5615-42f7-bde8-31804e685353
+Charge
+2016/11/04
+01:03
+95192
+33.17
+Client Ruben was charged $33.17 for journey of 181.66m from (871.0, 280.0) to (1050.0, 249.0), accepted by Driver Belgrano.
+
+86d9f2d1-ce4a-4d90-a933-5dae52874dbe
+Payment
+2016/11/04
+01:03
+750326
+-28.28
+Driver Tammara was compensated $28.28 for taking Client Eliseo in journey of 147.50m from (397.0, 453.0) to (418.0, 599.0).
+
+d2f00e9a-5503-4893-b73b-dd88390dd467
+Charge
+2016/11/04
+01:03
+775599
+20.40
+Client Belgrano was charged $20.40 for journey of 54.00m from (551.0, 417.0) to (551.0, 471.0), accepted by Driver Eliseo.
+
+72d41c39-32e2-4463-86eb-7b9cc31dd671
+Payment
+2016/11/04
+01:03
+361859
+-65.31
+Driver Eliseo was compensated $65.31 for taking Client Alexander in journey of 559.05m from (979.0, 465.0) to (469.0, 236.0).
+
+eb4aebce-1ec1-4382-ae87-e5fc10cff323
+Charge
+2016/11/04
+01:03
+321298
+50.29
+Client Tera was charged $50.29 for journey of 352.87m from (344.0, 468.0) to (118.0, 197.0), accepted by Driver Tammara.
+
+9714ea38-d8a2-4d2a-822f-0a3d1c2a8698
+Payment
+2016/11/04
+01:03
+13729
+-62.28
+Driver Herminia was compensated $62.28 for taking Client Bill in journey of 525.30m from (756.0, 491.0) to (306.0, 220.0).
+
+0d25077d-02fc-45f9-ac59-8ff33560c17a
+Payment
+2016/11/04
+01:03
+603026
+-31.35
+Driver Belgrano was compensated $31.35 for taking Client Ruben in journey of 181.66m from (871.0, 280.0) to (1050.0, 249.0).
+
+3b02e586-a2be-43d3-856a-d3b421877568
+Payment
+2016/11/04
+01:03
+361859
+-19.86
+Driver Eliseo was compensated $19.86 for taking Client Belgrano in journey of 54.00m from (551.0, 417.0) to (551.0, 471.0).
+
+2f942c2d-c9e5-49d9-9591-6a2b4d8490e7
+Charge
+2016/11/04
+01:03
+181145
+37.18
+Client Kena was charged $37.18 for journey of 221.82m from (519.0, 405.0) to (665.0, 238.0), accepted by Driver Eliseo.
+
+e4313ee4-91b0-4977-8d4c-f69274d96884
+Payment
+2016/11/04
+01:03
+750326
+-46.76
+Driver Tammara was compensated $46.76 for taking Client Tera in journey of 352.87m from (344.0, 468.0) to (118.0, 197.0).
+
+e3889e13-8fd2-40f1-a7ae-16d21a7cbf13
+Charge
+2016/11/04
+01:03
+813306
+26.28
+Client Herbert was charged $26.28 for journey of 112.79m from (735.0, 246.0) to (755.0, 357.0), accepted by Driver Eliseo.
+
+5ab71ce1-4bf3-41e6-977a-26ac3c752814
+Payment
+2016/11/04
+01:03
+361859
+-34.96
+Driver Eliseo was compensated $34.96 for taking Client Kena in journey of 221.82m from (519.0, 405.0) to (665.0, 238.0).
+
+0a3dfab0-b899-401b-ae0e-22a06a37b79f
+Payment
+2016/11/04
+01:03
+361859
+-25.15
+Driver Eliseo was compensated $25.15 for taking Client Herbert in journey of 112.79m from (735.0, 246.0) to (755.0, 357.0).
+
+055c226b-8b5f-4489-91bc-3070853443f9
+Charge
+2016/11/04
+01:03
+306272
+65.05
+Client Alexander was charged $65.05 for journey of 500.55m from (558.0, 384.0) to (97.0, 189.0), accepted by Driver Eliseo.
+
+b5f32544-f345-4f16-b823-c8167a56c02d
+Charge
+2016/11/04
+01:03
+379679
+47.52
+Client Deangelo was charged $47.52 for journey of 325.22m from (350.0, 417.0) to (92.0, 219.0), accepted by Driver Herminia.
+
+ed5ab3c9-19a7-4ced-8d0b-82e578a9eefd
+Charge
+2016/11/04
+01:03
+71915
+38.43
+Client Suanne was charged $38.43 for journey of 234.31m from (232.0, 372.0) to (382.0, 192.0), accepted by Driver Herminia.
+
+fa71435b-7909-4e10-98a9-6f105175b26f
+Charge
+2016/11/04
+01:04
+992240
+47.63
+Client Maryrose was charged $47.63 for journey of 326.35m from (358.0, 308.0) to (668.0, 206.0), accepted by Driver Tammara.
+
+8945dbd3-02c5-4f01-adad-db15b4e757dd
+Payment
+2016/11/04
+01:04
+13729
+-44.27
+Driver Herminia was compensated $44.27 for taking Client Deangelo in journey of 325.22m from (350.0, 417.0) to (92.0, 219.0).
+
+17cfc172-4347-4e14-a604-9370cb6864a2
+Payment
+2016/11/04
+01:04
+361859
+-60.05
+Driver Eliseo was compensated $60.05 for taking Client Alexander in journey of 500.55m from (558.0, 384.0) to (97.0, 189.0).
+
+d03b8efd-82e6-40b4-ae87-4cf02cc6586c
+Charge
+2016/11/04
+01:04
+393820
+37.91
+Client Edgar was charged $37.91 for journey of 229.08m from (817.0, 247.0) to (643.0, 396.0), accepted by Driver Belgrano.
+
+b6dd1d80-7904-40de-9fb0-51e939d4e704
+Payment
+2016/11/04
+01:04
+750326
+-44.37
+Driver Tammara was compensated $44.37 for taking Client Maryrose in journey of 326.35m from (358.0, 308.0) to (668.0, 206.0).
+
+ec90f718-6a4e-4f52-af4c-e357e8dee5ec
+Charge
+2016/11/04
+01:04
+44843
+53.43
+Client Rick Astley was charged $53.43 for journey of 384.31m from (600.0, 415.0) to (287.0, 192.0), accepted by Driver Tammara.
+
+be6bbfab-f036-45eb-93f7-ca6eb27d8115
+Charge
+2016/11/04
+01:04
+344578
+43.38
+Client Eliseo was charged $43.38 for journey of 283.80m from (320.0, 367.0) to (372.0, 88.0), accepted by Driver Herminia.
+
+45f41cc5-4e21-4362-8f40-ca304abba5d0
+Charge
+2016/11/04
+01:04
+24979
+31.31
+Client Rick Astley was charged $31.31 for journey of 163.08m from (244.0, 371.0) to (334.0, 235.0), accepted by Driver Herminia.
+
+2cf7b228-ea6a-45b1-95b9-bdadf5c585e4
+Payment
+2016/11/04
+01:04
+603026
+-35.62
+Driver Belgrano was compensated $35.62 for taking Client Edgar in journey of 229.08m from (817.0, 247.0) to (643.0, 396.0).
+
+671d999b-a73e-4d65-a8e5-5a2552e2c43f
+Payment
+2016/11/04
+01:04
+13729
+-40.54
+Driver Herminia was compensated $40.54 for taking Client Eliseo in journey of 283.80m from (320.0, 367.0) to (372.0, 88.0).
+
+0cc549e4-06e0-4a14-bbe9-76460fe39728
+Payment
+2016/11/04
+01:04
+750326
+-49.59
+Driver Tammara was compensated $49.59 for taking Client Rick Astley in journey of 384.31m from (600.0, 415.0) to (287.0, 192.0).
+
+42750f59-a4b9-4452-a2c3-c89850f964b2
+Payment
+2016/11/04
+01:04
+13729
+-29.68
+Driver Herminia was compensated $29.68 for taking Client Rick Astley in journey of 163.08m from (244.0, 371.0) to (334.0, 235.0).
+
+e0e9ad01-63b2-454b-bea1-046b6c0f9027
+Charge
+2016/11/04
+01:04
+810036
+39.42
+Client Suanne was charged $39.42 for journey of 244.25m from (347.0, 272.0) to (183.0, 453.0), accepted by Driver Herminia.
+
+6f61c20c-0d02-4d7a-bf68-db00c0345f2a
+Charge
+2016/11/04
+01:04
+870741
+36.85
+Client Rick Astley was charged $36.85 for journey of 218.50m from (314.0, 366.0) to (114.0, 454.0), accepted by Driver Tammara.
+
+cac31481-b8a8-47de-9474-e50435f327d0
+Charge
+2016/11/04
+01:04
+207234
+47.89
+Client Suanne was charged $47.89 for journey of 328.87m from (275.0, 359.0) to (38.0, 131.0), accepted by Driver Herminia.
+
+d0477a48-8a2d-45ab-a7f7-acc9be051755
+Payment
+2016/11/04
+01:04
+13729
+-36.98
+Driver Herminia was compensated $36.98 for taking Client Suanne in journey of 244.25m from (347.0, 272.0) to (183.0, 453.0).
+
+4637d8c8-dbfd-412c-b444-82d9e22b56ba
+Charge
+2016/11/04
+01:05
+869580
+46.97
+Client Robert was charged $46.97 for journey of 319.71m from (271.0, 373.0) to (589.0, 340.0), accepted by Driver Eliseo.
+
+bc5a95bc-e7a4-46aa-ba80-cb482fe59538
+Charge
+2016/11/04
+01:05
+624142
+45.93
+Client Eliseo was charged $45.93 for journey of 309.34m from (336.0, 453.0) to (638.0, 386.0), accepted by Driver Deangelo.
+
+5ecb8a9a-f387-40d9-93e0-5574e07ade39
+Charge
+2016/11/04
+01:05
+75113
+48.61
+Client Deangelo was charged $48.61 for journey of 336.07m from (378.0, 556.0) to (673.0, 395.0), accepted by Driver Glady.
+
+cac5e628-b71c-4f91-b141-032f922cbbd5
+Charge
+2016/11/04
+01:05
+138463
+41.21
+Client Deangelo was charged $41.21 for journey of 262.09m from (564.0, 506.0) to (695.0, 279.0), accepted by Driver Eliseo.
+
+027a8a29-5a57-4eaa-b57e-7f27c4abc76c
+Charge
+2016/11/04
+01:05
+512174
+46.20
+Client Deangelo was charged $46.20 for journey of 312.00m from (696.0, 497.0) to (696.0, 185.0), accepted by Driver Eliseo.
+
+8246a1d1-5459-4981-af93-14a74992b39b
+Payment
+2016/11/04
+01:05
+439393
+-43.77
+Driver Eliseo was compensated $43.77 for taking Client Robert in journey of 319.71m from (271.0, 373.0) to (589.0, 340.0).
+
+8ddedfd3-79be-44af-a1e2-3b3983f63229
+Charge
+2016/11/04
+01:05
+965766
+62.73
+Client Tera was charged $62.73 for journey of 477.30m from (789.0, 422.0) to (566.0, 0.0), accepted by Driver Eliseo.
+
+012bc01d-b7c1-4485-8b95-4f651727ee3e
+Charge
+2016/11/04
+01:05
+876401
+58.21
+Client Robert was charged $58.21 for journey of 432.08m from (735.0, 341.0) to (352.0, 141.0), accepted by Driver Eliseo.
+
+45db1817-f7c8-4b1b-aba2-e97be871b287
+Charge
+2016/11/04
+01:05
+976036
+43.74
+Client Tera was charged $43.74 for journey of 287.41m from (781.0, 374.0) to (502.0, 305.0), accepted by Driver Eliseo.
+
+6a0333e6-8ea8-46f9-9d60-602e56f130f6
+Charge
+2016/11/04
+01:05
+838499
+30.25
+Client Ash Ketchup was charged $30.25 for journey of 152.51m from (417.0, 314.0) to (560.0, 261.0), accepted by Driver Glady.
+
+f949f51d-c66e-4570-9055-4a2d70cec1cf
+Charge
+2016/11/04
+01:05
+503768
+47.60
+Client Kena was charged $47.60 for journey of 325.97m from (433.0, 382.0) to (717.0, 222.0), accepted by Driver Glady.
+
+8180b342-3952-456c-86ca-45155611a5b3
+Charge
+2016/11/04
+01:05
+562306
+45.86
+Client Glady was charged $45.86 for journey of 308.61m from (439.0, 415.0) to (713.0, 273.0), accepted by Driver Glady.
+
+6f145a05-e581-4365-b91f-ce6732f77bc0
+Charge
+2016/11/04
+01:05
+992751
+34.72
+Client Deangelo was charged $34.72 for journey of 197.20m from (663.0, 360.0) to (828.0, 252.0), accepted by Driver Glady.
+
+25a3f45f-434f-4b87-8993-2458e97b8517
+Charge
+2016/11/04
+01:05
+599813
+49.26
+Client Kena was charged $49.26 for journey of 342.61m from (611.0, 440.0) to (887.0, 237.0), accepted by Driver Glady.
+
+f21d6afc-c70a-4dcd-b098-923e0ad9a131
+Payment
+2016/11/04
+01:05
+913145
+-28.73
+Driver Glady was compensated $28.73 for taking Client Ash Ketchup in journey of 152.51m from (417.0, 314.0) to (560.0, 261.0).
+
+a5db1e8d-372f-4474-9b4f-5776cdf54fcb
+Charge
+2016/11/04
+01:05
+896476
+30.56
+Client Jaimee was charged $30.56 for journey of 155.65m from (523.0, 283.0) to (568.0, 432.0), accepted by Driver Glady.
+
+ff75abcc-1ae3-4453-b109-21373d52b87e
+Payment
+2016/11/04
+01:05
+913145
+-29.01
+Driver Glady was compensated $29.01 for taking Client Jaimee in journey of 155.65m from (523.0, 283.0) to (568.0, 432.0).
+
+94a71294-ef02-4ecc-a52f-835c3b51d836
+Payment
+2016/11/04
+01:05
+913145
+-42.77
+Driver Glady was compensated $42.77 for taking Client Glady in journey of 308.61m from (439.0, 415.0) to (713.0, 273.0).
+
+b35977ba-fa72-415f-8126-8e57e3dcbe86
+Payment
+2016/11/04
+01:05
+913145
+-32.75
+Driver Glady was compensated $32.75 for taking Client Deangelo in journey of 197.20m from (663.0, 360.0) to (828.0, 252.0).
+
+89e68eae-3b85-4d48-a6fe-8107c998cffb
+Charge
+2016/11/04
+01:05
+808049
+23.76
+Client Ruben was charged $23.76 for journey of 87.60m from (708.0, 384.0) to (791.0, 412.0), accepted by Driver Glady.
+
+fafbc073-668b-4b35-94c5-b5b3a97a5cab
+Payment
+2016/11/04
+01:05
+913145
+-22.88
+Driver Glady was compensated $22.88 for taking Client Ruben in journey of 87.60m from (708.0, 384.0) to (791.0, 412.0).
+
+bdc345d7-6028-40ff-a5e5-c6dcca289187
+Charge
+2016/11/04
+01:05
+131341
+36.51
+Client Deangelo was charged $36.51 for journey of 215.15m from (446.0, 235.0) to (661.0, 227.0), accepted by Driver Tammara.
+
+5bd46d0b-fc56-4d6f-b31a-e7b8a24dff9d
+Charge
+2016/11/04
+01:05
+705918
+23.03
+Client Herbert was charged $23.03 for journey of 80.28m from (477.0, 290.0) to (528.0, 352.0), accepted by Driver Tammara.
+
+1896233d-bf77-4501-8d7f-c014dfcbd654
+Charge
+2016/11/04
+01:06
+27641
+42.42
+Client Tammara was charged $42.42 for journey of 274.24m from (628.0, 227.0) to (900.0, 262.0), accepted by Driver Edgar.
+
+e8c94991-de20-48bf-8a38-db2ae9c6d717
+Charge
+2016/11/04
+01:06
+526436
+28.80
+Client Bill was charged $28.80 for journey of 138.00m from (417.0, 239.0) to (417.0, 377.0), accepted by Driver Edgar.
+
+332764a3-fb17-4556-ac1c-e564e439960c
+Payment
+2016/11/04
+01:06
+895042
+-39.68
+Driver Edgar was compensated $39.68 for taking Client Tammara in journey of 274.24m from (628.0, 227.0) to (900.0, 262.0).
+
+0eff9f23-c59b-4385-8838-d53025fb8db7
+Charge
+2016/11/04
+01:06
+85933
+30.40
+Client Glady was charged $30.40 for journey of 154.00m from (595.0, 253.0) to (594.0, 407.0), accepted by Driver Edgar.
+
+1c6d0db4-4612-4c1b-b486-b04914ba1d52
+Payment
+2016/11/04
+01:06
+895042
+-28.86
+Driver Edgar was compensated $28.86 for taking Client Glady in journey of 154.00m from (595.0, 253.0) to (594.0, 407.0).
+
+31ce4b19-ff14-4e61-a07f-fafb3639ba87
+Charge
+2016/11/04
+01:06
+535122
+27.24
+Client Tammara was charged $27.24 for journey of 122.43m from (501.0, 381.0) to (584.0, 291.0), accepted by Driver Edgar.
+
+7f815c70-2d04-4e65-91b6-55cfcd416d9b
+Payment
+2016/11/04
+01:06
+7265
+-26.02
+Driver Edgar was compensated $26.02 for taking Client Tammara in journey of 122.43m from (501.0, 381.0) to (584.0, 291.0).
+
+6ae933c2-116d-40ac-acae-8b1b2a36bc21
+Charge
+2016/11/04
+01:06
+145856
+32.93
+Client Glady was charged $32.93 for journey of 179.34m from (839.0, 263.0) to (828.0, 442.0), accepted by Driver Edgar.
+
+4bb7c0eb-014e-43c2-85aa-b8413eaa2e07
+Charge
+2016/11/04
+01:06
+241879
+32.13
+Client Herminia was charged $32.13 for journey of 171.30m from (621.0, 294.0) to (649.0, 463.0), accepted by Driver Edgar.
+
+0132daf4-ff73-4e43-aae4-4fba5dd9e874
+Charge
+2016/11/04
+01:06
+13795
+25.41
+Client Katrina was charged $25.41 for journey of 104.09m from (453.0, 347.0) to (468.0, 450.0), accepted by Driver Edgar.
+
+93e595f7-f46c-4eb2-b721-855dee50e646
+Payment
+2016/11/04
+01:06
+7265
+-31.14
+Driver Edgar was compensated $31.14 for taking Client Glady in journey of 179.34m from (839.0, 263.0) to (828.0, 442.0).
+
+21f4a148-a929-469a-9640-2e206e590c5a
+Charge
+2016/11/04
+01:06
+962783
+31.62
+Client Deangelo was charged $31.62 for journey of 166.19m from (698.0, 283.0) to (690.0, 449.0), accepted by Driver Edgar.
+
+c8a81526-3293-4a57-86ab-acbf41ae4eda
+Payment
+2016/11/04
+01:06
+7265
+-29.96
+Driver Edgar was compensated $29.96 for taking Client Deangelo in journey of 166.19m from (698.0, 283.0) to (690.0, 449.0).
+
+8e9d5457-a47a-4909-8a70-373a3c4b2158
+Charge
+2016/11/04
+01:07
+151424
+69.12
+Client Jaimee was charged $69.12 for journey of 541.22m from (292.0, 403.0) to (831.0, 354.0), accepted by Driver Maryrose.
+
+bb7297d6-b5d4-44b3-93ef-fdd96c2c71cb
+Payment
+2016/11/04
+01:08
+204646
+-63.71
+Driver Maryrose was compensated $63.71 for taking Client Jaimee in journey of 541.22m from (292.0, 403.0) to (831.0, 354.0).
+
+74eb2558-afa2-43ad-b4da-5f470438dda0
+Charge
+2016/11/04
+01:08
+730691
+35.57
+Client Herbert was charged $35.57 for journey of 205.73m from (939.0, 353.0) to (900.0, 555.0), accepted by Driver Maryrose.
+
+026054ec-e076-48a7-968a-468a47cac130
+Charge
+2016/11/04
+01:08
+714499
+50.93
+Client Deangelo was charged $50.93 for journey of 359.25m from (358.0, 241.0) to (0.0, 211.0), accepted by Driver Maryrose.
+
+eb9c81a4-9725-422b-942e-b91220d818c8
+Payment
+2016/11/04
+01:08
+204646
+-33.52
+Driver Maryrose was compensated $33.52 for taking Client Herbert in journey of 205.73m from (939.0, 353.0) to (900.0, 555.0).
+
+fccec726-2fce-401c-88ee-22c8a3e92852
+Charge
+2016/11/04
+01:08
+649319
+22.07
+Client Clinton was charged $22.07 for journey of 70.71m from (643.0, 418.0) to (581.0, 452.0), accepted by Driver Maryrose.
+
+689dad52-b798-4ee2-bb52-d66dd62cf56e
+Payment
+2016/11/04
+01:08
+204646
+-21.36
+Driver Maryrose was compensated $21.36 for taking Client Clinton in journey of 70.71m from (643.0, 418.0) to (581.0, 452.0).
+
+a0567d7a-f27a-4e49-942c-ffbef2c405ab
+Charge
+2016/11/04
+01:08
+694432
+24.57
+Client Kena was charged $24.57 for journey of 95.72m from (509.0, 291.0) to (428.0, 342.0), accepted by Driver Maryrose.
+
+c90f19a5-9640-4b46-bd41-4a7c7ef2dff3
+Charge
+2016/11/04
+01:08
+994643
+26.82
+Client Ash Ketchup was charged $26.82 for journey of 118.19m from (486.0, 329.0) to (399.0, 409.0), accepted by Driver Maryrose.
+
+8c900c33-10f3-402f-ac02-3be064351914
+Payment
+2016/11/04
+01:08
+204646
+-23.61
+Driver Maryrose was compensated $23.61 for taking Client Kena in journey of 95.72m from (509.0, 291.0) to (428.0, 342.0).
+
+d31ef5bf-d73e-4756-b42a-c7b08c2b9908
+Payment
+2016/11/04
+01:08
+204646
+-25.64
+Driver Maryrose was compensated $25.64 for taking Client Ash Ketchup in journey of 118.19m from (486.0, 329.0) to (399.0, 409.0).
+
+062c1665-920f-4530-9ad7-71a64575cff3
+Charge
+2016/11/04
+01:08
+587234
+45.64
+Client Belgrano was charged $45.64 for journey of 306.41m from (636.0, 273.0) to (505.0, 550.0), accepted by Driver Maryrose.
+
+0a6b10c6-7b43-4502-a4e8-cba7c9ebed05
+Charge
+2016/11/04
+01:08
+428272
+32.76
+Client Deangelo was charged $32.76 for journey of 177.55m from (687.0, 381.0) to (673.0, 558.0), accepted by Driver Maryrose.
+
+a6134f92-3fe4-47c0-b66c-12a40d7d7111
+Payment
+2016/11/04
+01:08
+204646
+-42.58
+Driver Maryrose was compensated $42.58 for taking Client Belgrano in journey of 306.41m from (636.0, 273.0) to (505.0, 550.0).
+
+d42e4fc9-bf1d-4dc2-bd48-e6681ce22707
+Charge
+2016/11/04
+01:08
+128663
+26.60
+Client Alexander was charged $26.60 for journey of 116.00m from (627.0, 454.0) to (627.0, 570.0), accepted by Driver Maryrose.
+
+2f508dd6-019d-42c2-b1ab-54809bde5339
+Payment
+2016/11/04
+01:08
+204646
+-25.44
+Driver Maryrose was compensated $25.44 for taking Client Alexander in journey of 116.00m from (627.0, 454.0) to (627.0, 570.0).
+
+82cc4c23-89b4-4238-82f4-6bb42071ef8a
+Charge
+2016/11/04
+01:10
+554895
+43.15
+Client Glady was charged $43.15 for journey of 281.46m from (371.0, 147.0) to (652.0, 163.0), accepted by Driver Robert.
+
+b4eb43c0-285e-47b8-8ec9-e78d093eaf20
+Charge
+2016/11/04
+01:10
+756434
+22.70
+Client Clinton was charged $22.70 for journey of 77.01m from (333.0, 198.0) to (394.0, 245.0), accepted by Driver Robert.
+
+c77e46b9-d6c5-4d80-8e31-51b1fb5c844a
+Payment
+2016/11/04
+01:10
+360617
+-40.33
+Driver Robert was compensated $40.33 for taking Client Glady in journey of 281.46m from (371.0, 147.0) to (652.0, 163.0).
+
+0975f61d-b2b5-4337-81f0-a9dcf2194890
+Charge
+2016/11/04
+01:10
+378916
+20.53
+Client Bill was charged $20.53 for journey of 55.32m from (583.0, 204.0) to (619.0, 246.0), accepted by Driver Robert.
+
+c2b71938-8e6f-40f0-a6a7-b2df8b9468f2
+Payment
+2016/11/04
+01:10
+360617
+-19.98
+Driver Robert was compensated $19.98 for taking Client Bill in journey of 55.32m from (583.0, 204.0) to (619.0, 246.0).
+
+cfc6658c-633e-4e1c-9197-40680ddb926f
+Charge
+2016/11/04
+01:10
+999901
+39.35
+Client Belgrano was charged $39.35 for journey of 243.48m from (366.0, 228.0) to (588.0, 328.0), accepted by Driver Ruben.
+
+490361fe-a916-4481-8193-886a06bcdc16
+Charge
+2016/11/04
+01:11
+744359
+37.15
+Client Clinton was charged $37.15 for journey of 221.45m from (558.0, 244.0) to (738.0, 115.0), accepted by Driver Ruben.
+
+a1084bdf-9530-4dfb-9c5a-112a79b7bb50
+Charge
+2016/11/04
+01:11
+197136
+30.66
+Client Glady was charged $30.66 for journey of 156.59m from (824.0, 212.0) to (966.0, 278.0), accepted by Driver Ruben.
+
+dfac7eff-ed67-45ee-bd0b-8882a96b687e
+Payment
+2016/11/04
+01:11
+276149
+-36.91
+Driver Ruben was compensated $36.91 for taking Client Belgrano in journey of 243.48m from (366.0, 228.0) to (588.0, 328.0).
+
+fa814431-bf10-4ad6-8cb2-7d3a3e9546ee
+Charge
+2016/11/04
+01:11
+827845
+40.00
+Client Ruben was charged $40.00 for journey of 250.00m from (108.0, 286.0) to (109.0, 536.0), accepted by Driver Suanne.
+
+e2ab51f1-1f0c-43eb-a0a9-a9affe35d271
+Charge
+2016/11/04
+01:11
+53617
+45.61
+Client Suanne was charged $45.61 for journey of 306.06m from (1043.0, 216.0) to (1049.0, 522.0), accepted by Driver Suanne.
+
+2bd35480-6e53-4860-aa8c-fff09ca89c4f
+Payment
+2016/11/04
+01:11
+433702
+-37.50
+Driver Suanne was compensated $37.50 for taking Client Ruben in journey of 250.00m from (108.0, 286.0) to (109.0, 536.0).
+
+6cdf33b3-9230-4c86-8969-320018f8f69c
+Charge
+2016/11/04
+01:11
+48099
+47.37
+Client Bill was charged $47.37 for journey of 323.69m from (878.0, 482.0) to (845.0, 160.0), accepted by Driver Suanne.
+
+e12bc8dd-8b70-44a2-abea-5843bf230990
+Charge
+2016/11/04
+01:11
+964890
+40.10
+Client Kena was charged $40.10 for journey of 251.00m from (696.0, 487.0) to (696.0, 236.0), accepted by Driver Suanne.
+
+0aff05cb-9312-40df-ba0e-6eb773aab7b8
+Payment
+2016/11/04
+01:11
+433702
+-44.13
+Driver Suanne was compensated $44.13 for taking Client Bill in journey of 323.69m from (878.0, 482.0) to (845.0, 160.0).
+
+8b06d489-6855-4c0a-8957-d31f98c573f8
+Charge
+2016/11/04
+01:11
+581353
+32.23
+Client Deangelo was charged $32.23 for journey of 172.28m from (858.0, 393.0) to (957.0, 252.0), accepted by Driver Suanne.
+
+a454321b-9e76-42fd-b59d-c59fe8730216
+Payment
+2016/11/04
+01:11
+433702
+-30.51
+Driver Suanne was compensated $30.51 for taking Client Deangelo in journey of 172.28m from (858.0, 393.0) to (957.0, 252.0).
+
+902e8728-8dcb-4faf-a55e-b359c158a790
+Charge
+2016/11/04
+01:11
+486771
+34.22
+Client Deangelo was charged $34.22 for journey of 192.21m from (796.0, 448.0) to (761.0, 259.0), accepted by Driver Suanne.
+
+89666bdc-5897-4ba4-80d4-813079404466
+Charge
+2016/11/04
+01:11
+505619
+30.94
+Client Robert was charged $30.94 for journey of 159.40m from (498.0, 271.0) to (346.0, 223.0), accepted by Driver Suanne.
+
+0d14f022-1584-46e9-82fb-74abad6a92f7
+Charge
+2016/11/04
+01:11
+197803
+37.85
+Client Clinton was charged $37.85 for journey of 228.47m from (488.0, 358.0) to (266.0, 304.0), accepted by Driver Suanne.
+
+ce2a4ab0-1311-440d-9c4e-31e4c78a146a
+Payment
+2016/11/04
+01:11
+433702
+-32.30
+Driver Suanne was compensated $32.30 for taking Client Deangelo in journey of 192.21m from (796.0, 448.0) to (761.0, 259.0).
+
+a0e79f82-31cb-4ddf-ba6a-b8c351babf8a
+Charge
+2016/11/04
+01:11
+637820
+52.88
+Client Clinton was charged $52.88 for journey of 378.79m from (411.0, 363.0) to (38.0, 297.0), accepted by Driver Suanne.
+
+c4cfc12f-6bb1-4651-ae77-d695aa2da465
+Charge
+2016/11/04
+01:15
+565025
+41.70
+Client Clinton was charged $41.70 for journey of 267.03m from (579.0, 256.0) to (795.0, 413.0), accepted by Driver Jaimee.
+
+2e0306a6-501e-4aa3-a8df-1bd28f5cf02f
+Charge
+2016/11/04
+01:15
+464591
+31.95
+Client Rick Astley was charged $31.95 for journey of 169.54m from (672.0, 326.0) to (836.0, 283.0), accepted by Driver Maryrose.
+
+fd10a458-b36f-4274-b57f-a539e70c720f
+Charge
+2016/11/04
+01:18
+610297
+51.78
+Client Tera was charged $51.78 for journey of 367.75m from (380.0, 284.0) to (735.0, 188.0), accepted by Driver Ruben.
+
+1448224f-17c6-4729-a338-630461d87694
+Charge
+2016/11/04
+01:18
+509886
+42.90
+Client Herminia was charged $42.90 for journey of 278.99m from (579.0, 399.0) to (848.0, 325.0), accepted by Driver Ruben.
+
+b8d7cca7-8c7e-413c-9755-8c228df03aad
+Payment
+2016/11/04
+01:18
+372003
+-48.10
+Driver Ruben was compensated $48.10 for taking Client Tera in journey of 367.75m from (380.0, 284.0) to (735.0, 188.0).
+
+d81653d4-61b9-435a-9d98-1e37fbbbb6a4
+Charge
+2016/11/04
+01:18
+223754
+40.71
+Client Jaimee was charged $40.71 for journey of 257.11m from (558.0, 377.0) to (801.0, 293.0), accepted by Driver Ruben.
+
+b24f74c8-da64-4f59-a5b7-ee2f42241261
+Payment
+2016/11/04
+01:18
+372003
+-38.14
+Driver Ruben was compensated $38.14 for taking Client Jaimee in journey of 257.11m from (558.0, 377.0) to (801.0, 293.0).
+
+e4e18c9a-5eb3-404f-a218-57f54051025d
+Charge
+2016/11/04
+01:21
+598468
+55.34
+Client Alexander was charged $55.34 for journey of 403.39m from (534.0, 316.0) to (882.0, 112.0), accepted by Driver Tera.
+
+7bea9617-9500-4f9d-8d8d-01b901faa59d
+Charge
+2016/11/04
+01:21
+916945
+76.52
+Client Clinton was charged $76.52 for journey of 615.23m from (910.0, 560.0) to (295.0, 543.0), accepted by Driver Tera.
+
+ab44a123-74e0-4450-b05b-d6876f28e2d0
+Payment
+2016/11/04
+01:21
+573440
+-51.30
+Driver Tera was compensated $51.30 for taking Client Alexander in journey of 403.39m from (534.0, 316.0) to (882.0, 112.0).
+
+acfcc040-d4c4-4527-b196-cb64ef746784
+Charge
+2016/11/04
+01:21
+215198
+67.63
+Client Robert was charged $67.63 for journey of 526.31m from (900.0, 438.0) to (374.0, 420.0), accepted by Driver Tera.
+
+f51a5a74-89d7-4f74-8f64-b99b22d13dfc
+Charge
+2016/11/04
+01:21
+768610
+51.22
+Client Eliseo was charged $51.22 for journey of 362.17m from (202.0, 331.0) to (548.0, 224.0), accepted by Driver Tera.
+
+597535f4-afa9-414e-9df4-7fbb8c2ef491
+Payment
+2016/11/04
+01:21
+573440
+-62.37
+Driver Tera was compensated $62.37 for taking Client Robert in journey of 526.31m from (900.0, 438.0) to (374.0, 420.0).
+
+d91d1487-4801-4073-ae9f-d924a61fa367
+Charge
+2016/11/04
+01:21
+14366
+32.20
+Client Rick Astley was charged $32.20 for journey of 172.01m from (261.0, 433.0) to (419.0, 365.0), accepted by Driver Tera.
+
+cd8ab4b6-1a70-45e2-9354-88a278a134ad
+Charge
+2016/11/04
+01:21
+312530
+18.00
+Client Edgar was charged $18.00 for journey of 30.00m from (464.0, 360.0) to (464.0, 330.0), accepted by Driver Tera.
+
+572f5a34-524c-4848-9def-5ff82ae2b813
+Payment
+2016/11/04
+01:21
+573440
+-30.48
+Driver Tera was compensated $30.48 for taking Client Rick Astley in journey of 172.01m from (261.0, 433.0) to (419.0, 365.0).
+
+a4150875-381f-460a-ab59-99e42228e0fb
+Charge
+2016/11/04
+01:21
+474113
+22.44
+Client Ash Ketchup was charged $22.44 for journey of 74.43m from (566.0, 356.0) to (604.0, 292.0), accepted by Driver Tera.
+
+296079e1-4573-491e-8604-3c4996793357
+Charge
+2016/11/04
+01:21
+111252
+37.54
+Client Belgrano was charged $37.54 for journey of 225.40m from (711.0, 300.0) to (859.0, 130.0), accepted by Driver Tera.
+
+1ee60a11-2599-4cfa-a4e0-6473f89cbda2
+Charge
+2016/11/04
+01:21
+389427
+40.76
+Client Herbert was charged $40.76 for journey of 257.57m from (766.0, 407.0) to (828.0, 157.0), accepted by Driver Tera.
+
+ec6eeac0-7415-4dd1-b1a7-277669c502f6
+Payment
+2016/11/04
+01:22
+573440
+-35.29
+Driver Tera was compensated $35.29 for taking Client Belgrano in journey of 225.40m from (711.0, 300.0) to (859.0, 130.0).
+
+e17ceba9-5e50-4430-b213-a8fa697cb6e8
+Charge
+2016/11/04
+01:22
+986593
+29.82
+Client Rick Astley was charged $29.82 for journey of 148.22m from (846.0, 338.0) to (726.0, 251.0), accepted by Driver Tera.
+
+1f97d790-5ff3-49f6-b7ba-4c7acb77d51d
+Charge
+2016/11/04
+01:22
+538810
+29.93
+Client Ruben was charged $29.93 for journey of 149.34m from (535.0, 149.0) to (525.0, 0.0), accepted by Driver Tera.
+
+28954afb-01c4-4016-9a7f-0deeae187721
+Payment
+2016/11/04
+01:22
+573440
+-28.34
+Driver Tera was compensated $28.34 for taking Client Rick Astley in journey of 148.22m from (846.0, 338.0) to (726.0, 251.0).
+
+b989ca52-6b0d-466c-b4df-dc6421978576
+Charge
+2016/11/04
+01:22
+66151
+25.00
+Client Tammara was charged $25.00 for journey of 100.02m from (659.0, 218.0) to (679.0, 120.0), accepted by Driver Tera.
+
+bb56de92-0b43-46cc-be38-393ed9e5aa6e
+Charge
+2016/11/04
+01:22
+333664
+24.30
+Client Herbert was charged $24.30 for journey of 93.02m from (716.0, 347.0) to (758.0, 264.0), accepted by Driver Tera.
+
+ef559387-f507-4300-baea-1b3e2dced523
+Charge
+2016/11/04
+01:22
+774949
+31.91
+Client Clinton was charged $31.91 for journey of 169.10m from (765.0, 363.0) to (852.0, 218.0), accepted by Driver Tera.
+
+b7a7a1dc-f5f6-426e-b99a-abbf410dd04d
+Charge
+2016/11/04
+01:22
+830643
+32.10
+Client Edgar was charged $32.10 for journey of 170.99m from (726.0, 388.0) to (872.0, 299.0), accepted by Driver Tera.
+
+cf01739f-9159-41c2-88b0-327d5714c292
+Charge
+2016/11/04
+01:22
+590271
+35.44
+Client Belgrano was charged $35.44 for journey of 204.40m from (653.0, 364.0) to (849.0, 306.0), accepted by Driver Tera.
+
+5f6f7a1c-8c16-4f05-a18a-edcc19257120
+Payment
+2016/11/04
+01:22
+573440
+-24.00
+Driver Tera was compensated $24.00 for taking Client Tammara in journey of 100.02m from (659.0, 218.0) to (679.0, 120.0).
+
+f5c0cb1b-1256-473b-851a-1a5ede59b172
+Charge
+2016/11/04
+01:22
+389791
+29.74
+Client Deangelo was charged $29.74 for journey of 147.41m from (683.0, 324.0) to (830.0, 335.0), accepted by Driver Tera.
+
+8486dc57-c4f5-481b-aa2b-10115022faae
+Charge
+2016/11/04
+01:22
+784010
+25.82
+Client Herminia was charged $25.82 for journey of 108.25m from (819.0, 265.0) to (898.0, 191.0), accepted by Driver Belgrano.
+
+1980e496-b002-467f-8070-4299c2e90af7
+Charge
+2016/11/04
+01:22
+719846
+19.00
+Client Tammara was charged $19.00 for journey of 40.00m from (780.0, 344.0) to (748.0, 368.0), accepted by Driver Belgrano.
+
+84d79eae-9e80-4099-8b5c-5ffbdf665821
+Charge
+2016/11/04
+01:22
+68926
+31.03
+Client Herminia was charged $31.03 for journey of 160.33m from (651.0, 403.0) to (587.0, 256.0), accepted by Driver Belgrano.
+
+323d7729-b105-4037-8a57-bb5190f35350
+Payment
+2016/11/04
+01:22
+788073
+-24.74
+Driver Belgrano was compensated $24.74 for taking Client Herminia in journey of 108.25m from (819.0, 265.0) to (898.0, 191.0).
+
+61c06274-9aa4-485e-ae9c-5a6ef909650d
+Payment
+2016/11/04
+01:22
+788073
+-18.60
+Driver Belgrano was compensated $18.60 for taking Client Tammara in journey of 40.00m from (780.0, 344.0) to (748.0, 368.0).
+
+7c0902cb-7f73-455d-9467-f1ed53e384bb
+Charge
+2016/11/04
+01:22
+139787
+24.22
+Client Peter was charged $24.22 for journey of 92.20m from (828.0, 326.0) to (866.0, 242.0), accepted by Driver Belgrano.
+
+0aafdc2e-b08e-4812-8600-4ab9ed8b7d68
+Payment
+2016/11/04
+01:22
+788073
+-23.30
+Driver Belgrano was compensated $23.30 for taking Client Peter in journey of 92.20m from (828.0, 326.0) to (866.0, 242.0).
+
+18d8f7d8-c93e-4611-9ff8-9394f66f1f63
+Charge
+2016/11/04
+01:22
+869849
+60.17
+Client Clinton was charged $60.17 for journey of 451.73m from (623.0, 373.0) to (236.0, 140.0), accepted by Driver Belgrano.
+
+c03517fe-11b9-4d4a-af4d-e6ef43a4e270
+Charge
+2016/11/04
+01:25
+71541
+29.73
+Client Edgar was charged $29.73 for journey of 147.26m from (564.0, 333.0) to (701.0, 279.0), accepted by Driver Katrina.
+
+63915661-8c4a-4a97-b3cf-90e815aea20e
+Charge
+2016/11/04
+01:25
+260437
+21.19
+Client Edgar was charged $21.19 for journey of 61.91m from (718.0, 364.0) to (750.0, 417.0), accepted by Driver Katrina.
+
+da7e09ba-bcfb-41f0-9021-defe7e26c03f
+Payment
+2016/11/04
+01:25
+187779
+-28.25
+Driver Katrina was compensated $28.25 for taking Client Edgar in journey of 147.26m from (564.0, 333.0) to (701.0, 279.0).
+
+46999365-3b3e-4ce0-9c38-4a60bd57a96d
+Charge
+2016/11/04
+01:25
+185475
+36.84
+Client Jaimee was charged $36.84 for journey of 218.40m from (683.0, 453.0) to (473.0, 393.0), accepted by Driver Katrina.
+
+71f6c1b8-de5c-489f-baa2-88840b80bb5b
+Payment
+2016/11/04
+01:25
+187779
+-20.57
+Driver Katrina was compensated $20.57 for taking Client Edgar in journey of 61.91m from (718.0, 364.0) to (750.0, 417.0).
+
+c6e31203-9a98-4816-9ff4-eb38d6cbe25b
+Charge
+2016/11/04
+01:25
+510958
+27.34
+Client Clinton was charged $27.34 for journey of 123.42m from (376.0, 380.0) to (308.0, 277.0), accepted by Driver Katrina.
+
+e92c0ec0-4ea2-424e-9674-24e60d683798
+Charge
+2016/11/04
+01:26
+576575
+31.77
+Client Eliseo was charged $31.77 for journey of 167.67m from (281.0, 401.0) to (296.0, 234.0), accepted by Driver Katrina.
+
+b79692e2-9319-4058-b498-979904673207
+Payment
+2016/11/04
+01:26
+187779
+-34.66
+Driver Katrina was compensated $34.66 for taking Client Jaimee in journey of 218.40m from (683.0, 453.0) to (473.0, 393.0).
+
+8be298da-7fc3-45c6-9f2e-35199f88513b
+Payment
+2016/11/04
+01:26
+187779
+-26.11
+Driver Katrina was compensated $26.11 for taking Client Clinton in journey of 123.42m from (376.0, 380.0) to (308.0, 277.0).
+
+35f076bf-5015-405a-a09b-5b1de4feab86
+Charge
+2016/11/04
+01:26
+89385
+25.90
+Client Jaimee was charged $25.90 for journey of 109.00m from (333.0, 373.0) to (442.0, 373.0), accepted by Driver Katrina.
+
+76f687ea-1dc0-4f07-9b00-e46a58d9a2d8
+Payment
+2016/11/04
+01:26
+187779
+-30.09
+Driver Katrina was compensated $30.09 for taking Client Eliseo in journey of 167.67m from (281.0, 401.0) to (296.0, 234.0).
+
+1a68041b-54d8-4d11-9fc7-a9d8160bfda8
+Charge
+2016/11/04
+01:26
+353972
+55.35
+Client Ash Ketchup was charged $55.35 for journey of 403.49m from (364.0, 218.0) to (763.0, 158.0), accepted by Driver Kena.
+
+af0607b7-dd47-4fe1-8f6b-4ee0ec641790
+Charge
+2016/11/04
+01:26
+579875
+57.32
+Client Suanne was charged $57.32 for journey of 423.23m from (475.0, 315.0) to (885.0, 210.0), accepted by Driver Ruben.
+
+10629625-d980-4f18-8343-d75d1938a6d7
+Charge
+2016/11/04
+01:27
+298009
+60.55
+Client Herminia was charged $60.55 for journey of 455.48m from (266.0, 304.0) to (721.0, 283.0), accepted by Driver Bill.
+
+a84f8ad9-a9d6-4433-91a5-3ddabb3530bc
+Charge
+2016/11/04
+01:27
+41567
+38.38
+Client Peter was charged $38.38 for journey of 233.81m from (563.0, 367.0) to (592.0, 599.0), accepted by Driver Bill.
+
+e649c727-ad8c-4114-9f36-72e59983d74c
+Payment
+2016/11/04
+01:27
+910129
+-55.99
+Driver Bill was compensated $55.99 for taking Client Herminia in journey of 455.48m from (266.0, 304.0) to (721.0, 283.0).
+
+9e684db4-8bb7-4222-912f-d92bd1920b78
+Charge
+2016/11/04
+01:27
+481344
+38.06
+Client Kena was charged $38.06 for journey of 230.63m from (653.0, 326.0) to (699.0, 552.0), accepted by Driver Bill.
+
+bb0a7301-5530-4dab-bd9a-202408df6932
+Payment
+2016/11/04
+01:27
+910129
+-36.04
+Driver Bill was compensated $36.04 for taking Client Peter in journey of 233.81m from (563.0, 367.0) to (592.0, 599.0).
+
+c9433bf1-8a9d-44ea-b9c9-19956f420e60
+Charge
+2016/11/04
+01:27
+850126
+49.09
+Client Bill was charged $49.09 for journey of 340.93m from (716.0, 501.0) to (928.0, 234.0), accepted by Driver Bill.
+
+2a2a0f6f-8d5e-4674-911b-e841f2e7f73a
+Payment
+2016/11/04
+01:27
+910129
+-35.76
+Driver Bill was compensated $35.76 for taking Client Kena in journey of 230.63m from (653.0, 326.0) to (699.0, 552.0).
+
+fe8834df-a4c0-419b-92c0-12519aa99fba
+Charge
+2016/11/04
+01:27
+741849
+40.30
+Client Robert was charged $40.30 for journey of 253.01m from (728.0, 314.0) to (475.0, 316.0), accepted by Driver Bill.
+
+23ea05eb-edbd-4ffb-8b6c-82e269e5b3b2
+Payment
+2016/11/04
+01:27
+910129
+-45.68
+Driver Bill was compensated $45.68 for taking Client Bill in journey of 340.93m from (716.0, 501.0) to (928.0, 234.0).
+
+31dc6e15-b4b9-4b7b-a7bc-ce998de98cef
+Payment
+2016/11/04
+01:27
+910129
+-37.77
+Driver Bill was compensated $37.77 for taking Client Robert in journey of 253.01m from (728.0, 314.0) to (475.0, 316.0).
+
+526e4ab9-a882-40fb-bf5a-d9eb0cfb399d
+Charge
+2016/11/04
+01:27
+603975
+51.30
+Client Suanne was charged $51.30 for journey of 363.01m from (373.0, 238.0) to (736.0, 235.0), accepted by Driver Glady.
+
+0fb882e7-3602-4202-8c21-7381a512549b
+Charge
+2016/11/04
+01:27
+470215
+61.00
+Client Herbert was charged $61.00 for journey of 460.01m from (349.0, 358.0) to (802.0, 438.0), accepted by Driver Belgrano.
+
+5a639a6a-6d7f-496a-bc32-30a9ff74737e
+Charge
+2016/11/04
+01:27
+691986
+59.09
+Client Katrina was charged $59.09 for journey of 440.90m from (799.0, 387.0) to (387.0, 230.0), accepted by Driver Glady.
+
+5c6d3363-a846-446e-85dc-e2b9fd13b982
+Payment
+2016/11/04
+01:27
+453503
+-47.67
+Driver Glady was compensated $47.67 for taking Client Suanne in journey of 363.01m from (373.0, 238.0) to (736.0, 235.0).
+
+772749f8-830a-49e3-9475-a8725cd5950d
+Charge
+2016/11/04
+01:28
+885929
+49.63
+Client Peter was charged $49.63 for journey of 346.26m from (630.0, 381.0) to (452.0, 84.0), accepted by Driver Belgrano.
+
+87c5320d-7797-4289-a5c3-5f50f9b258fe
+Payment
+2016/11/04
+01:28
+180496
+-56.40
+Driver Belgrano was compensated $56.40 for taking Client Herbert in journey of 460.01m from (349.0, 358.0) to (802.0, 438.0).
+
+09944813-dca7-41e4-b085-0b2c00204826
+Charge
+2016/11/04
+01:28
+562503
+35.63
+Client Herminia was charged $35.63 for journey of 206.31m from (458.0, 311.0) to (587.0, 150.0), accepted by Driver Glady.
+
+d28cfba5-6803-48ce-9ed9-6f243983879d
+Payment
+2016/11/04
+01:28
+453503
+-54.68
+Driver Glady was compensated $54.68 for taking Client Katrina in journey of 440.90m from (799.0, 387.0) to (387.0, 230.0).
+
+08ebf94b-3a0c-4508-bd1e-01de3f09b815
+Payment
+2016/11/04
+01:28
+180496
+-46.16
+Driver Belgrano was compensated $46.16 for taking Client Peter in journey of 346.26m from (630.0, 381.0) to (452.0, 84.0).
+
+751b398d-1b41-4d72-90ed-4ad82e7a193e
+Charge
+2016/11/04
+01:28
+226225
+35.71
+Client Herbert was charged $35.71 for journey of 207.08m from (553.0, 417.0) to (737.0, 322.0), accepted by Driver Glady.
+
+195356db-9c15-46fd-bb3f-8cd5ca345582
+Charge
+2016/11/04
+01:28
+938921
+29.48
+Client Deangelo was charged $29.48 for journey of 144.81m from (423.0, 379.0) to (563.0, 342.0), accepted by Driver Glady.
+
+f679cf02-7aa6-40e3-9415-18f2d283dbe6
+Charge
+2016/11/04
+01:28
+674684
+30.31
+Client Rick Astley was charged $30.31 for journey of 153.06m from (314.0, 339.0) to (466.0, 357.0), accepted by Driver Belgrano.
+
+74f15607-55fb-4063-9ca4-48f6e0765ae9
+Payment
+2016/11/04
+01:28
+453503
+-33.57
+Driver Glady was compensated $33.57 for taking Client Herminia in journey of 206.31m from (458.0, 311.0) to (587.0, 150.0).
+
+4d8ad5ab-a516-425c-8018-b6317eef086c
+Payment
+2016/11/04
+01:28
+180496
+-28.78
+Driver Belgrano was compensated $28.78 for taking Client Rick Astley in journey of 153.06m from (314.0, 339.0) to (466.0, 357.0).
+
+93835db9-4af3-422c-83c3-c27277b8bd7c
+Payment
+2016/11/04
+01:28
+453503
+-33.64
+Driver Glady was compensated $33.64 for taking Client Herbert in journey of 207.08m from (553.0, 417.0) to (737.0, 322.0).
+
+6b992354-eb7e-46b3-a6bb-01c1b311c42b
+Charge
+2016/11/04
+01:28
+695675
+35.94
+Client Ruben was charged $35.94 for journey of 209.39m from (397.0, 443.0) to (587.0, 355.0), accepted by Driver Suanne.
+
+9c9e3f7b-695a-4d1b-b032-6543c7a56343
+Charge
+2016/11/04
+01:28
+54602
+37.00
+Client Clinton was charged $37.00 for journey of 220.00m from (647.0, 245.0) to (867.0, 245.0), accepted by Driver Suanne.
+
+fb9ca941-d58b-498d-bf97-b13e79adb986
+Payment
+2016/11/04
+01:28
+766505
+-33.85
+Driver Suanne was compensated $33.85 for taking Client Ruben in journey of 209.39m from (397.0, 443.0) to (587.0, 355.0).
+
+d661975f-48b9-4769-bd36-c363ea776fe4
+Payment
+2016/11/04
+01:28
+766505
+-34.80
+Driver Suanne was compensated $34.80 for taking Client Clinton in journey of 220.00m from (647.0, 245.0) to (867.0, 245.0).
+
+43d70350-4bf1-4ad2-8b5e-fcfb77c01515
+Charge
+2016/11/04
+01:30
+674749
+26.87
+Client Katrina was charged $26.87 for journey of 118.70m from (448.0, 339.0) to (557.0, 292.0), accepted by Driver Rick Astley.
+
+b5080bf3-ddfa-4e13-8711-30bfead39dd8
+Charge
+2016/11/04
+01:30
+569974
+33.80
+Client Herbert was charged $33.80 for journey of 188.00m from (624.0, 337.0) to (775.0, 225.0), accepted by Driver Ruben.
+
+a788bd55-5d5e-4cd3-baf5-3f47e9b299c3
+Payment
+2016/11/04
+01:30
+827660
+-25.68
+Driver Rick Astley was compensated $25.68 for taking Client Katrina in journey of 118.70m from (448.0, 339.0) to (557.0, 292.0).
+
+d8fd7287-72de-4ee5-8735-beb636eb0fd8
+Payment
+2016/11/04
+01:30
+830359
+-31.92
+Driver Ruben was compensated $31.92 for taking Client Herbert in journey of 188.00m from (624.0, 337.0) to (775.0, 225.0).
+
+ffc4543a-9666-4303-a80b-ec314d749bd6
+Charge
+2016/11/04
+01:30
+862461
+54.46
+Client Suanne was charged $54.46 for journey of 394.56m from (679.0, 398.0) to (336.0, 203.0), accepted by Driver Rick Astley.
+
+250c3892-99f3-4eb3-81e2-4d47d25b5f65
+Charge
+2016/11/04
+01:30
+527681
+46.48
+Client Maryrose was charged $46.48 for journey of 314.76m from (648.0, 207.0) to (360.0, 334.0), accepted by Driver Ruben.
+
+dcdcbdb6-6a89-45bb-ab2a-d82480d04026
+Charge
+2016/11/04
+01:30
+246526
+26.91
+Client Jaimee was charged $26.91 for journey of 119.10m from (669.0, 270.0) to (579.0, 348.0), accepted by Driver Ruben.
+
+509c4cdd-94a0-43bd-8f29-ab10a27963c0
+Payment
+2016/11/04
+01:30
+827660
+-50.51
+Driver Rick Astley was compensated $50.51 for taking Client Suanne in journey of 394.56m from (679.0, 398.0) to (336.0, 203.0).
+
+3692b8fe-00d4-420c-b977-34e91757477f
+Payment
+2016/11/04
+01:30
+830359
+-43.33
+Driver Ruben was compensated $43.33 for taking Client Maryrose in journey of 314.76m from (648.0, 207.0) to (360.0, 334.0).
+
+047cfd4d-ed8d-49a3-a193-62a07bf9e0ee
+Payment
+2016/11/04
+01:30
+830359
+-25.72
+Driver Ruben was compensated $25.72 for taking Client Jaimee in journey of 119.10m from (669.0, 270.0) to (579.0, 348.0).
+
+774288a0-7a81-4c77-9373-1ea32a44a235
+Charge
+2016/11/04
+01:30
+929748
+83.97
+Client Edgar was charged $83.97 for journey of 689.75m from (676.0, 366.0) to (19.0, 576.0), accepted by Driver Ruben.
+
+ca9d8c27-ac04-4a84-b6b2-c7adbee83616
+Charge
+2016/11/04
+01:30
+186548
+50.23
+Client Rick Astley was charged $50.23 for journey of 352.33m from (450.0, 367.0) to (111.0, 463.0), accepted by Driver Rick Astley.
+
+b05456fe-3559-46e3-a797-bc9d12ad4a6a
+Charge
+2016/11/04
+01:30
+328646
+51.27
+Client Jaimee was charged $51.27 for journey of 362.73m from (479.0, 439.0) to (822.0, 321.0), accepted by Driver Rick Astley.
+
+f903c41f-33a2-4bba-8496-d3fa5c3222d6
+Payment
+2016/11/04
+01:31
+830359
+-77.08
+Driver Ruben was compensated $77.08 for taking Client Edgar in journey of 689.75m from (676.0, 366.0) to (19.0, 576.0).
+
+e17ff880-abfa-45b8-88ba-6585883a031e
+Payment
+2016/11/04
+01:31
+827660
+-46.71
+Driver Rick Astley was compensated $46.71 for taking Client Rick Astley in journey of 352.33m from (450.0, 367.0) to (111.0, 463.0).
+
+61df8e33-e461-41a5-9f24-20e2c291ebbf
+Charge
+2016/11/04
+01:31
+474472
+53.73
+Client Deangelo was charged $53.73 for journey of 387.33m from (461.0, 386.0) to (749.0, 127.0), accepted by Driver Ruben.
+
+4aa7bd98-17ca-4ef1-aceb-802cf1787e6e
+Charge
+2016/11/04
+01:31
+467533
+51.36
+Client Deangelo was charged $51.36 for journey of 363.60m from (438.0, 339.0) to (729.0, 121.0), accepted by Driver Ruben.
+
+028d56e4-21ed-407d-b411-930bdef8774d
+Payment
+2016/11/04
+01:31
+827660
+-47.65
+Driver Rick Astley was compensated $47.65 for taking Client Jaimee in journey of 362.73m from (479.0, 439.0) to (822.0, 321.0).
+
+c07e4d1e-5d51-4aea-8e53-7443738e257c
+Payment
+2016/11/04
+01:31
+830359
+-49.86
+Driver Ruben was compensated $49.86 for taking Client Deangelo in journey of 387.33m from (461.0, 386.0) to (749.0, 127.0).
+
+9a12945f-b1ac-4d60-88d9-9ee82c6cfca1
+Charge
+2016/11/04
+01:31
+254727
+49.48
+Client Herbert was charged $49.48 for journey of 344.82m from (743.0, 284.0) to (433.0, 435.0), accepted by Driver Rick Astley.
+
+5617de06-8111-4e95-bdc2-730866466e1d
+Payment
+2016/11/04
+01:31
+830359
+-47.72
+Driver Ruben was compensated $47.72 for taking Client Deangelo in journey of 363.60m from (438.0, 339.0) to (729.0, 121.0).
+
+e033dad6-4051-44ed-b890-fd4700f5bd8f
+Charge
+2016/11/04
+01:31
+471898
+42.55
+Client Tammara was charged $42.55 for journey of 275.52m from (632.0, 194.0) to (365.0, 262.0), accepted by Driver Ruben.
+
+cb0a8d7a-0408-49ce-ae1a-8fcae9c9e4e1
+Charge
+2016/11/04
+01:31
+628303
+27.73
+Client Robert was charged $27.73 for journey of 127.35m from (479.0, 384.0) to (356.0, 417.0), accepted by Driver Rick Astley.
+
+2a761965-eeda-4863-9785-866d3d626459
+Payment
+2016/11/04
+01:31
+827660
+-46.03
+Driver Rick Astley was compensated $46.03 for taking Client Herbert in journey of 344.82m from (743.0, 284.0) to (433.0, 435.0).
+
+64de398e-f14a-4bfe-a23c-3966a51e9213
+Charge
+2016/11/04
+01:31
+743231
+54.84
+Client Katrina was charged $54.84 for journey of 398.39m from (688.0, 257.0) to (1055.0, 102.0), accepted by Driver Ruben.
+
+95e3f551-372f-4f32-93d4-8bbe7d56e0cc
+Payment
+2016/11/04
+01:31
+827660
+-26.46
+Driver Rick Astley was compensated $26.46 for taking Client Robert in journey of 127.35m from (479.0, 384.0) to (356.0, 417.0).
+
+5a239e3e-84db-46fa-8f3e-180e00bdf530
+Payment
+2016/11/04
+01:31
+830359
+-39.80
+Driver Ruben was compensated $39.80 for taking Client Tammara in journey of 275.52m from (632.0, 194.0) to (365.0, 262.0).
+
+09702c6c-ab8c-4912-b6fe-ecda8c8daba5
+Charge
+2016/11/04
+01:31
+573196
+113.80
+Client Ruben was charged $113.80 for journey of 988.02m from (118.0, 206.0) to (1106.0, 200.0), accepted by Driver Katrina.
+
+6a505a65-9ecd-44a0-a3b4-dbe224e9c2f5
+Charge
+2016/11/04
+01:31
+698432
+86.90
+Client Ash Ketchup was charged $86.90 for journey of 719.01m from (315.0, 218.0) to (1034.0, 215.0), accepted by Driver Suanne.
+
+c1cf53bf-9964-4a22-bb40-6d449a752a29
+Charge
+2016/11/04
+01:31
+836351
+75.96
+Client Bill was charged $75.96 for journey of 609.60m from (363.0, 233.0) to (972.0, 260.0), accepted by Driver Suanne.
+
+e5f4039c-f3d1-4e8f-a118-49fc35a7015f
+Payment
+2016/11/04
+01:31
+20308
+-103.92
+Driver Katrina was compensated $103.92 for taking Client Ruben in journey of 988.02m from (118.0, 206.0) to (1106.0, 200.0).
+
+34582b93-e11c-4f60-b042-1c135219ff10
+Payment
+2016/11/04
+01:31
+117225
+-79.71
+Driver Suanne was compensated $79.71 for taking Client Ash Ketchup in journey of 719.01m from (315.0, 218.0) to (1034.0, 215.0).
+
+5c7193e3-9d4a-46d9-b365-ca7da636eb6e
+Charge
+2016/11/04
+01:31
+249249
+112.20
+Client Peter was charged $112.20 for journey of 972.00m from (112.0, 219.0) to (1084.0, 216.0), accepted by Driver Maryrose.
+
+6ab6dbe7-cfbc-49f0-a09f-508810de947c
+Charge
+2016/11/04
+01:31
+130892
+95.50
+Client Kena was charged $95.50 for journey of 805.01m from (279.0, 261.0) to (1084.0, 265.0), accepted by Driver Katrina.
+
+781e927d-6cac-4479-a7f8-7aa568442cab
+Charge
+2016/11/04
+01:32
+278736
+42.20
+Client Herbert was charged $42.20 for journey of 272.03m from (721.0, 293.0) to (449.0, 289.0), accepted by Driver Maryrose.
+
+40803801-b996-4c9e-be43-ddd2cfef814e
+Payment
+2016/11/04
+01:32
+774543
+-102.48
+Driver Maryrose was compensated $102.48 for taking Client Peter in journey of 972.00m from (112.0, 219.0) to (1084.0, 216.0).
+
+4e014542-e510-478b-93af-a2acca9acaa1
+Payment
+2016/11/04
+01:32
+150966
+-87.45
+Driver Katrina was compensated $87.45 for taking Client Kena in journey of 805.01m from (279.0, 261.0) to (1084.0, 265.0).
+
+8e3f3fb4-f393-4d14-bd10-e01276483032
+Charge
+2016/11/04
+01:32
+258399
+51.92
+Client Bill was charged $51.92 for journey of 369.16m from (465.0, 254.0) to (834.0, 265.0), accepted by Driver Jaimee.
+
+a530930d-ce0c-4755-8f92-5680ecf78ab1
+Charge
+2016/11/04
+01:32
+32214
+55.95
+Client Herbert was charged $55.95 for journey of 409.54m from (671.0, 330.0) to (1080.0, 309.0), accepted by Driver Jaimee.
+
+c8ddb3d0-06f8-4a39-983f-c760a44f82cf
+Payment
+2016/11/04
+01:32
+165268
+-48.22
+Driver Jaimee was compensated $48.22 for taking Client Bill in journey of 369.16m from (465.0, 254.0) to (834.0, 265.0).
+
+3ae06c1a-f40c-45f0-b915-bc5bc9ee128c
+Payment
+2016/11/04
+01:32
+165268
+-51.86
+Driver Jaimee was compensated $51.86 for taking Client Herbert in journey of 409.54m from (671.0, 330.0) to (1080.0, 309.0).
+
+c760c968-4749-4560-b941-e9c689bf0d51
+Charge
+2016/11/04
+01:32
+157
+84.83
+Client Deangelo was charged $84.83 for journey of 698.26m from (949.0, 287.0) to (251.0, 268.0), accepted by Driver Jaimee.
+
+ea8f15ad-4392-4371-970b-8eb888c8c11f
+Charge
+2016/11/04
+01:32
+570710
+82.58
+Client Katrina was charged $82.58 for journey of 675.75m from (311.0, 398.0) to (981.0, 310.0), accepted by Driver Herbert.
+
+bd3fca6e-f077-4215-93d1-88ea17a9c164
+Charge
+2016/11/04
+01:33
+882453
+37.16
+Client Kena was charged $37.16 for journey of 221.58m from (429.0, 421.0) to (578.0, 257.0), accepted by Driver Herbert.
+
+7777e102-bd15-4e99-bfe7-32bb21110627
+Charge
+2016/11/04
+01:33
+859194
+45.71
+Client Jaimee was charged $45.71 for journey of 307.05m from (528.0, 410.0) to (602.0, 112.0), accepted by Driver Jaimee.
+
+c2b018e6-fb25-4415-88a2-fdbdaafeda49
+Payment
+2016/11/04
+01:33
+165268
+-77.84
+Driver Jaimee was compensated $77.84 for taking Client Deangelo in journey of 698.26m from (949.0, 287.0) to (251.0, 268.0).
+
+ded4d317-0409-40e5-8833-b8800566da50
+Payment
+2016/11/04
+01:33
+758197
+-75.82
+Driver Herbert was compensated $75.82 for taking Client Katrina in journey of 675.75m from (311.0, 398.0) to (981.0, 310.0).
+
+030564d6-312a-4533-b292-cde1f11ee064
+Charge
+2016/11/04
+01:33
+277873
+50.36
+Client Eliseo was charged $50.36 for journey of 353.60m from (820.0, 428.0) to (566.0, 182.0), accepted by Driver Jaimee.
+
+08fcb1d9-5db5-41e9-b733-6553b9d737bd
+Payment
+2016/11/04
+01:33
+165268
+-42.63
+Driver Jaimee was compensated $42.63 for taking Client Jaimee in journey of 307.05m from (528.0, 410.0) to (602.0, 112.0).
+
+5016d6da-b16b-4a46-b229-5bb1fd04385a
+Charge
+2016/11/04
+01:33
+363787
+52.64
+Client Tera was charged $52.64 for journey of 376.35m from (743.0, 472.0) to (485.0, 198.0), accepted by Driver Herbert.
+
+bac7a5b0-e0b2-41a3-b165-5b3e3976346e
+Payment
+2016/11/04
+01:33
+758197
+-34.94
+Driver Herbert was compensated $34.94 for taking Client Kena in journey of 221.58m from (429.0, 421.0) to (578.0, 257.0).
+
+0c9654b8-462c-4c76-8240-713f1b8a89fd
+Payment
+2016/11/04
+01:33
+165268
+-46.82
+Driver Jaimee was compensated $46.82 for taking Client Eliseo in journey of 353.60m from (820.0, 428.0) to (566.0, 182.0).
+
+8094243c-ad10-4621-99f0-1c65f90adf14
+Payment
+2016/11/04
+01:33
+758197
+-48.87
+Driver Herbert was compensated $48.87 for taking Client Tera in journey of 376.35m from (743.0, 472.0) to (485.0, 198.0).
+
+9cc2cc56-1c10-46c1-8afa-f0d2c610cf3c
+Charge
+2016/11/04
+01:33
+512895
+30.92
+Client Kena was charged $30.92 for journey of 159.25m from (416.0, 304.0) to (572.0, 336.0), accepted by Driver Herbert.
+
+f29a3ad9-657b-4957-ab9b-d31bc8cd4c06
+Payment
+2016/11/04
+01:33
+758197
+-29.33
+Driver Herbert was compensated $29.33 for taking Client Kena in journey of 159.25m from (416.0, 304.0) to (572.0, 336.0).
+
+1886364c-ad32-4b08-92b3-5f46f3c81ffd
+Charge
+2016/11/04
+01:33
+2384
+54.19
+Client Deangelo was charged $54.19 for journey of 391.94m from (741.0, 331.0) to (1121.0, 235.0), accepted by Driver Herbert.
+
+9e935cf5-201f-44bd-adcd-0a22be45e8f2
+Payment
+2016/11/04
+01:33
+758197
+-50.27
+Driver Herbert was compensated $50.27 for taking Client Deangelo in journey of 391.94m from (741.0, 331.0) to (1121.0, 235.0).
+
+5c75a252-2827-4a3c-875c-8839a2e8468e
+Charge
+2016/11/04
+01:33
+866822
+45.11
+Client Bill was charged $45.11 for journey of 301.13m from (1065.0, 258.0) to (866.0, 484.0), accepted by Driver Herbert.
+
+3f04ee07-2312-4ff8-9dd8-812c21ac4c16
+Charge
+2016/11/04
+01:33
+110621
+45.28
+Client Glady was charged $45.28 for journey of 302.83m from (905.0, 482.0) to (1102.0, 252.0), accepted by Driver Herbert.
+
+e9544994-7b79-45d8-ba33-def46c7974b1
+Payment
+2016/11/04
+01:33
+758197
+-42.10
+Driver Herbert was compensated $42.10 for taking Client Bill in journey of 301.13m from (1065.0, 258.0) to (866.0, 484.0).
+
+ea3eb6c9-5d58-413f-8dc3-c1a84b6ac3dc
+Payment
+2016/11/04
+01:33
+758197
+-42.26
+Driver Herbert was compensated $42.26 for taking Client Glady in journey of 302.83m from (905.0, 482.0) to (1102.0, 252.0).
+
+ff578911-86a4-46a3-a20d-db1f98db00a7
+Charge
+2016/11/04
+01:37
+830607
+39.01
+Client Maryrose was charged $39.01 for journey of 240.10m from (484.0, 248.0) to (707.0, 159.0), accepted by Driver Suanne.
+
+c8ed484d-9191-4ccf-8233-497a108d4914
+Charge
+2016/11/04
+01:37
+817386
+43.12
+Client Suanne was charged $43.12 for journey of 281.22m from (559.0, 361.0) to (786.0, 195.0), accepted by Driver Rick Astley.
+
+f0ea3ef5-856a-4859-b349-e4567885c4f0
+Charge
+2016/11/04
+01:37
+943001
+42.61
+Client Herminia was charged $42.61 for journey of 276.13m from (829.0, 323.0) to (1034.0, 138.0), accepted by Driver Suanne.
+
+94f1311a-c227-4d9f-b7b1-7b76c40a5e43
+Charge
+2016/11/04
+01:37
+712997
+52.77
+Client Katrina was charged $52.77 for journey of 377.71m from (824.0, 433.0) to (1066.0, 143.0), accepted by Driver Suanne.
+
+f4791f12-4967-4a07-874a-d442b9517432
+Payment
+2016/11/04
+01:37
+578717
+-36.61
+Driver Suanne was compensated $36.61 for taking Client Maryrose in journey of 240.10m from (484.0, 248.0) to (707.0, 159.0).
+
+348b1b27-1bc0-4d11-b7a6-e6a0ce3775b2
+Payment
+2016/11/04
+01:37
+594394
+-40.31
+Driver Rick Astley was compensated $40.31 for taking Client Suanne in journey of 281.22m from (559.0, 361.0) to (786.0, 195.0).
+
+4f57d68c-a9f6-4ed9-a5da-4b533419a0eb
+Payment
+2016/11/04
+01:37
+578717
+-39.85
+Driver Suanne was compensated $39.85 for taking Client Herminia in journey of 276.13m from (829.0, 323.0) to (1034.0, 138.0).
+
+d1f2de8e-db98-4135-b0bd-dfa39ad7a33a
+Charge
+2016/11/04
+01:37
+842981
+73.34
+Client Tera was charged $73.34 for journey of 583.44m from (736.0, 262.0) to (154.0, 221.0), accepted by Driver Rick Astley.
+
+1a0c9a5e-869b-445d-86e7-d01a59dcd541
+Payment
+2016/11/04
+01:37
+578717
+-48.99
+Driver Suanne was compensated $48.99 for taking Client Katrina in journey of 377.71m from (824.0, 433.0) to (1066.0, 143.0).
+
+7a1c974a-db5e-4209-ab64-2e28fd5be9b6
+Charge
+2016/11/04
+01:37
+412646
+56.87
+Client Maryrose was charged $56.87 for journey of 418.72m from (711.0, 312.0) to (298.0, 243.0), accepted by Driver Suanne.
+
+44e21052-f9cd-4c21-bf1c-1e08a210e943
+Charge
+2016/11/04
+01:37
+695861
+53.93
+Client Bill was charged $53.93 for journey of 389.31m from (634.0, 355.0) to (255.0, 266.0), accepted by Driver Rick Astley.
+
+e313cb00-f9e3-42f4-83d5-785b41fffa88
+Charge
+2016/11/04
+01:37
+316719
+44.30
+Client Tammara was charged $44.30 for journey of 293.00m from (475.0, 380.0) to (190.0, 312.0), accepted by Driver Rick Astley.
+
+f07194e5-68b4-45a0-a44b-afc75ce6eb02
+Charge
+2016/11/04
+01:37
+152493
+49.82
+Client Alexander was charged $49.82 for journey of 348.24m from (371.0, 393.0) to (43.0, 276.0), accepted by Driver Rick Astley.
+
+0481e9c1-469d-43f5-af18-e0865df3f7c6
+Payment
+2016/11/04
+01:37
+594394
+-67.51
+Driver Rick Astley was compensated $67.51 for taking Client Tera in journey of 583.44m from (736.0, 262.0) to (154.0, 221.0).
+
+49c80349-6c69-4069-815c-9b13dceed78b
+Payment
+2016/11/04
+01:37
+578717
+-52.69
+Driver Suanne was compensated $52.69 for taking Client Maryrose in journey of 418.72m from (711.0, 312.0) to (298.0, 243.0).
+
+c116eb0d-fd3a-4bef-8f6f-2b3c7f5c30dc
+Payment
+2016/11/04
+01:37
+594394
+-50.04
+Driver Rick Astley was compensated $50.04 for taking Client Bill in journey of 389.31m from (634.0, 355.0) to (255.0, 266.0).
+
+5775ba8c-b58a-4548-9ecc-ac2e6476cab9
+Payment
+2016/11/04
+01:38
+594394
+-41.37
+Driver Rick Astley was compensated $41.37 for taking Client Tammara in journey of 293.00m from (475.0, 380.0) to (190.0, 312.0).
+
+e96ed3a7-293e-455d-a9f8-74673ba5ec74
+Payment
+2016/11/04
+01:38
+594394
+-46.34
+Driver Rick Astley was compensated $46.34 for taking Client Alexander in journey of 348.24m from (371.0, 393.0) to (43.0, 276.0).
+
+3905e976-ef81-4c3b-973b-b2a2eca189c5
+Charge
+2016/11/04
+01:54
+591485
+26.59
+Client Alexander was charged $26.59 for journey of 115.88m from (266.0, 440.0) to (321.0, 338.0), accepted by Driver Tera.
+
+6f79cca7-6453-4154-b39a-fe0db7d73d10
+Charge
+2016/11/04
+01:54
+845275
+39.28
+Client Suanne was charged $39.28 for journey of 242.77m from (313.0, 362.0) to (492.0, 198.0), accepted by Driver Glady.
+
+3670bb68-b741-41ee-b78d-f304bc690546
+Charge
+2016/11/04
+01:54
+657071
+27.07
+Client Katrina was charged $27.07 for journey of 120.67m from (593.0, 419.0) to (613.0, 538.0), accepted by Driver Tera.
+
+97eab01e-25ad-4c90-b62a-86723500e5eb
+Payment
+2016/11/04
+01:55
+240688
+-25.43
+Driver Tera was compensated $25.43 for taking Client Alexander in journey of 115.88m from (266.0, 440.0) to (321.0, 338.0).
+
+6e273bcc-8cf1-4fd5-9331-9774461f1ee7
+Charge
+2016/11/04
+01:55
+360386
+29.74
+Client Katrina was charged $29.74 for journey of 147.41m from (530.0, 443.0) to (443.0, 562.0), accepted by Driver Glady.
+
+337da3a0-3c1b-4d6d-9ae8-be65c6b67922
+Payment
+2016/11/04
+01:55
+320098
+-36.85
+Driver Glady was compensated $36.85 for taking Client Suanne in journey of 242.77m from (313.0, 362.0) to (492.0, 198.0).
+
+e6c6205b-4d05-49f4-a4c1-a1ee1c062a94
+Charge
+2016/11/04
+01:55
+362099
+30.44
+Client Ruben was charged $30.44 for journey of 154.35m from (374.0, 452.0) to (342.0, 301.0), accepted by Driver Glady.
+
+022285f5-3168-4a03-ac4f-3100d564ed84
+Charge
+2016/11/04
+01:55
+326810
+31.86
+Client Herbert was charged $31.86 for journey of 168.59m from (234.0, 395.0) to (379.0, 309.0), accepted by Driver Glady.
+
+f586e167-79bf-4420-9cee-4971e87ee57c
+Payment
+2016/11/04
+01:55
+240688
+-25.86
+Driver Tera was compensated $25.86 for taking Client Katrina in journey of 120.67m from (593.0, 419.0) to (613.0, 538.0).
+
+81617374-a96c-42b3-a8f2-cfe7dc815f32
+Payment
+2016/11/04
+01:55
+320098
+-28.27
+Driver Glady was compensated $28.27 for taking Client Katrina in journey of 147.41m from (530.0, 443.0) to (443.0, 562.0).
+
+f9b8e98d-16fa-423d-b054-48cbe2faab91
+Charge
+2016/11/04
+01:55
+276362
+28.80
+Client Maryrose was charged $28.80 for journey of 138.00m from (448.0, 285.0) to (586.0, 284.0), accepted by Driver Glady.
+
+bddcafe9-0805-4b70-a324-01365713ee4b
+Charge
+2016/11/04
+01:55
+416671
+15.10
+Client Ruben was charged $15.10 for journey of 1.00m from (649.0, 320.0) to (650.0, 320.0), accepted by Driver Tera.
+
+bcb23580-feec-4e92-b3e0-7de6d49627ce
+Payment
+2016/11/04
+01:55
+320098
+-28.89
+Driver Glady was compensated $28.89 for taking Client Ruben in journey of 154.35m from (374.0, 452.0) to (342.0, 301.0).
+
+e18eec8d-1434-4ba0-9070-c2cf8254d10f
+Payment
+2016/11/04
+01:55
+240688
+-15.09
+Driver Tera was compensated $15.09 for taking Client Ruben in journey of 1.00m from (649.0, 320.0) to (650.0, 320.0).
+
+149d523a-62a6-43fa-9e3d-b947cee80bc9
+Payment
+2016/11/04
+01:55
+320098
+-30.17
+Driver Glady was compensated $30.17 for taking Client Herbert in journey of 168.59m from (234.0, 395.0) to (379.0, 309.0).
+
+5895612b-e165-44d1-8a24-044557603c95
+Payment
+2016/11/04
+01:55
+320098
+-27.42
+Driver Glady was compensated $27.42 for taking Client Maryrose in journey of 138.00m from (448.0, 285.0) to (586.0, 284.0).
+
+a5bfb55e-ba05-46f7-b909-d077ccbfe9bf
+Charge
+2016/11/04
+01:55
+142479
+24.35
+Client Herbert was charged $24.35 for journey of 93.52m from (442.0, 239.0) to (403.0, 324.0), accepted by Driver Glady.
+
+b33c8367-5618-46cc-86f3-1d42c42fa7cd
+Charge
+2016/11/04
+01:55
+498264
+40.78
+Client Eliseo was charged $40.78 for journey of 257.84m from (307.0, 319.0) to (56.0, 260.0), accepted by Driver Glady.
+
+19f0d3ed-fc04-4574-8340-d3e89522201d
+Payment
+2016/11/04
+01:55
+320098
+-23.42
+Driver Glady was compensated $23.42 for taking Client Herbert in journey of 93.52m from (442.0, 239.0) to (403.0, 324.0).
+
+5ae6b55d-022d-4505-8592-355dda16027f
+Charge
+2016/11/04
+01:55
+348149
+28.45
+Client Tammara was charged $28.45 for journey of 134.48m from (516.0, 415.0) to (478.0, 286.0), accepted by Driver Tera.
+
+5674da6e-b588-43f9-a7c8-8cc3a929b838
+Payment
+2016/11/04
+01:55
+320098
+-38.21
+Driver Glady was compensated $38.21 for taking Client Eliseo in journey of 257.84m from (307.0, 319.0) to (56.0, 260.0).
+
+f306ffc8-bcd0-4878-a348-7d4c63317c24
+Payment
+2016/11/04
+01:55
+240688
+-27.10
+Driver Tera was compensated $27.10 for taking Client Tammara in journey of 134.48m from (516.0, 415.0) to (478.0, 286.0).
+

@@ -21,13 +21,12 @@ public class PayOperation extends Operation{
 
     @Override
     String getDescription() {
-        String driverName = this.getJob().getDriver().getName();
-        String clientName = this.getJob().getClient().getName();
-        String journeyOrigin = this.getJob().getJourney().getOrigin().toString();
-        String journeyDestination = this.getJob().getJourney().getDestination().toString();
-        String amountPayed = super.getAmountAsString();
+        final String driverName = this.getJob().getDriver().getName();
+        final String clientName = this.getJob().getClient().getName();
+        final String journey =    this.getJob().getJourney().toString();
+        final String amountPayed = super.getAmountAsString();
 
-        return "Driver " + driverName + " was compensated $" + amountPayed + " for taking Client " + clientName + " from " + journeyOrigin + " to " + journeyDestination + ".";
+        return "Driver " + driverName + " was compensated $" + amountPayed + " for taking Client " + clientName + " in "+ journey + ".";
     }
 
     @Override

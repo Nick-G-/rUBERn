@@ -61,7 +61,7 @@ public class Rubern {
 
             Driver driver = driverAgent.findDriverForJourney(journey,client);
             Job job = new Job(driver,client,journey);
-            driver.assignJob(job);
+            driver.getStatus().receiveJob(job);
 
 
             ChargeOperation charge = new ChargeOperation(job, this);
@@ -74,8 +74,7 @@ public class Rubern {
 
     public void processJobFinalized(Job job) {
         PayOperation payment = new PayOperation(job, this);
-        realEarnings = creditCard.getBalance();
-
+        realEarnings += payment.getAmount();
     }
     public ArrayList<Driver> getDrivers(){
         return driverAgent.getDrivers();

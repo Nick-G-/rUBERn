@@ -21,6 +21,8 @@ public abstract class Operation {
     private String operationData;
     private Rubern rUBERn;
 
+
+
     public Operation(Job job, double amount, Rubern rUBERn) {
         this.id = UUID.randomUUID();
         this.instant = Instant.now();
@@ -29,6 +31,7 @@ public abstract class Operation {
         this.operationData = toArchiveFormat();
         this.operationFiler.FileOperation(operationData);
         this.rUBERn = rUBERn;
+
     }
 
     public String toArchiveFormat() {
@@ -61,6 +64,9 @@ public abstract class Operation {
         return job;
     }
 
+    public double getAmount() {
+        return amount;
+    }
     public String getAmountAsString() {
         return String.format("%.2f", this.amount);
     }

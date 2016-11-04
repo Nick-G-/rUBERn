@@ -121,9 +121,10 @@ public class SimulationState extends BasicGameState {
         g.setColor(Color.green);
 
         for (Client client : rUBERn.getClients()) {
-            g.draw(new Circle(client.getCurrentLocation().getX(), client.getCurrentLocation().getY(), 10, 8));
+
 
             if (client.isWaiting()) {
+                g.draw(new Circle(client.getCurrentLocation().getX(), client.getCurrentLocation().getY(), 10, 8));
                 g.draw(new Line(client.getCurrentLocation().toVector2f(), client.getCurrentDestination().toVector2f()));
             }
         }

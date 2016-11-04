@@ -32,6 +32,7 @@ public class Client extends Person {
     return pendingJourney;
     }
     public void arrived(){
+        getOffCar();
         pendingJourney = false;
         currentLocation = new Location(currentLocation);
     }

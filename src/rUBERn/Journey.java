@@ -32,4 +32,7 @@ public class Journey {
     public double getDistance(){
         return origin.distanceTo(destination);
     }
+    public String toString() {
+        return ("journey of " + String.format("%.2f", origin.distanceTo(destination)) + "m from " + origin.toString() + " to " + destination.toString());
+    }
 }

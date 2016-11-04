@@ -2,7 +2,6 @@ package rUBERn;// Created by nico on 9/30/16.
 
 import rUBERn.DriverStatus.Offline;
 import rUBERn.DriverStatus.Status;
-import rUBERn.Exceptions.AlreadyInStatusException;
 
 import java.time.Duration;
 import java.util.Queue;
@@ -54,20 +53,8 @@ public class Driver extends Person {
     }
 
     public boolean evaluateOffer(Journey journey, Client client) {
-        return new RequestPopup(journey,client).getAnswer();
-    }
-
-    private void doOffer(Journey journey, Client client) {
-        moveTo(journey.getOrigin());
-        client.getOnCar(Driver.this);
-        moveTo(journey.getDestination());
-        client.getOffCar();
-        client.arrived();
-        try {
-            status.goOnline();
-        } catch (AlreadyInStatusException e) {
-            e.printStackTrace();
-        }
+        return true;
+        //return new RequestPopup(journey,client).getAnswer();
     }
 
     public void work(int delta) {
@@ -99,9 +86,8 @@ public class Driver extends Person {
     }
 
     public void finalizeJob() {
-        goOnline();
         currentJob.finish();
-        currentJob.getClient().getOffCar();
+        currentJob.getClient().arrived();
         rubern.processJobFinalized(currentJob);
 
         if (jobQueue.isEmpty()) {

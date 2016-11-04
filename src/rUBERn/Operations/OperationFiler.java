@@ -1,10 +1,6 @@
 package rUBERn.Operations;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.PrintWriter;
-import java.io.IOException;
+import java.io.*;
 
 /**
  * Created by arimirra on 20-Oct-16.
@@ -14,7 +10,8 @@ public class OperationFiler {
     //tipos de archivo necesarios para que no se sobreescriba el archivo
     private File file;
     private FileWriter fileWriter;
-    private BufferedWriter buffer;
+    private BufferedWriter bw;
+    private BufferedReader bf;
     private PrintWriter printWriter;
 
     //si bien le mando throws IOException estoy seguro que no va a pasar
@@ -22,8 +19,9 @@ public class OperationFiler {
         try{
             file = new File("Operations.txt");
             fileWriter = new FileWriter(file, true);
-            buffer = new BufferedWriter(fileWriter);
-            printWriter = new PrintWriter(buffer);
+            bw = new BufferedWriter(fileWriter);
+            bf = new BufferedReader(new FileReader(file));
+            printWriter = new PrintWriter(bw);
         }
         catch (IOException e){
             throw new RuntimeException("no lee", e);

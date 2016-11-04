@@ -2,7 +2,9 @@ package rUBERn;
 
 // Created by nico on 9/30/16.
 
-public class Job {
+import java.io.Serializable;
+
+public class Job implements Serializable {
 
     private Driver driver;
     private Client client;

@@ -32,6 +32,7 @@ public class FakeNames {
         names.add("Maryrose");
         names.add("Ash Ketchup");
         names.add("Belgrano");
+        names.add("Pikachu Castaña");
     }
     public String getRandom(){
         return names.get(new Random().nextInt(names.size()));

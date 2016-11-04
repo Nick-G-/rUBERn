@@ -4,7 +4,9 @@ package rUBERn;
 
 import org.newdawn.slick.geom.Vector2f;
 
-public abstract class Person implements Locatable {
+import java.io.Serializable;
+
+public abstract class Person implements Locatable, Serializable {
     private CreditCard creditCard;
     protected Location currentLocation;
     protected Location currentDestination;

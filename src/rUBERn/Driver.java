@@ -61,7 +61,7 @@ public class Driver extends Person {
         if(!currentJob.isFinished()) {
             Location pickup = currentJob.getJourney().getOrigin();
             Location destination = currentJob.getJourney().getDestination();
-            float moveSpeed = (float) car.getSpeed() * delta / 100;
+            float moveSpeed = (float) car.getSpeed() * delta/1000;
 
             currentLocation.moveDistanceInAngle(moveSpeed, currentLocation.angleTo(currentDestination));
 

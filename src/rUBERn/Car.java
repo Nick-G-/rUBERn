@@ -14,11 +14,11 @@ public class Car implements Locatable {
     public Car() {
         this.passengerCapacity = 3;
         this.category = new Standard();
-        this.speed = 5.5;
+        this.speed = 70;
     }
 
     public Car(int passengerCapacity, CarCategory category) {
-        this(passengerCapacity, category, 5.5, 0);
+        this(passengerCapacity, category, 70, 0);
     }
 
     public Car(int passengerCapacity, CarCategory category, double speed, double facingAngle) {

@@ -63,10 +63,8 @@ public class SimulationState extends BasicGameState {
     }
     @Override
     public void update(GameContainer gc, StateBasedGame s, int delta) throws SlickException {
+        //Driver position is updated in rUBERn
 
-        for (Driver driver : rUBERn.getDriverAgent().getDriversWorking()) {
-            driver.work(delta);
-        }
         Input input = gc.getInput();
         if (input.isKeyPressed(Input.KEY_ENTER)) {
             s.enterState(States.MENU);
@@ -75,8 +73,6 @@ public class SimulationState extends BasicGameState {
         camera.handleInput(delta);
         selectorMenu.handleInput();
         currentCreator.handleInput();
-
-
     }
 
     public Vector2f getMousePosCamera() {
